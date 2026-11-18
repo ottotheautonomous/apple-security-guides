@@ -24,14 +24,12 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
-      - name: Build encrypted site
-        env:
-          GUIDE_PASSWORD: ${{ secrets.GUIDE_PASSWORD }}
-        run: npm run build
+      - name: Build site (no password; owner decision 2026-11-18, content is not sensitive)
+        run: npm run build:plain
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: dist-plain
 
   deploy:
     needs: build

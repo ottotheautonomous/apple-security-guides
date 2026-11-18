@@ -190,10 +190,9 @@ Dependencies (exact versions): `marked` 18.1.2 and `staticrypt` 3.5.4.
 
 ## Hosting: GitHub Pages (current)
 
-The repo is **public** (owner decision, 2026-11-18: the guides aren't sensitive). The password only gates the website: anyone can read the guide text in this repo. Never put anything sensitive here.
+The repo is **public** and the site has **no password** (owner decision, 2026-11-18: the guides contain nothing sensitive). Never add anything sensitive to this repo.
 
-- `.github/workflows/pages.yml` builds the encrypted site on every push to `main` and deploys it to GitHub Pages.
-- The password comes from the repository secret **`GUIDE_PASSWORD`** (12+ characters). Set it under Settings → Secrets and variables → Actions, or with `gh secret set GUIDE_PASSWORD --repo ottotheautonomous/apple-security-guides`. Then re-run the workflow (Actions → Deploy guides to GitHub Pages → Run workflow).
+- `.github/workflows/pages.yml` runs `npm run build:plain` on every push to `main` and deploys `dist-plain/` to GitHub Pages.
 - Site URL: https://ottotheautonomous.github.io/apple-security-guides/
-- To change the password, update the secret and re-run the workflow.
-- The Cloudflare Pages steps above remain a valid alternative if the repo is ever made private again.
+- Pages still carry `noindex`, so search engines shouldn't list them.
+- To bring the password back: switch the workflow to `npm run build` with `GUIDE_PASSWORD: ${{ secrets.GUIDE_PASSWORD }}`, upload `dist`, and set that repository secret.
