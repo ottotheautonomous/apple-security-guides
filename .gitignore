@@ -1,0 +1,5 @@
+node_modules/
+dist/
+dist-plain/
+.env
+.build-tmp/
