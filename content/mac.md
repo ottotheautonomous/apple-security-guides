@@ -25,9 +25,8 @@ This guide is written for **macOS 26 Tahoe**. If your Mac is still on **macOS 15
 
 > **Note:** The SIM PIN step in the iPhone guide needs your phone carrier login. You don't need it for the Mac.
 
-> **How to reach IT** (IT will fill this in)
+> **How to reach IT**
 > - Email: `[IT email address]`
-> - Chat: `[chat channel]`
 > - Phone: `[IT phone number]`
 >
 > Whenever this guide says "ask IT" or "contact IT," this is who to contact.

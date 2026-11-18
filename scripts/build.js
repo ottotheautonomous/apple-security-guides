@@ -88,7 +88,6 @@ function contactHtml(value) {
 /** The placeholders used in the guides, mapped to values from site.config.json. */
 const PLACEHOLDERS = {
   "[IT email address]": config.it.email,
-  "[chat channel]": config.it.chat,
   "[IT phone number]": config.it.phone,
 };
 
@@ -315,7 +314,6 @@ function contactBlock() {
 <h2 id="contact-h">How to reach IT</h2>
 <dl>
 <dt>Email</dt><dd>${contactHtml(config.it.email)}</dd>
-<dt>Chat</dt><dd>${contactHtml(config.it.chat)}</dd>
 <dt>Phone</dt><dd>${contactHtml(config.it.phone)}</dd>
 </dl>
 <p style="margin:12px 0 0">Stuck on a step? Tell IT the step number. A screenshot helps a lot.</p>
@@ -324,7 +322,7 @@ function contactBlock() {
 
 function footer(homeHref) {
   return `<footer class="site-footer"><div class="inner">
-<p>Questions? Email ${contactHtml(config.it.email)}, chat ${contactHtml(config.it.chat)}, or call ${contactHtml(config.it.phone)}.</p>
+<p>Questions? Email ${contactHtml(config.it.email)} or call ${contactHtml(config.it.phone)}.</p>
 <p>Your ticks are saved only in this browser, on this device.${PLAIN ? "" : ` <a href="${homeHref}?staticrypt_logout">Forget the password on this device</a>.`}</p>
 </div></footer>`;
 }
