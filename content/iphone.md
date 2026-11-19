@@ -32,7 +32,7 @@ Some steps end with a **Going further** box. It stays closed until you tap it, a
 >
 > Whenever this guide says "ask IT" or "contact IT," this is who to contact.
 >
-> **No IT department?** (For example, this is your own or a relative's iPhone.) Wherever this guide says "ask IT", ask a family member or friend you trust instead. Skip the parts that only apply if IT sends you something, and Part 3, apart from the one exception it names.
+> **No IT department?** (For example, this is your own or a relative's iPhone.) Wherever this guide says "ask IT", ask a family member or friend you trust instead. Skip the parts that only apply if IT sends you something. Part 3 is optional: most people don't need it, but on your own iPhone you can turn those protections on yourself after reading the downsides.
 
 ---
 
@@ -56,6 +56,14 @@ Some steps end with a **Going further** box. It stays closed until you tap it, a
 - **Don't stay on the older version.** When a new big version comes out, **Software Update** may also offer an update for the version you already have. Take the newest version. Apple only promises to fix every known security hole in the latest version. Trade-off: big updates sometimes move menus around for a while.
 - **Know when your phone stops getting fixes.** iOS 26 needs an iPhone 11 or newer. The website **endoflife.date** shows how long each iPhone has been getting updates. A phone that's no longer supported still works, but new holes in it are never fixed. Plan to replace it, and move banking and work email to a supported device as soon as you can.
 - **Update your other Apple devices too.** Your iPad, Mac and Apple Watch share your Apple Account with this phone. If one is out of date, update it. If you no longer use it, remove it from your account (step 6c). Trade-off: a very old iPad may have no update left, so removing it may be the only option.
+
+**Going even further:** For people who can't afford to run a known security hole for even a few days, or who think the phone may already have been tampered with.
+
+- **Hear about fixes the day they ship.** Join Apple's free **security-announce** email list (find it at **lists.apple.com**). Each email lists what was fixed and whether it "may have been exploited". Cost: a few dry, technical emails a month.
+- **Check the version number, not just the words "up to date".** Compare **Settings > General > About > iOS Version** with the newest version at **support.apple.com/100100**. A phone stuck on an older iOS can say "up to date" while newer phones have fixes it lacks. Cost: two minutes after each release.
+- **Replace the phone before support ends, not after.** Apple doesn't publish end dates. The practical rule is: once your model can't install the newest iOS, plan to replace it within months. Cost: money. Until then, keep banking and email off it.
+- **Reinstall iOS cleanly after a known compromise.** Back up first (step 2). Connect to your own computer, open **Finder** (Mac) or **Apple Devices** (Windows), select the iPhone and choose **Restore iPhone**. This downloads a fresh iOS from Apple and wipes the phone. Cost: everything is erased. Finder asks you to turn off Find My first. You can't while Stolen Device Protection is on, so turn that off first (step 8), which can mean a one-hour wait. Turn both back on afterwards. If you may be a target of spyware, contact a helpline first (step 29), because erasing destroys the evidence.
+- **Start second-hand phones from zero.** Before using a used or hand-me-down phone, do the same **Restore iPhone**. During setup, watch for a **Remote Management** screen. Afterwards, check that the top of **Settings** doesn't say the phone is "supervised and managed". Cost: an hour. If either appears, the phone still belongs to an organisation, so return it.
 
 ---
 
@@ -98,7 +106,7 @@ Tick each box as you finish.
 - [ ] 27. Cut down tracking and ad sharing
 - [ ] 28. Delete apps you don't use
 
-**Only if IT tells you to**
+**Maximum protection (ask IT first on work devices)**
 - [ ] 29. Lockdown Mode
 - [ ] 30. Advanced Data Protection
 - [ ] 31. Security keys
@@ -132,6 +140,14 @@ Tick each box as you finish.
 - **Restart your phone once a week.** Some spyware only lives in the phone's short-term memory, and a restart clears it. Since iOS 18.1, a phone that stays locked for about three days also restarts itself, which puts it back in its most locked state. Trade-off: if you set a SIM PIN (step 11), you'll type it after every restart.
 - **Keep test versions off this phone.** Go to **Settings > General > Software Update > Beta Updates** and make sure it says **Off**. Test ("beta") versions can be unstable and may have holes that aren't fixed yet. Trade-off: you get new features a few months later than people who test.
 
+**Going even further:** Automatic updates are the safety net. At this level you make patching a same-day routine and add an independent check.
+
+- **Patch every device within 24 hours.** When a security update arrives, install it the same day on the phone, iPad, Mac and Apple Watch. One out-of-date device on your Apple Account weakens the rest. Cost: restarts at awkward times. On a work device, ask IT first if they schedule updates.
+- **Restart every day if you're at high risk.** Some spyware doesn't survive a restart, so a daily restart forces an attacker to break in again. Cost: one minute, plus your SIM PIN if you set one (step 11).
+- **Keep space free so updates never fail.** Check **Settings > General > iPhone Storage** and keep several gigabytes free. A full phone can fail to install an update. Cost: some tidying.
+- **Add a second opinion.** **iVerify Basic** (about $1 in the App Store, from a well-known mobile security company) checks that iOS is current, looks for known signs of tampering, and can send a diagnostic file for a deeper check. Cost: a clean result is not proof the phone is clean.
+- **Update before you travel.** Install pending updates at home, on your own Wi-Fi, before any trip. Cost: none, just planning.
+
 ---
 
 ## 2. Turn on backups
@@ -159,7 +175,16 @@ Tick each box as you finish.
 - **Keep a second copy on your own computer.** Even with iCloud Backup on, make an **encrypted** computer backup every month or two, as described above. An encrypted backup also keeps your saved passwords, Wi-Fi settings and Health data. Trade-off: if you forget that backup password, the backup is useless.
 - **Syncing isn't a backup.** With **iCloud Photos** on, deleting a photo on one device deletes it everywhere. You get 30 days to rescue it from **Recently Deleted**, then it's gone. Now and then, copy your most precious photos to a computer or an external drive.
 - **Check what your backup includes.** Go to **Settings > [your name] > iCloud**, tap **Manage Storage** (or **Manage Account Storage**), then **Backups**, then this iPhone. Make sure the apps whose data matters to you are switched on. Trade-off: more apps means more iCloud storage used.
-- **Know who can read it.** iCloud backups are encrypted, but Apple holds the keys unless you turn on **Advanced Data Protection** (step 30). Only do that if IT asks, because of its downsides.
+- **Know who can read it.** iCloud backups are encrypted, but Apple holds the keys unless you turn on **Advanced Data Protection** (step 30). On a work device, only do that if IT asks. On your own device it's your choice, after you read step 30's downsides.
+
+**Going even further:** One backup is a single point of failure. At this level you keep several, including one that's offline and one that only you can decrypt.
+
+- **Follow the 3-2-1 rule.** Keep three copies of your data, on two kinds of storage, with one in another building. For example: iCloud, an encrypted backup on your Mac, and a drive kept elsewhere. Cost: a second drive and a calendar reminder.
+- **Let Time Machine carry your iPhone backups offline.** Encrypted iPhone backups made in Finder are stored on your Mac, so Time Machine includes them (**Mac guide, step 19**). Rotate two encrypted Time Machine drives and keep one unplugged, away from home. Cost: you have to swap the drives every few weeks.
+- **Use a long, unique backup password, stored twice.** Keep it in your password manager and on paper in a locked place. **If you lose it, that backup can never be opened.** Nobody, including Apple, can reset it.
+- **Keep photo originals on a Mac too.** On a Mac, open **Photos > Settings > iCloud** and choose **Download Originals to this Mac**. Time Machine then has every full-size photo. Cost: a lot of disk space.
+- **Decide who holds the keys.** With **Advanced Data Protection** (step 30), only you can decrypt your iCloud backup. If you can't or won't use it, the strict alternative is to turn off **iCloud Backup** and rely on encrypted computer backups. Cost: no automatic nightly backup, so you must plug in every week.
+- **Do a restore drill once a year.** Restore a backup onto a spare or old iPhone, or at least confirm in Finder that the backup shows a recent date and a padlock. Cost: an hour. It's the only way to know the backup works.
 
 ---
 
@@ -203,6 +228,14 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 - **Change it if someone may have seen it.** Don't wait to find out. Then go to **Settings > Face ID & Passcode** and tap **Expire Previous Passcode Now**. Otherwise the old code still works for 72 hours, which is a safety net if you forget the new one, but also a way in for whoever saw it. With Stolen Device Protection set to **Always** (step 8), changing the passcode makes you wait an hour. That's normal.
 - **Keep it unique.** Don't reuse it as your SIM PIN, bank card PIN or door code. If one leaks, the others stay safe.
 
+**Going even further:** A six-digit code with Erase Data stops a street thief. A long random passphrase is for the case where the phone is seized and attacked with lab tools.
+
+- **Use a random passphrase, picked by dice.** Choose **Custom Alphanumeric Code** (the main step shows where) and enter five or six random words from the EFF dice list (**Online guide, step 9**). Cost: it's slow to type. **If you forget it, there's no back door. The phone must be erased and restored from backup.** Do step 2 first, and keep a sealed paper copy in a locked place.
+- **Know what each defence does.** Erase Data stops guessing by hand. Length protects a seized phone from tools that try to get around that limit. You want both.
+- **Stop shoulder-surfing.** Fit a privacy screen protector (it narrows the viewing angle) and don't type the passphrase in public. Use Face ID there. Cost: a slightly dimmer screen.
+- **Plan for emergencies and heirs.** A **Legacy Contact** (step 6) doesn't get your passcode. If someone must be able to open the phone when you can't, the sealed copy is the way. Cost: whoever can open that envelope can open your phone, so choose the place with care.
+- **Lock the passcode settings themselves.** Step 8's Going even further box adds a separate Screen Time code in front of **Face ID & Passcode**.
+
 ---
 
 ## 4. Set Auto-Lock to 2 minutes or less
@@ -221,6 +254,13 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 **Going further:**
 - **Lock it yourself every time.** Press the side button whenever you put the phone down, even for a moment. Auto-Lock is the safety net, not the habit.
 - **Lock to one app when you hand it over.** **Guided Access** keeps the phone inside a single app, for example when a child plays a game or you show someone a photo. Turn it on in **Settings > Accessibility > Guided Access**, set a passcode in **Passcode Settings**, then triple-click the side button (or Home button) inside the app. Trade-off: triple-click now also starts Guided Access. That's fine, because you set it up yourself (step 26 is only about features you didn't set up).
+
+**Going even further:** A locked phone is good. A phone that's switched off is in its most protected state.
+
+- **Choose 30 seconds.** In **Settings > Display & Brightness > Auto-Lock**, pick **30 seconds**. Cost: the screen dims quickly while you read.
+- **Power off when the phone leaves your control.** Before a checkpoint, a hotel safe, or handing it to a repair desk, switch it off fully. After a restart and before the first passcode, Face ID doesn't work and most data stays encrypted. Cost: no calls or notifications until you start it and type the code (and the SIM PIN, if set).
+- **Get an alert if you leave it behind.** If you also carry an iPad or a second iPhone, open **Find My** on that device, tap **Devices**, tap this iPhone and turn on **Notify When Left Behind**. The alert arrives on the device you have with you. Apple doesn't promise this alert on an Apple Watch. Cost: occasional false alarms. Add your home as an exception.
+- **Plan for a snatch while unlocked.** Auto-Lock can't help if someone grabs the phone from your hand. What helps is Face ID locks on sensitive apps (step 5), Stolen Device Protection (step 8), your bank app's own PIN, and a rehearsed Mark As Lost routine (step 17). Cost: a few more unlock prompts each day.
 
 ---
 
@@ -250,6 +290,14 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 - **Lock your most private apps (iOS 18 and later).** Touch and hold an app's icon, tap **Require Face ID**, and confirm. Good choices are email, banking and **Photos**. (The **Passwords** app already asks for your face every time.) Then someone you've handed your unlocked phone to can't open them. Trade-off: if Face ID fails, the app accepts your phone passcode instead, so this doesn't stop someone who knows your passcode. If you choose **Hide and Require Face ID**, that app's notifications stop showing.
 - **Check your private photo albums are locked.** Go to **Settings > Apps > Photos** (on iOS 17: **Settings > Photos**) and make sure **Use Face ID** is on. The **Hidden** and **Recently Deleted** albums then need your face or passcode.
 - **Turn off Face ID with a Mask if you don't need it.** In **Settings > Face ID & Passcode**, turn off **Face ID with a Mask**. Apple says Face ID is most accurate with full-face recognition. Trade-off: with a mask on, you'll type your passcode.
+
+**Going even further:** Face ID is convenient and strong, but in a few situations a face is easier to take from you than a passphrase.
+
+- **Turn off Unlock with Apple Watch.** In **Settings > Face ID & Passcode**, switch off **Unlock with Apple Watch** if it's listed. That leaves one less way to open the phone. Cost: you'll use Face ID or the passcode when your face is covered.
+- **Go passcode-only for high-risk trips.** In **Settings > Face ID & Passcode**, under **Use Face ID For**, turn off **iPhone Unlock**. Your face stays enrolled for the other Face ID checks, including the ones Stolen Device Protection uses. Afterwards, open **Stolen Device Protection** and check that it still shows as on. Cost: you type the passphrase at every unlock, which gives watchers more chances. Turn it back on afterwards.
+- **Don't delete Face ID altogether.** Stolen Device Protection (step 8) needs Face ID or Touch ID. Removing it trades a strong protection for a weaker one. For short moments, use the side-button trick from Going further, or power off (step 4).
+- **Re-enrol after anyone else had the phone unlocked.** Tap **Reset Face ID**, then set it up again with only your face. Cost: the one-hour wait from step 8 may apply.
+- **Know the legal angle.** In some countries, officials can make you unlock with your face or finger more easily than they can make you reveal a passcode. The rules differ by country. If this matters to you, get legal advice before you travel.
 
 ---
 
@@ -301,7 +349,17 @@ A Recovery Contact is a person you trust who can help you get back into your acc
 - **Add more than one Recovery Contact.** You can have up to five. Choose people who don't live with you, so a fire or a burglary can't take out everyone at once. Trade-off: with Stolen Device Protection on, each change may make you wait an hour.
 - **Clean up Sign in with Apple.** Go to **Settings > [your name] > Sign-In & Security > Sign in with Apple** (on some versions it's directly under your name). Tap any app you no longer use and choose **Stop Using**. Trade-off: if you go back to that app, you may need to make a new account.
 - **Keep your real email address private (iCloud+).** With a paid iCloud+ plan, **Hide My Email** (in **Settings > [your name] > iCloud**, or search Settings for it) makes a random address that forwards to you. Use it for shops and newsletters, so your real address, and your Apple Account email, appear in fewer leaks and scam lists. Trade-off: you have more addresses to keep track of.
-- **Know the strongest options.** **Advanced Data Protection** (step 30) and **security keys** (step 31) lock your account down further. They have real downsides. Only turn on Advanced Data Protection if IT asks you to. Security keys on a personal account are your choice, after you read the downsides in step 31.
+- **Know the strongest options.** **Advanced Data Protection** (step 30) and **security keys** (step 31) lock your account down further. They have real downsides. On a work device, only turn on Advanced Data Protection if IT asks you to. On your own device it's your choice, after you read the downsides in step 30. Security keys on a personal account are your choice, after you read the downsides in step 31.
+
+**Going even further:** Your Apple Account is the master key to the phone. At this level you remove every way in that you don't strictly need.
+
+- **Give the account its own email address.** Use an address you use for nothing else and never publish. In **Settings > [your name] > Sign-In & Security**, tap your primary email address. Turn off **Primary Email** (or choose **Remove from Account**), then add the new address as primary and verify it. If an iCloud address is the only one on your account, you'll see **Change Email Address** instead, which only swaps it for a different iCloud address. Cost: one more inbox, which needs its own strong password and two-factor. **If you lose access to that inbox, you lose a recovery route**, so save its backup codes.
+- **Treat every trusted number as a door.** Keep only numbers that have a carrier lock (step 11b). A partner's number is only as safe as their carrier account. With security keys on (step 31), sign-in no longer relies on texted codes. Cost: fewer ways back in, so keep your Recovery Contacts current.
+- **Switch off iCloud on the web.** Go to **Settings > [your name] > iCloud** and turn off **Access iCloud Data on the Web**. A stolen password then can't be used to read your mail, photos or notes in a browser. Cost: you can't use icloud.com for those either. Check that **icloud.com/find** still works for you (step 17).
+- **Revoke old app-specific passwords.** At **account.apple.com**, open **Sign-In and Security**, then **App-Specific Passwords**, and remove any you don't use. These let older mail and calendar apps in without two-factor. Cost: those apps stop syncing until you make a new one.
+- **Add a Legacy Contact.** In **Settings > [your name] > Sign-In & Security > Legacy Contact**, name someone who can request your data after your death. Print the access key for them. Cost: none while you're alive. It doesn't include passwords or passkeys.
+- **Learn what a real Apple threat notification looks like.** Apple warns people it believes are targets of mercenary spyware by email and iMessage, and shows a banner after you sign in at **account.apple.com**. It never asks you to tap a link, install anything or give a password. If you get one, see step 29.
+- **Take the top tier.** Security keys (step 31) and Advanced Data Protection (step 30) finish the job. On a work device, ask IT first.
 
 ---
 
@@ -325,6 +383,12 @@ A Recovery Contact is a person you trust who can help you get back into your acc
 - **Leave "Findable After Power Off" on.** On most models from iPhone 11 onwards, the power-off screen shows **iPhone Findable After Power Off**. That means the phone can still be found for a while after a thief switches it off. It relies on **Find My network**, so keep that switched on.
 - **Know your Apple Account password by heart, or on paper at home.** To use **icloud.com/find** from another device, you need that password. A password that's only saved on the lost phone won't help you. The practice in step 17 checks this.
 - **Share your location with one trusted person.** In the **Find My** app, tap **People**, then **+** and **Share My Location**, and pick a partner or family member. (If it says location sharing is off, tap **Me** and turn on **Share My Location** first.) They can then help you find your phone if you're stuck without it. Trade-off: they can see where you are all the time, so review who sees it now and then with **Safety Check** (step 18).
+
+**Going even further:** Find My only helps if it works on your worst day, and if nobody else is quietly using it to watch you.
+
+- **Test it under your strictest settings.** After turning on security keys, Advanced Data Protection or the web-access switch from step 6, open **icloud.com/find** on a computer that isn't yours, in a private window, without your phone. Confirm you can sign in and see the phone. Cost: ten minutes. Better to find a problem now than after a theft.
+- **Audit who and what is in Find My.** In the **Find My** app, check **People**, **Devices** and **Items**. Remove anyone you don't mean to share with, and any tracker or accessory you don't own. If you feel unsafe, read step 18 first, because the other person may notice.
+- **Track the bag, not just the phone.** Put an AirTag in the bag or coat you carry the phone in. If both are taken and the phone is switched off or shielded, the bag may still show up. Cost: the price of the tag. Give the location to the police. Don't go there yourself.
 
 ---
 
@@ -356,6 +420,13 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 **Going further:**
 - **Close the gap it leaves open.** Stolen Device Protection guards your Apple Account, settings and saved passwords. But a thief who knows your passcode can still open apps that only use the phone's own lock. For banking, email and authenticator apps, turn on the app's own PIN or password lock in its settings, and make it different from your phone passcode. Trade-off: one more code to remember.
 - **Turn on your bank's alerts.** In your banking app, turn on alerts for every payment and every new device that signs in. Then you hear about a thief quickly, even if the phone is gone. Trade-off: more notifications.
+
+**Going even further:** Stolen Device Protection guards your Apple Account. These measures cover what a thief with your passcode can still reach.
+
+- **Put a second code in front of the passcode settings.** Go to **Settings > Screen Time**, tap **Lock Screen Time Settings** and set a code that differs from your phone passcode. Then open **Content & Privacy Restrictions** and turn it on. In the section for allowing changes, set the passcode option (shown as **Passcode Changes** or **Passcode & Face ID**, depending on version) and the accounts option (**Account Changes** or **Accounts**) to **Don't Allow**. The **Face ID & Passcode** entry then disappears from Settings, and account settings are locked. Cost: you must switch these back to **Allow** before changing those settings yourself. If you forget the Screen Time code, you reset it with your Apple Account password.
+- **Close the Apple Pay gap.** Apple Pay can still fall back to the passcode. Remove cards you rarely use from **Wallet**, keep any Apple Cash balance low, and set low limits and instant alerts at your bank. Cost: less convenience.
+- **Keep your strongest second factor off the phone.** For email, your password manager and your bank, use hardware security keys kept on your keyring or at home (**Online guide, step 16**). A stolen, unlocked phone then can't approve its own sign-ins. Cost: you buy two keys and carry one.
+- **Keep your recovery inbox off the phone.** If a separate, secret address is the recovery email for your important accounts (**Online guide, step 17**), don't sign in to it on this phone. A thief reading your mail then can't reset everything else. Cost: you check that inbox on another device.
 
 ---
 
@@ -396,6 +467,13 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 - **Check what your Lock Screen shows.** Remove widgets that show calendar details, reminders or messages. Touch and hold the Lock Screen, tap **Customize**, then **Lock Screen**, and remove what you don't want strangers to see.
 - **Keep Medical ID, but keep it short.** In the **Health** app, tap your picture, then **Medical ID > Edit**, and leave **Show When Locked** on, so rescuers can see your allergies and emergency contacts. Trade-off: anyone holding your phone can read it, so leave out things a stranger doesn't need, like your home address.
 
+**Going even further:** After the strict settings in Going further, what's left are the features built to work without unlocking.
+
+- **Turn off Express Mode.** Go to **Settings > Wallet & Apple Pay > Express Transit Card** and choose **None**. For a car key, home key or student ID in **Wallet**, open its details and turn off **Express Mode**. They then need Face ID or the passcode. Cost: slower at the ticket gate or your front door. A phone with a flat battery won't open them.
+- **Stop CarPlay working while locked.** Go to **Settings > General > CarPlay**, tap your car, and turn off **Allow CarPlay While Locked**. Cost: you unlock the phone each time you get in.
+- **Use Lockdown Mode for the port.** Lockdown Mode (step 29) makes the phone refuse wired connections while it's locked. Cost: all of Lockdown Mode's other downsides come with it.
+- **Accept what can't be blocked.** A thief can still switch the phone off or put it in a signal-blocking bag. No setting stops that. Your answer is speed: a rehearsed Mark As Lost routine (step 17).
+
 ---
 
 ## 10. Hide message previews on the Lock Screen
@@ -416,6 +494,15 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 - **Go further for sensitive apps.** For email, banking and authenticator apps, go to **Settings > Notifications**, tap the app, and set **Show Previews** to **Never**. Then their messages stay hidden even while the phone is unlocked on a desk. Trade-off: you open the app to see what arrived.
 - **Clear old login codes automatically.** Go to **Settings > General > AutoFill & Passwords** and, under **Verification Codes**, turn on **Delete After Use**. Codes that your phone fills in for you are then removed from Messages and Mail. Trade-off: it only works for codes the phone fills in itself, not ones you type by hand.
 - **Stop messages being read aloud.** If you use AirPods or CarPlay, **Announce Notifications** can read your texts out loud to anyone nearby. Check it in **Settings > Notifications > Announce Notifications**. Trade-off: you'll have to look at the phone to read messages.
+
+**Going even further:** The aim is that a locked or unattended phone shows nothing, on any screen it's connected to.
+
+- **Hide previews everywhere.** In **Settings > Notifications > Show Previews**, choose **Never**. Cost: you open each app to read anything.
+- **Hide content inside messaging apps too.** In Signal, go to **Settings > Notifications** and set the content shown to **No Name or Content**. WhatsApp has a similar preview switch in its notification settings. The message text then never enters the notification at all. Cost: you can't tell who wrote without opening the app.
+- **Keep notifications off the always-on screen.** If your model has it, go to **Settings > Display & Brightness > Always On Display** and turn off **Show Notifications**. Cost: none worth mentioning.
+- **Turn off Live Voicemail.** In **Settings > Apps > Phone > Live Voicemail**, switch it off. It writes a caller's message on screen as they speak. Cost: you listen to voicemail the old way.
+- **Check your other screens.** Your Apple Watch, Mac and car can show the same notifications. Check each one's notification settings so previews are hidden there too. Cost: a few minutes per device.
+- **Remove the codes themselves.** Passkeys and security keys (**Online guide, steps 15 and 16**) mean there's no code to appear in a notification.
 
 ---
 
@@ -472,6 +559,14 @@ For example, the big US carriers offer features with names like "Number Lock," "
 - **Consider an eSIM (if your phone still has a SIM card).** An eSIM is built into the phone, so a thief can't pull it out and put it in another phone. Ask your carrier if they offer one. The trade-off: moving to a new phone takes a few extra steps, and some carriers then hide **SIM PIN**, so the carrier lock in 11b matters even more.
 - **Treat sudden "No Service" as an alarm.** If your phone suddenly shows **No Service** or **SOS** in a place where it normally works, and it hasn't just restarted (when it may be waiting for a SIM PIN), your number may have been moved. Call your carrier straight away from another phone, using the number on their website or your bill, not one from a text.
 
+**Going even further:** Your phone number is the weakest link in most account security. At this level, it stops being a key to anything important.
+
+- **Use a separate, private number for accounts.** Add a second line (an eSIM from a different carrier), or in the US a Google Voice number on a Google account protected by security keys. Give that number only to banks and important accounts, never to people or shops. Cost: a monthly fee for a second line. Some banks reject internet-based numbers. **If the line lapses, you lose those codes**, so turn on auto-pay and save backup codes first.
+- **Harden the carrier account itself.** Give it a unique email address, a long unique password, and an authenticator app or passkey if the carrier offers one. Ask what the strictest setting is, for example requiring photo ID in a shop for any SIM change. Cost: genuine changes become slower for you too.
+- **Freeze your telecom report.** In the US, a free freeze at **NCTUE** stops new phone accounts being opened in your name (**Online guide, step 24**, Going further). Cost: you lift it before opening new phone or utility service.
+- **Block old, weak mobile networks.** Fake cell towers push phones onto 2G, which has almost no protection. Lockdown Mode (step 29) turns off 2G and 3G. Cost: no service in places that only have 2G or 3G, plus Lockdown Mode's other downsides.
+- **Rehearse the SIM-swap alarm.** Write down your carrier's fraud number and account PIN on your "lost phone" card (step 17). If service drops for no reason, call from another phone within minutes. Cost: none.
+
 ---
 
 ## 12. Set AirDrop to Contacts Only
@@ -491,6 +586,12 @@ For example, the big US carriers offer features with names like "Number Lock," "
 - **Keep receiving off, and switch it on only when you need it.** Choose **Receiving Off** in **Settings > General > AirDrop**. When someone wants to send you something, unlock your phone, open Control Center, press and hold the box with the Wi-Fi button, tap **AirDrop**, and pick **Contacts Only** or **Everyone for 10 Minutes**. Afterwards, set it back to **Receiving Off**, because it goes back to **Contacts Only** on its own, not to off. The trade-off: one extra step each time you receive a file.
 - **Turn off phone-to-phone sharing if you don't use it.** **Bringing Devices Together** (in **Settings > General > AirDrop**) lets you swap contact details or start AirDrop by holding two unlocked iPhones close. If you never do this, turn it off: one less thing that starts when phones touch. You can still share contacts the normal way.
 - **Give your phone a name that doesn't say who you are.** Your phone's name can show up in AirDrop and Bluetooth lists, and it's also the Wi-Fi name of your **Personal Hotspot**. "Anna Smith's iPhone" tells a stranger your name. Change it in **Settings > General > About > Name** to something plain, like "Blue phone". The trade-off: friends may need a moment to spot you in their AirDrop list.
+
+**Going even further:** AirDrop is one of several short-range features. In a hostile place, the strongest setting is silence.
+
+- **Turn the radios fully off when it matters.** In **Settings > Wi-Fi** and **Settings > Bluetooth**, switch both off. The Control Center buttons only disconnect and turn back on by themselves. Cost: no AirDrop, AirPods, Apple Watch link or tracker alerts (step 18), and Find My works less well. Turn them back on afterwards.
+- **Switch off automatic sharing with nearby devices.** Go to **Settings > General > AirPlay & Continuity**. Set **Automatically AirPlay** to **Never**, and turn off **Handoff** and **Continuity Camera** if you don't use them. Cost: you pick the TV or speaker by hand, and tasks no longer hop between your devices.
+- **Strip location from what you send.** In the Share screen, tap **Options** and turn off **Location** before you AirDrop or message a photo. Cost: one extra tap.
 
 ---
 
@@ -527,6 +628,14 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - **Check your Wi-Fi's DNS setting.** DNS is like a phone book for websites, and a rigged one can send you to fake sites. Go to **Settings > Wi-Fi**, tap the **i** next to your network, and look at **Configure DNS**. It should normally say **Automatic**. If it says **Manual** and you didn't set it yourself, take a screenshot and ask IT before changing it.
 - **Delete VPN apps you don't use.** A VPN app can see where your internet traffic goes. If **VPN & Device Management** lists a VPN from an app you no longer use, delete that app (see step 28). If you're not sure what it is, ask IT first.
 
+**Going even further:** Profiles can attack you, and they can also protect you. At this level you read every profile and write your own. On a work device, ask IT first.
+
+- **Read the whole profile, not just the name.** In **Settings > General > VPN & Device Management**, tap each profile, then **More Details**. Look for certificates, VPN, DNS or anything mentioning device management. If you can't explain an item, treat it as unknown (step 13a). Cost: a few minutes.
+- **Install your own encrypted DNS profile.** Encrypted DNS hides which sites you look up from the local network. Filtering services such as **NextDNS** and **Quad9** offer a ready-made Apple profile on their own sites. Install it the way step 13b describes. Cost: now and then a real site is blocked. Undo it by removing the profile.
+- **Or write the profile yourself.** **iMazing Profile Editor** (a free Mac app) can build a DNS settings profile that contains only what you put in it. A profile you made will show **Not Verified**, which is expected for your own file only. Cost: a typing mistake can break all browsing until you remove the profile.
+- **Test it.** After installing, open a test address the filter should block, and check **VPN & Device Management** still lists the profile every few months. If you also use Private Relay, run the test with it on.
+- **Experts only: lock the phone to one computer.** With Apple's free **Apple Configurator** app on a Mac, you can "supervise" your own iPhone and switch off pairing with other computers. No other computer can then pull data over a cable, even with your passcode. **Cost: setting this up erases the phone.** If you lose that Mac's supervision identity, the phone can't pair with any computer until it's erased again. Do it before Lockdown Mode, export the identity to an encrypted drive, and follow Apple's Configurator guide closely.
+
 ---
 
 ## 14. Turn on Safari's fraud warning
@@ -546,6 +655,14 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - **Let your password manager be your second fraud check.** The **Passwords** app only offers to fill in a password on the real website it was saved for. If it doesn't offer your bank password on a page that looks like your bank, stop: you may be on a fake copy. Also open **Passwords** and tap **Security** to see passwords that were leaked or used more than once, and change those.
 - **Hide your internet address with iCloud+.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Websites you visit in Safari then can't see your real internet address (IP address), only a general area. The trade-off: some sites show the wrong region or ask you to prove you're human more often, some work or school networks block it, and it isn't offered in every country. If IT gave you a safe-browsing profile (step 13b), ask IT before turning this on, because Private Relay can make Safari skip that filter.
 
+**Going even further:** Most attacks on a phone arrive through the browser. These measures shrink what a web page can do, and what a fake page can steal.
+
+- **Browse in Lockdown Mode.** Lockdown Mode (step 29) switches off the complex web features that most browser attacks rely on. Cost: some sites look broken or load slowly. Avoid making exceptions for sites.
+- **Warn on unencrypted pages.** In **Settings > Apps > Safari**, turn on **Not Secure Connection Warning** if your version lists it. Safari then stops before loading a page without encryption. Cost: an extra tap on a few old sites.
+- **Give money its own Safari profile.** In **Settings > Apps > Safari**, under **Profiles**, tap **New Profile** and name it "Banking". Use it only for banks, with no extensions. Its cookies and history stay separate. Cost: you have to switch profiles. The strongest version is a separate iPad or iPhone used only for banking.
+- **Don't store cards in Safari.** In **Settings > Apps > Safari > AutoFill**, turn off **Credit Cards** and **Use Contact Info**. Cost: you type them, or use Apple Pay, which is safer anyway.
+- **Make fake pages worthless.** A passkey or security key (**Online guide, steps 15 and 16**) only works on the real site. A perfect fake then gets nothing. Cost: see those steps for lockout safeguards.
+
 ---
 
 ## 15. Turn on automatic app updates
@@ -564,6 +681,14 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - **Check who made an app before you install it.** Fake apps copy the names and icons of real ones. On the App Store page, look at the company name under the app's title. It should be the real company, like your bank's name. Also check **Version History**: an app that hasn't been updated in years may no longer get security fixes.
 - **Report scam apps and charges you didn't expect.** If an app tricked you or charged you for something you didn't agree to, go to **reportaproblem.apple.com**, sign in with your Apple Account, and report it. You may get a refund, and it helps Apple find bad apps. Deleting an app doesn't cancel its subscription, so also check **Settings > [your name] > Subscriptions** and cancel there. Then delete the app (see step 28).
 
+**Going even further:** Updating apps matters. At this level you also control where apps come from, and how many you have.
+
+- **Never trust an app that came from a website.** If **Settings > General > VPN & Device Management** offers to **Trust** a developer or "enterprise" app, don't. This is how fake trading and banking apps get onto iPhones. Delete the app. Cost: none. Real consumer apps don't install this way.
+- **Refuse TestFlight invites from strangers.** TestFlight is Apple's app for trying unfinished apps. Scammers use it to hand out apps Apple hasn't reviewed in the normal way. Only accept an invite from a company you already deal with and contacted yourself. Cost: none.
+- **Stay with the App Store.** In some regions (such as the EU and, since iOS 26.2, Japan), iPhones can install apps from other marketplaces or the web. At this level, don't. Cost: a few apps aren't available to you.
+- **Run fewer apps.** For services you use rarely, use the website in Safari instead of installing the app. A website can't sit in the background or ask for as many permissions. Cost: slightly less convenient.
+- **Re-check apps after they change hands.** If an app you rely on is sold or changes its developer name, read its App Store page again and decide whether you still trust it. Cost: a minute per app.
+
 ---
 
 ## 16. Never "Trust" an unknown computer
@@ -581,6 +706,13 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - **Use a charge-only cable or adapter away from home.** A small "data blocker" adapter, or a cable sold as charge-only, passes power but no data. Then a dodgy charging point can't talk to your phone at all, even if you tap the wrong button. The trade-off: it won't work for wired CarPlay or for backing up to your own computer, so keep it for travel.
 - **Lock out Face ID before handing your phone over.** Use the side-button trick from step 5's Going further box, so the phone needs your passcode.
 - **Restart your phone once a week.** Some rare, advanced attacks only live in the phone's memory and are wiped by a restart. Just after a restart, your phone is also at its most locked-down until you type your passcode. If you use a SIM PIN (step 11), you'll need to type that too.
+
+**Going even further:** The strongest position is a phone that never exchanges data over a cable with anything but your own computer.
+
+- **Charge without a data path.** Use wireless charging (MagSafe or Qi), or your own power bank and cable. Wireless charging can't act as a computer connection. Cost: slower charging.
+- **Power off before you hand it over.** At a checkpoint or repair desk, switch the phone off first (step 4). A phone waiting for its first passcode gives a cable almost nothing. Cost: a restart afterwards.
+- **Lock pairing to your own computer.** Step 13's Going even further box describes supervising your own phone so no other computer can pair with it. Cost: it erases the phone to set up.
+- **After the phone was out of your sight, clean up.** If someone had it unlocked or knew your passcode, change the passcode (step 3), check profiles (step 13a), run **Reset Location & Privacy** (Going further above), and check your Apple Account device list (step 6c). For real peace of mind, reinstall iOS (Before you start, Going even further). Cost: an hour or two. If you may be a target, call a helpline first (step 29).
 
 ---
 
@@ -602,7 +734,7 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - **Tell IT straight away**, even if it's your personal phone, because it has work data on it.
 - Call your carrier. Ask them to suspend the line, then move your number to a new SIM or eSIM, so your sign-in codes can reach you again. (If you set a SIM PIN in step 11, it buys you time.)
 - If it's stolen, report it to the police. Don't try to get it back yourself.
-- Only use **Erase This Device** if you're sure it's gone for good. After erasing, you can no longer see where it is. Find My still stops anyone else using it.
+- Only use **Erase This Device** if you're sure it's gone for good. On iOS 15 and later, you can still see where it is after erasing, but your data is wiped for good. Find My still stops anyone else using it.
 - **Don't remove the phone from your account**, even after erasing it, and even if someone asks, begs or threatens you to. If you do, anyone can set it up again as their own.
 - **Expect fake "we found your iPhone" messages.** Thieves often text or email you pretending to be Apple, sometimes weeks later. The message may name your phone's model and color, and has a link to sign in. It's a trick to get your Apple Account password so they can unlock the phone. Apple never texts or emails you to say a lost phone was found. Don't tap the link. To check on your phone, type **icloud.com/find** yourself.
 
@@ -613,6 +745,15 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - **Know your Apple Account password without your phone.** **icloud.com/find** asks for your Apple Account password, and on a stressful day you may not remember it. Make sure you can find it without your iPhone, for example in a password manager on your computer or in a sealed note at home.
 - **If the thief may have seen your passcode, act faster.** From another Apple device you own, or **account.apple.com**, change your Apple Account password straight away, and call your bank to block your cards and bank apps. Stolen Device Protection (step 8) slows a thief down, but it doesn't protect apps that open with just your passcode, or accounts that send codes by text message.
 - **Share your location with one trusted person.** Then they can see where your phone is if you can't get to a computer. Step 7's **Going further** shows how.
+
+**Going even further:** At this level, losing the phone is a rehearsed drill with a written script, not a scramble.
+
+- **Write a one-page runbook.** List the order: Mark As Lost, bank, carrier, Apple Account password, email password, IT. Add the phone numbers, your IMEI, and where your spare security key is. Keep copies at home and with a trusted person. Cost: twenty minutes now.
+- **Run the drill twice a year.** Without touching your phone, use someone else's computer to sign in at **icloud.com/find**, and check you can reach your password manager and email another way. Cost: fifteen minutes. Fix whatever fails.
+- **Keep a way in that isn't the phone.** A second trusted device at home, or a security key (step 31), lets you sign in on a replacement phone the same day. **Without one, you depend on getting your number back for a text code, and if that fails, on Apple's account recovery, which can take days.** If you use security keys (step 31), a key or another trusted device is the only way in, so keep the spare somewhere you can reach.
+- **Decide your erase rule in advance.** If your backups are good (step 2) and the thief may know your passcode, erase straight away once Mark As Lost is set. Don't wait and hope. Cost: you give up on getting the data back from that phone. Activation Lock still stops resale.
+- **Cut off the apps too.** Change your email password and sign out its other sessions. Set up Signal or WhatsApp on the new phone as soon as you can, which removes them from the old one. Turn on Signal's **Registration Lock** and WhatsApp's **Two-Step Verification** now, so a thief can't do the same to you. Cost: two more PINs to store in your password manager.
+- **Have the phone blocked.** Give your carrier the IMEI and ask them to blocklist the device. Cost: if you get it back, you must ask them to unblock it.
 
 ---
 
@@ -636,6 +777,14 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - **Check sharing in other apps too.** Safety Check can take away other apps' permissions, but it can't see who you share with inside those apps. Apps like Google Maps, WhatsApp, Snapchat or Life360 have their own location sharing. Open each one you use and look for a **location sharing** setting. Stop sharing with anyone you no longer want to.
 - **Make sure tracker alerts are on.** Your iPhone can warn you if someone's AirTag or similar tracker is moving with you. Go to **Settings > Notifications > Tracking Notifications** and make sure **Allow Notifications** is on. Keep **Bluetooth** and **Location Services** on for these alerts to work.
 - **Look at your Family Sharing group.** Go to **Settings > Family** (on older versions, **Settings > [your name] > Family Sharing**). Check that everyone in the group should be there. Tap each person to see what you share with them, such as your location or purchases. Remove anyone who no longer belongs, and turn off sharing you don't want. The trade-off: the other person may notice they've been removed, so if you feel unsafe, read Apple's **Personal Safety User Guide** first.
+
+**Going even further:** If a person, not a stranger, may be watching you, the order in which you do things matters as much as the settings.
+
+- **Plan before you change anything.** Cutting off someone's access can alert them. Use a device they've never touched, such as a library computer or a friend's phone, to read Apple's **Personal Safety User Guide** and to contact a specialist. In the US, the National Domestic Violence Hotline is **1-800-799-7233**. Elsewhere, search for your country's domestic abuse helpline from that safe device. NNEDV's **techsafety.org** and the Coalition Against Stalkerware's **stopstalkerware.org** have guides and local contacts.
+- **Assume your password and passcode are known.** Someone who knows your Apple Account password may see much of iCloud without touching your phone. Someone who knew your passcode and had the phone, even briefly, could have changed your account. When it's safe, change the Apple Account password, remove unknown devices (step 6c), and change the phone passcode (step 3). Cost: they'll notice they've lost access.
+- **Check linked devices inside messaging apps.** In WhatsApp, open **Settings > Linked Devices**. In Signal, open **Settings > Linked Devices**. Telegram has a **Devices** list. Remove any computer or tablet that isn't yours. Cost: none.
+- **Look for hidden control.** Open **Settings > Screen Time**. If it's locked with a code you didn't set, or the top of **Settings** says the phone is supervised, or **Settings > General > VPN & Device Management** lists a management profile, and it isn't a work phone, someone else has control. Take a screenshot and get help before changing it.
+- **Last resort: a fresh start.** A cleanly erased phone (step 28, Going even further), set up with a brand-new Apple Account, removes every old link. Cost: you lose purchases, and must move photos and contacts by hand. Emergency Reset on this screen is the faster, smaller version.
 
 ---
 
@@ -663,6 +812,15 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 - **Turn on the App Privacy Report.** Go to **Settings > Privacy & Security > App Privacy Report** and tap **Turn On App Privacy Report**. After a few days, it shows how often each app used your location, camera, microphone and contacts, and which websites it talked to. Anything surprising is a good reason to take a permission away or delete the app.
 - **Lock private apps with Face ID.** On iOS 18 or later, press and hold an app's icon and tap **Require Face ID**. Then even someone you hand your unlocked phone to can't open that app, like your banking or email app. **Hide and Require Face ID** also hides the app in a locked folder. The trade-off: hidden apps don't show their notifications.
 
+**Going even further:** Permissions are the start. These measures close the quieter ways apps and networks learn about you.
+
+- **Remove third-party keyboards.** Go to **Settings > General > Keyboard > Keyboards**. Delete keyboards you don't need, and never turn on **Allow Full Access** for one. A keyboard with full access can send what you type to its maker. Cost: you lose that keyboard's extras.
+- **Control the clipboard.** In **Settings > Apps**, tap an app and look for **Paste from Other Apps**. Set it to **Ask** or **Deny** for apps that have no reason to read what you copied. Cost: an extra prompt. The option may only appear after an app has tried to paste.
+- **See when the system uses your location.** In **Settings > Privacy & Security > Location Services > System Services**, turn on **Status Bar Icon**. The main step says to leave this screen alone, because **Find My iPhone** and **Significant Locations** must stay on. That still holds. Cost: none.
+- **Hide your exact position from the mobile network.** On iOS 26.3 or later, models with Apple's own modem (such as iPhone Air, iPhone 16e and iPhone 17e) on supported carriers (more widely in the EU and UK) have **Limit Precise Location** in **Settings > Cellular > Cellular Data Options**. If you see it, turn it on. Cost: you may need to restart. Find My sharing isn't affected, and emergency calls still share your exact location.
+- **Audit monthly.** Open **App Privacy Report** (Going further above) once a month. Look at the web addresses each app contacts. An app that contacts many advertising companies is one to delete. Cost: ten minutes.
+- **For truly private conversations, leave the phone outside.** No setting can prove a microphone is off. People at real risk put phones in another room. Cost: inconvenient. That's why it's for rare occasions.
+
 ---
 
 ## 20. Check which devices get your texts and calls
@@ -687,7 +845,15 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 - **Check the addresses your iMessage uses.** Go to **Settings > Apps > Messages > Send & Receive**. Every phone number and email listed should be yours. Do the same for calls in **Settings > Apps > FaceTime**, under **You can be reached by FaceTime at**. Untick any email address you don't recognise or no longer use.
 - **Remember that Messages in iCloud syncs your history.** If **Messages in iCloud** is on, any device signed in to your Apple Account with Messages turned on can show your old texts, not just new ones. That's why the device list in step 6c matters so much. Remove anything there you don't use.
 - **Check your Mac too.** On a Mac, open **Messages**, choose **Messages > Settings**, then click **iMessage**, and check the addresses there. A Mac that someone else at home also uses is a common way texts end up on the wrong screen.
-- **Want a warning if a strange device joins your chats?** **Contact Key Verification** (step 32) can alert you to that. It's in the "Only if IT tells you to" part because it needs all your devices up to date and can sign old ones out of iMessage. If you think you're being targeted, ask IT about it rather than turning it on yourself.
+- **Want a warning if a strange device joins your chats?** **Contact Key Verification** (step 32) can alert you to that. It's in Part 3 (maximum protection) because it needs all your devices up to date and can sign old ones out of iMessage. If you think you're being targeted, read step 32 first; on a work device, ask IT.
+
+**Going even further:** At this level, your messages and codes live on as few screens as possible, for as short a time as possible.
+
+- **Check which Macs can mirror your phone.** Go to **Settings > General > AirPlay & Continuity > iPhone Mirroring**. Remove any Mac you don't use. A listed Mac can open and control this phone on its own screen. Cost: you set mirroring up again if you want it. It isn't offered in every region.
+- **Keep texts and calls on one device.** Turn off every device in **Text Message Forwarding**, and turn off **Allow Calls on Other Devices**. Login codes then exist only on the phone. Cost: no texting or calling from the Mac or iPad.
+- **Delete old messages automatically.** In **Settings > Apps > Messages > Keep Messages**, choose **30 Days** or **1 Year**. **Older messages and their photos are deleted for good, and if Messages in iCloud is on, from every device.** Save anything you need first.
+- **Know who can read your message history.** Without Advanced Data Protection (step 30), Apple holds a key to your iCloud backup, and that backup contains the key to your Messages in iCloud. Turn it on (on a work device, ask IT first), or turn off **iCloud Backup**, or keep your most sensitive conversations in **Signal** with disappearing messages. Cost: both people need Signal.
+- **Add Contact Key Verification.** Step 32 warns you if an unknown device joins your conversations. On a work device, ask IT first.
 
 ---
 
@@ -710,6 +876,13 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 - **Never dial a code someone asks you to.** A common scam is a "delivery" or "support" caller asking you to dial a short code, such as one starting with **\*72** or **\*\*21\***. That code quietly forwards your calls to them. Hang up instead.
 - **Turn on account alerts with your carrier.** In your carrier's app, turn on notifications for account changes, such as SIM changes, forwarding or number transfers, if they offer them. Then you hear about a takeover attempt straight away. This adds to the carrier lock in step 11b.
 
+**Going even further:** The aim is that no login code ever depends on a phone call or a voicemail box.
+
+- **Move codes off voice calls.** At each bank and account, replace "call me with a code" with a passkey, security key or authenticator app (**Online guide, step 16**). Then forwarding and voicemail attacks get nothing. Cost: time, and you save backup codes for each account.
+- **Ask your carrier to lock forwarding.** Call them (on the number from your bill) and ask whether forwarding changes can require your account PIN, and whether remote access to voicemail can be turned off. Cost: carriers differ, and some can't do it.
+- **Clear all forwarding in one go.** On AT&T, T-Mobile and most networks outside the US, dialling **##002#** in the Phone app cancels every kind of call forwarding. Cost: it can switch off your voicemail too, since voicemail works by forwarding. Call your carrier to restore it. On Verizon, ask the carrier instead. This code comes from this guide. The rule about never dialling a code a caller gives you still stands.
+- **Use a random voicemail PIN.** Use the longest your carrier allows, made by your password manager and stored there. Cost: you look it up on the rare occasions you need it.
+
 ---
 
 ## 22. Screen messages from unknown senders
@@ -731,6 +904,13 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 - **Report scam texts, don't just delete them.** Tap **Report Junk** under the message, or forward it to **7726**. See the **Staying safe online guide, step 26** for more.
 - **Blur unwanted pictures.** Go to **Settings > Privacy & Security > Sensitive Content Warning** and turn it on. Nude images sent to you in Messages, AirDrop and FaceTime are blurred until you choose to view them. The check happens on your phone, so Apple doesn't see the images.
 
+**Going even further:** Screening reduces scams. At this level you also reduce who can reach your phone at all.
+
+- **Silence unknown callers completely.** In **Settings > Apps > Phone**, under **Screen Unknown Callers**, choose **Silence**. In **Settings > Apps > FaceTime**, turn on **Silence Unknown Callers**. Unknown calls go straight to voicemail. Cost: you'll miss real calls from new numbers. Save important numbers first and check voicemail daily.
+- **Keep a public number and a private one.** Give a second number (step 11, Going even further) to shops, forms and strangers. Keep your real number for people you know. Scam texts then arrive on a line you can ignore. Cost: a second line to maintain.
+- **Stop previews and attachments from strangers.** Lockdown Mode (step 29) blocks most message attachments and link previews. That's the route used by attacks that need no tap from you. Cost: Lockdown Mode's full list of downsides.
+- **Know the extreme option, and why it's rarely right.** Turning off **iMessage** and **FaceTime** removes them as a way in. **But it also breaks Recovery Contacts (step 6d) and Contact Key Verification (step 32)**, and your texts fall back to SMS or RCS, which may not be end-to-end encrypted. Lockdown Mode is the better choice for almost everyone.
+
 ---
 
 ## 23. Review Safari extensions
@@ -749,6 +929,14 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 - **Turn on fingerprinting protection everywhere.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and choose **All Browsing**. iOS 26 protects all browsing by default, but older versions only protected Private Browsing, so check it. Trade-off: a few sites may load oddly. If that bothers you, set it back to **Private Browsing**.
 - **Add one trusted content blocker.** A content blocker such as **AdGuard** or **1Blocker** from the App Store stops many ads and trackers, which is where many fake "virus" pop-ups come from. Both have a free version. A plain content blocker can't read your pages the way a normal extension can, but some of these apps offer extra add-ons that can, so leave those off. Add only one, and on a work phone, ask IT first. Some sites will complain or break, and you can switch the blocker off for those sites.
 - **Lock Private Browsing with Face ID.** In **Settings > Apps > Safari**, check **Require Face ID to Unlock Private Browsing** is on (it says Touch ID or passcode on some phones). Then anyone you hand your unlocked phone to can't open your private tabs.
+
+**Going even further:** The safest extension is no extension. Do the blocking somewhere that can't read your pages.
+
+- **Run Safari with zero extensions.** Turn off or delete all of them. If your password manager fills in through **AutoFill** (**Online guide, step 15**), it doesn't need a Safari extension. Cost: you lose whatever the extensions did.
+- **Block ads and trackers with DNS instead.** A filtering DNS profile (step 13, Going even further) blocks many ad and scam addresses for every app, without seeing page contents. Cost: it's less thorough than a content blocker. On a work device, ask IT first.
+- **Switch off developer features.** In **Settings > Apps > Safari > Advanced**, make sure **Web Inspector** and **Remote Automation** are off. They let a connected computer inspect or drive Safari. Cost: none unless you build websites.
+- **Keep extensions out of your money profile.** Any extension you do keep should be off in the "Banking" profile from step 14's Going even further box. Cost: none.
+- **Check other browsers too.** Chrome, Firefox and Edge on iPhone have their own sign-in and syncing. Delete browsers you don't use. Cost: none.
 
 ---
 
@@ -775,6 +963,15 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 - **Use your own mobile data for anything important.** For banking or work email away from home, mobile data (or your own phone's **Personal Hotspot** for a laptop) is the simplest choice if you're unsure about a network. Trade-off: it uses your data allowance.
 - **Be careful with free VPN apps.** Many free VPNs make money from your data. If you think you need one, especially for work, ask IT which one to use.
 
+**Going even further:** At this level, the phone joins only networks you chose, and you assume every other network is watching.
+
+- **Make joining a deliberate act.** In **Settings > Wi-Fi**, set **Ask to Join Networks** to **Off**, forget every network except home and work, and turn off **Auto-Join** for anything public. Cost: you pick the network by hand each time.
+- **Use a reputable paid VPN on networks you don't trust.** **Mullvad**, **Proton VPN** and **IVPN** are well established and independently audited. If the app has a kill switch or a "force all traffic" option (Proton calls it **Kill switch**, Mullvad **Force all apps**), turn it on, so traffic is blocked if the VPN drops. On iPhone, some Apple system traffic can still slip past a VPN. Cost: a monthly fee. A VPN doesn't make you anonymous. It moves trust from the Wi-Fi owner to the VPN company. Some sites block VPNs. On a work device, ask IT first.
+- **Or tunnel back to your own home.** Confident users can run **WireGuard** on a home router, or use **Tailscale** with an "exit node" (a device at home that relays your traffic). Then no VPN company is involved. Cost: it takes real setup, and your traffic is only as safe as your home network.
+- **Harden the home router.** Use WPA3 if offered, a long Wi-Fi password, automatic updates, and a separate guest network or VLAN (a walled-off section of the network) for smart gadgets (**Online guide, step 22**). Cost: an evening of setup. A wrong setting can cut off your gadgets.
+- **Lock down your hotspot.** In **Settings > Personal Hotspot**, set a long password and turn off **Allow Others to Join** when you aren't using it. Cost: one tap to switch it back on.
+- **Go dark in hostile places.** Turn Wi-Fi off in **Settings**, not Control Center (step 12, Going even further). Lockdown Mode also stops the phone joining open networks by itself.
+
 ---
 
 ## 25. Review Shortcuts automations
@@ -796,6 +993,14 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 - **Keep the risky Shortcuts settings off.** Go to **Settings > Apps > Shortcuts > Advanced**. Leave **Allow Running Scripts** and **Allow Sharing Large Amounts of Data** off unless a shortcut you trust really needs them. Apple itself warns that shortcuts with scripts can cause data loss.
 - **Only add shortcuts from people you trust.** A shared shortcut can send your location, photos or messages anywhere. Before tapping **Add Shortcut**, scroll through its actions and look for anything that sends, uploads or shares.
 - **Check your Home app too.** If you use the **Home** app, open its **Automation** tab and remove anything you didn't set up, such as a lock that opens at a certain time.
+
+**Going even further:** Automations are small programs. At this level you control how they arrive, what they can touch, and what can trigger them.
+
+- **Stop shortcuts arriving from other devices.** In **Settings > Apps > Shortcuts**, turn off **iCloud Sync** and **Private Sharing**. A shortcut added on a compromised Mac or iPad then can't appear on your phone, and contacts can't send shortcuts straight to you. Cost: your own shortcuts no longer sync between devices, and you can only add shared shortcuts from an iCloud link.
+- **Check what each shortcut may access.** Open a shortcut for editing, open its details (the **i** button or the menu by its name), then tap **Privacy**. If there's no Privacy tab, the shortcut has no access to your data. You'll see what it's allowed to use, such as location, contacts or web addresses. Turn off anything you don't expect, or tap **Reset Privacy** to clear it all. Cost: the shortcut asks permission again next time.
+- **Check every trigger, not just the Automation tab.** Shortcuts can also start from the Action button, Control Center, Lock Screen buttons, Home Screen icons, Back Tap (step 26) and Siri phrases. Look at each one. Cost: ten minutes.
+- **Check who's in your Home.** In the **Home** app, open **Home Settings** and look at the list of people. Remove anyone who shouldn't control locks, cameras or garage doors. Cost: they lose access at once and may notice.
+- **Delete the app if you don't use it.** With no Shortcuts app, there's nothing to run. Cost: features that rely on it stop working. You can reinstall it from the App Store.
 
 ---
 
@@ -831,6 +1036,13 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 - **Check Vocal Shortcuts (iOS 18 and later).** Go to **Settings > Accessibility > Vocal Shortcuts**. If there's a phrase you didn't set up, delete it. A saved phrase can run an action or shortcut when it's spoken.
 - **Use Guided Access when you hand your phone over.** Turn it on in **Settings > Accessibility > Guided Access**, and set its own passcode under **Passcode Settings**. Then open an app, like Photos, and triple-click the side button. The person holding the phone is stuck in that one app until you triple-click again and enter the code. Trade-off: if other features are also on your **Accessibility Shortcut** (see the main part of this step), a triple-click shows a short menu to choose from.
 
+**Going even further:** A feature here that you didn't turn on means someone had your unlocked phone. Treat it as a sign, not just a setting to fix.
+
+- **Do a full sweep.** In **Settings > Accessibility**, also check **Touch > AssistiveTouch** (custom actions), **Voice Control** (custom commands), **Apple Watch Mirroring**, **Keyboards & Typing > Full Keyboard Access** and **Per-App Settings**. Each should be off, or something you chose. Cost: fifteen minutes. Leave anything you rely on.
+- **Protect your Personal Voice.** If you created one, go to **Settings > Accessibility > Personal Voice**. Turn off **Allow Apps to Request to Use** and **Share Across Devices** unless you need them. It's a working copy of your voice. Cost: apps can't speak with it, and it stays on this device only.
+- **Start Bluetooth from zero.** In **Settings > Bluetooth**, forget every device, then pair your own again one at a time. Cost: twenty minutes of re-pairing headphones, car and watch.
+- **Act on what you find.** If any feature was on and you didn't set it, change your passcode (step 3), reset Face ID (step 5), and check profiles (step 13a) and automations (step 25) the same day. If you feel unsafe, read step 18 first.
+
 ---
 
 ## 27. Cut down tracking and ad sharing
@@ -853,6 +1065,14 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 - **Turn off Precise Location for apps that don't need it.** In **Settings > Privacy & Security > Location Services**, tap an app like weather or shopping, and turn off **Precise Location**. It then only knows your rough area. Keep it on for maps and ride apps, and leave **Find My** and **System Services** alone (step 19).
 - **See what your apps really do.** Go to **Settings > Privacy & Security > App Privacy Report** and turn it on. After a week, it shows which apps used your location, camera or microphone, and which websites they contacted. Delete or limit any app that surprises you (steps 19 and 28).
 
+**Going even further:** The main step cuts down tracking by apps. These measures cut what email, websites, AI features and Apple itself collect.
+
+- **Block remote content in Mail.** In **Settings > Apps > Mail > Privacy Protection**, turn off **Protect Mail Activity**. Two stricter switches appear: turn on **Hide IP Address** and **Block All Remote Content**. Tracking images then never load. Cost: emails show without pictures until you tap to load them.
+- **Turn off ad measurement in Safari.** In **Settings > Apps > Safari > Advanced**, turn off **Privacy Preserving Ad Measurement**. Cost: none you'll notice.
+- **Block trackers for every app.** A filtering DNS profile (step 13, Going even further) with a tracker blocklist stops many trackers inside apps, not just in Safari. Cost: an occasional broken app screen. On a work device, ask IT first.
+- **Limit what AI features send out.** In **Settings > Apple Intelligence & Siri**, turn off the **ChatGPT** extension if you see it. Delete **Siri & Dictation History** on the same screen. **Settings > Privacy & Security > Apple Intelligence Report** shows what was sent to Apple's servers. Cost: some answers are less capable.
+- **See what's already held.** At **privacy.apple.com** you can request a copy of the data Apple keeps about you. For data brokers, see the **Online guide, step 13**. Cost: Apple's copy takes a few days to arrive. Store it somewhere safe.
+
 ---
 
 ## 28. Delete apps you don't use
@@ -874,13 +1094,18 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 - **Delete your account inside the app first.** For apps that have an account (shopping, social, fitness), look in the app's settings for **Delete Account** before removing the app. Otherwise your data stays on the company's servers. If you used **Sign in with Apple** for it, go to **Settings > [your name]** and find **Sign in with Apple** (on some versions it's under **Sign-In & Security**). Tap the app and choose to stop using Sign in with Apple. This only unlinks it, so delete the account in the app first.
 - **Lock private apps you keep (iOS 18 and later).** Press and hold an app such as banking, Photos or Notes, tap **Require Face ID** (or Touch ID or passcode), and confirm. Then anyone using your unlocked phone can't open that app without your face or passcode. **Hide and Require Face ID** also moves it to a locked **Hidden** folder in the App Library. Trade-off: not every app can be hidden, and hidden apps don't send you notifications or calls.
 
+**Going even further:** The top end is a phone with only the apps you can name and justify, on a system you set up from clean.
+
+- **Set an app budget.** Keep only apps you used in the last month. For everything else, use the website in Safari. Cost: a little convenience. The gain is fewer permissions, fewer updates and fewer leaks.
+- **Ask companies to delete your data.** Deleting an account doesn't always delete the records. Privacy laws such as GDPR in Europe and CCPA in California let you demand deletion. Look for "privacy request" on the company's site. Cost: an email and a wait.
+- **Remove test apps.** Delete **TestFlight** and any unfinished ("beta") apps unless you need them for work. Cost: none for most people.
+- **Start clean after a compromise.** Go to **Settings > General > Transfer or Reset iPhone > Erase All Content and Settings**. When the phone restarts, set it up as new. Don't restore a backup. Reinstall apps one by one. **Cost: app data that isn't in iCloud is gone**, so export what matters first and keep a backup for reference. Away from familiar places, Stolen Device Protection (step 8) asks for Face ID or Touch ID, with no passcode fallback. If you may be a spyware target, call a helpline first (step 29), because this erases the evidence.
+
 ---
 
-# Part 3: Only if IT tells you to
+# Part 3: Maximum protection (ask IT first on work devices)
 
-These are strong protections for people who might be targeted on purpose, for example people who handle very sensitive information or travel to high-risk places. They have real downsides. **Don't turn them on unless IT has asked you to.**
-
-**One exception:** security keys (step 31) on a personal Apple Account. If you're comfortable with tech, you can add them yourself after reading the downsides. If you use that Apple Account on any device you use for work, ask IT first.
+These are strong protections for people who might be targeted on purpose, for example people who handle very sensitive information or travel to high-risk places. They have real downsides. **On a work device, or any device you also use for work, only turn them on if IT asks you to.** On your own device, they're your choice. They're the top tier of the **Going even further** boxes elsewhere in this guide. Read each step's downsides, and set up its safeguards (such as a second security key or a recovery key stored offline) before you switch anything on. Most people don't need them, and that's fine.
 
 ## 29. Lockdown Mode
 
@@ -906,6 +1131,15 @@ These are strong protections for people who might be targeted on purpose, for ex
 - Your phone must be unlocked to connect to accessories or computers.
 - You can turn off Lockdown Mode for specific websites or apps if needed.
 
+**Going even further:** Lockdown Mode is the strongest switch Apple offers. This is how people at real risk use it, and what they do when they suspect it wasn't enough. On a work device, ask IT first.
+
+- **Turn it on everywhere, with no exceptions.** Enable it on your iPhone, iPad, Mac and Apple Watch. In **Settings > Privacy & Security > Lockdown Mode > Configure Web Browsing**, don't exclude any sites or apps. Cost: more broken websites. Every exception is a gap.
+- **Pair it with habits.** Restart daily, install updates the same day (step 1), and don't open links or attachments from people you don't know, even with Lockdown Mode on. Cost: discipline.
+- **Take Apple's threat notifications seriously.** If Apple warns you (step 6, Going even further), don't erase the phone. Keep it on and charged, stop using it for sensitive things, and contact an expert from a different device.
+- **Know who helps, for free.** Access Now's **Digital Security Helpline** (**accessnow.org/help**) supports journalists, activists and human-rights workers around the clock. Amnesty International's **Security Lab** also examines phones for people in those groups. Others can use a professional forensics firm or **iVerify**. Cost: you share phone data with them.
+- **Be careful with do-it-yourself forensics.** Amnesty's free **Mobile Verification Toolkit (MVT)** checks an iPhone backup for known spyware traces. It needs a computer and command-line skills, and its results need an expert to read them. A clean result doesn't prove the phone is clean.
+- **Separate your lives.** Keep a second iPhone with its own Apple Account, few apps and Lockdown Mode for sensitive work. Cost: a second phone to pay for, update and carry.
+
 ---
 
 ## 30. Advanced Data Protection
@@ -914,7 +1148,7 @@ These are strong protections for people who might be targeted on purpose, for ex
 
 **Steps**
 
-1. First make sure you have a **Recovery Contact** (step 6d). Apple also offers a **Recovery Key** (a long code you must store yourself). Only set up a Recovery Key if IT walks you through it, because losing it can lock you out for good.
+1. First make sure you have a **Recovery Contact** (step 6d). Apple also offers a **Recovery Key** (a long code you must store yourself). On a work device, only set up a Recovery Key if IT walks you through it. On your own device, read the warning in Going even further first, because losing it can lock you out for good.
 2. Go to **Settings > [your name] > iCloud**.
 3. Scroll down and tap **Advanced Data Protection**.
 4. Tap **Turn On Advanced Data Protection** and follow the prompts.
@@ -924,6 +1158,15 @@ These are strong protections for people who might be targeted on purpose, for ex
 **Downsides:** If you forget your password and lose your Recovery Contact or Recovery Key, **Apple cannot get your data back. It's gone for good.** You can't view your data on icloud.com by default. All your Apple devices must be up to date. With Stolen Device Protection set to **Always** (step 8), turning this on may make you wait an hour.
 
 **If you don't see this:** Advanced Data Protection is not available in every country (for example, Apple withdrew it in the UK).
+
+**Going even further:** Advanced Data Protection makes you the only keyholder. At this level you make sure you can never lose the keys, and you know what it still doesn't cover. On a work device, ask IT first. On your own device, this is your decision.
+
+- **Set up both recovery methods.** Keep at least one Recovery Contact (step 6d). If you accept the risk, also add a Recovery Key at **Settings > [your name] > Sign-In & Security > Recovery Key** (on some versions it's under **Account Recovery**). **With a Recovery Key on, Apple's own account recovery is switched off. If you lose the key and your trusted devices, the account and its data are gone for good.** Write the key on paper twice. Store the copies in two locked places, such as a home safe and a bank deposit box. Never keep it only on a device.
+- **Add security keys.** Step 31 stops a phished password from adding a new device to your account. Encryption doesn't help if an attacker's device joins the account.
+- **Leave web access off.** Keep **Access iCloud Data on the Web** off (**Settings > [your name] > iCloud**). Cost: no icloud.com for mail, photos or notes.
+- **Know what stays unprotected.** iCloud Mail, Contacts and Calendar aren't end-to-end encrypted even with this on. Items you share by public link or in shared albums may not be either. Keep sensitive things out of those.
+- **Remember the other end.** Your messages also sit in the other person's backup. Unless they use Advanced Data Protection too, that copy is readable by Apple. For the most sensitive chats, use Signal (step 32).
+- **If it isn't offered in your country.** The nearest equivalent is to turn off **iCloud Backup** and keep encrypted backups on your own computer (step 2, Going even further). Cost: you have to back up by hand.
 
 ---
 
@@ -948,6 +1191,15 @@ These are strong protections for people who might be targeted on purpose, for ex
 - It doesn't work with child accounts or company-managed (Managed) Apple Accounts.
 - With Stolen Device Protection set to **Always** (step 8), adding keys may make you wait an hour.
 
+**Going even further:** Two keys is the minimum. At this level you plan so that no single loss, theft or fire can lock you out. On a work device, ask IT first.
+
+- **Own three keys, in three places.** Keep one on your keyring, one in a locked place at home, and one in another building. Apple lets you add up to six. **If every key and every trusted device is lost, the account is gone for good and Apple can't help.** A third key is cheap insurance.
+- **Buy from the maker.** Get FIDO-certified keys, such as **YubiKey**, directly from the manufacturer or its listed resellers. Don't buy second-hand. Cost: more money than a marketplace bargain.
+- **Set a PIN on each key.** The maker's app (for YubiKey, **Yubico Authenticator**) lets you set one. iPhone and most browsers then ask for it, so a stolen key alone is far less useful. Some sites only ask for a touch, so still remove a lost key at once. **After several wrong PINs in a row (eight on a YubiKey), that part of the key locks and must be reset, which erases its sign-ins.** Store the PIN in your password manager.
+- **Use the same keys for your other important accounts.** Add all three to your email, password manager, Google and Microsoft accounts (**Online guide, step 16**). Keep a written list of which accounts each key is on. Cost: an hour of setup.
+- **Test every key every few months.** In a private browser window, sign in at **account.apple.com** with each key in turn. Cost: ten minutes. A key that fails the test should be replaced now.
+- **Act at once if a key goes missing.** Remove it under **Security Keys** (the main step shows where) and add a replacement the same day. Cost: step 8's one-hour wait may apply.
+
 ---
 
 ## 32. Contact Key Verification
@@ -963,6 +1215,13 @@ These are strong protections for people who might be targeted on purpose, for ex
 **How to check it worked:** **Verification in iMessage** is green. In a chat with someone who also has it on, you can compare verification codes in person.
 
 **Downsides:** All your Apple devices signed in to iMessage need to be up to date, and old ones may need to sign out of iMessage. It doesn't work with company-managed (Managed) Apple Accounts. It only helps if the other person turns it on too.
+
+**Going even further:** Turning verification on only gives you alerts. At this level you check the people who matter, and you have a plan for when an alert appears. On a work device, ask IT first.
+
+- **Verify your key contacts in person.** In a Messages conversation, tap the person's name, scroll down and tap **Verify Contact**. You both see a code. Compare it face to face or on a call you started, then tap **Mark as Verified**. Cost: a few minutes per person, and you both need the feature on.
+- **Publish your own code.** **Settings > [your name] > Contact Key Verification > Show Public Verification Code** gives a code you can put on your website or business card. People can then check they're really messaging you. Cost: none.
+- **Have a rule for alerts.** If Messages warns that a contact's verification has changed, or shows an unrecognised device, stop. Don't send anything sensitive. Confirm with the person on another channel before you carry on. Cost: an awkward pause.
+- **Use Signal for the highest-risk conversations.** Signal is free and end-to-end encrypted on every kind of phone. Compare **safety numbers** with each contact, turn on **disappearing messages**, turn on **Registration Lock** (**Settings > Account**), and hide your phone number under **Settings > Privacy > Phone Number**. Cost: both sides need the app, and old messages are gone for good.
 
 ---
 

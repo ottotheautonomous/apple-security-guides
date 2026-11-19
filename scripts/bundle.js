@@ -35,16 +35,16 @@ const out = `# ${config.siteTitle}: full site content for review
 
 **What this is.** A free public website of plain-language security guides for non-technical people: staff of a small professional office, their families and older relatives. Two guides harden a device (iPhone, Mac) for people whose devices are not centrally managed. The third covers safe habits online, Don'ts first, then Do's.
 
-**Who reads it.** People who are not "good with tech" and may be nervous about it. Many will follow it on the device they are securing. Some steps have an optional **Going further** tier for confident users (shown collapsed on the site), and the device guides have an "Only if IT tells you to" tier.
+**Who reads it.** People who are not "good with tech" and may be nervous about it. Many will follow it on the device they are securing. Every step has an optional **Going further** tier for confident users (shown collapsed on the site), and inside it an optional **Going even further** tier for people who want maximum protection; the device guides have an "Maximum protection" part (Lockdown Mode, Advanced Data Protection, security keys; IT-led on work devices).
 
-**How the site renders this Markdown.** \`## N. Title\` is a step with a Done tick-box and progress tracking. The Checklist links to the steps. Paragraphs that start with these bold labels become coloured boxes: **Why this matters:**, **What it is:**, **What it looks like:**, **Do this instead:**, **How to check it worked:**, **If you don't see this:**, **Heads-up:**, **Downsides:**, **If it already happened:**, **Going further:** (collapsible). A path like **Settings > General** means tap those in order. The IT contact (${config.it.email} / ${config.it.phone}) is filled in from site config.
+**How the site renders this Markdown.** \`## N. Title\` is a step with a Done tick-box and progress tracking. The Checklist links to the steps. Paragraphs that start with these bold labels become coloured boxes: **Why this matters:**, **What it is:**, **What it looks like:**, **Do this instead:**, **How to check it worked:**, **If you don't see this:**, **Heads-up:**, **Downsides:**, **If it already happened:**, **Going further:** (collapsible), **Going even further:** (collapsible, nested inside Going further). A path like **Settings > General** means tap those in order. The IT contact (${config.it.email} / ${config.it.phone}) is filled in from site config.
 
 **What feedback is most useful.**
 1. Anything factually wrong, out of date (as of late 2026, iOS 26 / macOS 26) or risky to follow.
 2. Important protections or scams that are missing, or that are over-weighted.
 3. Places a non-technical reader would get stuck, confused or scared.
 4. Contradictions between the three guides, or cross-references that point to the wrong step.
-5. Whether the "Going further" and "Only if IT tells you to" tiers pitch the advanced advice at the right level.
+5. Whether the "Going further", "Going even further" and "Maximum protection (ask IT first on work devices)" tiers pitch the advanced advice at the right level.
 
 Please cite the guide and step number for each comment (for example "Online, step 15" or "Mac, step 4"), and suggest replacement wording where you can.
 

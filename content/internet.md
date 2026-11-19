@@ -98,6 +98,14 @@ Tick each box as you finish.
 - **Let a scanning site open a link for you.** If you really need to know where a link goes, copy it (don't open it) and paste it into **urlscan.io**, which visits the page for you and shows a screenshot. It may ask you to make a free account. Scans are public by default, so never scan a link that contains your name, email address or a reset code. **VirusTotal** can check a suspicious file, but files you upload can be shared with security companies, so never upload anything private. When in doubt, just delete the message.
 - **Block known scam sites for the whole house.** A filtering DNS service quietly refuses to open known scam and malware sites on every device that uses it. **Quad9** is free. **NextDNS** is free up to 300,000 look-ups a month, then stops filtering until the next month (Pro is about $2 a month). You set it up once, on your home Wi-Fi router or on each device. The trade-off: once in a while it blocks a real site, and someone has to know how to unblock it. On a work computer or phone, don't change this: IT may already filter for you (see the **Mac guide, step 20** and **iPhone guide, step 13b**), and changing it can break work tools.
 
+**Going even further:** For people who must open messages and files from strangers, or who think someone is aiming at them personally.
+
+- **Turn on Lockdown Mode if you may be a target.** It blocks most message attachments and link previews, and switches off web features that spyware (software that secretly watches you) relies on. Steps and downsides are in the **iPhone guide, step 29** and **Mac guide, step 23**. Those steps sit in the "Maximum protection" part. On a work device, ask IT first. On your own device it's your decision, after you read the downsides. Cost: some websites and features break. To undo it, switch it off in the same place.
+- **Turn unknown documents into safe copies.** **Dangerzone**, a free tool from the Freedom of the Press Foundation, opens a suspicious PDF or Office file inside a sealed box and hands you back a clean PDF. Since version 0.10 the Mac app comes with everything it needs, so you no longer install Docker Desktop separately. Download it only from **dangerzone.rocks** (type the address yourself). Cost: it's a large download, it's slow, and the clean copy loses links, forms and editing.
+- **Read risky files where they can't run.** Preview an unexpected attachment in your webmail's own viewer, or on an iPhone or iPad, where each app is walled off from the others. Don't download it and double-click it on a computer. Cost: the layout can look wrong, and the webmail company still handles the file.
+- **Keep one device just for strangers' files.** If receiving files from the public is part of your job, use a spare iPad or laptop with no saved passwords and none of your main accounts signed in. Cost: one more device to keep updated and locked.
+- **Ask an expert before you open it.** Journalists, activists and human-rights workers can send a suspicious message, unopened, to the free **Access Now Digital Security Helpline** (type **accessnow.org/help**). Everyone else: ask IT or your trusted helper. Cost: you may wait hours or days for an answer.
+
 ---
 
 ## 2. Don't share a verification code with anyone
@@ -129,6 +137,13 @@ Tick each box as you finish.
 - **Clear out old connections a few times a year.** Step 17 shows where to find the list of apps with access to your email. Do the same for your Google and Microsoft accounts even if you don't use their email. For Google, it's at **myaccount.google.com**, then **Security**, then **Your connections to third-party apps & services**. Remove anything you don't recognise or no longer use.
 - **At work, tell IT if anyone gave you a code to type in.** Pages like **microsoft.com/devicelogin** are real Microsoft pages, which is why the trick works. Many IT teams can switch that sign-in method off for your office, but only if they know it's being used against you.
 
+**Going even further:** The strongest setups make sure a code never reaches a place where someone else could see it, or talk you out of it.
+
+- **Give sign-in codes their own phone number.** For accounts that insist on text codes, use a second line (an extra eSIM on a low-cost plan) that you never give to people, shops or social media. Lock it like your main number (step 16, item 6). **Lockout risk:** an unpaid or unused line gets cancelled and the number goes to a stranger. Set up automatic payment and keep backup codes for every account that uses it. Internet phone numbers, such as Google Voice, are refused by many banks.
+- **Keep codes off your other screens.** Texts can also show up on your Mac, your iPad and your Lock Screen. Turn off forwarding to any device that isn't always with you (**iPhone guide, step 20**) and hide previews (**iPhone guide, step 10**). Cost: you pick up the phone for every code.
+- **After any slip, sign out everywhere.** Changing the password isn't enough if the criminal still holds an open sign-in (a "session"). In the account's security settings, choose the option to sign out of all devices. Then look for anything added: new forwarding rules, recovery details, connected apps (step 17), and any new passkey or authenticator app. Cost: you sign back in on all your own devices.
+- **If you run your office's Microsoft 365 or Google Workspace, switch the tricks off at the source.** In Microsoft 365, a **Conditional Access** rule can block "device code flow" (the trick behind microsoft.com/devicelogin), and you can require admin approval before staff grant an app access. In Google Workspace, limit outside apps under **Security > Access and data control > API controls**. Cost: some TVs and meeting-room screens sign in with a code and will stop working, and someone has to approve new apps. If you don't run it, ask IT.
+
 ---
 
 ## 3. Don't approve a sign-in or password reset you didn't start
@@ -151,6 +166,13 @@ Tick each box as you finish.
 - **Use the number check if your app has one.** Microsoft Authenticator and some other apps show a number on the sign-in screen that you have to type into your phone. If your phone asks for a number and you're not looking at a sign-in screen showing one, someone else is trying to sign in. Deny it.
 - **Look at the account's own security history.** Google: **myaccount.google.com/security-checkup** shows your devices and recent security events. Microsoft: **account.microsoft.com**, then **Security**, then look for **sign-in activity**. If you see sign-ins or attempts you don't recognise, someone probably has your password. Change it and move that account to a passkey. Locations shown there are often rough, so judge by "was this me?", not by the town.
 - **For people who are being targeted.** If you're a public figure, handle large sums of money, or keep getting these pop-ups, Google's free **Advanced Protection Program** makes your Google account accept only passkeys or security keys. The trade-off: it's strict. Getting back in after losing your keys can take several days, and some third-party apps can no longer reach your Gmail or Drive. On a work Google account, ask IT first.
+
+**Going even further:** For people who keep getting these pop-ups, or have reason to think a skilled attacker is interested in them.
+
+- **Know what a real Apple threat alert looks like.** Apple sends a **Threat Notification** by email and iMessage if it believes you're being targeted by spyware. A real one also shows at the top of the page after you sign in at **account.apple.com** (type it yourself). It never asks you to tap a link, open a file, install anything, or give a password or code. If you get one, keep the device, update it, turn on Lockdown Mode (**iPhone guide, step 29**), and contact the free **Access Now Digital Security Helpline** (**accessnow.org/help**).
+- **Close Apple's slower "recover my account" route with a Recovery Key.** A Recovery Key is a 28-character code only you hold. With it on, nobody can talk or wait their way through Apple's standard recovery process. Look in **Settings > [your name] > Sign-In & Security > Recovery Key**. **Lockout risk, stated plainly:** lose the key and all your trusted devices, and Apple cannot let you back in, ever. Keep two paper copies in two safe places. The **iPhone guide, step 30** says to set one up only with IT's help. On a work device, ask IT first.
+- **Give your Microsoft account a sign-in name nobody knows.** At **account.microsoft.com**, under **Your info**, you can add a new email "alias" and, in the sign-in preferences, stop your public address being used to sign in. If your public address is the main ("primary") alias, first make the new alias primary, because the primary one can't be switched off. Attackers who only know your public address can no longer trigger prompts. Mail to the old address still arrives. Cost: you must remember the new sign-in name, so save it in your password manager first.
+- **Treat one wrong tap as a break-in.** If you ever approve a prompt by mistake, don't wait for proof. Change the password, sign out of all devices, and check for new forwarding rules, recovery details, passkeys and connected apps (step 17). Cost: an hour of your time, even for a false alarm.
 
 ---
 
@@ -179,6 +201,14 @@ Tick each box as you finish.
 - **Put a password on your voicemail.** If your voicemail has no PIN, or still has the default one, criminals can sometimes get into it and grab messages that read out your sign-in codes. Open **Settings** and type "Voicemail Password" in the search box, or use your carrier's app. Don't use your birthday or your phone passcode.
 - **Ask your bank for a phone password.** Some banks let you add a spoken password, or a note on your account, that must be given before any change is made by phone. This stops a criminal who calls them pretending to be you. Store it in your password manager. Your phone company's account PIN is covered in the **iPhone guide, step 11b**.
 - **Keep your voicemail greeting short.** A generic greeting ("You've reached this number, please leave a message") gives voice-copying tools less of your voice to work with. It's a small step, so don't worry about videos you've already posted. Your family code word (step 21) is the real protection.
+
+**Going even further:** For people who are harassed, targeted or impersonated by phone, and want calls from strangers to stop mattering.
+
+- **Let only your contacts ring.** On iOS 26, go to **Settings > Apps > Phone > Screen Unknown Callers** and choose **Silence**. Unknown numbers go straight to voicemail. Numbers you recently called, and some your iPhone suggests from your email and messages, may still ring. Cost: you will miss real calls from hospitals, schools and deliveries, so save those numbers first and check voicemail daily.
+- **Keep a public number and a private number.** Put a second line (an extra eSIM, or an internet number such as Google Voice) on business cards, forms and websites. Keep your real number for family, your bank and sign-in codes only. Cost: a small monthly fee or an extra app, and a second voicemail to check.
+- **Move important conversations to an app that proves who is there.** In **Signal** (free), compare **safety numbers** with family or close colleagues once, in person. Signal then warns you if that person's device changes. Turn on **Settings > Account > Registration Lock**, and set **Settings > Privacy > Phone Number** so nobody can find you by your number. **Lockout risk:** forget your Signal PIN and you can be locked out of your own account for about a week. Save the PIN in your password manager.
+- **Remove voicemail if you don't need it.** A mailbox that doesn't exist can't be broken into or used to catch spoken sign-in codes. Ask your carrier to switch voicemail off for your line. Cost: callers can't leave messages. Your carrier can switch it back on.
+- **Treat video the same as voice.** Faces can be faked on a live video call too. A video call asking for money, codes or secrecy gets the same answer: hang up, call back on your saved number, ask for the code word (step 21).
 
 ---
 
@@ -218,6 +248,15 @@ Tick each box as you finish.
 - **If you run your office's payments, write down a two-person rule.** Any payment over an amount you choose, and every change of bank details, needs a second person to check it, plus a call to a number you already had. Paying to new bank details waits one working day. Write it down so nobody has to argue with "the boss" in the moment. The trade-off is a slightly slower process, which is the point. If you don't set the rules, follow your office's (see "Do this instead" above).
 - **Stop bank accounts being opened in your name.** Besides the three credit bureaus (step 24), banks often check a separate service called **ChexSystems** when someone opens a checking account. You can place a free security freeze at **chexsystems.com**. The trade-off: you have to lift it before you open a new bank account yourself.
 
+**Going even further:** These measures put walls around your money, so that even a perfect scam on a bad day can only reach a small part of it.
+
+- **Keep most of your money where a scam can't reach it quickly.** Hold savings at a second bank with no debit card, no Zelle and no online wires, where transfers can only go to your own named account. Cost: it takes a day or more to get at your own money, which is the point.
+- **Ask your bank to switch off what you never use.** Ask, in writing, to disable Zelle, online wires and international transfers, and to add a note such as "no wire without ID shown in a branch." Not every bank can do every part. Cost: a branch visit when you really need one.
+- **Demand the strongest sign-in on investment accounts.** Ask for a security key, an authenticator app or a hardware token, and ask whether text-message codes can be turned off. Also opt out of "voice ID" sign-in by phone, because voices can now be copied. Cost: fewer ways back in, so keep recovery details current.
+- **At the office, let the bank enforce the rules.** Ask your business bank for **dual approval** (two people must release each payment inside online banking), **Positive Pay** (the bank only pays checks and payments you listed in advance) and an **ACH debit block** (stops outsiders pulling money from the account). Cost: monthly fees and a small daily task.
+- **For a house purchase, get wire details face to face.** Collect them at the title company's office, or by calling the number you were given at your first meeting. Treat any later "updated instructions" as fraud until proven otherwise. Cost: an extra trip or call during a busy week.
+- **Insure the office against being tricked.** Ask your insurer for "social engineering" or "funds transfer fraud" cover. Many policies only pay if you can show the call-back check was done, so keep a written record of each one. Cost: a yearly premium.
+
 ---
 
 ## 6. Don't let anyone remote-control your computer or phone
@@ -248,6 +287,13 @@ Tick each box as you finish.
 - **Agree in advance how your helper connects.** Pick one way, with one person. For example: "My son helps me with FaceTime screen sharing, and only when I call him." Then any other app, person or "technician" asking to connect is wrong by definition. It's easy to remember, and easy to say no.
 - **After a scare, check for hidden profiles.** On iPhone, a scammer may have talked you into installing a profile that can change your settings or send your internet traffic through them. See the **iPhone guide, step 13a** to check for anything unknown. On a work iPhone, IT's own profile is supposed to be there, so ask IT before removing anything.
 
+**Going even further:** For when someone has already been inside, or when the person trying to get in is persistent or known to you.
+
+- **After a real intrusion, erase instead of cleaning.** Nobody can prove a computer is clean after a stranger controlled it. Check your backup first (**Mac guide, step 19**; **iPhone guide, step 2**). Then use **System Settings > General > Transfer or Reset > Erase All Content and Settings** on a Mac, or **Settings > General > Transfer or Reset iPhone > Erase All Content and Settings** on an iPhone. Set it up as new, copy back your documents and photos, and install apps fresh. Cost: several hours, and anything not backed up is gone for good. On a work device, ask IT first.
+- **Block remote-control tools for the whole home.** If you use **NextDNS** (step 1), add the websites of tools nobody in the house uses, such as anydesk.com and teamviewer.com, to its **Denylist**. A scammer's "just download this" then fails. Cost: you must remove the entry before a genuine helper can use that tool.
+- **Protect a vulnerable relative's devices, with their agreement.** On their Mac, give them a standard account and keep the admin password yourself (**Mac guide, step 21**). On their iPhone, **Settings > Screen Time > Content & Privacy Restrictions** can stop new apps being installed, behind a Screen Time passcode that you hold. Cost: they need you for every new app, so agree it together and don't impose it.
+- **If the person getting in may be someone you know, plan before you remove anything.** Removing tracking software can alert the person who installed it. Use a device they have never touched to read the **Coalition Against Stalkerware** (stopstalkerware.org) or **techsafety.org**, or call the National Domestic Violence Hotline on **1-800-799-7233**. Then run Safety Check (**iPhone guide, step 18**) when it's safe. Cost: it takes patience when you want it gone today.
+
 ---
 
 ## 7. Don't follow "fix it" instructions or install things from a pop-up
@@ -276,6 +322,13 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Install software from the maker, on purpose.** When you want an app that isn't in the App Store, type the maker's web address yourself (step 18). Don't follow an ad or a search result. The first time you open it, your Mac should say Apple checked it for harmful software. If your Mac warns it can't check the app, or you're told to change security settings or click **Open Anyway** to open it, stop. On a work computer, ask IT before installing anything.
 - **Clean out notification permissions now and then.** Safari on Mac: **Safari > Settings > Websites > Notifications**. Chrome: **Settings > Privacy and security > Site settings > Notifications**. Remove any site you don't recognise. Sites that got permission once can keep sending fake virus alerts for years.
 
+**Going even further:** Extra tripwires for this trick, and a firm plan for the day one of them is tripped.
+
+- **Stop websites asking for notifications at all.** On a Mac, open **Safari > Settings > Websites > Notifications** and untick **Allow websites to ask for permission to send notifications**. In Chrome, go to **Settings > Privacy and security > Site settings > Notifications** and choose **Don't allow sites to send notifications**. Cost: sites you want alerts from, like web mail or a calendar, can't send them until you switch this back.
+- **Add tripwires for what the malware does next.** A pasted command usually tries to do two things: set itself to start automatically, and send your data out. **BlockBlock** (**Mac guide, step 12**) warns about the first. **LuLu** (**Mac guide, step 3**) warns about the second. Cost: more pop-ups to read, and they only help if you read them. On a work device, ask IT first.
+- **Get a second opinion after a scare.** Run a free scan with **Malwarebytes for Mac** (type **malwarebytes.com** yourself), and look through **KnockKnock**'s list (**Mac guide, step 12**). Cost: a clean result isn't proof. It only means nothing known was found.
+- **If a command really was run, treat the computer as lost.** This kind of malware copies saved passwords and "cookies" (small files that keep you signed in). From a different device, change your passwords and also choose "sign out of all devices" on each important account, because a new password alone doesn't cancel stolen cookies. Then erase the computer as described in step 6's Going even further. Cost: a lost day, which is far cheaper than a drained account.
+
 ---
 
 ## 8. Don't search for a support number and call the top result
@@ -301,6 +354,13 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Know what real support never asks for.** Real agents don't ask for your password, remote access you didn't ask for, or payment by gift card or crypto. If an "agent" asks for any of these, hang up, even if you called them. You may have reached a fake number. Call back on a number from your saved list.
 - **Be extra careful with AI answers and voice assistants.** When you ask a chatbot or a smart speaker for "the phone number for X," it may repeat a scam number it found online, and it sounds just as confident either way. Use AI to find the company's **website address** at most, then type it in yourself and find the number on the company's own Contact page.
 
+**Going even further:** Ways to take search out of the picture, and to test a "support agent" even after you've reached one.
+
+- **Search where there are no ads to buy.** **Kagi** is a paid search engine with no adverts. **DuckDuckGo** is free and lets you turn adverts off in its settings. Cost: a monthly fee or slightly different results, and fake listings can still appear in ordinary results, so the rule in this step still applies.
+- **Test the agent, not just the number.** Ask for a case number, hang up, and contact the company again through its app or the number on your card. Ask the new agent to read the notes on that case. A real company can. A scammer's "case" doesn't exist. Cost: ten extra minutes on hold.
+- **If you run a business, claim your own listings.** Claim your **Google Business Profile** and your **Apple Maps** listing (through **Apple Business**, which replaced Apple Business Connect in 2026). Claiming doesn't stop strangers suggesting edits, but it lets you control the details and makes it much harder for criminals to swap in a new phone number for your office. Search for your business name once a month and check the number shown. Cost: an hour to set up, and a few minutes each month.
+- **Report fake numbers when you see them.** On a Google ad, use the three dots next to it and choose to report the ad. On a map listing, use **Suggest an edit**. Cost: a minute, and you may never hear back, but it protects the next person.
+
 ---
 
 ## 9. Don't reuse passwords or use easy ones
@@ -322,6 +382,13 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Use a different email address for sign-ups.** With **Hide My Email** or **SimpleLogin** (see step 1), each site gets its own email address as well as its own password. A leak from one site then gives criminals neither your real email nor a password that works anywhere else. The trade-off: your mail depends on that service, so pick one you'll keep, and don't use an alias for your bank or your Apple Account.
 - **Get told when a new leak happens.** At **haveibeenpwned.com** you can sign up for a free email alert when your address appears in a new breach (step 25). Then change the password for that site. Because no two of your passwords are the same, that leak doesn't open your other accounts.
 
+**Going even further:** For the handful of accounts that would ruin your month, make even a stolen password manager not enough.
+
+- **Add a secret ending only you know.** For three or four key accounts (main email, bank, investments), save most of the password in your password manager and type a short extra ending from memory each time. A thief who opens your vault still lacks the full password. **Lockout risk:** forget the ending and you're locked out. Write it on paper, with no account names beside it, and keep it somewhere safe at home.
+- **Use a random username where the site allows one.** Many banks and brokerages let you choose a username that isn't your email address. Let your password manager make one up. An attacker then needs two unknowns, and leaked email lists don't help them. Cost: you can't sign in from memory, so the password manager matters even more.
+- **Close the side doors around the password.** A strong password is pointless if "Forgot password?" asks for your mother's maiden name or texts an old phone number. On each key account, replace security answers with random ones saved in your password manager, and remove old recovery emails and phone numbers. **Lockout risk:** set up a passkey or save backup codes before you remove anything.
+- **If your office has its own email domain, watch all of it.** **haveibeenpwned.com** has a **Domain search** that reports every address at your domain found in a breach, once you prove you own the domain. Cost: larger domains may need a paid plan, and someone has to act on the results.
+
 ---
 
 ## 10. Don't scan QR codes without checking where they go
@@ -342,6 +409,12 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Make scanning a deliberate choice.** On iPhone you can turn off **Settings > Camera > Scan QR Codes**, then use the **Code Scanner** in Control Center only when you mean to scan. Trade-off: one extra step at restaurants and car parks.
 - **Check a doubtful link without opening it.** A link-checking site can visit the page for you. Step 19's **Going further** shows how to do it privately. Never check a link that's personal to you, like a password-reset or document-sharing link.
 - **Touch the sticker.** On a parking meter or charger, run your finger over the code. If it's a sticker stuck on top of the printed code, or the edges peel, walk away and pay in the official app.
+
+**Going even further:** QR codes are now also used to link an attacker's device to your accounts, so these rules go beyond payment pages.
+
+- **Never scan a code to "link a device" unless you started it.** Signal, WhatsApp and other apps add a new computer by scanning a QR code. Attackers send that code dressed up as a group invite or a security check. Only scan one that you made appear yourself, on your own computer. Then check **Settings > Linked Devices** in Signal and in WhatsApp, and remove anything you don't recognise. Cost: none, apart from a monthly look.
+- **Read the whole address before you open it.** The Camera's yellow label can cut a long address short. Take a photo of the code, open it in **Photos**, touch and hold the code, and choose **Copy Link**. Paste it into **Notes** and read it as in step 19. If you still want to open it, paste it into a **Private** tab in Safari, where you aren't signed in to anything. Cost: a minute per code.
+- **If your office prints QR codes, make them honest ones.** Use a code that holds your real web address directly, not a free "dynamic QR" service that passes people through its own address. Those services can expire, show adverts or be taken over. Print the web address next to the code so people can compare. Cost: you can't change where the code points after printing.
 
 ---
 
@@ -367,6 +440,14 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Do a session sweep afterwards.** Back on your own device, open the account's list of devices or sessions and sign out the computer you used. For Apple, Google and Microsoft accounts this is on their security pages. Do it the same day.
 - **Travelling a lot?** Some people carry a separate, cheap, fully updated travel phone or tablet with only the accounts they need for the trip. Trade-off: one more device to keep updated and passcode-locked.
 
+**Going even further:** For travel, borders and the rare day when someone else's computer really is the only option.
+
+- **Bring your own clean system on a stick.** **Tails** (free, from tails.net) starts a borrowed PC from your USB stick and ignores whatever is installed on it. Nothing is left behind when you shut down. Cost: it takes practice to set up, it doesn't run on Macs with Apple chips, and it can't defeat a recording gadget hidden in the keyboard cable. Email, banking and work accounts still stay off computers you don't control.
+- **Travel with less.** Before a trip, sign out of accounts you won't need. **1Password** has a **Travel Mode** that removes every vault you haven't marked **Safe for Travel** from your devices, until you switch it off again. Some people use a separate travel email address that only receives what they forward to it. Cost: planning, and you can't reach what you left behind.
+- **Power devices fully off before a border or checkpoint.** A phone or Mac that is switched off needs the passcode or password before Face ID, Touch ID or anything else works (**Mac guide, step 2**; **iPhone guide, step 5**). Rules about device searches differ by country, so decide what you carry before you leave. Cost: slower start-up, and no boarding pass on screen until you unlock.
+- **Treat a print-shop USB stick as dirty.** Keep one stick only for print shops. Afterwards, erase it in **Disk Utility** before using it again, and never open files from it on your main computer. Cost: one cheap extra stick.
+- **After any sign-in elsewhere, look for things added.** Beyond signing out that session, check the account for a new passkey, recovery email, forwarding rule or connected app (step 17). Someone with a few minutes of access adds a way back in. Cost: ten minutes.
+
 ---
 
 ## 12. Don't trust a site just because it has a padlock or a great deal
@@ -388,6 +469,13 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Check how old the website is.** Type the shop's address into **lookup.icann.org** and look for the date it was created. A "brand" whose website was made a few weeks ago is a big warning sign. The owner's name is usually hidden, which is normal.
 - **Block ads, which is where many fake shops find you.** On a personal computer, **uBlock Origin** in Firefox is the strongest free ad blocker. In Chrome and Edge, use **uBlock Origin Lite**. In Safari, use a content blocker from the App Store, such as **AdGuard** or **1Blocker**. Trade-off: some sites break or ask you to switch it off. On a work computer, **ask IT first**.
 - **Turn on Chrome's stronger warnings.** In Chrome, **Settings > Privacy and security > Security > Enhanced protection** checks pages against Google's list of dangerous sites as you browse. Trade-off: it sends more of your browsing to Google.
+
+**Going even further:** Checks that take minutes and catch most fake shops, plus the rules that get your money back.
+
+- **Block brand-new websites automatically.** In **NextDNS** (step 1), open the **Security** tab and turn on **Block Newly Registered Domains**. Most fake shops live on addresses only days or weeks old. Cost: a real new site is blocked now and then, and someone has to know how to allow it. On a work device, ask IT first.
+- **Check the shop like an auditor would.** Paste a product photo into **Google Lens** to see whether it was copied from another shop. Type the address into **web.archive.org** to see how long the site has really existed. Look up the company name in the business register of the state it claims to be in. Cost: about five minutes per shop. A clean result isn't a guarantee.
+- **Know your dispute deadline.** Under US law you can dispute a credit card charge for goods that never arrived, but you must write to the card company within 60 days of the statement that shows it. Send it to the "billing inquiries" address on the statement and keep a copy. A phone call alone may not protect your rights. Cost: a letter.
+- **For local marketplace deals, choose the ground.** Meet at a police station "safe exchange" spot, or inside a bank. Pay or accept cash only, check the item before paying, and never give a code or a deposit in advance. Cost: less convenient, and some sellers will refuse, which tells you something.
 
 ---
 
@@ -416,6 +504,15 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Get yourself off people-search sites.** Data brokers sell your address, phone number and relatives' names, which scammers use to sound believable. California residents can send one free request to every registered broker through the state's **DROP** site (privacy.ca.gov). Elsewhere, paid services like **DeleteMe**, **Optery** or **Incogni** do it for you, or you can opt out site by site for free. Google's **Results about you** can alert you when your phone number or home address shows up in search, and lets you ask for removal. Trade-off: outside California, brokers tend to add you back, so it's a yearly job.
 - **Clean up the past, not just the future.** Old public posts can still show your kids' school and your routine. Many social apps let you change who can see all your past posts at once (Facebook calls this **Limit past posts**).
 
+**Going even further:** For people who need their home address, routine and family kept away from someone determined to find them.
+
+- **Stop giving out your home address.** Rent a PO Box or a private mailbox and use it for deliveries, sign-ups and registrations. If you're escaping stalking or abuse, most US states run a free **Address Confidentiality Program** that gives you a substitute legal address. Search your state's name plus that phrase. Cost: a yearly fee for a mailbox, and trips to collect mail.
+- **Stop the camera recording where photos were taken.** Go to **Settings > Privacy & Security > Location Services > Camera** and choose **Never**. No new photo then carries a location, whatever app you share it from. Cost: photos lose their place on the map and in Memories. Old photos keep theirs.
+- **Blur your home on street-level maps.** In Google Maps, open Street View of your home, choose **Report a problem**, and ask for your home to be blurred. For Apple Maps Look Around, email **MapsImageCollection@apple.com** and ask for your house to be blurred. **This is permanent on Google and can't be undone**, even by a later owner.
+- **Set up protections on children's devices.** In **Settings > Screen Time**, choose your child and turn on **Communication Safety**. It blurs nude images in Messages, AirDrop and FaceTime and shows the child ways to get help. Also check each social app's teen settings so strangers can't message them. Cost: none worth weighing. It doesn't replace the conversation in this step.
+- **Look at yourself the way a stranger would.** Search your name, phone number and address in a private window twice a year. Set a free **Google Alert** for your full name. In each social app, turn off "let people find me by phone number or email." Cost: an hour, and some unpleasant surprises.
+- **Send opt-out requests yourself.** The free **Permission Slip** app (made by Consumer Reports, run by DeleteMe since 2026) sends "delete my data" requests to many companies for you. Cost: it doesn't cover every broker, and details can come back, so repeat it yearly.
+
 ---
 
 ## 14. Don't paste private or client information into AI chatbots or free tools
@@ -436,6 +533,14 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Redact properly, don't just cover.** A black box drawn over text in a PDF can often be removed, leaving the text readable. On a Mac, open the file in **Preview**, choose **Tools > Redact**, select the text, and save. That deletes the hidden text for good, so keep a copy of the original first.
 - **Watch out for AI browser extensions and AI "note-takers."** Many can read every page you open, or join and record your calls. Treat them like remote access: only install ones you've chosen yourself, and on work computers **ask IT first**.
 - **For sensitive personal documents, prefer AI that stays on your device.** **Apple Intelligence** does many tasks on the device itself. Anything it hands to **ChatGPT** goes to OpenAI, so leave the ChatGPT option off or say no when it asks. Confident users can run a local AI app such as **LM Studio** or **Ollama** on a personal computer, so nothing leaves it. Trade-off: local AI needs a fairly powerful computer, is less capable, and is still software you install. On work computers, use only what IT has approved.
+
+**Going even further:** AI tools are starting to act for you, not just talk to you, and that changes the risk.
+
+- **Don't connect AI to your mailbox or files.** Many chatbots and "AI browsers" can now read your email, open your documents and click for you. A web page or email can hide instructions that the AI obeys, such as "send this file out." Keep these connections off. If you must use one, give it read-only access to a separate account and approve every action. Never use an AI "agent" mode while signed in to your bank or email. Cost: you lose some convenience. On a work device, ask IT first.
+- **For client work, pay for a plan with a contract.** Business plans (for example ChatGPT Business or Enterprise, Claude Team or Enterprise, Microsoft 365 Copilot, or Google Workspace with Gemini) promise in writing not to train on your data. Health information needs a signed agreement first, and lawyers and accountants should check their professional rules. Write a one-page office rule: which tools, what never goes in, who to tell after a slip. Cost: a monthly fee per person.
+- **Prove a local AI stays local.** If you run **LM Studio** or **Ollama**, use **LuLu** (**Mac guide, step 3**) to block that app's outgoing connections once the AI model has downloaded. Then you know nothing leaves. Cost: you must allow it again to download updates or new models.
+- **Clean up what's already out there.** In ChatGPT, **Settings > Data Controls** lists your **shared links** and lets you delete them and your old chats. **Settings > Personalization** holds **Memory**, where you can see and delete what it has remembered about you. Other chatbots have similar pages. Cost: deleted chats can't be brought back.
+- **Convert files without uploading them.** **LibreOffice** (free, from libreoffice.org) opens and converts most document types on your own computer. Cost: complicated layouts sometimes shift.
 
 ---
 
@@ -473,6 +578,15 @@ Apple devices come with a free password manager called **Passwords**. If your of
 - **Want a vault that never touches anyone's cloud?** **KeePassXC** (free) keeps your passwords in one encrypted file on your own computer, but syncing, backups and remembering its master password are then entirely your job.
 - **Use Obsidian (or any notes app) as a notebook, never as the safe.** An Obsidian vault is just a folder of ordinary text files with no password of its own, so anyone who gets into your computer can read it. It's great for the "where things are" list above: which accounts you have, which email each uses, where the recovery codes are kept. Keep the actual passwords, codes and recovery keys in the password manager.
 
+**Going even further:** For people who want their passwords to survive a lost phone, a hacked cloud account and a house fire, and are willing to do the upkeep.
+
+- **Keep an offline, encrypted copy of your vault, and rotate it.** Every three months, export your passwords (Bitwarden can make a password-protected export; Apple Passwords and 1Password exports are not encrypted). On a Mac, save the export straight into an encrypted disk image: **Disk Utility > File > New Image > Blank Image**, with **256-bit AES** encryption. Copy the image to two USB sticks and keep one away from home. Delete the loose export file. **Lockout risk:** the image's password must be on paper somewhere safe.
+- **Give passkeys their own backup plan.** Some export files leave passkeys out. For each important account, add a second passkey or a security key (step 16) and save its backup codes on paper. Cost: a few minutes per account.
+- **Go fully offline with KeePassXC plus a key file.** Beyond a master password, **KeePassXC** can require a small "key file" that you keep on a USB stick. On iPhone, **Strongbox** or **KeePassium** open the same vault. Cost: you move the vault between devices yourself, and there's no sharing or rescue. **Lose the master password or the key file and everything is gone.** Keep two offline copies of the key file.
+- **Think hard before hosting your own.** **Vaultwarden** is an unofficial, community-made server that works with Bitwarden's apps. You then become the security team: updates, backups and encryption are your job, and a neglected server is worse than Bitwarden's own service. If you do it, make it reachable only through a private link such as **Tailscale** or **WireGuard**, never the open internet.
+- **Lock down the manager itself.** Make security keys its only second step and remove the email or text fallback. Print its recovery code. Set it to lock after a minute or two and when the computer sleeps. Never type the master password on a device you don't own. **Lockout risk:** two keys and the printed recovery code are the minimum.
+- **Do a restore drill once a year.** On a spare device, restore your backup using only what's in your safe place. A backup you've never restored is only a hope. On a work device, ask IT first.
+
 ---
 
 ## 16. Turn on two-factor authentication
@@ -507,6 +621,15 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Decide where your codes live, on purpose.** Keeping codes in your password manager is convenient, but if someone breaks into that one app, they get both locks at once. Some confident users keep codes in a separate authenticator app with its own encrypted backup, such as **2FAS** or **Ente Auth** (both free). Trade-off: one more app to back up and move to a new phone.
 - **High-risk? Use the strongest settings.** Journalists, executives, people in public roles and anyone being targeted can join Google's free **Advanced Protection Program**, which requires a passkey or security key to sign in. Trade-off: some outside apps lose access to your Google account, and account recovery is deliberately slow.
 
+**Going even further:** The top tier is hardware-only sign-in, with enough spares and practice that you can't lock yourself out.
+
+- **Own three keys, give each a PIN, and keep a list.** Keep one key with you, one at home and one somewhere else, such as a relative's house. Set a PIN on each with the free **Yubico Authenticator** app, or in Chrome under **Settings > Privacy and security > Security > Manage security keys**. Keep a list of which accounts each key is on. **Lockout risk:** eight wrong PINs in a row block the key until you reset it, and a reset erases its PIN and every passkey on it, so you must add it to each account again.
+- **Move your 6-digit codes onto a key.** With a **YubiKey 5** (not the basic model), **Yubico Authenticator** stores the codes on the key itself, so they only appear when the key is plugged in or tapped. Malware on your phone can't copy them. Cost: the key costs more and holds a limited number of accounts (32 on older YubiKey 5 keys, 64 on keys with firmware 5.7 or later). Scan each QR code with both keys at setup, because you can't copy codes from one key to another later.
+- **Take your Apple Account to the top.** Security keys (**iPhone guide, step 31**) plus Advanced Data Protection (**iPhone guide, step 30**) mean neither a phished code nor Apple itself can open your iCloud data. **Lockout risk:** lose your keys, devices and recovery method, and the data is gone for good. Read both steps' downsides first. On a work device, ask IT first.
+- **Sweep away old shortcuts.** In each key account's security settings, clear the list of "trusted" or "remembered" browsers and devices, and make a fresh set of backup codes so old ones stop working. Cost: you'll be asked for your key again on every device.
+- **Run a "lost everything" drill once a year.** Pretend your phone and wallet are gone. Using only what's in your safe place, can you get into your email, your password manager and your Apple Account? Fix whatever fails. Cost: an hour.
+- **If you run the office's accounts, make keys mandatory.** Microsoft 365 and Google Workspace can both require passkeys or security keys for every sign-in. Cost: every person needs two keys, and you need a plan for lost ones. In Microsoft 365, this needs Conditional Access, which comes with Business Premium or a Microsoft Entra ID P1 license.
+
 ---
 
 ## 17. Protect your email account most of all
@@ -534,6 +657,15 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Go passwordless where you can.** Personal Microsoft accounts can have the password removed completely, so you sign in with a passkey or the Authenticator app. Google lets you use a passkey instead of your password. There's nothing to phish and nothing to leak. Trade-off: before you switch, make sure you have a second way in (another passkey, a security key or backup codes).
 - **Own your own email domain? Never let it lapse.** Some people use an email address on their own web address (for example through iCloud+ or Fastmail). Turn on auto-renew and the registrar's **transfer lock** for that domain. If it expires, anyone can buy it and receive your password-reset emails.
 - **Keep a copy of your email.** Download a backup now and then (for Gmail, use **Google Takeout**). If the account is ever taken over or locked, you still have your records. Store the download somewhere safe, because it holds everything.
+
+**Going even further:** Shrink what a break-in to your email could reach, and remove the old side doors.
+
+- **Close the old side doors.** "App passwords" are extra passwords for old mail programs that skip two-factor. Delete any you don't use: for Google, type **myaccount.google.com/apppasswords**. For Apple, go to **account.apple.com**, then **Sign-In and Security**, then **App-Specific Passwords**. In Gmail, also turn off **POP** under **Settings > See all settings > Forwarding and POP/IMAP**. Cost: a very old mail program or scanner may stop working until you set it up again.
+- **Empty the treasure out of your mailbox.** Search your mail for "password", "passport", "SSN", "tax return" and "statement". Move what you need into your password manager or an encrypted drive, then delete the emails and empty the Trash. A burglar finds much less. Cost: an afternoon, and you can't search for those items in mail afterwards.
+- **Lock the recovery chain.** Your recovery email is a spare key to your main email. Make it the secret address from this step's Going further, with its own passkey or security key. Where the account allows, remove recovery by text message. **Lockout risk:** first save backup codes on paper and add a second key.
+- **If you use your own domain, guard it and stop fakes of it.** Put a security key on the account where you bought the domain, and pay for several years ahead. Ask your email provider how to set up **DMARC**, a public rule telling mail services to reject fakes of your address. Cost: set up badly, DMARC can send your own real emails to spam, so start in its report-only mode.
+- **Plan for the day you can't sign in at all.** Google's **Inactive Account Manager** (type **myaccount.google.com/inactive**) passes chosen data to someone you name after months of silence. Apple's **Legacy Contact** is in **Settings > [your name] > Sign-In & Security**. Cost: choose that person with care.
+- **Consider a mailbox the provider can't read.** **Proton Mail** stores your mail so that even Proton can't open it. Cost: moving address is a big job, some features cost money, and emails to people on other services still travel the normal way. On a work account, ask IT first.
 
 ---
 
@@ -565,6 +697,13 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Give money its own browser.** Make a separate browser profile with only your bank and card bookmarks and no extensions. Chrome, Edge and Safari (on Mac and iPhone) all call these **Profiles**. Some people go further and keep one fully updated iPad only for banking. Trade-off: a little more switching around.
 - **Filter dangerous sites for the whole house.** A filtering DNS service quietly blocks known scam and malware sites for every device on your home Wi-Fi. **Quad9** (9.9.9.9) is free and simple. **NextDNS** gives you more control (free up to 300,000 lookups a month, then it stops filtering until the next month unless you pay about $2 a month). You can set it once in your home Wi-Fi router. Trade-off: now and then it blocks a real site, and it doesn't replace your own checks. On work computers and phones, don't change these settings. If IT has given you a safe-browsing profile (**iPhone guide, step 13b**), leave it in place.
 - **Skip search for the sites you use.** In the address bar, type the first few letters of the bookmark's name and pick the bookmark from the list. The fewer times you search for "my bank login," the fewer chances a paid ad has to catch you.
+
+**Going even further:** Make it nearly impossible for your money device to land on the wrong site, even by mistake.
+
+- **Make your scam filter follow you everywhere.** A filter set on your home router stops working when you leave the house. **NextDNS** (type **apple.nextdns.io**) and **Quad9** both offer a small settings file, called a profile, that makes your iPhone or Mac use their filter on every network, with the look-ups encrypted. Download it only from the company's own site, typed yourself, then install it as shown in the **iPhone guide, step 13b** or **Mac guide, step 20**. This is a deliberate exception to "only install IT's profile". Never install one that a message or pop-up offers. If **iCloud Private Relay** is on, Safari may skip the filter (Quad9 says its profile isn't used while Private Relay is on), so after installing, open the company's test page in Safari, and turn Private Relay off on that device if the test fails. Cost: hotel Wi-Fi sign-in pages sometimes fail until you switch the filter off for a moment. To undo it, remove the profile (**iPhone guide, step 13a**; **Mac guide, step 16**). On a work device, ask IT first.
+- **Allow-list a banking device.** On a spare iPhone or iPad used only for money, **Settings > Screen Time > Content & Privacy Restrictions** has a web content setting that allows only websites you list. Add your bank, cards and broker, and set a Screen Time passcode. A link to a fake site then cannot open. Cost: every other website is blocked on that device.
+- **Strip that device down.** No email, no messaging apps, no social media and no browsing. Those are the routes attacks arrive by. Turn on Lockdown Mode (**iPhone guide, step 29**). Cost: it's a single-purpose device, and Lockdown Mode's downsides apply.
+- **On a shared Mac, give money its own user account.** Make a separate **Standard** account (**Mac guide, step 21**) used only for banking. Other people's downloads and browser add-ons can't reach into it. Cost: you log out and in to switch.
 
 ---
 
@@ -599,6 +738,15 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Watch for letters that only look the same.** Some fake addresses swap in a letter from another alphabet, such as a Cyrillic "а" for a normal "a", so the address looks exactly like **apple.com**. You often can't spot this by eye. That's why going to the site yourself (step 18) beats checking the address.
 - **Short links and QR codes hide the address.** Links like **bit.ly/...** don't show where they go, so treat them as unknown. On iPhone, the Camera app shows a QR code's web address in a small yellow label before you tap it. Read it the same way as any other address (step 10).
 
+**Going even further:** For people who receive targeted, well-made fakes, and want their tools to show more of the truth.
+
+- **Show the full address in Safari on a Mac.** Open **Safari > Settings > Advanced** and tick **Show full website address**. Safari then shows everything, not just the short name. Cost: a busier address bar.
+- **Compare who it's from with who gets your reply.** In Gmail's **Show original**, or Mail's **All Headers** view, find **From**, **Reply-To** and **Return-Path**. If your reply would go to a different address or company than the one in **From**, treat the message as fake. Cost: none. Some real newsletters do this too, so use it for messages about money or passwords.
+- **Stop emails loading anything by themselves.** On iPhone, in **Settings > Apps > Mail > Privacy Protection**, turn off **Protect Mail Activity**, then turn on **Block All Remote Content**. On a Mac it's in **Mail > Settings > Privacy**. Pictures and tracking then load only when you tap the button at the top of the email to load them. This is the same switch as in the **iPhone guide, step 27**'s Going even further, and it means giving up that step's **Protect Mail Activity**. Choose one or the other. Cost: most emails look bare until you tap.
+- **Read email as plain text.** **Thunderbird** (free) can do this with **View > Message Body As > Plain Text**. Links then show their real address in full, and hidden tricks disappear. Cost: emails look plain, and Apple's Mail app has no simple switch for this.
+- **Block lookalike addresses automatically.** In **NextDNS**, the **Security** tab has **IDN Homograph Attacks Protection** and **Typosquatting Protection**. They refuse addresses that imitate well-known sites. Cost: an occasional wrong block.
+- **If you run an office domain, watch for copies of it.** The free site **dnstwist.it** lists addresses that look like yours and shows which ones someone has registered. Ask IT to switch on "External sender" labels in your mail system too. Cost: a monthly check.
+
 ---
 
 ## 20. Slow down when something feels urgent
@@ -620,6 +768,14 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Add slowdowns at your bank.** Ask your bank whether you can lower your daily **Zelle** and transfer limits, whether wires can require a call-back or a branch visit, and whether you can set a spoken password for phone requests. What's offered varies by bank. Trade-off: a real large payment takes a little longer.
 - **Name a trusted contact on your investment accounts.** US brokerages ask for a **trusted contact person** they can call if they see signs of fraud or confusion. This person can't make trades or move your money. Add one in your account settings, or call the brokerage.
 - **At work: two people for money and bank changes.** Every new payee, change of bank details, or urgent payment gets approved by a second person, who checks by calling a number already on file. The rule also protects whoever gets the call, because "I'm not allowed to do that alone" is an easy thing to say.
+
+**Going even further:** There's little technology left to add here. The top tier is practice, written plans and help lined up in advance.
+
+- **Write a one-page security plan.** List what you most need to protect, who might want it, and what you'd do if it went wrong. The EFF's free **Surveillance Self-Defense** guide (type **ssd.eff.org**) has a short "security plan" exercise. Cost: an hour. It makes every other decision in these guides easier.
+- **Rehearse your exit line.** Put a card by the phone: "I don't deal with money on calls I didn't start. I'll call you back." Say it aloud a few times. Then ask a family member to make a pretend scam call next month, with no warning. Cost: it feels silly, but people who have practised act faster.
+- **Run a fire drill at the office.** Once a year, walk through one scenario together: "An email from the boss asks for an urgent wire at 4:45 on a Friday." Who checks? On which number? Who can say no? Write down what was unclear and fix it. Cost: thirty minutes of everyone's time.
+- **Line up help before you need it.** Keep on paper: your bank's fraud line, IT's number, your insurer's claims line and a trusted person's number. If you're a journalist or activist, add the **Access Now Digital Security Helpline**. Cost: none. Paper matters because your phone may be the thing that's compromised.
+- **Review near-misses.** When a scam almost worked, write down what made it convincing, and tell your family or office. Cost: a little pride.
 
 ---
 
@@ -645,6 +801,14 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Use a question and an answer, not just one word.** One person asks a question ("How's the garden?") and the other gives an answer that makes no sense to anyone else ("The goats ate it"). Even someone who overheard the question doesn't know the answer. Make up your own pair.
 - **Change it on a schedule.** Pick a new word or pair once a year, and any time someone who knew it leaves the family circle or the office. Agree on the new one in person.
 - **Write down your office's call-back numbers.** Keep a short printed list of known numbers for your manager, finance, IT and your main suppliers, and a copy on your phone. When an "urgent" request comes in, call back on the list's number, never a number in the message or email signature.
+
+**Going even further:** Stronger versions of the code word, for families and offices that expect skilled impersonation.
+
+- **Add a second word that means "I'm not safe."** Agree a harmless-sounding duress word. If someone says it, the listener knows the caller is being forced or watched, and gets help instead of sending money. Cost: one more thing to remember, so practise it.
+- **Never say the word first.** A clever caller may ask, "Remind me, what's our code word?" The person asking for money must give it, unprompted. If you're ever tricked into saying it, change it that day.
+- **Check the device, not just the voice.** In **Signal**, compare **safety numbers** with close family and key colleagues once, in person. If Signal later says a safety number changed, confirm by another route before trusting messages. Apple's version is Contact Key Verification (**iPhone guide, step 32**, which has its own conditions). Cost: a few minutes per person, repeated when someone gets a new phone.
+- **Use one-time words for large office payments.** Hand a printed list of single-use words to the people who approve payments, in person. Each approval uses the next word, which is then crossed off. An overheard word is useless afterwards. Cost: someone must keep the lists in step and reissue them.
+- **Protect the help desk too.** Criminals also call IT pretending to be you, asking for a password reset. Ask IT what proof they require, and agree a personal PIN or a call-back to your known number. Contact IT at [IT email address] or [IT phone number].
 
 ---
 
@@ -672,6 +836,15 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Check your home Wi-Fi router.** Routers often go years without updates. Sign in to its app or settings page, turn on automatic updates (often called **firmware** updates), and change the admin password if it's still the one on the sticker. If your internet company gave you the router, ask them whether it still gets updates. Trade-off: a router that updates itself sometimes restarts overnight.
 - **Fewer extras means fewer holes.** Remove browser add-ons (extensions) and apps you don't use. Extensions can be sold to new owners who quietly add harmful code in an update. Keep only one or two you really trust. On work devices, ask IT first before adding or removing anything.
 - **Give smart gadgets their own network.** Cameras, smart plugs and TVs often stop getting updates early. If your router has a **Guest** network, put them on it, so a hacked gadget can't easily reach your computer. Trade-off: your phone may not be able to control or cast to them while it's on your main network.
+
+**Going even further:** Updates fix known holes. These measures shrink what's exposed while a hole is still open, especially on your home network.
+
+- **Put a serious router at the centre.** Replace an old or internet-company router with one that gets updates for years and supports separate lanes (called VLANs), such as **Ubiquiti UniFi**, or a router running the free **OpenWrt** software. Give work devices, family devices, smart gadgets and guests a lane each. Cost: money and a weekend of setup, and smart speakers and printers may need extra settings to be seen across lanes.
+- **Close the doors that face the internet.** In the router's settings, turn off **UPnP**, **WPS** and **remote administration**, and delete any **port forwarding** rules to cameras or storage drives. To reach home devices from outside, use a private link such as **Tailscale** or **WireGuard**. Cost: some games and older camera apps stop working until you set them up the safer way.
+- **Watch the list of holes under attack.** The US agency CISA publishes a **Known Exploited Vulnerabilities** catalog on **cisa.gov**. If something you own appears there, update it that day, or unplug it until you can. Cost: the list is technical, so search it for your brand names.
+- **Prefer the App Store version of an app.** Where an app exists both in the App Store and as a website download, the App Store version updates itself and runs inside tighter walls. Cost: a few apps have fewer features there.
+- **Retire Windows 10.** It stopped getting normal security fixes in October 2025, and the one-year extension for home PCs (Extended Security Updates) ended in October 2026. Upgrade the PC to Windows 11, replace it, or keep it off the internet. Cost: possibly a new computer.
+- **Use a reputable paid VPN on networks you don't control.** **Mullvad**, **Proton VPN** and **IVPN** are long-established. A VPN hides your traffic from the hotel or café network. Cost: a monthly fee, some sites block it, and the VPN company can see which sites you visit in place of the Wi-Fi owner. On a work device, ask IT first.
 
 ---
 
@@ -704,6 +877,15 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Keep one card just for online.** Use one credit card with a low limit for all online shopping and subscriptions, and keep your main card for in-person spending. If the online card is stolen, the damage is capped and you only have to update one set of accounts.
 - **Lock cards you rarely use.** Most card apps have a **Lock** or **Freeze** switch. Keep backup cards locked and unlock them only when you need them.
 - **Use a separate browser profile for money.** In Chrome, Edge or Firefox you can create a second **profile** just for banking: no extensions, no other sites, just a bookmark to your bank. In Safari on a Mac, choose **Safari > Settings > Profiles**. Trade-off: you have to remember to switch profiles. On a work computer, check with IT first.
+
+**Going even further:** Arrange your accounts so the card or account a criminal can touch is never the one holding your money.
+
+- **Keep a small "spending" account at arm's length.** Have your pay go into one account, and move a set amount each week to a separate checking account that holds your debit card and bill payments. Better still, use a different bank. A stolen debit card or a tricked payment can only reach that small balance. Cost: you manage transfers, and a big bill needs planning.
+- **Know the debit card clock.** Under US rules (Regulation E), report a lost or stolen debit card within 2 business days of noticing and your loss is capped at $50. Report later and it can be up to $500. If you don't report a charge within 60 days of the statement it appears on, you can lose everything taken after that. If only your card number was misused and the card is still in your wallet, you owe nothing if you report within 60 days of the statement. Payments you were tricked into sending yourself are often not covered at all. Check statements weekly, not monthly.
+- **Stop mailing checks.** Thieves steal checks from mailboxes and wash off the ink to rewrite them. Use your bank's bill-pay service. If you must post a check, hand it over inside the post office. Cost: a little setup for each payee.
+- **Tap, don't insert, at gas pumps and cash machines.** Hidden card readers ("skimmers") copy cards that are inserted or swiped. Tapping your card or phone gives them nothing to copy. Cost: not every machine accepts tap yet.
+- **Send alerts to two places.** Set each bank and card to alert you by app notification and by email. If your phone number is stolen or your phone is lost, the second channel still reaches you. Cost: more messages.
+- **Ask for lower card limits.** Many banks will lower the daily cash-machine and purchase limits on a debit card, or issue a card that only works at cash machines. Cost: a call to the bank before a large purchase.
 
 ---
 
@@ -739,6 +921,15 @@ You need to do this with **each** of the three bureaus. Go to their real website
 - **If your Social Security number was stolen, block online access.** Call Social Security at **1-800-772-1213** and ask them to **block electronic access** to your record. Then nobody, including you, can see or change your details online or through their automated phone line. Trade-off: to undo it, you have to prove who you are, by phone or in person. Only do this if you know your number was stolen.
 - **Stop pre-approved credit offers.** Type **optoutprescreen.com** to stop the "you're pre-approved" credit card letters that criminals can steal from your mailbox and use. It's the official site run by the credit bureaus. You can opt out for five years online, or permanently by mailing a signed form.
 
+**Going even further:** The freezes in this step cover most lenders. These close the remaining gaps and get you told early.
+
+- **Freeze the lesser-known files.** **LexisNexis** (type **consumer.risk.lexisnexis.com**) sells identity and insurance reports. **The Work Number** (theworknumber.com) holds your employment and pay records. **Clarity Services** covers short-term lenders. Each offers a free freeze. The CFPB publishes a full "list of consumer reporting companies" on **consumerfinance.gov**. Cost: more freezes to lift before a mortgage, a new job or new insurance.
+- **Add a fraud alert on top of the freeze.** A fraud alert tells lenders to verify it's really you before opening anything. It's free and lasts one year, and one bureau passes it to the other two. Victims of identity theft with an **IdentityTheft.gov** report can get a seven-year alert. Cost: real applications take a little longer.
+- **Claim your official accounts before a criminal does.** Create your own **IRS online account** at **irs.gov**. Sign up for **USPS Informed Delivery** at **usps.com**. It emails you pictures of the letters due to arrive each day, so you notice if a new card, check or tax form goes missing. More than one person can sign up for the same address, so this doesn't stop someone else registering it, but you'll see what's coming before anyone takes it. Give each a strong password and two-factor. Cost: identity checks that take 15 to 30 minutes each.
+- **Read your reports, don't just freeze them.** **annualcreditreport.com** gives free reports from all three bureaus. Check twice a year for addresses, accounts and "inquiries" you don't recognise. Cost: 20 minutes. Dispute errors on the bureau's own site.
+- **Sign up for property record alerts.** Many county recorder offices send a free email when a deed or loan is filed in your name. Search your county's name plus "property fraud alert." Paid "title lock" products do the same thing for a fee.
+- **Keep a freeze register.** List every place you froze, with logins and PINs, in your password manager. **The real risk here is delay:** a forgotten freeze can stall a home loan for days.
+
 ---
 
 ## 25. Check if your email was in a data breach
@@ -766,6 +957,14 @@ You need to do this with **each** of the three bureaus. Go to their real website
 - **Switch your most important accounts to passkeys.** A passkey can't be stolen from a website's database and reused, so a breach at that site doesn't hand criminals a password for you. Start with email, Apple, Google, Microsoft and your bank if they offer it (step 15).
 - **Get your details off people-search sites.** Data brokers sell your address, phone number and relatives' names, which scammers use to sound believable. California residents can ask every registered data broker to delete their data in one free request through the state's **DROP** site, found at **privacy.ca.gov**. Elsewhere, services like **DeleteMe** or **Optery** send removal requests for you, mostly for a yearly fee. Trade-off: removals are never complete, and some details come back and need removing again.
 
+**Going even further:** Go from "was my email in a breach?" to "would I know if someone were inside right now?"
+
+- **Look for "stealer log" results.** Some leaks come from malware on a person's own computer, not from a hacked website. After you confirm your address with **haveibeenpwned.com**'s notification service, it can show whether your address appears in these "stealer logs." If it does, a device you signed in on was probably infected. That might be your own, or a shared or work computer. Follow step 7's Going even further, then change passwords from a clean device.
+- **Plant a tripwire.** **Canarytokens** (free, at canarytokens.org) makes a decoy file or web link that emails you the moment anyone opens it. Put a decoy named like "Passwords 2026" in your documents or cloud drive. If you get an alert you didn't cause, someone is looking through your files. Cost: backup and search tools can set it off, so test it first.
+- **Rank a breach by what leaked.** A password: change it. Your Social Security number: do step 24 in full. Your driver's license: ask your state's DMV about a new number. Security answers: change them everywhere you used them. A password manager's own breach: change the master password and then every stored password, starting with email and money. Cost: the last one is days of work.
+- **Stay away from "see your leaked password" sites.** Sites and tools that offer to show the actual stolen data are often scams, or illegal to use. The checks in this step tell you all you need. Cost: none.
+- **If you own your email domain, monitor all of it.** The **Domain search** at haveibeenpwned.com covers every address at your domain. Cost: larger domains may need a paid plan.
+
 ---
 
 ## 26. Report scams
@@ -792,6 +991,14 @@ You need to do this with **each** of the three bureaus. Go to their real website
 - **Tell the company being faked.** Most big companies have a report address or page, such as **reportphishing@apple.com** for fake Apple messages. Find it on the company's own website. They can get fake sites taken down faster than you can.
 - **Get a police report number for big losses.** If you lost a lot of money or your identity was used, also file a report with your local police. Banks and insurers often ask for one, along with your **IdentityTheft.gov** report.
 - **Keep a simple incident log.** At home or at work, keep one note for each incident: the date, what happened, who you told, and the reference numbers. It saves time when the bank calls back weeks later, and it helps your family or office spot the same scam next time.
+
+**Going even further:** Reporting can do more than create a record. Sent to the right place, a report takes a scam offline or forces a bank to answer.
+
+- **Get the fake site taken down at the source.** Type the scam address into **lookup.icann.org** and find the **registrar abuse contact**, the company that sold the address. Email them the link and a screenshot. Also report it at **report.netcraft.com**, a long-established takedown service. Cost: 10 minutes. Never visit the fake site again to "check."
+- **Escalate when a bank or company stalls.** If your bank refuses a fraud claim you believe is valid, file a complaint with the **CFPB** at **consumerfinance.gov/complaint**. The company is expected to reply, usually within 15 days. Your state Attorney General's consumer office is the other route. Cost: you need your notes and reference numbers (this step's incident log).
+- **Use the specialist agency.** Mail theft and scams by post: the Postal Inspection Service at **uspis.gov/report**. Investment scams: the SEC at **sec.gov/tcr**. Faked caller ID and robocalls: the FCC at **consumercomplaints.fcc.gov**. For crypto, include the wallet addresses and transaction IDs in your IC3 report. Cost: one more form each.
+- **If client information may be involved, call before you clean.** Before wiping or "fixing" anything, tell IT, your insurer's claims line and a lawyer. State laws may require telling clients within a deadline, and wiping a computer destroys evidence the insurer needs. Cost: the device may be out of use for days.
+- **If you suspect spyware, preserve and ask.** Journalists, activists and human-rights workers can ask the **Access Now Digital Security Helpline** or **Amnesty International's Security Lab** to check a device. Contact them from a different device, before you erase anything. Cost: a wait, and you may be asked to share a backup of the phone.
 
 ---
 

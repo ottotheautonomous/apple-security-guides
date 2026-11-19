@@ -118,6 +118,7 @@ const CALLOUTS = [
   [/^what it looks like/i, "heads"],
   [/^do this instead/i, "check"],
   [/^if it already happened/i, "trouble"],
+  [/^going even further/i, "expert"],
   [/^going further/i, "advanced"],
 ];
 
@@ -255,21 +256,42 @@ function renderGuide(md, guide) {
       if (c && c.type) {
         flush();
         const group = [t];
-        if (c.type === "advanced") {
-          // "Going further" is a collapsible tier for confident users, closed by default so beginners
-          // aren't overwhelmed. It swallows everything up to the next heading, rule or other callout.
-          let j = i + 1;
-          while (j < tokens.length) {
-            const u = tokens[j];
-            if (u.type === "heading" || u.type === "hr") break;
-            if (u.type === "paragraph") { const cu = classifyParagraph(u.text); if (cu && cu.type) break; }
-            group.push(u); j++;
+        if (c.type === "advanced" || c.type === "expert") {
+          // "Going further" (advanced) and "Going even further" (expert) are collapsible tiers, closed by
+          // default so beginners aren't overwhelmed. Each swallows everything up to the next heading, rule
+          // or other callout. An expert tier straight after an advanced one is nested inside it, so it is
+          // only offered to readers who opened the first tier.
+          const gather = (start) => {
+            const grp = [tokens[start]];
+            let j = start + 1;
+            while (j < tokens.length) {
+              const u = tokens[j];
+              if (u.type === "heading" || u.type === "hr") break;
+              if (u.type === "paragraph") { const cu = classifyParagraph(u.text); if (cu && cu.type) break; }
+              grp.push(u); j++;
+            }
+            return { grp, next: j };
+          };
+          const render = (grp, type, inner = "") => {
+            const head = grp[0];
+            const label = stripMd(head.text.trim().match(/^\*\*([^*]+?)\*\*/)[1]).replace(/:\s*$/, "");
+            const first = { ...head, tokens: marked.lexer(head.raw.replace(/^\s*\*\*[^*]+?\*\*\s*/, ""))[0]?.tokens || [] };
+            const body = first.tokens.length ? [first, ...grp.slice(1)] : grp.slice(1);
+            const hint = type === "expert" ? "(maximum protection, for experts)" : "(optional, for confident users)";
+            return `<details class="callout callout-${type}"><summary>${esc(label)} <span class="adv-hint">${hint}</span></summary>${parse(body)}${inner}</details>
+`;
+          };
+          const a = gather(i);
+          let inner = "";
+          let next = a.next;
+          if (c.type === "advanced") {
+            let k = next;
+            while (k < tokens.length && tokens[k].type === "space") k++;
+            const nc = k < tokens.length && tokens[k].type === "paragraph" ? classifyParagraph(tokens[k].text) : null;
+            if (nc && nc.type === "expert") { const e = gather(k); inner = render(e.grp, "expert"); next = e.next; }
           }
-          i = j - 1;
-          const label = stripMd(t.text.trim().match(/^\*\*([^*]+?)\*\*/)[1]).replace(/:\s*$/, "");
-          const first = { ...t, tokens: marked.lexer(t.raw.replace(/^\s*\*\*[^*]+?\*\*\s*/, ""))[0]?.tokens || [] };
-          const body = first.tokens.length ? [first, ...group.slice(1)] : group.slice(1);
-          out += `<details class="callout callout-advanced"><summary>${esc(label)} <span class="adv-hint">(optional, for confident users)</span></summary>${parse(body)}</details>\n`;
+          i = next - 1;
+          out += render(a.grp, c.type, inner);
           continue;
         }
         if (c.endsWithColon) {

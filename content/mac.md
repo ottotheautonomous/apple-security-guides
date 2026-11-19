@@ -33,7 +33,7 @@ Some steps end with a **Going further** box. It stays closed until you click it,
 >
 > Whenever this guide says "ask IT" or "contact IT," this is who to contact.
 >
-> **No IT department?** (For example, this is your own or a relative's Mac.) Wherever this guide says "ask IT", ask a family member or friend you trust instead. Skip the parts that only apply if IT sends you something, and the "Only if IT tells you to" part, apart from the one exception it names.
+> **No IT department?** (For example, this is your own or a relative's Mac.) Wherever this guide says "ask IT", ask a family member or friend you trust instead. Skip the parts that only apply if IT sends you something. The "Maximum protection" part is optional: most people don't need it, but on your own Mac you can turn those protections on yourself after reading the downsides.
 
 ## How to open System Settings
 
@@ -76,7 +76,7 @@ Tick each box as you go.
 - [ ] 21. Use a standard (non-admin) account day to day
 - [ ] 22. Set a lock screen message
 
-**Only if IT tells you to**
+**Maximum protection (ask IT first on work devices)**
 - [ ] 23. Lockdown Mode
 - [ ] 24. Advanced Data Protection for iCloud
 - [ ] 25. Security keys for your Apple Account
@@ -105,6 +105,15 @@ Tick each box as you go.
 - **Install urgent fixes the same day.** Apple lists its security fixes at **support.apple.com/100100**. When the notes for an update say Apple is aware the problem "may have been exploited", attackers are already using it. Install that update today instead of waiting for the weekend.
 - **Know when your Mac stops getting fixes.** Apple gives the full set of security fixes only to the newest macOS. Older versions get some fixes for a while, then none. If your Mac can't move to macOS 26, ask IT when it should be replaced, so you're not left on a Mac that no longer gets fixes.
 
+**Going even further:** For people who can't afford to be even one fix behind.
+
+- **Hear about fixes the day they ship.** Apple emails every security release on its free **security-announce** list (sign up at **lists.apple.com**). If you'd rather not subscribe, check **support.apple.com/100100** once a week. The cost is a few emails a month.
+- **Treat "may have been exploited" as an emergency.** Install that update within hours, not days. Until it's installed, don't open links or attachments from messages on this Mac. You'll have to stop work for a restart.
+- **Stay on the newest macOS, not just a patched older one.** Set yourself a rule: move to each new major version within about a month, once your key apps say they support it. Menus move and very old apps can stop working. On a work device, ask IT first.
+- **Plan your move off Intel Macs.** Apple has said macOS 26 is the last version for Macs with Intel chips. Do your most sensitive work on a Mac with an Apple chip (M1 or later). This costs money, so plan it rather than waiting for the fixes to stop.
+- **Confirm the fix really landed.** Click the **Apple menu > About This Mac** and compare the version number with the newest one listed at **support.apple.com/100100**. Automatic installs sometimes fail quietly.
+- **Keep test versions off this Mac.** In **System Settings > General > Software Update**, if you see **Beta Updates**, make sure it says **Off**. Test versions can have holes that aren't fixed yet.
+
 ---
 
 ## Must-do (everyone)
@@ -119,7 +128,7 @@ Tick each box as you go.
 3. Turn on all of these:
    - **Download new updates when available**
    - **Install macOS updates**
-   - **Install Security Responses and system files** (small, urgent security fixes that install quickly, often without a restart)
+   - **Install Security Responses and system files** (on macOS 26 Apple calls it **Install system data files and security updates**; small, urgent security fixes that install quickly, often without a restart)
 4. Click **Done**.
 
 **Part B: App updates from the App Store**
@@ -141,6 +150,14 @@ Tick each box as you go.
 - **Give apps from websites a monthly check.** Browsers and apps you downloaded yourself update separately. Once a month, open each one's **About** or **Check for Updates** menu (in Chrome: **three dots > Help > About Google Chrome**) and install what it finds. Then quit and reopen the app: most updates only take effect after a restart.
 - **Remove apps you no longer use.** An app you never open still needs updates, and abandoned apps stop getting them. Drag unused apps from **Applications** to the Trash. The trade-off: you'll need to download one again if you change your mind. On a work Mac, ask IT before removing anything you didn't install yourself.
 
+**Going even further:** Close the gaps automatic updates leave behind.
+
+- **Prefer the App Store version of an app.** App Store apps are fenced off from the rest of your Mac (this is called sandboxing) and all update through one switch. A few App Store versions have fewer features than the version from the maker's website.
+- **Keep an app inventory.** Write a short list of every app that didn't come from the App Store: where you got it and how it updates. Turn on each one's own automatic-update setting. Replace any app whose maker has stopped updating it. Allow about 20 minutes to make the list and 5 minutes a month to keep it.
+- **Restart on a schedule.** Quit and reopen your browsers every day or two, and restart the Mac once a week. Many updates only take effect after a restart, and a restart also clears some malware that lives only in memory. You'll reopen your windows afterwards.
+- **Check Apple's silent protections are current.** macOS quietly updates its built-in malware lists. **SilentKnight**, a free tool from **eclecticlight.co**, shows in one window whether those lists, your firmware and your main security settings are up to date. Check its page says it supports your macOS version. On a work device, ask IT first.
+- **Update the things that aren't apps.** Docks, monitors, keyboards, printers and your Wi-Fi router have their own updates, usually through the maker's app or website. Type the maker's address yourself. A failed firmware update can break an accessory, so don't unplug it halfway.
+
 ### 2. Turn on FileVault (disk encryption) and save your recovery key
 
 **Why this matters:** If your Mac is lost or stolen, FileVault scrambles everything on it so no one can read your files without your password. Without it, someone who steals your Mac has a much easier time getting at your files.
@@ -155,8 +172,8 @@ Tick each box as you go.
 3. If it says FileVault is already on, skip to "How to check it worked."
 4. Click **Turn On**. Enter your password if asked.
 5. You'll be asked how you want to be able to unlock your disk if you forget your password. What you see depends on your exact version of macOS:
-   - **On newer versions of macOS 26:** your Mac creates a recovery key and saves it in the **Passwords** app through iCloud Keychain (Apple's way of syncing your passwords between your Apple devices). It may also show you the key in a window called **Write Down Your Recovery Key**. Write it down or save it somewhere else as well (see below), then click **Done**.
-   - **On macOS 15 Sequoia or early macOS 26:** you'll see two choices:
+   - **On macOS 26 Tahoe:** your Mac creates a recovery key and saves it in the **Passwords** app through iCloud Keychain (Apple's way of syncing your passwords between your Apple devices). It may also show you the key in a window called **Write Down Your Recovery Key**. Write it down or save it somewhere else as well (see below), then click **Done**.
+   - **On macOS 15 Sequoia:** you'll see two choices:
      - **Allow my iCloud account to unlock my disk**: easiest. Your Apple Account can unlock your Mac if you forget your password.
      - **Create a recovery key and do not use my iCloud account**: your Mac shows you a code. You are fully responsible for keeping it safe.
      - Either is fine. If you're not sure, pick the iCloud option, *and* write down a recovery key if one is shown.
@@ -180,6 +197,15 @@ Tick each box as you go.
 - **Shut down, don't just close the lid, when the Mac is at risk.** While your Mac is asleep, the disk is still unlocked inside it. When it's fully shut down, FileVault locks everything until someone types the password. Shut down before you leave it in a car or hotel room, or carry it through airport checks. The trade-off: it takes a little longer to start.
 - **Don't look for a firmware password on newer Macs.** Macs with Apple chips (M1 and later) don't have one. The closest thing, **Recovery Lock**, can only be set by IT's device management. For you, FileVault plus Find My Mac (step 14) is the protection. Older Intel Macs do have a firmware password, but forgetting it can mean a trip to Apple with proof of purchase, so ask IT before setting one.
 
+**Going even further:** FileVault is only as strong as the password, the recovery key and the drives around it.
+
+- **Make the password match the lock.** Your login password is what unlocks the disk. Use six random words chosen with dice (**Online guide, step 9**, Going further). **Forget it and lose the recovery key, and your files are gone for good.** Keep the recovery key on paper before you change anything.
+- **Replace a recovery key that may have been seen.** If the key ever sat in a photo, an email or a notes app, open **Terminal**, type `sudo fdesetup changerecovery -personal` and press Return. Type your Mac password, and your account name and password if it asks. The old key stops working and a new one appears. **Write the new key down before you close the window**, then test it with the check in Going further. Afterwards, open the **Passwords** app and check that any FileVault key saved there matches the new one. If it doesn't, rely on your paper copy. Close Terminal afterwards.
+- **Know where copies of the key live.** On macOS 26, a copy is usually saved in the **Passwords** app (when iCloud Keychain is on) and syncs to your other Apple devices. Anyone who knows your Mac password or iPhone passcode can read it there, so those two codes guard your disk too. The strongest setup is paper in two locked places, one of them away from home.
+- **Check who else can unlock the disk.** In Terminal, type `sudo fdesetup list` and press Return. Every name listed is another password that opens the disk at startup. If one shouldn't be there, deal with that account through step 6. Don't delete it from Terminal.
+- **Encrypt every external drive and USB stick.** Control-click the drive in Finder and choose **Encrypt**. If that isn't offered, erase it in **Disk Utility** with the format **APFS (Encrypted)**, which deletes everything on it. Windows PCs can't read these drives, and a forgotten drive password means the contents are lost.
+- **Add a second lock for your most sensitive files.** In **Disk Utility**, choose **File > New Image > Blank Image**, pick **256-bit AES** encryption and the **sparse bundle** format, and don't let it save the password in your keychain. The files stay locked even while your Mac is unlocked, until you open the image. Eject it when you're done. **If you forget that password, nobody can recover it**, so store it in your password manager and on paper.
+
 ### 3. Turn on the firewall and stealth mode
 
 **Why this matters:** On public Wi-Fi (cafés, hotels, airports) other people's devices can try to connect to your Mac. The firewall blocks connections you didn't ask for. Stealth mode makes your Mac harder to find on the network in the first place.
@@ -200,6 +226,14 @@ Tick each box as you go.
 - **Block everything coming in on risky Wi-Fi.** In **System Settings > Network > Firewall > Options**, turn on **Block all incoming connections**. Browsing, email and most video calls still work. The trade-off: Screen Sharing, File Sharing and some apps that other devices connect to stop working, so you may want to turn it off again at home.
 - **Tidy the allowed list.** The same **Options** window lists apps you've allowed to accept connections. Select any you no longer use and click the **minus (–)** button. If one is needed, the Mac will simply ask again. Ask IT about names you don't recognise before removing them.
 - **Watch what goes out, too.** The built-in firewall only checks connections coming in. A free tool called **LuLu** (from Objective-See, at objective-see.org) asks you each time an app tries to connect out, which can catch software quietly sending your data away. **Little Snitch** does the same and costs money. The trade-off: lots of questions in the first few days, and blocking the wrong thing can break updates. On a work Mac, ask IT first.
+
+**Going even further:** Control what leaves your Mac, and which networks it ever touches.
+
+- **Run an outbound firewall in strict mode.** If you install **LuLu** or **Little Snitch** (Going further), don't let setup pre-approve the apps already on your Mac. Make each one ask once. Little Snitch can also keep stricter rules for public Wi-Fi than for home. Expect a week of questions, and note that blocking Apple's own services can break updates and iCloud. If you're unsure about an Apple item, allow it. On a work device, ask IT first.
+- **Make every downloaded app ask before it accepts connections.** In **System Settings > Network > Firewall > Options**, turn off **Automatically allow downloaded signed software to receive incoming connections**. Leave the built-in software switch on. You'll see more pop-ups after installing apps.
+- **Make your Mac harder to track on public networks.** In **System Settings > Wi-Fi**, click **Details** next to a public network. Set **Private Wi-Fi address** to **Rotating** and turn off automatic joining. Remove old hotel and café networks from the known-networks list (look under **Advanced**). You'll need the password to rejoin, and some networks that recognise your device need **Fixed** instead.
+- **Skip unknown Wi-Fi altogether.** Use your iPhone's **Personal Hotspot**. If you must use a network you don't trust, a reputable VPN such as **Mullvad** or **Proton VPN** hides your traffic from that network. The VPN company can then see where you connect instead, and a VPN can clash with IT's web filter (step 20).
+- **Harden your home router.** In the router's settings, turn off **UPnP** (which lets devices open doors in the router by themselves), **WPS** and remote administration. Put this Mac on a different network from smart gadgets (**Online guide, step 22**, Going further). Some game consoles and printers may need settings changed back.
 
 ### 4. Lock the screen quickly and use a strong password
 
@@ -241,6 +275,15 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Use a login password you use nowhere else.** Your Mac password should be different from your Apple Account password and from every website password. If one of them leaks, the others stay safe. Your password manager can remember them for you.
 - **Shorten the timer.** In **System Settings > Lock Screen**, set both **Turn display off** options to **For 2 minutes** or **For 5 minutes** instead of 10. A shorter gap gives someone less time at an unlocked Mac. The trade-off: the screen goes dark while you're reading, so you'll unlock more often. Touch ID makes that quick.
 
+**Going even further:** Make the locked screen reveal nothing and open only for your password.
+
+- **Turn off fingerprint unlock when someone could force your finger.** In **System Settings > Touch ID & Password**, turn off the option to use Touch ID to unlock your Mac. If you have no time, shut the Mac down: it then needs the password. You'll type your password at every unlock.
+- **Turn off Apple Watch unlock.** In the same place, turn off the **Apple Watch** option. Otherwise an unlocked watch near the Mac can open it. You lose a little convenience.
+- **Hide notifications on the locked screen.** In **System Settings > Notifications**, set **Show previews** to **When Unlocked** or **Never**. Turn off **Allow notifications when the screen is locked** and **Allow notifications when mirroring or sharing the display**. Sign-in codes and private messages then can't be read over your shoulder or on a projector. You'll miss alerts until you unlock.
+- **Silence Siri on the locked screen.** In System Settings, open the Siri settings and turn off **Allow Siri when locked**. Nobody can then ask your locked Mac to do things. You'll have to unlock before you use Siri.
+- **Limit iPhone Mirroring.** This feature lets your Mac control your iPhone. If you use it, open the **iPhone Mirroring** app's settings and choose **Ask Every Time**. If you don't use it, remove this Mac on your iPhone in **Settings > General > AirPlay & Continuity > iPhone Mirroring**. You can set it up again later.
+- **Guard the password itself.** Type it only when nobody and no camera can see your hands. A stick-on privacy filter stops people beside you reading the screen. The screen looks a little dimmer.
+
 ### 5. Turn off the guest account and automatic login
 
 **Why this matters:** A guest account lets anyone use your Mac without a password. Automatic login means anyone who turns on your Mac gets straight into your account.
@@ -266,6 +309,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Turn off password hints.** In the same place, turn off **Show password hints**. A hint can help someone who knows you guess your password. The hint you added in step 4 then won't show, so make sure the password is saved in your password manager first.
 - **Lend your Mac with its own account.** If someone uses your Mac often, give them their own **Standard** account in **System Settings > Users & Groups > Add User**, not access to yours. The trade-off: every account added this way can also unlock the Mac at startup, so only add people you trust, and remove the account when they no longer need it.
 
+**Going even further:** Make this a one-person Mac, and know what separate accounts can't do.
+
+- **Close the guest door to shared folders too.** In **System Settings > Users & Groups**, click the **i** next to **Guest User** and turn off **Allow guest users to connect to shared folders**. This only matters if File Sharing is ever switched on, and it costs you nothing.
+- **Remove accounts nobody needs.** Each extra account is another password that can unlock the Mac at startup. Copy any files worth keeping, then delete accounts that are truly finished with. If you delete the home folder, its files are gone for good. On a work device, ask IT first. For accounts you don't recognise, follow step 6 and don't delete them yourself.
+- **Know the limit of separate accounts.** Accounts keep honest people apart, but an administrator, or malware with admin rights, can read every account's files. For real separation, use a separate device.
+- **Give visitors their own device and network.** Give them an old iPad on your router's **Guest** Wi-Fi rather than an account on your Mac. That's one more device to keep updated.
+- **Travel light.** For a border crossing or a risky trip, take a Mac that holds only what the trip needs: a spare Mac, or yours freshly erased and signed in to as little as possible. Setting it up and restoring it afterwards takes hours, and you need a tested backup (step 19) first.
+
 ### 6. Check for unknown accounts
 
 **Why this matters:** An extra account you didn't create, especially an "Admin" one, could let someone else control your Mac. It's rare, but worth a 30-second look.
@@ -286,6 +337,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **See accounts the settings page doesn't show.** Open **Terminal**, type `dscl . list /Users | grep -v '^_'` and press Return. You'll see **daemon**, **nobody** and **root**, which every Mac has, plus your own accounts. Anything else you don't recognise: take a screenshot and ask IT. Don't delete it yourself.
 - **Check who has admin rights.** In Terminal, type `dscl . -read /Groups/admin GroupMembership` and press Return. It should list **root** and only the admin accounts you know about. An unknown name here is worth a call to IT straight away. Type these commands exactly as shown here, then close Terminal. Don't type anything else there, and never paste a command someone else sends you.
 - **Check the devices on your Apple Account.** Open **System Settings**, click **your name**, and scroll down to the list of devices. If you see one that isn't yours, click it and choose **Remove from Account**, then change your Apple Account password.
+
+**Going even further:** Look for ways in that survive a password change.
+
+- **Check for a stored remote key.** In Finder, choose **Go > Go to Folder** and type **~/.ssh**. If the folder doesn't exist, that's the normal answer. If it holds a file called **authorized_keys** that you didn't create, another computer may be able to log in without a password. Take a screenshot and ask IT. Don't delete it yourself.
+- **Read the login history.** Open **Terminal**, type `last` and press Return. Each line is a login. A short list, or lines that only say **console**, **ttys**, **reboot** or **shutdown**, is normal. A line showing an internet address (numbers such as 203.0.113.5) means someone logged in from another computer. If you never set that up, tell IT. Close Terminal afterwards.
+- **Audit your Apple Account from the web.** Type **account.apple.com** yourself and sign in. Check the devices, phone numbers and email addresses listed. Under **App-Specific Passwords**, revoke any you don't use. These are passwords for apps that can't do two-factor, such as some older mail and calendar apps. An old mail app using one will stop working until you make a new one.
+- **Check who you share with.** Open **System Settings > Family**, and the shared groups in the **Passwords** app. People listed there may see your location, purchases or shared passwords. Removing someone can be noticed, so if you feel unsafe, read Apple's **Personal Safety User Guide** first.
+- **Clean up from a clean device.** If you find anything wrong, change your Apple Account and email passwords from a different device you trust, not this Mac, because it may be the thing that's compromised. On a work device, ask IT first.
 
 ### 7. Turn off sharing services you don't use
 
@@ -315,6 +374,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **If you need a sharing service, narrow it.** Click the **i** next to that service (for example **Screen Sharing** or **Remote Login**). Where you see **Allow access for**, choose **Only these users** and add just yourself. Turn the service off again when you're done.
 - **Look again after installing support tools.** Remote-support and file-sync apps sometimes switch sharing services on during setup. After installing one, reopen **General > Sharing** and check nothing has turned on that you didn't expect.
 
+**Going even further:** Check the doors themselves, not just the switches.
+
+- **See every door that's open.** Open **Terminal**, type `sudo lsof -iTCP -sTCP:LISTEN -n -P` and press Return, then enter your Mac password. (If you've switched to a standard account (step 21), log in to the admin account first, because a standard account can't use sudo.) Each line is a program waiting for connections. A few Apple names (such as **rapportd**) are normal. If a name is unfamiliar, take a screenshot and ask IT. Close Terminal afterwards. The list looks technical: you're only looking for names you don't know.
+- **Never open doors in your router for this Mac.** Don't set up port forwarding (a router rule that lets the internet reach a device at home). If you must reach your Mac from elsewhere, use a private-network tool such as **Tailscale**, set up carefully. It's one more account to protect with a passkey or security key. On a work device, ask IT first.
+- **Audit paired Bluetooth devices.** In **System Settings > Bluetooth**, remove any keyboard, headset or gadget you don't own or no longer use. You'd have to pair a removed device again.
+- **Tighten any service you must keep.** For **File Sharing**, share one folder only and set **Everyone** to **No Access**. For **Remote Login**, turn off full disk access for remote users. Other people may need you to add them by name.
+- **Re-check after every big macOS upgrade.** Upgrades and new apps can switch services on. Reopen **General > Sharing** after each one. It takes two minutes.
+
 ### 8. Turn off AirPlay Receiver and set AirDrop to Contacts Only
 
 **Why this matters:** AirPlay Receiver lets nearby devices send video and sound to your Mac. AirDrop set to "Everyone" lets strangers on a train send you pictures or files out of the blue.
@@ -334,6 +401,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **If you turn AirPlay Receiver back on, lock it down.** In **System Settings > General > AirDrop & Continuity**, set **Allow AirPlay for** to **Current User**. Then only devices signed in to your own Apple Account can use it. Also turn on **Require password** and set one. Turn it off again when you're done. The trade-off: guests can't show their screen on your Mac.
 - **Turn AirDrop off when you're not using it.** Next to **AirDrop**, choose **No One**. Nobody can send you anything, not even contacts. Switch it back to **Contacts Only** when you want to receive something. The trade-off: one extra step each time.
 
+**Going even further:** Cut the wireless links between your devices that you don't truly need.
+
+- **Turn off Handoff.** In **System Settings > General > AirDrop & Continuity**, turn off **Allow Handoff between this Mac and your iCloud devices**. A password you copy on one device then no longer appears on your others. You lose copy-and-paste between devices and picking up tasks from your iPhone.
+- **Turn off Universal Control.** In **System Settings > Displays > Advanced**, turn off the option that lets your pointer and keyboard move between nearby Macs and iPads. Then no other device can steer this one. You lose shared keyboard and mouse.
+- **Go radio-silent in hostile places.** At a protest, a border or a crowded conference, turn off both Wi-Fi and Bluetooth in **Control Center**. AirDrop needs both, and AirPlay needs Wi-Fi, so neither can reach you. Wireless keyboards, mice and headphones stop too, so use a cable.
+- **Treat anything AirDropped as a download.** A contact's account can be hacked. Preview the file first and check what it really is (steps 15 and 17). This adds a few seconds.
+- **Be careful where you send your screen.** Showing your screen on a hotel or meeting-room TV can also show your notifications there. Use a cable where you can, and check that notifications stay off while mirroring (step 4, Going even further).
+
 ### 9. Only allow apps from the App Store and known developers
 
 **Why this matters:** This stops random, unchecked apps from running. It's one of the main things that protects Macs from fake "video player" or "cleaner" apps that are really malware.
@@ -351,6 +426,13 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Check who made an app before you trust it.** Open **Terminal**, type `spctl -a -vv ` (with a space at the end), drag the app from **Applications** into the Terminal window, and press Return. A safe app says **accepted**, and the **origin** line names the company you expected (App Store apps show Apple). If it says **rejected**, or names someone else, don't open it. Ask IT. Then close Terminal. Don't type anything else there.
 - **Go stricter with "App Store" only.** Choosing **App Store** blocks every new app from a website. The trade-off: to install something like Chrome or Zoom later, you'll have to switch back to **App Store & Known Developers**, and it's easy to forget to switch again afterwards.
 - **Never paste commands a website or installer gives you.** A common trick is a page that says "to fix this" or "to verify you're human", copy this line into **Terminal**. That line installs malware and skips every check in this step. No real website needs you to do that. Close the page and ask IT. Only type Terminal commands from this guide or from IT.
+
+**Going even further:** Verify software before it runs, and run doubtful software somewhere that doesn't matter.
+
+- **Check the download's fingerprint.** Some makers publish a "SHA-256 checksum" (a fingerprint of the genuine file). In **Terminal**, type `shasum -a 256 ` (with a space at the end), drag the downloaded file in, and press Return. The result must match the maker's value exactly. You can also paste the result into the search box at **virustotal.com**, which checks it against many security companies without uploading your file. Only some makers publish a checksum.
+- **Look inside installers before running them.** **Suspicious Package** (free, from mothersruin.com) opens a **.pkg** installer and shows who signed it, what it will install and what scripts it runs. The details are technical. If the signer isn't the company you expected, stop.
+- **Make "Open Anyway" a hard no.** When macOS blocks an app, **Privacy & Security** offers an **Open Anyway** button. Make it a rule that an app needing that button doesn't get installed. You'll go without a few small tools.
+- **Try unknown software inside a throwaway Mac.** **UTM** (free from its own website, getutm.app; the App Store copy is paid) runs a second, separate copy of macOS in a window, called a virtual machine. Running macOS inside it needs a Mac with an Apple chip. Test doubtful apps there and delete the copy afterwards. It needs tens of gigabytes of space and some patience, and it isn't a perfect wall. On a work device, ask IT first.
 
 ### 10. Require an admin password for system settings
 
@@ -370,6 +452,13 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Make this password different from your daily one.** If your everyday account is an admin, this step asks for your own password, which someone who watched you type it already knows. Step 21 sets up a separate admin account so this lock really needs a second password. The trade-off: you type that admin password a little more often.
 - **Approve new USB devices (Mac laptops with Apple chips).** In **System Settings > Privacy & Security**, check that **Allow accessories to connect** says **Ask for New Accessories**, not **Always Allow** (called **Always** on some versions). Then an unknown cable or USB stick can't swap data with your Mac until you click **Allow**. It can still charge. The trade-off: you approve each new dock or drive once. Desktop Macs don't have this setting.
 - **If you think someone is targeting you personally,** read step 23 (Lockdown Mode) and talk to IT. It goes much further than the settings here.
+
+**Going even further:** Stop settings drifting, and enforce them properly if you run the office.
+
+- **Re-audit after every major macOS upgrade.** Big upgrades add features that are switched on by default, and sometimes change settings. After each one, re-walk steps 3, 7, 8, 11 and 12. Allow about 15 minutes.
+- **Use the professional checklist.** The Center for Internet Security publishes a free **CIS Benchmark for macOS** at **cisecurity.org** (it asks you to sign up). It lists more than a hundred settings in two levels of strictness, and has a version for macOS 26. It's long and technical. Change one thing at a time, and write down what you changed so you can undo it.
+- **Lock settings with a profile you write yourself.** **iMazing Profile Editor** (free) builds a settings file that can hold some options in place, such as screen-lock rules. Install it as in step 20. On a Mac that isn't company-managed, many restrictions are ignored, and anyone with the admin password can remove the profile. A mistake can be undone by removing the profile in **Device Management**.
+- **If you run the office, get real management.** With **Apple Business** (Apple's free service that replaced Apple Business Manager in 2026, with basic device management built in), or a management service such as **Jamf Now** or **Mosyle** connected to it, settings are enforced, a lost Mac can be locked, and **Recovery Lock** becomes available. The management account then controls every Mac, so protect it with security keys (step 25). On a work device this is IT's decision, so ask IT first.
 
 ### 11. Review which apps can see your screen, keyboard, files, camera and microphone
 
@@ -402,6 +491,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Share less with Apple and Siri.** In **Privacy & Security > Analytics & Improvements**, you can turn off **Share Mac Analytics** and **Improve Siri & Dictation**. Your Mac and Siri keep working the same. It just sends less about how you use them.
 - **Make it a habit.** Repeat this check a few times a year, and right after installing new software. Most apps ask for one of these permissions on first use, and it's easy to click **Allow** without thinking.
 
+**Going even further:** Shrink these lists to almost nothing, and get told when the camera or microphone wakes up.
+
+- **Get an alert every time the camera or microphone turns on.** **OverSight**, free from **objective-see.org**, pops up and names the app each time. Video calls will also trigger it, so you need to read the alerts. Check it supports your macOS version. On a work device, ask IT first.
+- **Start from zero.** In **Terminal**, `tccutil reset Camera` and `tccutil reset Microphone` clear those lists. `tccutil reset All` clears every list in this step. Each app must then ask again, and you approve only what you use. Security, backup and remote-support tools stop working until you approve them again. Close Terminal afterwards.
+- **Empty the Developer Tools list.** In **System Settings > Privacy & Security**, open **Developer Tools**. Apps listed there may run software that skips some of the Mac's safety checks. Unless you write software, nothing should be switched on.
+- **Keep Full Disk Access tiny.** **Terminal** and web browsers shouldn't have **Full Disk Access** on a normal person's Mac. Switch them off there. Ask IT about backup and security tools before touching those.
+- **For sensitive conversations, trust hardware.** On Mac laptops with Apple chips, closing the lid physically disconnects the built-in microphone. External microphones, webcams and monitors with cameras aren't covered, so unplug them. Apple warns that a thick camera cover can crack the display when the lid closes. For the most private talks, leave the Mac and phone in another room.
+
 ### 12. Review apps that start by themselves
 
 **Why this matters:** Some apps (and some nasty software) set themselves to run every time you log in, quietly, in the background. A quick look shows you what's running without you knowing.
@@ -424,6 +521,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Get a warning the moment something sets itself to start.** **BlockBlock**, also free from **objective-see.org**, pops up when an app tries to add itself to your start-up list, and lets you block it. The trade-off: it also pops up during normal installs and updates, so you need to read each alert, and it needs **Full Disk Access** to work. On a work Mac, ask IT first.
 - **Don't swipe away "Background Items Added".** Your Mac shows this notification when an app adds itself to run in the background. If you just installed that app, it's normal. If you didn't install anything, open **System Settings > General > Login Items & Extensions** and check the list.
 - **Peek in the folders where start-up files live.** In Finder, choose **Go > Go to Folder** and type **/Library/LaunchAgents**, then **/Library/LaunchDaemons**, then **~/Library/LaunchAgents**. Names like **com.google...** or **com.microsoft...**, from companies whose apps you use, are normal. Don't move or delete anything here yourself: ask IT about names you don't recognise.
+
+**Going even further:** Keep a record of what's normal, and know when to stop cleaning and start again.
+
+- **Save a dated baseline.** When your Mac is in a known-good state, run **KnockKnock** (Going further) and save the scan with the date. Later, its compare button shows what has changed since that scan. For a built-in record, type `sudo sfltool dumpbtm > ~/Desktop/startup-list.txt` in **Terminal**. After a scare, run it again and look for new names. The lists are long. You're only comparing them, not deleting anything.
+- **Check the most powerful add-ons.** In **System Settings > General > Login Items & Extensions**, look in **Extensions** for the groups about **Endpoint Security**, **Network** and **Driver** extensions. These can see or filter everything on the Mac. Only tools you chose (a firewall, a VPN, security software) belong there. In Terminal, `systemextensionsctl list` shows the same items. On a work device, ask IT first.
+- **Check for timed jobs.** In Terminal, type `crontab -l` and press Return. On most people's Macs it says there is **no crontab**. If it lists anything you didn't set up, take a screenshot and ask IT. Close Terminal afterwards.
+- **If something keeps coming back, start fresh.** First change your key passwords from a different device. Then use **System Settings > General > Transfer or Reset > Erase All Content and Settings**, set the Mac up as new, reinstall apps from their makers, and copy back documents only. Don't restore apps or settings from a backup. **This erases everything**, so confirm your backup works first (step 19). It takes most of a day.
+- **If you think you're being targeted on purpose, don't erase yet.** Erasing destroys the evidence experts need. Stop using the Mac for anything sensitive and get expert help first (step 23 says who).
 
 ### 13. Review browser extensions
 
@@ -458,6 +563,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Fewer is safer.** Extensions are sometimes sold to new owners who quietly add tracking or worse. If an extension suddenly asks for new permissions after an update, or you can't remember why you have it, remove it. Most people only need their password manager.
 - **On a work Mac, ask IT before adding any new extension.** Some companies only allow approved ones.
 
+**Going even further:** Make the browser you bank in as plain as possible.
+
+- **Aim for zero extensions where money is involved.** Safari fills in passwords from the **Passwords** app without any extension. Use an extension-free Safari profile, or a separate browser, only for banking. The strongest version is a separate device used for nothing else (**Online guide, step 18**, Going further). You'll switch windows or devices more often.
+- **Check nobody "manages" your browser.** In Chrome, type **chrome://management** in the address bar. In Edge, type **edge://management**. In Firefox, type **about:policies**. On a personal Mac these should say the browser isn't managed and has no policies. Malware sometimes sets policies that force an extension to stay installed. On a work device, policies from IT are normal.
+- **Protect the account that syncs your browser.** Chrome, Edge and Firefox copy extensions and settings through your Google, Microsoft or Firefox account. Someone who gets into that account can add an extension to your browser. Give it a passkey or security key (**Online guide, step 16**). If you turn off extension syncing instead, you set up each computer by hand.
+- **Harden Safari itself.** In **Safari > Settings > Advanced**, set **Use advanced tracking and fingerprinting protection** to **in all browsing**, and leave **Show features for web developers** unticked. A few sites may load oddly. You can reload a single page with less protection.
+- **Choose reviewed extensions only.** In Firefox's add-on store, a **Recommended** badge means Mozilla's staff reviewed it. In any browser, be wary of extensions that can "read and change all your data on all websites". You'll have fewer extensions to choose from.
+
 ### 14. Turn on Find My Mac
 
 **Why this matters:** If your Mac is lost or stolen, you can see where it is, make it play a sound, lock it or erase it from another device. It also stops a thief from simply wiping and reusing it.
@@ -483,6 +596,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Save your serial number somewhere else.** Click the **Apple menu > About This Mac** and copy the **Serial number** into your password manager, with a photo of the receipt. Police, insurers and IT will ask for it.
 - **Check Activation Lock is really on.** Hold **Option**, click the **Apple menu**, choose **System Information**, then click **Hardware**. **Activation Lock Status** should say **Enabled**.
 
+**Going even further:** Protect the account behind Find My, and rehearse the bad day.
+
+- **Lock down the account that controls it.** Anyone who gets into your Apple Account can see where this Mac is and erase it remotely. Add security keys (step 25) and check who shares your location in the **Find My** app under **People**. If someone may be tracking you, read Apple's **Personal Safety User Guide** before changing anything, because changes can be noticed.
+- **Make sure it can be found offline.** In the same **Find My Mac** settings you opened in this step (under **See All**), check **Find My network** is on as well. Other people's Apple devices can then report your Mac's location privately, even without Wi-Fi. It costs you nothing.
+- **Put a tracker in the bag.** An **AirTag** in the laptop sleeve gives a second way to find it. It costs the price of an AirTag. A thief's iPhone or Android phone will eventually warn them a tracker is travelling with them, so it buys you time, not a guarantee. Only you see where it is, unless you share it with people you trust in the **Find My** app (**Items**).
+- **Decide your erase rule now.** If the Mac is taken while awake or unlocked, or the thief may know your password, choose **Erase This Device** straight away and change your passwords from another device. If it was shut down with FileVault and a strong password, use **Mark As Lost** first. Either way, keep it on your account. After erasing, you usually can't see where it is any more.
+- **Do a no-devices drill.** On someone else's device, in a private window, go to **icloud.com/find** and check you can sign in without your Mac or phone. If your account uses security keys, take one with you. When you mark an older Intel Mac as lost, you create a number code: write it down, because you'll need it if the Mac comes back. A Mac with Apple silicon unlocks with your Apple Account password instead. Sign out afterwards.
+
 ### 15. Stop Safari opening downloads automatically
 
 **Why this matters:** By default Safari opens some downloaded files (like PDFs and zip files) by itself. Turning this off means nothing opens until you choose to open it.
@@ -501,6 +622,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Look before you open.** Select a downloaded file in Finder and press the **Space bar**. This shows a preview (Apple calls it Quick Look) without opening it in an app. If a "PDF" won't preview, or turns out to be an app, delete it.
 - **Check where a file came from.** Select the file in Finder, choose **File > Get Info**, and look at **Where from**. If an "invoice" came from a web address you don't recognise, don't open it. Not every file shows this line.
 - **Never paste a command a website gives you.** A common Mac trick is a fake "I'm not a robot" or install page that tells you to open **Terminal** and paste something. The **Staying safe online guide, step 7** shows what it looks like.
+
+**Going even further:** Assume a file from a stranger is hostile until proven otherwise.
+
+- **Turn risky documents into safe copies.** **Dangerzone**, free from the Freedom of the Press Foundation (dangerzone.rocks), rebuilds a PDF, Office file or image inside a sealed box and hands back a clean PDF. It's slow, needs extra software installed (its site says what), and the result is less editable. On a work device, ask IT first.
+- **Open unknown files somewhere that doesn't matter.** Use the virtual machine from step 9, or an iPhone or iPad, where apps are more tightly fenced. Even a Quick Look preview has to read the file. If you're being targeted and a file is truly unexpected, don't preview it. Phone the sender first.
+- **Never remove a download's safety tag.** Downloads carry a hidden "quarantine" tag that triggers your Mac's checks. Any instruction to "fix a damaged app" with a Terminal command containing **xattr** or **spctl** is a trick to strip that tag. Close the page.
+- **Block macros in Office.** Macros are small programs inside documents. In Word or Excel, open the **Word** (or **Excel**) menu, then **Preferences** (called **Settings** in some versions), then **Security**, and choose **Disable all macros without notification**. Spreadsheets that rely on macros stop working until you change it back.
+- **Stop Mail loading remote content.** In **Mail > Settings > Privacy**, untick **Protect Mail Activity**, then tick **Hide IP Address** and **Block All Remote Content**. Nothing in an email is then fetched until you click **Load Content**. The **iPhone guide, step 27** does the same on your iPhone. Emails look bare until you load them.
 
 ### 16. Remove unknown profiles
 
@@ -524,6 +653,14 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Check your iPhone too.** Scammers who get one device often try the other. The **iPhone guide, step 13a** shows where profiles live there.
 - **Look again after a scare.** If someone "helped" you over the phone, or you installed something from an email or pop-up, repeat this step and step 12 the same day.
 
+**Going even further:** Check the deeper places where someone can redirect or read your traffic.
+
+- **Confirm the Mac isn't secretly managed.** In **Terminal**, type `profiles status -type enrollment` and press Return. On a personal Mac, both lines should say **No**. A **Yes** means an organisation can control it. On a work device that's normal. On a personal or second-hand Mac, stop and get help.
+- **Check for extra trusted certificates.** A certificate you've been tricked into trusting can let someone read your encrypted web traffic. Search for **Keychain Access** with Spotlight, open it, click **login**, then the **Certificates** tab, then do the same for **System**. An item with a small blue **+** on its icon has been specially trusted. If neither you nor IT added it, take a screenshot and ask before deleting it. Deleting the wrong one can break work tools.
+- **Check where web addresses get looked up.** In **System Settings > Network > Wi-Fi > Details > DNS**, you should see your router (often starting 192.168, 10 or 172), your internet provider's addresses (sometimes long ones with colons), or a service you chose. In Terminal, `cat /etc/hosts` should show only a few lines mentioning **localhost** and **broadcasthost**. Ask IT about anything else. Close Terminal afterwards.
+- **Vet a second-hand Mac before you trust it.** Erase it yourself with **Erase All Content and Settings** before first use. If setup shows a **Remote Management** screen, a company still owns it, so return it. This takes an hour.
+- **Treat an unknown profile as a symptom.** If one appeared after a scam call or a pop-up, removing it isn't the cure. Work through step 12's fresh-start advice. On a work device, ask IT first.
+
 ### 17. Show file extensions in Finder
 
 **Why this matters:** A file named "Invoice.pdf" could secretly be "Invoice.pdf.app", which is a program, not a document. Showing the full name helps you spot fakes.
@@ -542,6 +679,13 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Show what kind of file it really is.** In a Finder window, choose **View > as List**. If there's no **Kind** column, Control-click a column heading and tick **Kind**. A real document says something like **PDF document**. If it says **Application** and you expected a document, don't open it.
 - **See where a file really is.** Choose **View > Show Path Bar**. The bar at the bottom shows which folder or disk a file is in. If a "document" turns out to be on a disk you just downloaded, rather than in your Downloads folder, be careful before opening it.
 - **Tidy up installers.** After installing an app, eject the installer (the **.dmg** disk in the Finder sidebar) and move the **.dmg** file to the Trash. Old installers left in Downloads are easy to open by mistake later.
+
+**Going even further:** Don't trust the name or the icon; ask the Mac what the file really is.
+
+- **Ask the Mac directly.** In **Terminal**, type `file ` (with a space at the end), drag the file in, and press Return. A real PDF says **PDF document**. A reply mentioning **executable**, **script** or **directory** (apps are really folders) when you expected a document means don't open it. **Zip archive** is normal for a .zip and for some Word or Excel files; if unsure, also check the **Kind** column (Going further). Close Terminal afterwards. This adds a few seconds per file.
+- **Know which endings are programs.** These can all run things or change settings: **.app**, **.pkg**, **.dmg**, **.command**, **.terminal**, **.scpt**, **.workflow**, **.jar**, **.mobileconfig**, **.inetloc**. Office files ending in **m** (such as **.docm** and **.xlsm**) contain macros. Don't open any of these from a message unless you asked for it.
+- **Show hidden files in a download.** Inside a downloaded disk image or unzipped folder, press **Command + Shift + .** (full stop). Hidden items appear greyed out. An "invoice" that comes with hidden programs is a trap. Press the same keys again to hide them, or your own folders will look cluttered.
+- **Distrust names that look right.** File names can use lookalike letters, long gaps or text that reads backwards to hide the true ending. The **Kind** column (Going further) and the `file` check above ignore those tricks, so rely on them rather than on the name.
 
 ### 18. Check your Mac's built-in protection is on
 
@@ -566,6 +710,14 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 - **Know what's not there.** Newer Macs with Apple silicon don't have the old "firmware password". The closest feature, **Recovery Lock**, can only be set by a company's management system. Your login password, FileVault (step 2) and Find My (step 14) are what protect this Mac. On an older Intel Mac, ask IT whether they want a firmware password.
 - **Make every accessory ask first (Mac laptops with Apple silicon).** In **System Settings > Privacy & Security**, find **Allow accessories to connect** and choose **Ask Every Time** (on some versions **Always Ask**). Never choose **Always Allow**. A cable or gadget plugged in while you're away then can't connect until you approve it, even one you've used before. The trade-off: you approve your dock, hub or backup drive each time. Desktop Macs don't have this setting.
 - **For people at higher risk, there's Lockdown Mode.** It's step 23, and only for when IT tells you to.
+
+**Going even further:** Verify the deepest protections, and know how to rebuild trust in a Mac that left your control.
+
+- **Check everything in one window.** **SilentKnight** (free, from **eclecticlight.co**) reports System Integrity Protection, startup security, the system seal, firmware and Apple's malware lists together. It only reads settings unless you ask it to fetch updates. Pick the version its site lists for your Mac: version 3 is for Apple silicon, and the older 2.x line still covers Intel Macs up to macOS 26. On a work device, ask IT first.
+- **Check the system's seal.** macOS keeps its core files on a sealed, read-only volume. In **Terminal**, type `csrutil authenticated-root status` and press Return. It should say **enabled**. If it doesn't, tell IT and don't try to fix it. Close Terminal afterwards.
+- **Treat a Mac that left your control as untrusted.** This applies if it was taken at a border, kept overnight by a repair shop you don't know, or left in a hotel room while you're being targeted. Shut it down before any such moment. Afterwards, repeat this step at least. Taking the Mac everywhere is a nuisance, but it's the price of this level of protection.
+- **Do the deepest reset.** If this Mac has Apple silicon (or is an Intel Mac with the T2 chip), you can restore its firmware and system completely, using a second Mac running macOS 14 or later and a USB-C cable that carries both data and charging (not a Thunderbolt 3 cable). Apple's article "How to revive or restore Mac firmware" gives the exact steps, and an Apple Store can do it for you. **Restore erases everything**, so confirm your backup works (step 19) and that you know your Apple Account password first.
+- **Buy from Apple or an authorised seller.** Decline any Mac that arrives "set up for you". Erase it and set it up yourself.
 
 ### 19. Turn on encrypted Time Machine backups
 
@@ -600,6 +752,14 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 - **Unplug the drive after the backup finishes.** Harmful software that scrambles your files can also reach a drive that's always plugged in. Eject it in Finder, then unplug it. Plug it back in at least once a week, as in the main step.
 - **iCloud Drive isn't a backup.** If you delete or damage a file, iCloud copies that change to all your devices. A paid online backup service is a good offsite copy, but on a work Mac ask IT first: company files may not be allowed there.
 
+**Going even further:** Build backups that survive fire, theft, ransomware and your own mistakes at the same time.
+
+- **Rotate three drives, and keep one cold.** One drive is at home in use. One is offsite. A third is updated every month or two and otherwise never plugged in. If harmful software damages files slowly and you notice late, the cold copy is older than the damage. Encrypt all three. This means three drives and a calendar reminder.
+- **Add a second method.** Use a different tool for one copy, such as **Carbon Copy Cloner** (paid) or **SuperDuper** (free for basic copies, paid for scheduling), so a fault in one tool can't ruin every backup. For an offsite copy that updates itself, **Arq** (paid) encrypts your files with your own password before uploading. **Backblaze** (a paid subscription) can also use a private key you set. **If you lose that password or key, the backup can't be opened by anyone.** On a work device, ask IT first.
+- **Back up what lives only in the cloud.** Time Machine copies only files that are actually on your Mac. In **System Settings > [your name] > iCloud**, find **Optimize Mac Storage** (on recent versions it's inside **Drive** or **iCloud Drive**) and turn it off. In **Photos > Settings > iCloud**, choose **Download Originals to this Mac**. Also check **Options** in Time Machine settings: external drives are left out unless you remove them from the list. This uses much more disk space.
+- **Write a recovery kit on paper.** List your Mac password, Apple Account password, backup drive passwords, password-manager master password, FileVault recovery key and where your security keys are. Seal it in a safe, with a second copy somewhere else you trust. **This paper opens everything, so guard it like cash.**
+- **Do a full drill once a year.** Pretend the Mac and phone are both gone. Using only the kit and a backup drive, restore a whole folder onto another Mac or an empty drive. Allow an afternoon. It's the only real proof your backups work.
+
 ### 20. Install the web filtering profile from IT (if IT sent you one)
 
 **Why this matters:** IT may give you a small "web filtering" profile. It blocks known scam and malware websites before they even load, whatever browser you use. (Technically it changes your Mac's DNS, which is like the internet's phone book.)
@@ -627,6 +787,14 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 - **Check the filter now and then.** Open **System Settings > General > Device Management** and make sure IT's profile is still listed. If IT gave you a test website, open it every few months: it should still be blocked. If it isn't, tell IT.
 - **Ask IT before turning on iCloud Private Relay.** Private Relay (part of the paid iCloud+ plan) hides your Safari browsing from the network you're on. It can also change how web filtering works. Ask IT whether they're happy for you to use both.
 - **If a site is blocked, don't work around it.** Don't remove the profile, switch to another DNS service or use a VPN to reach a blocked site. Tell IT which site it was, and they can check it and unblock it if it's safe.
+
+**Going even further:** If nobody filters for you, build your own filter and make it hard to bypass.
+
+- **Install your own encrypted filter (only if IT hasn't sent one).** **NextDNS** makes a signed profile for you at **apple.nextdns.io**. **Quad9** also offers ready-made profiles on its own site. Type the addresses yourself and install the profile exactly as in this step. It blocks known scam sites on every network and hides your look-ups from the Wi-Fi owner. Hotel sign-in pages may not appear until you switch it off for a moment. Look for it in **System Settings > Network**, in the **VPN & Filters** section, and set it to disabled. (NextDNS's profile page also lets you list Wi-Fi networks where it switches itself off.) The filter company sees which site names you visit. Use only one such profile. On macOS 26, some of these profiles fail to install with a "VPN Service" error. If that happens, download a fresh copy from the company's site, or use the company's own Mac app instead. If a filter profile you already have works, don't remove it just to replace it, because the new one may not install. On a work device, ask IT first.
+- **Turn on the stricter blocks.** In NextDNS's **Security** page, turn on **Threat Intelligence Feeds** and **Block Newly Registered Domains**, because many scam sites are only days or weeks old. Now and then a brand-new honest site is blocked, and you can allow it by hand. Set its logs to a short time, or off, if you don't want a record kept.
+- **Stop browsers going around the filter.** Chrome and Firefox can do their own look-ups. In Chrome, go to **Settings > Privacy and security > Security > Use secure DNS**. In Firefox, go to **Settings > Privacy & Security > DNS over HTTPS**. Switch it off, or point it at the same service. You'll need to re-check after browser updates.
+- **Write the profile yourself.** **iMazing Profile Editor** (free) has a **DNS Settings** section where you enter the service's "DNS over HTTPS" address. Your own profile shows as **Unsigned**. That's expected for a profile you made, and never acceptable from anyone else. A typing mistake can stop websites loading until you remove the profile in **Device Management**. If macOS 26 refuses to install it with a "VPN Service" error, one fix people report is to set the profile's scope to **System** before you save it.
+- **Cover the whole house and test it.** Set the same service on your router (**Online guide, step 18**, Going further). Use the test page the service gives you to confirm it's working. A filter you've never tested may not be filtering at all.
 
 ---
 
@@ -666,6 +834,14 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 - **Keep a second copy of the Admin password away from the Mac.** If your password manager only works on this Mac and something goes wrong, you can't get in to read it. Keep a paper copy locked away, for example with your FileVault recovery key (step 2).
 - **Give everyone their own standard account.** If family members use this Mac, give each of them their own **Standard** account, not yours and not the Admin one. Then their downloads and mistakes mostly stay in their own account. Check **Users & Groups** now and then: only the Admin account should show **Admin** (step 6 covers unknown accounts).
 
+**Going even further:** Keep the Admin account bare, and split your digital life into compartments.
+
+- **Keep Admin bare.** Don't sign it in to an Apple Account, don't add a fingerprint, and don't set up email or a browser there. It should hold nothing and do nothing except approve changes. Keep its long password on paper with your recovery kit (step 19). With no fingerprint, admin approvals always need typing. **If you lose the only admin password, getting back in is difficult.**
+- **Use the cancel-and-retrigger rule for password boxes.** Malware can show a fake password box (**Online guide, step 7**). If a box asks for the admin password and you didn't just start something that needs it, click **Cancel**. Then start the task yourself from System Settings or the installer. A real request will ask again. This adds a few seconds.
+- **Give money its own compartment.** Create a third **Standard** account used only for banking and taxes, with no email and no extra apps. This keeps everyday downloads away from it. It's a fence, not a wall: malware with admin rights can cross it. A separate device is stronger (**Online guide, step 18**, Going even further). You'll log out and in to switch.
+- **Run "sudo" commands from Admin only.** Commands in this guide that start with **sudo** won't work from a Standard account. Log in to Admin just for that, run the command, and log out again.
+- **Check the admin list each quarter.** Repeat the admin-rights check in step 6's Going further. Only your Admin account, and **root**, should appear. On a work device, ask IT first.
+
 ### 22. Set a lock screen message
 
 **Why this matters:** If you lose your Mac, an honest finder can see how to return it.
@@ -683,13 +859,17 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 - **Add a label for when the battery is flat.** The lock screen message only shows when the Mac is switched on. A small sticker or engraving on the bottom with a work phone number or email works even with a dead battery. Don't put your home address on it.
 - **You can also send a message after it's lost.** **Mark As Lost** in the **Find My** app (step 14) shows a message and phone number on the screen, even if you never set one here.
 
+**Going even further:** Help an honest finder without helping a dishonest one.
+
+- **Use a contact detail that isn't really you.** Put a work number, a second phone number or an email alias in the message, not your main mobile number or main email. Then the message gives a thief nothing to use in a scam against you. You need to keep that number or alias working.
+- **Expect fake "we found your Mac" messages.** Thieves sometimes write pretending to be Apple or a kind finder, with a link to sign in. They want your Apple Account password so they can unlock the Mac. Never give a password, a code or an unlock PIN, and never remove the Mac from your account (step 14). The **iPhone guide, step 17** describes the same trick.
+- **Make the locked screen say nothing else.** Combine the message with hidden notification previews (step 4) and **Name and password** at the login window (Going further). Use a plain wallpaper and account picture. A locked Mac that shows no name, photo or messages tells a stranger nothing. It looks less personal.
+
 ---
 
-## Only if IT tells you to
+## Maximum protection (ask IT first on work devices)
 
-These are strong protections for people who are at higher risk, such as those who handle very sensitive information or may be targeted personally. They have real downsides, so **only turn them on if IT asks you to.**
-
-**One exception:** security keys (step 25) on a personal Apple Account. If you're comfortable with tech, you can add them yourself after reading the downsides. If you use that Apple Account on any device you use for work, ask IT first.
+These are strong protections for people who are at higher risk, such as those who handle very sensitive information or may be targeted personally. They have real downsides. **On a work device, or any device you also use for work, only turn them on if IT asks you to.** On your own device, they're your choice. They're the top tier of the **Going even further** boxes elsewhere in this guide. Read each step's downsides, and set up its safeguards (such as a second security key or a recovery key stored offline) before you switch anything on. Most people don't need them, and that's fine.
 
 ### 23. Lockdown Mode
 
@@ -706,6 +886,14 @@ These are strong protections for people who are at higher risk, such as those wh
 
 **How to check it worked:** **Privacy & Security** shows Lockdown Mode as on.
 
+**Going even further:** Lockdown Mode works best as part of a routine, with expert help lined up.
+
+- **Turn it on everywhere, with no exceptions.** Switch it on for your iPhone, iPad and every Mac. Don't add websites or apps to its exception lists. An attacker only needs the one device or site you left out. More things will look broken, and you'll have to live with that.
+- **Browse with Safari while it's on.** Lockdown Mode's web protections apply to Safari. Chrome and Firefox on a Mac use their own engines and don't get them. Some sites will look plain or broken.
+- **Shrink the ways messages can reach this Mac.** If you don't need them here, sign out in **Messages > Settings > iMessage** and in **FaceTime > Settings**. Use your phone for messages. Turn on **Contact Key Verification** (**iPhone guide, step 32**). You'll have no texts or calls on the Mac.
+- **Know what a real Apple threat notification looks like.** Apple sends it as an alert on your iPhone and by email (from threat-notifications@email.apple.com), and shows it at the top of the page after you sign in at **account.apple.com** (type it yourself). It never asks you to click a link, install anything or give a password or code. If you get one, contact **Access Now's Digital Security Helpline** (accessnow.org/help), which Apple itself recommends. Journalists and activists can also contact **Amnesty International's Security Lab**. Don't erase the device first, because that destroys evidence.
+- **Remember what it doesn't do.** It doesn't remove spyware that's already there. Keep updating the same day (step 0) and restart daily, which clears some memory-only spyware. If you suspect an infection, see step 18's deepest reset after you've had expert advice. On a work device, ask IT first.
+
 ### 24. Advanced Data Protection for iCloud
 
 **What it is:** Normally, Apple can help you recover some iCloud data (like Photos and Notes) if you lose access. With Advanced Data Protection, almost all your iCloud data is locked so that only your devices can open it, not even Apple.
@@ -717,9 +905,17 @@ These are strong protections for people who are at higher risk, such as those wh
 2. Click **Advanced Data Protection**, then **Turn On**.
 3. Follow the steps on screen to set up your recovery method.
 
-**Downsides:** **If you lose access to your devices and your recovery method, Apple cannot get your data back.** Viewing iCloud data on the iCloud.com website needs extra steps. Some features may not be available in every country.
+**Downsides:** **If you lose access to your devices and your recovery method, Apple cannot get your data back.** Viewing iCloud data on the iCloud.com website needs extra steps. In the UK, Apple no longer lets new users turn it on, so you may not see the option there.
 
 **How to check it worked:** **iCloud > Advanced Data Protection** shows it as on.
+
+**Going even further:** Close the remaining gaps around Advanced Data Protection without locking yourself out.
+
+- **Pair it with security keys.** With step 25 done, nobody can add a new device to your account, and so receive your encryption keys, by phishing a code. Read the lockout warnings in step 25 first.
+- **Build two ways back in.** Set a **recovery contact** and a **recovery key** (in **System Settings > [your name] > Sign-In & Security**). Keep the key on paper in two places, one away from home. **Once a recovery key is set, Apple's own account recovery can't help you. If you lose your devices, the key and your contact, your data is gone for good.** Check each year that your contact still has an Apple device and that you can find the paper.
+- **Keep web access switched off.** In **System Settings > [your name] > iCloud**, leave **Access iCloud Data on the Web** off. Then a stolen password can't be used to browse your files in a web browser. If you ever turn it on, turn it off again afterwards.
+- **Know what still isn't covered.** **iCloud Mail, Contacts and Calendars** aren't end-to-end encrypted even with this on. Neither is anything you share by public link, nor your messages sitting in the backup of a friend who doesn't use it. Keep truly sensitive talk out of email. For chats, an app such as **Signal** with disappearing messages helps, though it's one more app for you and your contacts.
+- **Encrypt before you upload elsewhere.** Dropbox, Google Drive and similar services can read your files. **Cryptomator** (open source) locks a folder with your own password before it syncs. **If you forget that password, the files can't be recovered**, so store it in your password manager and recovery kit (step 19). On a work device, ask IT first.
 
 ### 25. Security keys for your Apple Account
 
@@ -740,6 +936,14 @@ These are strong protections for people who are at higher risk, such as those wh
 - You'll need a key to sign in on new devices or on the web.
 
 **How to check it worked:** **Sign-In & Security > Two-Factor Authentication** lists your security keys.
+
+**Going even further:** Run your keys like a system, so losing one is a nuisance and not a disaster.
+
+- **Own three keys, in three places.** Keep one with you, one locked at home and one somewhere else you trust. Buy them directly from the maker (for example Yubico), not from a marketplace seller. Carry your key separately from the Mac, not in the laptop bag. A third key costs more.
+- **Put a PIN on each key.** The free **Yubico Authenticator** app can set a PIN on a YubiKey, so a thief who has the key also needs the PIN wherever the key asks for it. **Several wrong PIN tries in a row block the key, and resetting it wipes every account from it.** That's why you keep spares, and why the PIN belongs in your password manager.
+- **Keep a key ledger and test each key.** Write down which keys are registered with which accounts. Every few months, sign in at **account.apple.com** in a private window using each spare. A key that sits in a drawer for years can fail without you noticing. Allow ten minutes a quarter.
+- **Rehearse losing one.** The day a key goes missing, remove it in **Sign-In & Security > Two-Factor Authentication > Security Keys** and add a replacement, so you never drop below two. Then use your ledger to do the same for other accounts. You'll need a spare key, or one of your signed-in Apple devices, to do this.
+- **Protect what sits beside the keys.** Your Apple Account still lists a phone number, so keep the carrier lock on (**iPhone guide, step 11**). Use the same keys for your email and password manager (**Online guide, step 16**). A key also can't protect a Mac that's already infected, because malware can ride along once you're signed in. Keep the earlier steps in place. On a work device, ask IT first.
 
 ---
 

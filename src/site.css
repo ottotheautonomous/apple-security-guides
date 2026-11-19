@@ -18,6 +18,7 @@
   --warn-bg: #fdecec;  --warn-bar: #c62828;
   --note-bg: #f3f5f8;  --note-bar: #6b7682;
   --adv-bg: #e8f6f6;   --adv-bar: #0b7285;
+  --exp-bg: #f1ecfb;   --exp-bar: #5f3dc4;
   --ui-label-bg: #eceff3;
   --shadow: 0 1px 2px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.06);
   --gutter: 16px;
@@ -43,6 +44,7 @@
     --warn-bg: #361818;  --warn-bar: #ff8a80;
     --note-bg: #191c22;  --note-bar: #8a949f;
     --adv-bg: #10282b;   --adv-bar: #5ccfdc;
+    --exp-bg: #211a33;   --exp-bar: #b197fc;
     --ui-label-bg: #262b33;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.35);
   }
@@ -200,7 +202,13 @@ input[type="checkbox"] { width: 1.5rem; height: 1.5rem; flex: 0 0 auto; accent-c
 .callout-advanced > summary .adv-hint { text-transform: none; letter-spacing: 0; font-weight: 400; color: var(--text-muted); }
 .callout-advanced[open] > summary { margin-bottom: 8px; }
 .callout-advanced > :last-child { margin-bottom: 0; }
-@media print { .callout-advanced > *:not(summary) { display: block; } }
+.callout-expert { background: var(--exp-bg); border-color: var(--exp-bar); }
+.callout-advanced .callout-expert { margin: 14px 0 0; }
+.callout-expert > summary { cursor: pointer; font-weight: 700; font-size: .95rem; letter-spacing: .02em; text-transform: uppercase; color: var(--exp-bar); list-style-position: outside; }
+.callout-expert > summary .adv-hint { text-transform: none; letter-spacing: 0; font-weight: 400; color: var(--text-muted); }
+.callout-expert[open] > summary { margin-bottom: 8px; }
+.callout-expert > :last-child { margin-bottom: 0; }
+@media print { .callout-advanced > *:not(summary), .callout-expert > *:not(summary) { display: block; } }
 .callout-warn    > p:first-child > strong:first-child::before { content: "\26A0\FE0E  "; }
 
 /* ---------- landing ---------- */
