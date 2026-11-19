@@ -115,6 +115,9 @@ const CALLOUTS = [
   [/^how to check it worked/i, "check"],
   [/^if (you don['’]t|it says|it doesn['’]t)/i, "trouble"],
   [/^downsides/i, "warn"],
+  [/^what it looks like/i, "heads"],
+  [/^do this instead/i, "check"],
+  [/^if it already happened/i, "trouble"],
 ];
 
 /** Returns {type, boldOnly} for a paragraph that starts with a **Label:** */
@@ -358,7 +361,7 @@ ${contactBlock()}
 </main>
 </div>
 ${footer("../")}`;
-  return page({ title: `${guide.button} security guide`, description: r.title, body, guideId: guide.id, script: GUIDE_JS });
+  return page({ title: guide.pageTitle || `${guide.button} security guide`, description: r.title, body, guideId: guide.id, script: GUIDE_JS });
 }
 
 function landingPage(results) {
@@ -371,7 +374,7 @@ function landingPage(results) {
   const body = `<main id="main" class="landing">
 <h1>${esc(config.siteTitle)}</h1>
 <p class="lead">${esc(config.siteTagline)}</p>
-<p><strong>Which device do you want to secure?</strong></p>
+<p><strong>Pick a guide to start.</strong></p>
 <nav class="choices" aria-label="Choose a guide">
 ${buttons}
 </nav>

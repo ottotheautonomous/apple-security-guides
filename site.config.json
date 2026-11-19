@@ -1,6 +1,6 @@
 {
-  "siteTitle": "Device Security Guides",
-  "siteTagline": "Step-by-step help to make your iPhone and Mac safer. No tech skills needed.",
+  "siteTitle": "Security Guides",
+  "siteTagline": "Step-by-step help to keep your iPhone, your Mac and yourself safer online. No tech skills needed.",
   "it": {
     "email": "support@twentynineeleven.net",
     "phone": "714-392-3287"
@@ -17,6 +17,13 @@
       "source": "content/mac.md",
       "button": "Mac",
       "blurb": "About 1.5 hours, plus time for updates and backups."
+    },
+    {
+      "id": "internet",
+      "source": "content/internet.md",
+      "button": "Staying safe online",
+      "blurb": "Don'ts and do's for email, texts, calls, passwords and money. About 30 to 40 minutes.",
+      "pageTitle": "Staying safe online guide"
     }
   ],
   "passwordPrompt": {
