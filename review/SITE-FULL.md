@@ -37,7 +37,7 @@ Step-by-step help to keep your iPhone, your Mac and yourself safer online. No te
 Pick a guide to start:
 - **iPhone**: About 1 to 1.5 hours. You can stop and come back.
 - **Mac**: About 1.5 hours, plus time for updates and backups.
-- **Staying safe online**: Don'ts and do's for email, texts, calls, passwords and money. About 30 to 40 minutes.
+- **Staying safe online**: Don'ts and do's for email, texts, calls, passwords and money. About 30 to 40 minutes to read, plus a few setup tasks you can spread over several days.
 
 How to reach IT: email support@twentynineeleven.net, phone 714-392-3287. "Stuck on a step? Tell IT the step number. A screenshot helps a lot."
 
@@ -49,7 +49,7 @@ How to reach IT: email support@twentynineeleven.net, phone 714-392-3287. "Stuck 
 
 ### What this is
 
-Your iPhone isn't looked after by the company's management system. That system is called MDM. It usually switches on security settings for you. On your phone, nobody has switched them on yet, so you'll do it yourself with this guide.
+Nobody has switched on this iPhone's security settings for you. On a company-managed phone, IT does that with a management system (called MDM). On yours, you'll do it yourself with this guide.
 
 You don't need to be "good with tech." Every step tells you exactly what to tap. Words in **bold** are the words you'll see on screen. A path like **Settings > General > Software Update** means: open the Settings app, tap **General**, then tap **Software Update**.
 
@@ -62,15 +62,24 @@ This guide is written for **iOS 26**. If your phone still runs **iOS 18**, most 
 - Your iPhone, charged above 50% or plugged in.
 - Wi-Fi.
 - Your **Apple Account password**. (This used to be called your Apple ID. It's the email and password you use for the App Store and iCloud.)
-- Your **phone carrier login**: the username and password for your mobile provider's website or app (for example, the company you pay your phone bill to). You need it for the SIM PIN step.
+- Your **phone carrier login**: the username and password for your mobile provider's website or app (for example, the company you pay your phone bill to). You need it for step 11, to lock your phone number.
 - Your phone's **passcode**: the code you type to unlock it.
 - About 10 minutes of quiet time for the Apple Account steps.
+- **Somewhere familiar, like home.** On iOS 26.4 and later, a feature called Stolen Device Protection (step 8) is often already on. It makes some changes wait an hour when you're somewhere your phone doesn't know well. Doing the Must-do part at home (or your usual workplace) avoids most of that.
 
 **Please do the steps in order.** The order matters. For example, you turn on backups before the setting that can wipe the phone, and you finish your Apple Account changes before the setting that adds a one-hour wait to them.
 
 **One thing to know first:** some settings ask for Face ID or your passcode, and some may make you wait an hour. This is a safety feature called Security Delay, explained in step 8. That's normal.
 
 Some steps end with a **Going further** box. It stays closed until you tap it, and holds extra protection for people who are comfortable with tech. Everyone else can skip these boxes: the main steps already protect you well.
+
+> **How to reach IT**
+> - Email: `support@twentynineeleven.net`
+> - Phone: `714-392-3287`
+>
+> Whenever this guide says "ask IT" or "contact IT," this is who to contact.
+>
+> **No IT department?** (For example, this is your own or a relative's iPhone.) Wherever this guide says "ask IT", ask a family member or friend you trust instead. Skip the parts that only apply if IT sends you something, and Part 3, apart from the one exception it names.
 
 ---
 
@@ -108,14 +117,14 @@ Tick each box as you finish.
 - [ ] 1. Turn on all Automatic Updates
 - [ ] 2. Turn on backups
 - [ ] 3. Use a strong passcode and turn on Erase Data
-- [ ] 4. Set Auto-Lock to 5 minutes or less
+- [ ] 4. Set Auto-Lock to 2 minutes or less
 - [ ] 5. Check Face ID (or Touch ID)
 - [ ] 6. Lock down your Apple Account (two-factor, phone numbers, devices, Recovery Contact)
 - [ ] 7. Turn on Find My
 - [ ] 8. Turn on Stolen Device Protection (set to "Always")
 - [ ] 9. Limit what works on the Lock Screen
 - [ ] 10. Hide message previews on the Lock Screen
-- [ ] 11. Add a SIM PIN, and lock your account with your carrier
+- [ ] 11. Lock your phone number with your carrier (and add a SIM PIN if you have a SIM card)
 - [ ] 12. Set AirDrop to Contacts Only
 - [ ] 13. Check for unknown profiles (and install IT's profile, if they send one)
 - [ ] 14. Turn on Safari's fraud warning
@@ -163,7 +172,7 @@ Tick each box as you finish.
 
 **If you don't see this:** If there's no **Background Security Improvements** option, your phone is on iOS 26.0 or older. Update it (see "Before you start") and look again.
 
-**Heads-up:** Your phone installs updates overnight and restarts, so leave it on charge and on Wi-Fi now and then. If you add a SIM PIN later (step 11), you'll need to type it after these restarts.
+**Heads-up:** Your phone installs updates overnight and restarts, so leave it charging and on Wi-Fi overnight. If you add a SIM PIN later (step 11), you'll need to type it after these restarts.
 
 **Going further:**
 - **Install urgent fixes the same day.** Automatic updates can reach your phone days or even weeks after an update comes out, because Apple releases them in waves. When Apple's security notes at **support.apple.com/100100** say a problem "may have been exploited", go to **Settings > General > Software Update** and install it now.
@@ -215,12 +224,16 @@ Tick each box as you finish.
 4. Tap **Passcode Options**. Choose **6-Digit Numeric Code** at least, or **Custom Alphanumeric Code** (letters and numbers) for even better protection. Don't pick **4-Digit Numeric Code**.
 5. Type your new passcode twice.
 
+**Heads-up:** If your phone says you have to wait an hour, Stolen Device Protection is already on. That's normal. Carry on with step 4 and come back to this step when the hour is up.
+
 A good passcode has no patterns (not 123456 or 135790), no repeated digits, and nothing someone could guess, like a birthday, an address or a phone number.
 
 **Remember your new passcode:**
 - Write it down somewhere safe (not on the phone, and not in your phone case) for the first few days.
 - Lock and unlock your phone a few times with the passcode, not Face ID, to practise.
-- If you forget it within 72 hours, tap **Forgot Passcode?** on the lock screen and use your **old** passcode. Then set a new one.
+- If you forget it in the first 72 hours: after a few wrong tries the screen says **iPhone Unavailable**. Tap **Forgot Passcode?** at the bottom, then **Enter Previous Passcode**, and type your **old** passcode. Then set a new one.
+
+**Not sure you'll remember the new code yet?** It's fine to leave Erase Data for a few days. Use the new passcode until you know it by heart, then come back and do this part.
 
 **Steps: Erase Data after 10 wrong tries**
 
@@ -234,19 +247,19 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 **Going further:**
 - **Use letters, not just numbers.** A 6-digit code has a million possible combinations. Phone-cracking tools try number codes first. A **Custom Alphanumeric Code** of 10 or more characters, like three or four unrelated words, takes them vastly longer. Trade-off: it's slower to type, but Face ID handles most unlocks. You'll mainly type it after a restart, or when you haven't unlocked for a while.
 - **Hide the code when you type it.** Many phone thefts with a known passcode start with someone watching you type it in a bar or on a train. In public, use Face ID, and cover the screen with your hand when you must type the code.
-- **Change it if someone may have seen it.** Don't wait to find out. With Stolen Device Protection set to **Always** (step 8), changing the passcode makes you wait an hour. That's normal.
+- **Change it if someone may have seen it.** Don't wait to find out. Then go to **Settings > Face ID & Passcode** and tap **Expire Previous Passcode Now**. Otherwise the old code still works for 72 hours, which is a safety net if you forget the new one, but also a way in for whoever saw it. With Stolen Device Protection set to **Always** (step 8), changing the passcode makes you wait an hour. That's normal.
 - **Keep it unique.** Don't reuse it as your SIM PIN, bank card PIN or door code. If one leaks, the others stay safe.
 
 ---
 
-### 4. Set Auto-Lock to 5 minutes or less
+### 4. Set Auto-Lock to 2 minutes or less
 
 **Why this matters:** If you put your phone down and walk away, it locks itself before someone else can pick it up and use it.
 
 **Steps**
 
 1. Go to **Settings > Display & Brightness > Auto-Lock**.
-2. Choose **5 minutes** or less. **1 minute** or **2 minutes** is even better.
+2. Choose **2 minutes** or less. If it already says **30 seconds** or **1 minute**, leave it. Don't make it longer.
 
 **How to check it worked:** **Auto-Lock** shows the time you picked. Leave your phone alone, and the screen should go dark after that time.
 
@@ -271,7 +284,7 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 
 1. Still in **Face ID & Passcode**, look under the Face ID section.
 2. If you see **Set Up an Alternate Appearance**, good. Only one face is saved. Don't set one up unless you really need it.
-3. If you **don't** see that button, a second face (an "alternate appearance") is already saved. If you didn't add it yourself, tap **Reset Face ID**, then tap **Set Up Face ID** and scan only your own face.
+3. If you **don't** see that button, a second face (an "alternate appearance") is already saved. If you didn't add it yourself, tap **Reset Face ID**, then tap **Set Up Face ID** and scan only your own face. (If you're asked to wait an hour, that's Stolen Device Protection. See step 8.)
 
 **If you don't see this (phones with a Home button):** Go to **Settings > Touch ID & Passcode**. Look at the list of fingerprints. Swipe left on any you don't recognise and tap **Delete**. You can rename them by tapping a fingerprint, so you know which finger is which.
 
@@ -281,7 +294,7 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 
 **Going further:**
 - **Switch off Face ID in two seconds.** Press and hold the side button and either volume button until **slide to power off** appears, then tap **Cancel**. Now the phone needs your passcode before Face ID works again. Use this when someone might push the phone at your face. Let go as soon as the slider appears: holding longer starts an **Emergency SOS** countdown that can call emergency services.
-- **Lock your most private apps (iOS 18 and later).** Touch and hold an app's icon, tap **Require Face ID**, and confirm. Good choices are email, banking, **Passwords** and **Photos**. Then someone you've handed your unlocked phone to can't open them. Trade-off: if Face ID fails, the app accepts your phone passcode instead, so this doesn't stop someone who knows your passcode. If you choose **Hide and Require Face ID**, that app's notifications stop showing.
+- **Lock your most private apps (iOS 18 and later).** Touch and hold an app's icon, tap **Require Face ID**, and confirm. Good choices are email, banking and **Photos**. (The **Passwords** app already asks for your face every time.) Then someone you've handed your unlocked phone to can't open them. Trade-off: if Face ID fails, the app accepts your phone passcode instead, so this doesn't stop someone who knows your passcode. If you choose **Hide and Require Face ID**, that app's notifications stop showing.
 - **Check your private photo albums are locked.** Go to **Settings > Apps > Photos** (on iOS 17: **Settings > Photos**) and make sure **Use Face ID** is on. The **Hidden** and **Recently Deleted** albums then need your face or passcode.
 - **Turn off Face ID with a Mask if you don't need it.** In **Settings > Face ID & Passcode**, turn off **Face ID with a Mask**. Apple says Face ID is most accurate with full-face recognition. Trade-off: with a mask on, you'll type your passcode.
 
@@ -335,7 +348,7 @@ A Recovery Contact is a person you trust who can help you get back into your acc
 - **Add more than one Recovery Contact.** You can have up to five. Choose people who don't live with you, so a fire or a burglary can't take out everyone at once. Trade-off: with Stolen Device Protection on, each change may make you wait an hour.
 - **Clean up Sign in with Apple.** Go to **Settings > [your name] > Sign-In & Security > Sign in with Apple** (on some versions it's directly under your name). Tap any app you no longer use and choose **Stop Using**. Trade-off: if you go back to that app, you may need to make a new account.
 - **Keep your real email address private (iCloud+).** With a paid iCloud+ plan, **Hide My Email** (in **Settings > [your name] > iCloud**, or search Settings for it) makes a random address that forwards to you. Use it for shops and newsletters, so your real address, and your Apple Account email, appear in fewer leaks and scam lists. Trade-off: you have more addresses to keep track of.
-- **Know the strongest options.** **Advanced Data Protection** (step 30) and **security keys** (step 31) lock your account down further. They have real downsides, so only use them if IT asks you to.
+- **Know the strongest options.** **Advanced Data Protection** (step 30) and **security keys** (step 31) lock your account down further. They have real downsides. Only turn on Advanced Data Protection if IT asks you to. Security keys on a personal account are your choice, after you read the downsides in step 31.
 
 ---
 
@@ -358,7 +371,7 @@ A Recovery Contact is a person you trust who can help you get back into your acc
 **Going further:**
 - **Leave "Findable After Power Off" on.** On most models from iPhone 11 onwards, the power-off screen shows **iPhone Findable After Power Off**. That means the phone can still be found for a while after a thief switches it off. It relies on **Find My network**, so keep that switched on.
 - **Know your Apple Account password by heart, or on paper at home.** To use **icloud.com/find** from another device, you need that password. A password that's only saved on the lost phone won't help you. The practice in step 17 checks this.
-- **Share your location with one trusted person.** In the **Find My** app, tap **Me**, turn on **Share My Location**, then share with a partner or family member. They can help you find the phone if you're stuck without it. Trade-off: they can see where you are all the time, so review who sees it now and then with **Safety Check** (step 18).
+- **Share your location with one trusted person.** In the **Find My** app, tap **People**, then **+** and **Share My Location**, and pick a partner or family member. (If it says location sharing is off, tap **Me** and turn on **Share My Location** first.) They can then help you find your phone if you're stuck without it. Trade-off: they can see where you are all the time, so review who sees it now and then with **Safety Check** (step 18).
 
 ---
 
@@ -385,7 +398,7 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 
 **Heads-up:**
 - With **Always** chosen, some changes make you **wait one hour** and then use Face ID again, even at home. These include changing your Apple Account password or your passcode, changing trusted phone numbers, devices or Recovery Contacts, and adding or removing Face ID. That's the point. It's annoying for you, and much more annoying for a thief.
-- Before you take your phone for repair, sell it, or move to a new phone, turn this off first. Turning it off can also need the one-hour wait, so plan ahead.
+- Before you take your phone for repair, sell it, or move to a new phone, turn this off first. Turning it off can also need the one-hour wait, so plan ahead. When your phone comes back from repair, turn it on again and choose **Always**.
 
 **Going further:**
 - **Close the gap it leaves open.** Stolen Device Protection guards your Apple Account, settings and saved passwords. But a thief who knows your passcode can still open apps that only use the phone's own lock. For banking, email and authenticator apps, turn on the app's own PIN or password lock in its settings, and make it different from your phone passcode. Trade-off: one more code to remember.
@@ -406,7 +419,7 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
    - **Reply with Message**: stops people replying to your messages from the Lock Screen.
    - **Home Control**: stops people controlling your smart home, like locks, lights or garage doors.
    - **Accessories** (iOS 18 only): keep it **off**. On iOS 26 this switch isn't here any more. See 9b instead.
-4. The rest is **your choice**. These include **Wallet**, **Siri**, **Notification Center**, **Today View and Search**, **Lock Screen Widgets**, **Live Activities** and **Return Missed Calls**. Turning more off is safer. Leaving some on is more convenient. For example, keeping **Wallet** on lets you show a boarding pass quickly. Apple Pay still needs your face or passcode to pay.
+4. The rest is **your choice**. These include **Wallet**, **Siri**, **Notification Center**, **Today View and Search**, **Lock Screen Widgets**, **Live Activities** and **Return Missed Calls**. Turning more off is safer. Leaving some on is more convenient. For example, keeping **Wallet** on lets you show a boarding pass quickly. Apple Pay still needs your face or passcode to pay. (The one exception is a transit card or student ID set to **Express Mode**, which works without Face ID.) Turning off **Siri** means nobody can ask your locked phone to do things for them.
 
 #### 9b. Wired accessories (iOS 26)
 
@@ -418,7 +431,7 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 4. If you only see **Automatically Allow When Unlocked** and **Always Allow** (phones with a Lightning port do), keep **Automatically Allow When Unlocked**.
 5. Never choose **Always Allow**.
 
-**How to check it worked:** Lock your phone. Swipe down from the top right corner. Control Center should not open. In **Wired Accessories**, your choice has a tick.
+**How to check it worked:** Lock your phone. Swipe down from the top right corner (on phones with a Home button, swipe up from the bottom edge). Control Center should not open. In **Wired Accessories**, your choice has a tick.
 
 **Heads-up:**
 - You'll need to unlock your phone to use Control Center (the flashlight, for example). Just look at the phone first, then swipe.
@@ -453,15 +466,18 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 
 ---
 
-### 11. Add a SIM PIN, and lock your account with your carrier
+### 11. Lock your phone number with your carrier (and add a SIM PIN if you have a SIM card)
 
-**Why this matters:** Criminals can steal your phone number. They either take the SIM card out of a stolen phone, or they call your carrier pretending to be you and ask for a new SIM. This is called a "SIM swap." Once they have your number, they get your text-message login codes. A SIM PIN and a carrier lock stop both.
+**Why this matters:** Criminals can steal your phone number. They either take the SIM card out of a stolen phone, or they call your carrier pretending to be you and ask for a new SIM. This is called a "SIM swap." Once they have your number, they get your text-message login codes. A carrier lock (11b) stops the phone-call trick, and everyone should turn it on. A SIM PIN (11a) stops the stolen-card trick, so it only matters if your phone has a SIM card you can take out.
 
-#### 11a. Turn on SIM PIN
+#### 11a. Turn on SIM PIN (only if your phone has a SIM card)
+
+**Does your phone have a SIM card?** Look at the side of your iPhone for a small tray with a tiny pinhole. iPhones sold in the US since the iPhone 14 don't have one. They use an eSIM, which is built in and can't be pulled out. **No tray? Skip to 11b.**
 
 **Before you start, read this:**
 - Your SIM card already has a **default PIN** from your carrier (often 0000 or 1111, but it varies). **Look it up first** on your carrier's website or app, or call them. **Don't guess.**
 - If you type the wrong SIM PIN **3 times**, the SIM locks. You'll then need a longer code called a **PUK** from your carrier to unlock it. Get your PUK from your carrier's website or app, or by calling them, and keep it somewhere safe. Too many wrong PUK tries can kill the SIM for good, and you'd need a new one from the carrier.
+- **Think about who needs to reach you.** After every restart, including the overnight ones after updates, your phone can't make or get normal calls and texts until you type the SIM PIN. If family rely on reaching you by phone and you might not notice, you can skip 11a. Do 11b either way.
 
 **Steps**
 
@@ -470,7 +486,7 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 3. Turn on **SIM PIN**.
 4. Enter your carrier's default PIN and tap **Done**.
 5. Tap **Change PIN**. Enter the default PIN, then a new 4 to 8 digit PIN that only you know. Don't use your phone passcode.
-6. Write the new SIM PIN and your PUK somewhere safe, away from your phone, such as a password manager.
+6. Write the new SIM PIN and your PUK somewhere safe that you can reach without this phone, such as a password manager on your computer or a note at home.
 
 **How to check it worked:** Restart your phone:
 - **Face ID phones:** press and hold the side button and either volume button until you see **slide to power off**. Drag the slider. Wait 30 seconds, then press and hold the side button until the Apple logo appears.
@@ -498,10 +514,10 @@ For example, the big US carriers offer features with names like "Number Lock," "
 **Heads-up:** When you genuinely want a new phone or a new carrier, you'll need to switch the lock off first. That can take a few minutes, or a day with some carriers.
 
 **Going further:**
-- **Make sure a stolen number can't unlock your accounts.** A SIM swap only hurts accounts that send sign-in codes by text message. Move your email, bank and other key accounts to a **passkey** or an **authenticator app** wherever they offer one. The **Internet safety guide, steps 15 and 16** show how. The trade-off: you need a backup plan, like saved backup codes, in case you lose your phone.
+- **Make sure a stolen number can't unlock your accounts.** A SIM swap only hurts accounts that send sign-in codes by text message. Move your email, bank and other key accounts to a **passkey** or an **authenticator app** wherever they offer one. The **Staying safe online guide, steps 15 and 16** show how. The trade-off: you need a backup plan, like saved backup codes, in case you lose your phone.
 - **Send your carrier's alerts to your email too.** Many carriers send a warning when your SIM or account is changed. If those warnings only go to your phone by text, a criminal who has your number gets them instead of you. In your carrier's app or website, check that your current email address is saved and that account-change alerts are on.
-- **Consider an eSIM.** An eSIM is built into the phone, so a thief can't pull it out and put it in another phone. Ask your carrier if they offer one. The trade-off: moving to a new phone takes a few extra steps, and some carriers then hide **SIM PIN**, so the carrier lock in 11b matters even more.
-- **Treat sudden "No Service" as an alarm.** If your phone suddenly shows **No Service** or **SOS** in a place where it normally works, and it hasn't just restarted (when it would be waiting for your SIM PIN), your number may have been moved. Call your carrier straight away from another phone, using the number on their website or your bill, not one from a text.
+- **Consider an eSIM (if your phone still has a SIM card).** An eSIM is built into the phone, so a thief can't pull it out and put it in another phone. Ask your carrier if they offer one. The trade-off: moving to a new phone takes a few extra steps, and some carriers then hide **SIM PIN**, so the carrier lock in 11b matters even more.
+- **Treat sudden "No Service" as an alarm.** If your phone suddenly shows **No Service** or **SOS** in a place where it normally works, and it hasn't just restarted (when it may be waiting for a SIM PIN), your number may have been moved. Call your carrier straight away from another phone, using the number on their website or your bill, not one from a text.
 
 ---
 
@@ -546,7 +562,7 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
    - **If it's a file attached to an email in the Mail app:** just tap the attachment.
 2. When asked "This website is trying to download a configuration profile," tap **Allow**, then **Close**.
 3. Go to **Settings**. Near the top, tap **Profile Downloaded**. (If you don't see it, go to **Settings > General > VPN & Device Management** and tap the profile under **Downloaded Profile**.)
-4. Check the name matches what IT told you. The screen may show a green **Verified** or a red **Not Verified** label. IT will tell you which one to expect. If it doesn't match what IT said, stop and ask IT.
+4. Check the name matches what IT told you. The screen shows a green **Verified** or a red **Not Verified** label. IT will tell you which one to expect. If the name or the label isn't what IT said, stop and ask IT. Never install a profile from anyone else, whatever the label says.
 5. Tap **Install**, enter your passcode, then tap **Install** again, and **Done**.
 
 **How to check it worked:** IT's profile shows in **Settings > General > VPN & Device Management**.
@@ -575,7 +591,7 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 **Going further:**
 - **Check Safari's anti-tracking setting.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and make sure **All Browsing** is chosen. On iOS 26 this is the normal setting, but check anyway, and change it if it says **Private Browsing** or **Off**. The trade-off: once in a while a website doesn't load properly. You can reload just that page with less protection from the page menu in Safari's address bar.
 - **Let your password manager be your second fraud check.** The **Passwords** app only offers to fill in a password on the real website it was saved for. If it doesn't offer your bank password on a page that looks like your bank, stop: you may be on a fake copy. Also open **Passwords** and tap **Security** to see passwords that were leaked or used more than once, and change those.
-- **Hide your internet address with iCloud+.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Websites you visit in Safari then can't see your real internet address (IP address), only a general area. The trade-off: some sites show the wrong region or ask you to prove you're human more often, some work or school networks block it, and it isn't offered in every country.
+- **Hide your internet address with iCloud+.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Websites you visit in Safari then can't see your real internet address (IP address), only a general area. The trade-off: some sites show the wrong region or ask you to prove you're human more often, some work or school networks block it, and it isn't offered in every country. If IT gave you a safe-browsing profile (step 13b), ask IT before turning this on, because Private Relay can make Safari skip that filter.
 
 ---
 
@@ -599,7 +615,7 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 
 ### 16. Never "Trust" an unknown computer
 
-**Why this matters:** When you plug your iPhone into a computer, a message asks **Trust This Computer?** If you tap **Trust**, that computer can copy your photos, messages and files. A dodgy charging point or someone else's laptop could do this.
+**Why this matters:** When you plug your iPhone into a computer, a message asks **Trust This Computer?** If you tap **Trust**, that computer can copy your photos, messages and files. Someone else's laptop, or a public charging point with a computer hidden inside, could do this, but only if you tap **Trust** and type your passcode.
 
 **What to do**
 
@@ -607,17 +623,8 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - If you're just charging, at an airport, a hotel, or a friend's laptop, tap **Don't Trust**. It will still charge.
 - Use your own charger and plug when you can.
 
-**If you've tapped Trust in the past and aren't sure where: reset it**
-
-1. Go to **Settings > General > Transfer or Reset iPhone > Reset**.
-2. Tap **Reset Location & Privacy** and enter your passcode.
-3. Confirm.
-
-**How to check it worked:** Next time you plug into any computer, including your own, it asks **Trust This Computer?** again.
-
-**Heads-up:** This **doesn't** delete your photos or apps. But it does reset every app's permission to use your location, camera, microphone and so on. Each app will ask you again the first time you open it. Just answer the questions as they come up. This is a good moment to say **No** to apps that don't need things. Afterwards, check that **Significant Locations** is still on (see step 8), because Stolen Device Protection needs it.
-
 **Going further:**
+- **Clear out trusted computers if you need to.** Your iPhone forgets a trusted computer by itself if you don't connect to it for about a month. So you only need this if you tapped **Trust** on someone else's computer in the last few weeks. Go to **Settings > General > Transfer or Reset iPhone > Reset**, tap **Reset Location & Privacy**, enter your passcode and confirm. It doesn't delete your photos or apps. The trade-off: every app's permission to use your location, camera, microphone and so on is reset, so each app asks again the first time you open it. Say **No** to apps that don't need it. Afterwards, check that **Significant Locations** is still on (step 8), because Stolen Device Protection needs it. To check it worked: next time you plug into any computer, including your own, it asks **Trust This Computer?** again.
 - **Use a charge-only cable or adapter away from home.** A small "data blocker" adapter, or a cable sold as charge-only, passes power but no data. Then a dodgy charging point can't talk to your phone at all, even if you tap the wrong button. The trade-off: it won't work for wired CarPlay or for backing up to your own computer, so keep it for travel.
 - **Lock out Face ID before handing your phone over.** Use the side-button trick from step 5's Going further box, so the phone needs your passcode.
 - **Restart your phone once a week.** Some rare, advanced attacks only live in the phone's memory and are wiped by a restart. Just after a restart, your phone is also at its most locked-down until you type your passcode. If you use a SIM PIN (step 11), you'll need to type that too.
@@ -630,7 +637,7 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 
 **Steps: use Mark As Lost**
 
-1. On another device or a computer, go to **icloud.com/find** and sign in with your Apple Account. You won't need a code from your lost phone to use this page. (Or use the **Find My** app on another Apple device, or on a family member's iPhone using **Help a Friend** in the **Me** tab (check: path may differ).)
+1. On another device or a computer, go to **icloud.com/find** and sign in with your Apple Account. You won't need a code from your lost phone to use this page. (Or use the **Find My** app on another Apple device you own. On a friend's or family member's iPhone, open **Find My**, tap **Me**, then tap **Help a Friend** at the bottom.)
 2. Choose your iPhone from the list of devices.
 3. Tap **Mark As Lost** (on icloud.com it may be shown as **Lost Mode**). Turn it on.
 4. Type a phone number where you can be reached and a short message, like "This phone is lost. Please call 555-0100." Tap **Activate** (or **Next** and then **Activate**).
@@ -640,10 +647,11 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 
 **Then:**
 - **Tell IT straight away**, even if it's your personal phone, because it has work data on it.
-- Call your carrier to block the SIM. (Your SIM PIN from step 11 buys you time.)
+- Call your carrier. Ask them to suspend the line, then move your number to a new SIM or eSIM, so your sign-in codes can reach you again. (If you set a SIM PIN in step 11, it buys you time.)
 - If it's stolen, report it to the police. Don't try to get it back yourself.
 - Only use **Erase This Device** if you're sure it's gone for good. After erasing, you can no longer see where it is. Find My still stops anyone else using it.
-- **Don't remove the phone from your account**, even after erasing it. If you do, anyone can set it up again as their own.
+- **Don't remove the phone from your account**, even after erasing it, and even if someone asks, begs or threatens you to. If you do, anyone can set it up again as their own.
+- **Expect fake "we found your iPhone" messages.** Thieves often text or email you pretending to be Apple, sometimes weeks later. The message may name your phone's model and color, and has a link to sign in. It's a trick to get your Apple Account password so they can unlock the phone. Apple never texts or emails you to say a lost phone was found. Don't tap the link. To check on your phone, type **icloud.com/find** yourself.
 
 **How to check it worked (practice now):** Go to **icloud.com/find** on a computer and check you can sign in and see your iPhone. Don't press Mark As Lost now.
 
@@ -651,7 +659,7 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 - **Make a "lost phone" card now.** On paper or in a password manager you can reach from another device, write down your carrier's phone number, IT's contact details, and your phone's **IMEI** number. You'll find the IMEI in **Settings > General > About**. Your carrier and the police may ask for it. Keep the card away from your phone.
 - **Know your Apple Account password without your phone.** **icloud.com/find** asks for your Apple Account password, and on a stressful day you may not remember it. Make sure you can find it without your iPhone, for example in a password manager on your computer or in a sealed note at home.
 - **If the thief may have seen your passcode, act faster.** From another Apple device you own, or **account.apple.com**, change your Apple Account password straight away, and call your bank to block your cards and bank apps. Stolen Device Protection (step 8) slows a thief down, but it doesn't protect apps that open with just your passcode, or accounts that send codes by text message.
-- **Share your location with one trusted person.** In the **Find My** app, tap **People**, then **+** and **Share My Location**, and pick a partner or family member. They can then see where your phone is if you can't get to a computer. The trade-off: that person can always see where you are, so choose carefully, and check this list now and then (step 18).
+- **Share your location with one trusted person.** Then they can see where your phone is if you can't get to a computer. Step 7's **Going further** shows how.
 
 ---
 
@@ -744,7 +752,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 **If you don't see this:** Some carriers hide this option. In that case, check call forwarding in your carrier's app or website, or ask them.
 
 **Going further:**
-- **Give your voicemail a strong PIN.** Some banks read your login code out in a phone call. If you don't answer, it goes to voicemail, and criminals sometimes try to break into voicemail to hear it. Open **Settings**, type "Voicemail Password" in the search box, or use your carrier's app. Don't use your passcode, SIM PIN or birthday. (The **Internet safety guide, step 4** has more on this.)
+- **Give your voicemail a strong PIN.** Some banks read your login code out in a phone call. If you don't answer, it goes to voicemail, and criminals sometimes try to break into voicemail to hear it. Open **Settings**, type "Voicemail Password" in the search box, or use your carrier's app. Don't use your passcode, SIM PIN or birthday. (The **Staying safe online guide, step 4** has more on this.)
 - **Check the hidden kinds of forwarding.** The switch in Settings only covers "forward every call." Calls can also be forwarded only when you're busy, don't answer, or have no signal. On AT&T, T-Mobile and most networks outside the US, dial **\*#67#** (busy), **\*#61#** (no answer) and **\*#62#** (no signal) in the Phone app to see where each one goes. Your own carrier's voicemail number is normal. Any other number isn't. On Verizon, or if you're not sure, ask your carrier to check for you.
 - **Never dial a code someone asks you to.** A common scam is a "delivery" or "support" caller asking you to dial a short code, such as one starting with **\*72** or **\*\*21\***. That code quietly forwards your calls to them. Hang up instead.
 - **Turn on account alerts with your carrier.** In your carrier's app, turn on notifications for account changes, such as SIM changes, forwarding or number transfers, if they offer them. Then you hear about a takeover attempt straight away. This adds to the carrier lock in step 11b.
@@ -767,7 +775,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 **Going further:**
 - **Screen unknown calls too (iOS 26).** Go to **Settings > Apps > Phone**, and under **Screen Unknown Callers** choose **Ask Reason for Calling**. Your phone asks unknown callers who they are and why they're calling, then rings and shows their answer on screen. Trade-off: some genuine callers, like a doctor's office or a delivery driver, hang up instead of answering. If you don't see the option, your carrier, language or region may not support it yet.
 - **Keep the spam filter on.** In **Settings > Apps > Messages**, look for **Filter Spam** (iOS 26) and check it's on. Texts your iPhone thinks are spam go to a **Spam** list and don't notify you. Glance at that list now and then in case something real lands there.
-- **Report scam texts, don't just delete them.** Tap **Report Junk** under the message, or forward it to **7726**. See the **Internet safety guide, step 26** for more.
+- **Report scam texts, don't just delete them.** Tap **Report Junk** under the message, or forward it to **7726**. See the **Staying safe online guide, step 26** for more.
 - **Blur unwanted pictures.** Go to **Settings > Privacy & Security > Sensitive Content Warning** and turn it on. Nude images sent to you in Messages, AirDrop and FaceTime are blurred until you choose to view them. The check happens on your phone, so Apple doesn't see the images.
 
 ---
@@ -793,7 +801,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 ### 24. Tidy up Wi-Fi settings
 
-**Why this matters:** Free public Wi-Fi (coffee shops, hotels) is often not protected. Anyone can create a fake one with the same name.
+**Why this matters:** Public Wi-Fi (coffee shops, hotels) is fine for everyday browsing, because almost all sites and apps encrypt what you send. The real risks are fake networks with a familiar name, which anyone can set up, and Wi-Fi sign-in pages that ask for more than they should. This step tidies up which networks your phone joins by itself.
 
 **Steps**
 
@@ -810,8 +818,8 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 **Going further:**
 - **Stop auto-joining networks you keep.** For public networks you still use, like your gym or a favourite cafe, tap the **i** next to the network and turn off **Auto-Join**. Your phone then joins only when you choose, so a fake network with the same name can't grab it as you walk past.
-- **Use iCloud Private Relay on public Wi-Fi.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Your Safari browsing is then encrypted and your rough location is hidden from websites, even on a dodgy hotel network. Trade-off: some work networks, banks and streaming sites don't work with it, and it isn't offered in every country. You can turn it off for one network by tapping the **i** next to it and turning off **Limit IP Address Tracking**.
-- **Use your own mobile data for anything important.** For banking or work email away from home, mobile data (or your own phone's **Personal Hotspot** for a laptop) is safer than free Wi-Fi. Trade-off: it uses your data allowance.
+- **Use iCloud Private Relay on public Wi-Fi.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Your Safari browsing is then encrypted and your rough location is hidden from websites, even on a dodgy hotel network. Trade-off: some work networks, banks and streaming sites don't work with it, and it isn't offered in every country. You can turn it off for one network by tapping the **i** next to it and turning off **Limit IP Address Tracking**. If IT gave you a safe-browsing profile (step 13b), ask IT before turning this on, because Private Relay can make Safari skip that filter.
+- **Use your own mobile data for anything important.** For banking or work email away from home, mobile data (or your own phone's **Personal Hotspot** for a laptop) is the simplest choice if you're unsure about a network. Trade-off: it uses your data allowance.
 - **Be careful with free VPN apps.** Many free VPNs make money from your data. If you think you need one, especially for work, ask IT which one to use.
 
 ---
@@ -919,6 +927,8 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 
 These are strong protections for people who might be targeted on purpose, for example people who handle very sensitive information or travel to high-risk places. They have real downsides. **Don't turn them on unless IT has asked you to.**
 
+**One exception:** security keys (step 31) on a personal Apple Account. If you're comfortable with tech, you can add them yourself after reading the downsides. If you use that Apple Account on any device you use for work, ask IT first.
+
 ### 29. Lockdown Mode
 
 **What it is:** An extreme protection mode. It switches off many features that attackers use to break into phones.
@@ -970,7 +980,7 @@ These are strong protections for people who might be targeted on purpose, for ex
 
 **Steps**
 
-1. You need **two** security keys that work with Apple (IT will usually give these to you).
+1. You need **two** security keys that work with Apple. For a work account, IT will usually give these to you.
 2. Go to **Settings > [your name] > Sign-In & Security > Two-Factor Authentication > Security Keys**.
 3. Tap **Add Security Keys** and follow the prompts to add both keys.
 4. At the end, you'll see a list of devices signed in to your account. Keep the ones you use.
@@ -1022,13 +1032,13 @@ If anything in this guide didn't match what you see on your phone, or if somethi
 
 ### What this is
 
-Your Mac isn't managed by the company's device management system. That means nobody can switch on security settings for you remotely, so this guide walks you through doing it yourself, one setting at a time.
+Nobody has switched on this Mac's security settings for you. On a company-managed Mac, IT does that remotely. On yours, you'll do it yourself with this guide, one setting at a time.
 
 You don't need to be "good with computers." Every step tells you exactly what to click. Words in **bold** are the exact words you'll see on screen. A path like **System Settings > General > Software Update** means: open System Settings, click **General**, then click **Software Update**.
 
 This guide is written for **macOS 26 Tahoe**. If your Mac is still on **macOS 15 Sequoia**, it mostly looks the same. Where something has a different name, we say so.
 
-Some steps end with a **Going further** box. It stays closed until you tap it, and holds extra protection for people who are comfortable with tech. Everyone else can skip these boxes: the main steps already protect you well.
+Some steps end with a **Going further** box. It stays closed until you click it, and holds extra protection for people who are comfortable with tech. Everyone else can skip these boxes: the main steps already protect you well.
 
 ### How long it takes
 
@@ -1042,16 +1052,18 @@ Some steps end with a **Going further** box. It stays closed until you tap it, a
 - **Your Apple Account password** (what Apple used to call your Apple ID). You'll need it for Find My Mac and some of the later steps.
 - **Your charger.** Plug your Mac in. Updates and encryption won't run properly on battery.
 - **A safe place to save a recovery key**, such as a password manager, or paper you can lock away. You'll need this in step 2.
-- **An external drive** for backups (step 19). No drive yet? Do everything else and come back to step 19 when you have one.
+- **An external drive** for backups (step 19). If you have one, **do step 19 first**, before step 0. No drive yet? Carry on, and do step 19 as soon as you have one.
 - **The link or file from IT** for the web filtering profile (step 20), if IT has sent you one.
 
-> **Note:** The SIM PIN step in the iPhone guide needs your phone carrier login. You don't need it for the Mac.
+> **Note:** The carrier-lock step in the iPhone guide (step 11) needs your phone carrier login. You don't need it for the Mac.
 
 > **How to reach IT**
 > - Email: `support@twentynineeleven.net`
 > - Phone: `714-392-3287`
 >
 > Whenever this guide says "ask IT" or "contact IT," this is who to contact.
+>
+> **No IT department?** (For example, this is your own or a relative's Mac.) Wherever this guide says "ask IT", ask a family member or friend you trust instead. Skip the parts that only apply if IT sends you something, and the "Only if IT tells you to" part, apart from the one exception it names.
 
 ### How to open System Settings
 
@@ -1062,6 +1074,8 @@ You'll use this a lot. Click the **Apple menu** (the apple logo, top-left corner
 ### Checklist
 
 Tick each box as you go.
+
+**Short on time?** The steps that protect you most are **0** and **1** (updates), **2** (FileVault), **14** (Find My Mac) and **19** (backups). Do those first. Then work through the rest in order, a few at a time. Most take only a minute or two.
 
 **Before you start**
 - [ ] 0. Update your Mac
@@ -1143,22 +1157,27 @@ Tick each box as you go.
 2. In the menu bar click **App Store > Settings**.
 3. Tick **Automatic Updates**.
 
-**How to check it worked:** Click the **i** next to **Automatic Updates** again and confirm all three switches are on. Then reopen **App Store > Settings** and confirm **Automatic Updates** is still ticked.
+**Part C: Background Security Improvements (macOS 26.1 and later)**
+1. Open **System Settings > Privacy & Security**.
+2. Scroll down to **Background Security Improvements** and make sure **Automatically Install** is on. This lets Apple send small, urgent security fixes between normal updates. If it's off, you only get those fixes with the next full update.
 
-**If you don't see this:** On macOS 15 Sequoia, the **i** window in Part A also has **Check for updates** and **Install application updates from the App Store**. Turn those on too (the second one does the same job as Part B).
+**How to check it worked:** Click the **i** next to **Automatic Updates** again and confirm all three switches are on. Then reopen **App Store > Settings** and confirm **Automatic Updates** is still ticked. On macOS 26.1 or later, also check that **Automatically Install** is on under **Background Security Improvements**.
+
+**If you don't see this:** On macOS 15 Sequoia, the **i** window in Part A also has **Check for updates** and **Install application updates from the App Store**. Turn those on too (the second one does the same job as Part B). If there's no **Background Security Improvements** in **Privacy & Security**, your Mac is on macOS 26.0 or older. Install any update step 0 offers, then look again. On macOS 15 Sequoia, skip Part C.
 
 **Heads-up:** Your Mac may restart overnight to finish an update. Save your work before you leave it. Laptops only download updates when plugged in. Apps you installed from websites (not the App Store) update separately: accept their update prompts, or look in their menu for "Check for Updates."
 
 **Going further:**
-- **Check Background Security Improvements is on.** On macOS 26.1 and later, Apple can send small security fixes between normal updates. Open **System Settings > Privacy & Security**, scroll down to **Background Security Improvements**, and make sure **Automatically Install** is on. If it's off, you only get those fixes with the next full update.
 - **Give apps from websites a monthly check.** Browsers and apps you downloaded yourself update separately. Once a month, open each one's **About** or **Check for Updates** menu (in Chrome: **three dots > Help > About Google Chrome**) and install what it finds. Then quit and reopen the app: most updates only take effect after a restart.
 - **Remove apps you no longer use.** An app you never open still needs updates, and abandoned apps stop getting them. Drag unused apps from **Applications** to the Trash. The trade-off: you'll need to download one again if you change your mind. On a work Mac, ask IT before removing anything you didn't install yourself.
 
 #### 2. Turn on FileVault (disk encryption) and save your recovery key
 
-**Why this matters:** If your Mac is lost or stolen, FileVault scrambles everything on it so no one can read your files without your password. Without it, anyone can pull your files off the drive in minutes.
+**Why this matters:** If your Mac is lost or stolen, FileVault scrambles everything on it so no one can read your files without your password. Without it, someone who steals your Mac has a much easier time getting at your files.
 
-**What's a recovery key?** It's a long code of letters and numbers. It's your spare key. If you ever forget your Mac password, the recovery key is the only way back in. **If you lose both your password and your recovery key, your files are gone for good.** Not even Apple can get them back.
+**What's a recovery key?** It's a long code of letters and numbers. It's your spare key. If you ever forget your Mac password, the recovery key (or your Apple Account, if you chose that option) gets you back in. **If you lose your password and every way back in, your files are gone for good.** Not even Apple can get them back.
+
+**Before you start:** If you have a backup drive, do step 19 (backups) before this step. Then, if anything goes wrong with your password or recovery key, your files are safe on the drive.
 
 **Steps**
 1. Plug in your charger.
@@ -1187,7 +1206,7 @@ Tick each box as you go.
 **Heads-up:** Your Mac will no longer log you in automatically. You'll always need your password at startup. That's a good thing.
 
 **Going further:**
-- **Check that your recovery key really works.** This only applies if your Mac gave you a recovery key. If you chose the iCloud option and never saw a key, skip this. Open **Terminal** (in **Applications > Utilities**), type `sudo fdesetup validaterecovery` and press Return. Type your Mac password (nothing shows as you type), then your recovery key with its dashes. **true** means the key is correct. If it says **false**, don't turn FileVault off: contact IT. Check again if your Mac ever gives you a new key.
+- **Check that your recovery key really works.** This only applies if your Mac gave you a recovery key. If you chose the iCloud option and never saw a key, skip this. Open **Terminal** (in **Applications > Utilities**), type `sudo fdesetup validaterecovery` yourself, exactly as shown here, and press Return. Type your Mac password (nothing shows as you type), then your recovery key with its dashes. **true** means the key is correct. If it says **false**, don't turn FileVault off: contact IT. Check again if your Mac ever gives you a new key. When you're done, close Terminal. Don't type anything else there.
 - **Shut down, don't just close the lid, when the Mac is at risk.** While your Mac is asleep, the disk is still unlocked inside it. When it's fully shut down, FileVault locks everything until someone types the password. Shut down before you leave it in a car or hotel room, or carry it through airport checks. The trade-off: it takes a little longer to start.
 - **Don't look for a firmware password on newer Macs.** Macs with Apple chips (M1 and later) don't have one. The closest thing, **Recovery Lock**, can only be set by IT's device management. For you, FileVault plus Find My Mac (step 14) is the protection. Older Intel Macs do have a firmware password, but forgetting it can mean a trip to Apple with proof of purchase, so ask IT before setting one.
 
@@ -1227,7 +1246,7 @@ Tick each box as you go.
 
 **Part C: Screen saver (optional)**
 Parts A and B already lock your Mac. A screen saver is just extra. If you use one, make it start at the same time as the display turns off, or sooner.
-- **On macOS 26 Tahoe:** open **System Settings > Wallpaper**, then click **Screen Saver** to choose a screen saver. Set when it starts to 10 minutes or less (check: path may differ; Apple doesn't name this control for Tahoe).
+- **On macOS 26 Tahoe:** open **System Settings > Wallpaper**, then click **Screen Saver** (you may need to scroll down). Choose a screen saver, and set **Start Screen Saver** to 10 minutes or less.
 - **On macOS 15 Sequoia:** set **Start Screen Saver when inactive** in **System Settings > Lock Screen** (the same page as Parts A and B). The separate **Screen Saver** item only picks which screen saver to show.
 
 **Part D: Use a strong login password**
@@ -1286,14 +1305,16 @@ A good password is long. Think of a short sentence you'll remember, like four or
 2. Look at the list of users. Each one shows **Admin** or **Standard** under its name.
 3. Ask yourself: do I know every account here?
 4. If you see one you don't recognise, **don't delete it yourself.** Write down its name and contact IT. Some are created by IT or by apps on purpose.
+5. Now check your Apple Account. In **System Settings**, click **your name** at the top of the sidebar, then click **Sign-In & Security**. (Not signed in with an Apple Account? Skip this and the next item.)
+6. Make sure **Two-Factor Authentication** says **On**, and that every phone number listed is yours or belongs to someone you really trust. If a number isn't, contact IT, or remove it from your iPhone (**iPhone guide, step 6b**). If you have an iPhone, the **iPhone guide, step 6** covers your Apple Account in full.
 
-**How to check it worked:** Every account is one you (or IT) set up.
+**How to check it worked:** Every account is one you (or IT) set up. Two-factor authentication is on, and every trusted phone number is one you know.
 
 **Heads-up:** Deleting an account can delete its files. Leave this to IT if you're unsure.
 
 **Going further:**
 - **See accounts the settings page doesn't show.** Open **Terminal**, type `dscl . list /Users | grep -v '^_'` and press Return. You'll see **daemon**, **nobody** and **root**, which every Mac has, plus your own accounts. Anything else you don't recognise: take a screenshot and ask IT. Don't delete it yourself.
-- **Check who has admin rights.** In Terminal, type `dscl . -read /Groups/admin GroupMembership` and press Return. It should list **root** and only the admin accounts you know about. An unknown name here is worth a call to IT straight away.
+- **Check who has admin rights.** In Terminal, type `dscl . -read /Groups/admin GroupMembership` and press Return. It should list **root** and only the admin accounts you know about. An unknown name here is worth a call to IT straight away. Type these commands exactly as shown here, then close Terminal. Don't type anything else there, and never paste a command someone else sends you.
 - **Check the devices on your Apple Account.** Open **System Settings**, click **your name**, and scroll down to the list of devices. If you see one that isn't yours, click it and choose **Remove from Account**, then change your Apple Account password.
 
 #### 7. Turn off sharing services you don't use
@@ -1357,7 +1378,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **Heads-up:** If you ever see a warning that an app "cannot be opened" or "could not be verified," stop. Don't look up ways around it. Ask IT first.
 
 **Going further:**
-- **Check who made an app before you trust it.** Open **Terminal**, type `spctl -a -vv ` (with a space at the end), drag the app from **Applications** into the Terminal window, and press Return. A safe app says **accepted**, and the **origin** line names the company you expected (App Store apps show Apple). If it says **rejected**, or names someone else, don't open it. Ask IT.
+- **Check who made an app before you trust it.** Open **Terminal**, type `spctl -a -vv ` (with a space at the end), drag the app from **Applications** into the Terminal window, and press Return. A safe app says **accepted**, and the **origin** line names the company you expected (App Store apps show Apple). If it says **rejected**, or names someone else, don't open it. Ask IT. Then close Terminal. Don't type anything else there.
 - **Go stricter with "App Store" only.** Choosing **App Store** blocks every new app from a website. The trade-off: to install something like Chrome or Zoom later, you'll have to switch back to **App Store & Known Developers**, and it's easy to forget to switch again afterwards.
 - **Never paste commands a website or installer gives you.** A common trick is a page that says "to fix this" or "to verify you're human", copy this line into **Terminal**. That line installs malware and skips every check in this step. No real website needs you to do that. Close the page and ask IT. Only type Terminal commands from this guide or from IT.
 
@@ -1377,7 +1398,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Going further:**
 - **Make this password different from your daily one.** If your everyday account is an admin, this step asks for your own password, which someone who watched you type it already knows. Step 21 sets up a separate admin account so this lock really needs a second password. The trade-off: you type that admin password a little more often.
-- **Approve new USB devices (Mac laptops with Apple chips).** In **System Settings > Privacy & Security**, check that **Allow accessories to connect** says **Ask for new accessories**, not **Always**. Then an unknown cable or USB stick can't swap data with your Mac until you click **Allow**. It can still charge. The trade-off: you approve each new dock or drive once. Desktop Macs don't have this setting.
+- **Approve new USB devices (Mac laptops with Apple chips).** In **System Settings > Privacy & Security**, check that **Allow accessories to connect** says **Ask for New Accessories**, not **Always Allow** (called **Always** on some versions). Then an unknown cable or USB stick can't swap data with your Mac until you click **Allow**. It can still charge. The trade-off: you approve each new dock or drive once. Desktop Macs don't have this setting.
 - **If you think someone is targeting you personally,** read step 23 (Lockdown Mode) and talk to IT. It goes much further than the settings here.
 
 #### 11. Review which apps can see your screen, keyboard, files, camera and microphone
@@ -1499,8 +1520,9 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **Steps**
 1. Open Safari. In the menu bar click **Safari > Settings**, then the **General** tab.
 2. Untick **Open “safe” files after downloading**.
+3. Click the **Security** tab and make sure **Warn when visiting a fraudulent website** is ticked. Safari then warns you before it opens a known scam site.
 
-**How to check it worked:** Download a PDF. It should appear in your Downloads folder without opening.
+**How to check it worked:** Download a PDF. It should appear in your Downloads folder without opening. In **Safari > Settings > Security**, **Warn when visiting a fraudulent website** is ticked.
 
 **Heads-up:** You'll need to double-click downloaded files yourself. That's it.
 
@@ -1508,7 +1530,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **Make websites ask before they download anything.** Open **Safari > Settings > Websites**, click **Downloads** in the list, and set **When visiting other websites** to **Ask**. A page then can't drop a file on your Mac without you clicking. The trade-off: one extra click each time on sites you haven't allowed.
 - **Look before you open.** Select a downloaded file in Finder and press the **Space bar**. This shows a preview (Apple calls it Quick Look) without opening it in an app. If a "PDF" won't preview, or turns out to be an app, delete it.
 - **Check where a file came from.** Select the file in Finder, choose **File > Get Info**, and look at **Where from**. If an "invoice" came from a web address you don't recognise, don't open it. Not every file shows this line.
-- **Never paste a command a website gives you.** A common Mac trick is a fake "I'm not a robot" or install page that tells you to open **Terminal** and paste something. The **Stay Safe Online guide, step 7** shows what it looks like.
+- **Never paste a command a website gives you.** A common Mac trick is a fake "I'm not a robot" or install page that tells you to open **Terminal** and paste something. The **Staying safe online guide, step 7** shows what it looks like.
 
 #### 16. Remove unknown profiles
 
@@ -1579,7 +1601,7 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Why this matters:** If your Mac breaks or is stolen, a backup means you don't lose your files. Encrypting the backup means nobody can read it if the drive goes missing.
 
-**No external drive yet?** Do the rest of the guide, and come back to this step when you have one.
+**No external drive yet?** Do the rest of the guide, and come back to this step as soon as you have one. If you already have a drive, do this step first, before the others.
 
 **What you need:** An external drive, ideally at least twice the size of your Mac's storage (for example, 2TB for a 1TB Mac). **Setting up a new drive for Time Machine may erase everything on it**, so use an empty one.
 
@@ -1631,7 +1653,7 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 **Heads-up:** Occasionally a safe site might be blocked by mistake. Tell IT and they can unblock it.
 
 **Going further:**
-- **Keep Safari's own scam warning on.** Open **Safari > Settings > Security** and make sure **Warn when visiting a fraudulent website** is ticked. It works with IT's filter or without one.
+- **Keep Safari's own scam warning on.** You turned it on in step 15. It works with IT's filter or without one, so leave it on.
 - **Check the filter now and then.** Open **System Settings > General > Device Management** and make sure IT's profile is still listed. If IT gave you a test website, open it every few months: it should still be blocked. If it isn't, tell IT.
 - **Ask IT before turning on iCloud Private Relay.** Private Relay (part of the paid iCloud+ plan) hides your Safari browsing from the network you're on. It can also change how web filtering works. Ask IT whether they're happy for you to use both.
 - **If a site is blocked, don't work around it.** Don't remove the profile, switch to another DNS service or use a VPN to reach a blocked site. Tell IT which site it was, and they can check it and unblock it if it's safe.
@@ -1650,9 +1672,9 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 1. **Create a separate admin account:**
    1. Open **System Settings > Users & Groups**.
    2. Click **Add User** and enter your password if asked.
-   3. Choose **Administrator** as the account type (the label for this choice may be **New User** or similar; check: path may differ).
+   3. Click the pop-up menu next to **New User** and choose **Administrator**.
    4. Name it something clear like "Admin". Give it a strong password that's different from your daily one. Save that password in your password manager.
-   5. Click the button to create the account (usually **Create User**; check: path may differ).
+   5. Click **Create User**.
    6. **Don't sign this Admin account in to an Apple Account or iCloud.** It's only for typing in when your Mac asks for an administrator.
 2. **Test the Admin account:** Restart your Mac. At the login screen, choose the Admin account and log in. This checks the password works and that the account can unlock the Mac at startup. If the Admin account doesn't appear on the startup screen, or its password doesn't work there, stop here and contact IT.
 3. **While logged in to the Admin account, make your usual account standard:**
@@ -1665,7 +1687,7 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Heads-up:**
 - When you install apps or change some settings, your Mac will ask for an **administrator** name and password. Type the Admin account's name and password, not your own.
-- Don't do step 3 until you've confirmed the Admin account works. If you get this wrong you could lock yourself out of admin tasks.
+- Don't make your usual account standard (part 3 above) until you've confirmed the Admin account works. If you get this wrong you could lock yourself out of admin tasks.
 - Some apps that install background tools may need the admin password more often.
 - If you get stuck, stop and contact IT.
 
@@ -1697,16 +1719,20 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 These are strong protections for people who are at higher risk, such as those who handle very sensitive information or may be targeted personally. They have real downsides, so **only turn them on if IT asks you to.**
 
+**One exception:** security keys (step 25) on a personal Apple Account. If you're comfortable with tech, you can add them yourself after reading the downsides. If you use that Apple Account on any device you use for work, ask IT first.
+
 #### 23. Lockdown Mode
 
 **What it is:** An extreme protection mode for people who might be targeted by sophisticated spyware. It switches off many features that attackers could use.
+
+**Before you start:** If IT sent you a web filtering profile (step 20), install it **first**. You can't install profiles while Lockdown Mode is on. If you need one later, turn Lockdown Mode off, install it, then turn Lockdown Mode back on.
 
 **Steps**
 1. Open **System Settings > Privacy & Security**.
 2. Scroll down to **Lockdown Mode** and click **Turn On**.
 3. Enter your password if asked, then click **Turn On & Restart**.
 
-**Downsides:** Some websites load slower or look broken. Most message attachments are blocked. FaceTime calls from people you haven't called before are blocked. Shared albums and some device connections stop working. You need to turn it on separately on each of your devices (Mac, iPhone, iPad). Phone calls, normal messages and emergency features keep working.
+**Downsides:** Some websites load slower or look broken. Most message attachments are blocked. FaceTime calls are blocked from people you haven't called in the past 30 days. Shared albums and some device connections stop working. You need to turn it on separately on each of your devices (Mac, iPhone, iPad). Phone calls, normal messages and emergency features keep working.
 
 **How to check it worked:** **Privacy & Security** shows Lockdown Mode as on.
 
@@ -1729,7 +1755,7 @@ These are strong protections for people who are at higher risk, such as those wh
 
 **What it is:** A security key is a small physical device (like a USB stick) that you plug in or tap to sign in to your Apple Account. It replaces the six-digit codes and stops fake "Apple" websites from stealing your sign-in.
 
-**What you need:** At least two security keys that work with Apple devices (Apple calls them "FIDO Certified"). IT will tell you which to use.
+**What you need:** At least two security keys that work with Apple devices (Apple calls them "FIDO Certified"). For a work account, IT will tell you which to use.
 
 **Steps**
 1. Open **System Settings**, click **your name**, then **Sign-In & Security**.
@@ -1761,7 +1787,7 @@ Thanks for taking the time. Your Mac is now much harder to break into and much e
 
 <a id="guide-internet"></a>
 
-## Stay Safe Online: A Step-by-Step Guide
+## Staying Safe Online: A Step-by-Step Guide
 
 ### What this is
 
@@ -1770,6 +1796,8 @@ Most online crime doesn't start with a clever hacker breaking in. It starts with
 It's for everyone: you, your family, your parents, your kids. You don't need to be "good with tech." Words in **bold** are either words you'll see on screen, or the most important points to remember. A path like **Settings > Apps > Phone** means: open the Settings app, tap **Apps**, then tap **Phone**.
 
 It works on any device: iPhone, Mac, Windows PC, Android phone or tablet. Where something is specific to Apple devices, the guide says so, and points you to the **iPhone guide** or the **Mac guide** on this site for the detailed settings.
+
+The phone numbers, agencies and credit steps in this guide are for the **United States**. If you live somewhere else, the habits still apply. Look up your own country's places to report scams.
 
 **How long it takes:** about 30 to 40 minutes to read. Part 2 also has a few short setup tasks, about 10 to 20 minutes each. Each one is explained when you get to it. You don't have to do it all at once. Tick things off as you go.
 
@@ -1809,7 +1837,7 @@ Tick each box as you finish.
 - [ ] 10. Don't scan QR codes without checking where they go
 - [ ] 11. Don't sign in on a computer that isn't yours
 - [ ] 12. Don't trust a site just because it has a padlock or a great deal
-- [ ] 13. Don't overshare online
+- [ ] 13. Don't overshare online, or send private photos
 - [ ] 14. Don't paste private or client information into AI chatbots or free tools
 
 **Part 2: Do's**
@@ -1874,7 +1902,9 @@ Tick each box as you finish.
 
 **Do this instead:** Never read, type or forward a code to anyone. **If someone contacted you (a call, text, email or message) and asks for a code, it's a scam.** Not your bank, not Apple, not Microsoft, not the police, and not IT will ask. A code is only ever for you to type into a sign-in screen **that you opened yourself**. Don't type a code someone else gave you into a sign-in page either. Read the code message itself: it often says "Don't share this code."
 
-**Heads-up:** There's one exception. If you're someone's Apple **Recovery Contact** (see the **iPhone guide, step 6d**), your iPhone can show a recovery code for them. Only give it to them in person, or on a call **you** started to the number you already have for them.
+**Heads-up:** There are two exceptions. Both only apply when **you** started the contact.
+- If you're someone's Apple **Recovery Contact** (see the **iPhone guide, step 6d**), your iPhone can show a recovery code for them. Only give it to them in person, or on a call **you** started to the number you already have for them.
+- When **you** call your bank or phone company, on the number from your card, statement or bill, they may text you a code and ask you to read it back to check it's you. That's OK on that call only. If they called you, or a text asked you to call a number, it's never OK.
 
 **If it already happened:**
 - Hang up or stop replying.
@@ -1899,14 +1929,14 @@ Tick each box as you finish.
 - Your phone buzzes with "Are you trying to sign in?" from Microsoft, Google or your bank app while you're not signing in to anything.
 - Soon after, someone calls pretending to be from Apple or your bank and says, "We saw suspicious activity. Just approve the next prompt and read me the code."
 
-**Do this instead:** If you didn't start it, tap **Don't Allow**, **Deny** or **No, it's not me**. Every time. Then change that account's password from a device you trust. If the pop-ups keep coming, or someone calls about them, it's a sign someone is targeting you. Hang up and tell IT.
+**Do this instead:** If you didn't start it, tap **Don't Allow**, **Deny** or **No, it's not me**. Every time. If it was a **sign-in** request, someone probably has your password, so change that account's password from a device you trust. If it was only **Reset Password** pop-ups, they may just know your email or phone number. Denying them is the main thing, though changing the password does no harm. If the pop-ups keep coming, or someone calls about them, it's a sign someone is targeting you. Hang up and tell IT.
 
-**Heads-up:** Apple won't call you about these pop-ups. If your iPhone shows a sign-in alert, it also shows a rough location on a map. That location is often wrong, so don't use it to decide. Use this rule: if you didn't start it, deny it.
+**Heads-up:** Apple won't call you about these pop-ups. If your iPhone shows a sign-in alert, it also shows a rough location on a map. That location is often wrong, so don't use it to decide. Use this rule: if you didn't start it, deny it. If you change your Apple Account password on an iPhone, it may make you wait an hour first (**iPhone guide, step 8**). That's normal.
 
 **If it already happened:** Change that account's password straight away, from a device you trust. Check the list of signed-in devices and remove any you don't recognise (for your Apple Account, see the **iPhone guide, step 6c**). For other accounts, this is usually under **Security** or **Devices** in the account's settings. If you can't find it, changing the password is the most important part. Ask IT or a trusted helper to check the rest with you. If it was a work account, contact IT now.
 
 **Going further:**
-- **Switch to sign-ins that can't be approved by accident.** With a **passkey** or a **security key** (a small key such as a YubiKey that you plug in or tap), signing in needs your device or the key right there with the real website. Nobody can flood you with "Approve?" pop-ups for it. The trade-off: keys cost money (roughly $25 to $60 each), you should buy two in case one is lost, and you have to keep them somewhere safe. For your Apple Account, see the **iPhone guide, step 31**. On a work-managed iPhone or Mac, only do this if IT agrees.
+- **Switch to sign-ins that can't be approved by accident.** With a **passkey** or a **security key** (a small key such as a YubiKey that you plug in or tap), signing in needs your device or the key right there with the real website. Nobody can flood you with "Approve?" pop-ups for it. The trade-off: keys cost money (roughly $25 to $60 each), you should buy two in case one is lost, and you have to keep them somewhere safe. For your Apple Account, read the **iPhone guide, step 31** first, including its downsides. If you use that Apple Account on any device you use for work, ask IT first.
 - **Use the number check if your app has one.** Microsoft Authenticator and some other apps show a number on the sign-in screen that you have to type into your phone. If your phone asks for a number and you're not looking at a sign-in screen showing one, someone else is trying to sign in. Deny it.
 - **Look at the account's own security history.** Google: **myaccount.google.com/security-checkup** shows your devices and recent security events. Microsoft: **account.microsoft.com**, then **Security**, then look for **sign-in activity**. If you see sign-ins or attempts you don't recognise, someone probably has your password. Change it and move that account to a passkey. Locations shown there are often rough, so judge by "was this me?", not by the town.
 - **For people who are being targeted.** If you're a public figure, handle large sums of money, or keep getting these pop-ups, Google's free **Advanced Protection Program** makes your Google account accept only passkeys or security keys. The trade-off: it's strict. Getting back in after losing your keys can take several days, and some third-party apps can no longer reach your Gmail or Drive. On a work Google account, ask IT first.
@@ -1920,13 +1950,15 @@ Tick each box as you finish.
 **What it looks like:**
 - "This is your bank's fraud department. Your account has been compromised. Move your money to this safe account."
 - "This is the sheriff's office. You missed jury duty. Pay the fine now, or we'll arrest you."
+- "Social Security" or "Medicare" calling to say your number has been suspended, or that you need a new card and must confirm your details. Social Security numbers aren't suspended, and these offices don't call to ask for payment.
 - A crying grandchild, child or partner: "I've been in an accident, I'm in jail, please send money, and don't tell Mom."
+- A text from an unknown number: "Hi Mom, I dropped my phone, this is my new number." Then a request for money. Call them on the number you already have.
 - Your boss, sounding exactly like your boss, asking you to pay something urgently or buy gift cards.
 - A voicemail asking you to "call back immediately" on a number they give you.
 
 **Do this instead:** Hang up. Then **call back on a number you look up yourself**: the number on the back of your card, on your bill, in the company's official app, or in your own contacts. For family or your boss, call them on the number you already have, or ask your code word (step 21). A real bank, government office or family member will understand.
 
-**Heads-up:** On iPhone with iOS 26 or later, go to **Settings > Apps > Phone**. Under **Screen Unknown Callers**, choose **Ask Reason for Calling**. Your iPhone asks callers who aren't in your contacts to say who they are and why they're calling before it rings. On older versions, you can turn on **Silence Unknown Callers** in the same place. It cuts down scam calls, but caller ID can still be faked, so the rule above still applies. **If you don't see this:** open **Settings** and type "Unknown Callers" in the search box at the top.
+**Heads-up:** On iPhone with iOS 26 or later, go to **Settings > Apps > Phone**. Under **Screen Unknown Callers**, choose **Ask Reason for Calling**. Your iPhone asks callers who aren't in your contacts to say who they are and why they're calling before it rings. On older versions, you can turn on **Silence Unknown Callers** in the same place. It cuts down scam calls, but caller ID can still be faked, so the rule above still applies. Trade-off: real callers who aren't in your contacts, like a hospital, pharmacy or delivery driver, may hang up or go to voicemail. Save the numbers that matter in your contacts first, and check your voicemail. **If you don't see this:** open **Settings** and type "Unknown Callers" in the search box at the top.
 
 **If it already happened:** If you gave money, card numbers or account details, call your bank right away on the number on your card. See "If you think you've been scammed" near the end of this guide.
 
@@ -1949,10 +1981,11 @@ Tick each box as you finish.
 - Anyone asking you to withdraw cash or buy gold and hand it to a courier, or leave it for pickup. No real bank, government agency or police officer ever does this.
 - "Keep this between us." "Don't tell your bank why you're sending it." Secrecy is a giant warning sign.
 - An email from a supplier, client, landlord or title company: "We've changed banks. Please use our new account details for this payment." The email may come from the real person's hacked account, or an address that's one letter different.
-- An email from "the boss," often while they're travelling: "I need you to handle a payment quickly and quietly."
+- An email "from an employee" asking whoever runs payroll to change their direct-deposit account. Check by phone or in person, the same as a supplier.
+- An email from "the boss," often while they're travelling: "I need you to handle a payment quickly and quietly," or "Send me everyone's W-2 forms" (or a client file).
 - A new online friend or "investment coach" who shows you amazing profits and encourages you to invest more. You often meet them through a "wrong number" text, a dating app or social media.
 - An online job that pays you for simple "tasks" (liking videos, rating products), then asks you to deposit money to unlock your earnings.
-- A buyer who "accidentally" pays you too much and asks you to send back the difference.
+- A buyer or new "employer" who "accidentally" pays you too much, often by check, and asks you to send back the difference. The check bounces days or weeks later, and the money you sent is gone.
 
 **Do this instead:**
 - **Never pay with gift cards, crypto or a Bitcoin ATM because someone asked you to.**
@@ -1961,7 +1994,7 @@ Tick each box as you finish.
 - Before you send money because of a call or message, **stop and talk to someone you trust** first (step 20).
 
 **If it already happened:**
-- **Wire or bank transfer:** call your bank **right now** and ask them to stop or reverse the payment. Every hour counts. Then report it to the FBI at **IC3.gov**.
+- **Wire or bank transfer:** call your bank **right now**. Ask for the fraud team and say, "I've been scammed and I need to recall this payment." Every hour counts. Then report it to the FBI at **IC3.gov** the same day. The best chance of getting money back is in the first two or three days.
 - **Zelle, Venmo, Cash App or PayPal:** report it in the app and call your bank or the app's support (found inside the app) right away.
 - **Gift cards:** call the company that issued the card on the number on the back of the card, and tell them it was used in a scam. Keep the card and the receipt.
 - **Crypto:** contact the company you used to send it, and report it to the FBI at **IC3.gov**.
@@ -1971,7 +2004,7 @@ Tick each box as you finish.
 **Going further:**
 - **Set lower limits in your bank's app.** Many banking apps let you lower the daily limit for Zelle and transfers, and some let you block wires until you call in. Then a criminal who gets into your account, or talks you into a payment, can only move a small amount. The trade-off: for a big payment like a house deposit, you'll need to raise the limit or visit the branch first.
 - **Name a trusted contact on investment and retirement accounts.** Brokerages (like Fidelity, Schwab or Vanguard) let you name a **trusted contact person**. If staff think you're being scammed, or they can't reach you, they can call that person. That person can't move your money or make trades. This is especially useful for older parents.
-- **If you run your office's payments, write down a two-person rule.** Any payment over an amount you choose, and every change of bank details, needs a second person to check it, plus a call to a number you already had. Paying to new bank details waits one working day. Write it down so nobody has to argue with "the boss" in the moment. The trade-off is a slightly slower process, which is the point. If you don't set the rules, follow your office's (step 5 above).
+- **If you run your office's payments, write down a two-person rule.** Any payment over an amount you choose, and every change of bank details, needs a second person to check it, plus a call to a number you already had. Paying to new bank details waits one working day. Write it down so nobody has to argue with "the boss" in the moment. The trade-off is a slightly slower process, which is the point. If you don't set the rules, follow your office's (see "Do this instead" above).
 - **Stop bank accounts being opened in your name.** Besides the three credit bureaus (step 24), banks often check a separate service called **ChexSystems** when someone opens a checking account. You can place a free security freeze at **chexsystems.com**. The trade-off: you have to lift it before you open a new bank account yourself.
 
 ---
@@ -2022,7 +2055,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 
 **Do this instead:** **No real website ever asks you to press special keys, open Terminal or the Run box, or paste anything to prove you're human.** If you see this, close the page. Only install apps from the **App Store** or the software maker's own website, and only when you went looking for them. Your Mac or iPhone updates itself through **Software Update**, never through a web page.
 
-**Heads-up:** On a Mac, see the **Mac guide, step 9** (only allow apps from the App Store and known developers) and **step 13** (review browser extensions). The optional Terminal check in the **Mac guide, step 18** is different: you chose to do it, from that guide. Never paste a command a web page, pop-up or caller gives you.
+**Heads-up:** On a Mac, see the **Mac guide, step 9** (only allow apps from the App Store and known developers) and **step 13** (review browser extensions). A few optional checks in the **Mac guide** (steps 2, 6, 9 and 18) use Terminal. Those are different: you chose to do them, and you type them yourself from that guide. Never paste a command that a web page, pop-up, email or caller gives you.
 
 **If it already happened:** If you pressed the keys or pasted a command, disconnect from the internet, stop using the computer and contact IT (or your trusted helper) straight away. From a different device, change your email and bank passwords.
 
@@ -2096,7 +2129,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 **Going further:**
 - **At work, never scan a QR code from a work email with your personal phone.** Your office's scam filters check links in emails, but they can't easily read a link hidden in a picture. Your personal phone also has none of the work protections. That's exactly why criminals use QR codes. Report the email to IT instead (step 26).
 - **Make scanning a deliberate choice.** On iPhone you can turn off **Settings > Camera > Scan QR Codes**, then use the **Code Scanner** in Control Center only when you mean to scan. Trade-off: one extra step at restaurants and car parks.
-- **Check a doubtful link without opening it.** Copy the address into a link-checking site such as **urlscan.io** or **VirusTotal**. It visits the page for you and shows what's there. Trade-off: other people may be able to see what you checked, so never check a link that's personal to you, like a password-reset or document-sharing link.
+- **Check a doubtful link without opening it.** A link-checking site can visit the page for you. Step 19's **Going further** shows how to do it privately. Never check a link that's personal to you, like a password-reset or document-sharing link.
 - **Touch the sticker.** On a parking meter or charger, run your finger over the code. If it's a sticker stuck on top of the printed code, or the edges peel, walk away and pay in the official app.
 
 ---
@@ -2110,7 +2143,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - Signing in to your Apple Account, Google or Microsoft on a friend's laptop "just for a minute."
 - A box asking **Trust this browser?**, **Remember this device?** or **Stay signed in?**
 
-**Do this instead:** Use your own phone for anything important, even if it means using your phone's own internet instead of the shop's Wi-Fi. If you really have to use another computer, open a private window (in most browsers, the **File** menu has **New Private Window** or **New Incognito Window**) so the computer doesn't keep you signed in. A private window doesn't stop hidden recording software, so still avoid email, banking and work accounts on computers you don't control. Don't tick **Trust**, **Remember me** or **Stay signed in**. Don't let it save your password. Sign out when you finish. For printing, email the file to the business, or use a USB stick, rather than signing in to your email there.
+**Do this instead:** Use your own phone for anything important, even if it means using your phone's own internet instead of the shop's Wi-Fi. If you really have to use another computer, open a private window so the computer doesn't keep you signed in. On Windows, click the three dots or three lines at the top right of the browser and choose **New Incognito window**, **New InPrivate window** or **New private window**. On a Mac, it's in the **File** menu. A private window doesn't stop hidden recording software, so still avoid email, banking and work accounts on computers you don't control. Don't tick **Trust**, **Remember me** or **Stay signed in**. Don't let it save your password. Sign out when you finish. For printing, email the file to the business, or use a USB stick, rather than signing in to your email there.
 
 **Heads-up:** This is the same idea as never tapping **Trust This Computer** when you plug your iPhone into someone else's computer. See the **iPhone guide, step 16**.
 
@@ -2147,7 +2180,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 
 ---
 
-### 13. Don't overshare online
+### 13. Don't overshare online, or send private photos
 
 **Why this matters:** Criminals use what you post to guess your passwords and security answers, time a break-in while you're away, or make a scam call sound believable ("Hi, I know you're in Italy right now...").
 
@@ -2156,10 +2189,15 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - Fun quizzes like "Your rock star name is your first pet plus the street you grew up on." Those are common security questions.
 - Photos of boarding passes, tickets, driver's licenses, passports, new house keys or checks. Barcodes and numbers in photos can be read.
 - Public posts that show your kids' school, your daily routine or your home address.
+- Someone you met online, often pretending to be a girl or boy your age, asks for a private photo. Then they threaten to send it to your friends and family unless you pay or send more. This is called **sextortion**, and it targets teenagers most.
 
 **Do this instead:** Post holiday photos **after** you get home. Skip the quizzes. Never post photos of documents or barcodes. Set your social media accounts to private or friends-only. Every app hides this setting in a different place, usually under **Privacy**. This is a good one to do together with a family member. For security questions, you don't have to give the real answer. Make up an answer and save it in your password manager (step 15).
 
-**If it already happened:** Delete the post. If you shared a photo of an ID or a card, watch your accounts closely and think about a credit freeze (step 24).
+**Heads-up:** If anyone threatens to share private photos: **don't pay**. Paying only brings more demands. Stop replying, but don't delete the messages: they're evidence. Block and report the account in the app. Tell a parent or another adult you trust. You're the victim of a crime, and you're not in trouble. Parents: say this to your teenagers now, before it happens.
+
+**If it already happened:**
+- **You overshared:** delete the post. If you shared a photo of an ID or a card, watch your accounts closely and think about a credit freeze (step 24).
+- **Someone is threatening to share a private photo:** report it to the FBI at **tips.fbi.gov**. If the person in the photo is under 18, also report it at **report.cybertip.org**, and use **takeitdown.ncmec.org** to help get the images removed from websites. Adults can use **stopncii.org**. None of these services need you to send them the photo.
 
 **Going further:**
 - **Give sign-ups a different email address.** Apple's **Hide My Email** (part of a paid iCloud+ plan, and free when you use **Sign in with Apple**) or a free alias service such as **SimpleLogin** or **Firefox Relay** creates a random address that forwards to you. If a shop leaks or sells it, you switch that one address off. Trade-off: one more thing to look after, and the free plans limit how many addresses you get.
@@ -2209,6 +2247,8 @@ Apple devices come with a free password manager called **Passwords**. If your of
 7. When you sign in to an old account, change its password and let the Passwords app save the new one. Start with email and banking.
 8. When a site offers **"Create a passkey"** or **"Sign in with a passkey,"** say yes. A passkey uses your Face ID, Touch ID or device passcode instead of a password. It can't be stolen by a fake page, because it only works on the real site.
 
+**No Apple devices?** Android phones and the Chrome browser have a free password manager built in, called **Google Password Manager**. It saves and fills in passwords the same way. To see your passwords, type **passwords.google.com** into your browser. Its **Checkup** (sometimes called **Password Checkup**) shows passwords that are reused, weak or leaked. If your household mixes Apple, Android and Windows, see **Going further** below.
+
 **If you don't see this:** open **Settings** (iPhone) or **System Settings** (Mac) and type "AutoFill" or "iCloud" in the search box at the top.
 
 **How to check it worked:** Open the **Passwords** app. Your accounts are listed. Tap **Security** in the Passwords app to see passwords that are reused, weak, or showed up in a leak.
@@ -2216,13 +2256,11 @@ Apple devices come with a free password manager called **Passwords**. If your of
 **Heads-up:** The Passwords app is protected by your device passcode and your Apple Account. That's why a strong passcode, two-factor and Stolen Device Protection (**iPhone guide, steps 3, 6 and 8**) and a strong Mac login password (**Mac guide, step 4**) matter so much.
 
 **Going further:**
+- **Plan for the day you can't.** Whatever you choose, write the master password (or 1Password's **Emergency Kit**) on paper and keep it somewhere safe that a trusted person knows about. A short list of which accounts you have and where the recovery codes are kept helps too. Keep the passwords themselves in the password manager, not on that list.
 - **Know where Apple Passwords stops.** It's end-to-end encrypted and a great choice for a household that only uses Apple devices. But there's no app for Android or Linux. On Windows it works only through the **iCloud for Windows** app and a browser extension. You can only share passwords (**shared groups**) with people who use Apple devices. There's no emergency access built in: Apple's **Legacy Contact** can get your photos and files after you die, but **not** your passwords or passkeys. And the vault opens with your device passcode, so you can't make it need a physical security key.
 - **For mixed households or small offices, use a dedicated manager.** **1Password** and **Bitwarden** work on every phone and computer, let you keep separate shared vaults (for example "Family" and "Office"), and let you protect the account with a **security key** (step 16). With **1Password Families**, an organiser can help a member who gets locked out. Bitwarden's paid plans add **emergency access** for a trusted person. Trade-off: 1Password costs money, and Bitwarden's extras need its low-cost Premium or Families plan. Moving across is easy because Passwords can export your list. Delete the export file straight away, because it isn't encrypted.
-- **If you want a vault you fully own, use KeePassXC.** **KeePassXC** (free, for Mac, Windows and Linux) keeps everything in one encrypted file (a **.kdbx** file) that never goes to anyone's cloud unless you put it there. On iPhone and Mac, **Strongbox** or **KeePassium** can open the same file. Trade-off: syncing and backups are now your job. If you lose the file, or forget its master password, nobody can help you get it back.
-- **Obsidian is a great notebook, not a safe.** An Obsidian vault is just a folder of ordinary text files with no password of their own. Anyone who gets into your computer, or a copy of that folder, can read them. It's perfect for a **security notebook**: which accounts you have, which email each uses, where the recovery codes are kept, and which devices are yours. Keep the actual passwords, codes and recovery keys in the password manager, and let your notes say where to find them.
-- **Plan for the day you can't.** Whatever you choose, write the master password (or 1Password's **Emergency Kit**) on paper and keep it somewhere safe that a trusted person knows about.
-
-For work accounts, keep using the password manager your office gives you.
+- **Want a vault that never touches anyone's cloud?** **KeePassXC** (free) keeps your passwords in one encrypted file on your own computer, but syncing, backups and remembering its master password are then entirely your job.
+- **Use Obsidian (or any notes app) as a notebook, never as the safe.** An Obsidian vault is just a folder of ordinary text files with no password of its own, so anyone who gets into your computer can read it. It's great for the "where things are" list above: which accounts you have, which email each uses, where the recovery codes are kept. Keep the actual passwords, codes and recovery keys in the password manager.
 
 ---
 
@@ -2242,6 +2280,7 @@ Do these first: your **email**, your **bank and credit cards**, your **Apple Acc
    - An **authenticator app** (a free app that shows a new 6-digit code every 30 seconds), for example Google Authenticator or Microsoft Authenticator. Or use the codes feature in Apple's **Passwords** app: open the account, tap **Edit**, then **Set Up Verification Code**, and scan the QR code the website shows you.
    - A **text message code** (better than nothing).
 5. Save the **backup codes** or **recovery codes** it gives you (spare codes you can use if you lose your phone) in your password manager, or print them and keep them somewhere safe at home.
+6. **Lock your phone number.** Sign in to your phone company's app or website and turn on its free number lock. **T-Mobile** calls it **SIM Protection** and **Port Out Protection**, **Verizon** calls it **Number Lock** and **SIM Protection**, and **AT&T** calls it **Wireless Account Lock**. Also set an account PIN that isn't your birthday or part of your Social Security number. This works for any phone. Before you switch phones or carriers, you'll need to turn the lock off. The **iPhone guide, step 11b** has more detail.
 
 For your Apple Account, see the **iPhone guide, step 6a**.
 
@@ -2249,11 +2288,11 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 
 **How to check it worked:** In the same security settings, two-factor now says **On**.
 
-**Heads-up:** Text message codes can be stolen if a criminal takes over your phone number. That's why an authenticator app or passkey is better, and why the SIM PIN and carrier lock in the **iPhone guide, step 11** are worth doing. And remember step 2: a code is never for sharing.
+**Heads-up:** Text message codes can be stolen if a criminal takes over your phone number. That's why an authenticator app or passkey is better, and why locking your number (item 6 above) is worth doing. And remember step 2: a code is never for sharing.
 
 **Going further:**
-- **Get two security keys.** A physical key such as a **YubiKey** (Yubico's basic **Security Key** costs about $25 to $30) is the hardest sign-in method to phish. Add **two** keys to your email, Apple, Google, Microsoft and password-manager accounts, and keep the spare at home. For your Apple Account, read the **iPhone guide, step 31** first, including its downsides. Trade-off: if you lose both keys and your other ways in, you can be locked out for good.
-- **Close the weak back door.** Once a passkey, security key or authenticator app is set up, see whether the account lets you remove **text message** as a backup option. Then a criminal who steals your number gets nothing. Some accounts, including your Apple Account, always keep a phone number, and that's what the SIM PIN and carrier lock in the **iPhone guide, step 11** are for. Trade-off: fewer ways back in if you lose your phone, so save your backup codes first.
+- **Get two security keys.** A physical key such as a **YubiKey** (Yubico's basic **Security Key** costs about $25 to $30) is the hardest sign-in method to phish. Add **two** keys to your email, Apple, Google, Microsoft and password-manager accounts, and keep the spare at home. For your Apple Account, read the **iPhone guide, step 31** first, including its downsides. If you use that Apple Account on any device you use for work, ask IT first. Trade-off: if you lose both keys and your other ways in, you can be locked out for good.
+- **Close the weak back door.** Once a passkey, security key or authenticator app is set up, see whether the account lets you remove **text message** as a backup option. Then a criminal who steals your number gets nothing. Some accounts, including your Apple Account, always keep a phone number, and that's what the number lock in item 6 above is for. Trade-off: fewer ways back in if you lose your phone, so save your backup codes first.
 - **Decide where your codes live, on purpose.** Keeping codes in your password manager is convenient, but if someone breaks into that one app, they get both locks at once. Some confident users keep codes in a separate authenticator app with its own encrypted backup, such as **2FAS** or **Ente Auth** (both free). Trade-off: one more app to back up and move to a new phone.
 - **High-risk? Use the strongest settings.** Journalists, executives, people in public roles and anyone being targeted can join Google's free **Advanced Protection Program**, which requires a passkey or security key to sign in. Trade-off: some outside apps lose access to your Google account, and account recovery is deliberately slow.
 
@@ -2313,7 +2352,7 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 **Going further:**
 - **Treat your password manager as a tripwire.** If it doesn't offer to fill in your password, don't copy and paste it in. Stop and check the address. This one rule stops even very convincing fake sites, and passkeys do the same automatically. Trade-off: now and then a real company signs you in on a different address. If that happens, check the address against your statement or the official app before you save it.
 - **Give money its own browser.** Make a separate browser profile with only your bank and card bookmarks and no extensions. Chrome, Edge and Safari (on Mac and iPhone) all call these **Profiles**. Some people go further and keep one fully updated iPad only for banking. Trade-off: a little more switching around.
-- **Filter dangerous sites for the whole house.** A filtering DNS service quietly blocks known scam and malware sites for every device on your home Wi-Fi. **Quad9** (9.9.9.9) is free and simple. **NextDNS** gives you more control (free up to 300,000 lookups a month, then about $2 a month). You can set it once in your home Wi-Fi router. Trade-off: now and then it blocks a real site, and it doesn't replace your own checks. On work computers and phones, don't change these settings. If IT has given you a safe-browsing profile (**iPhone guide, step 13b**), leave it in place.
+- **Filter dangerous sites for the whole house.** A filtering DNS service quietly blocks known scam and malware sites for every device on your home Wi-Fi. **Quad9** (9.9.9.9) is free and simple. **NextDNS** gives you more control (free up to 300,000 lookups a month, then it stops filtering until the next month unless you pay about $2 a month). You can set it once in your home Wi-Fi router. Trade-off: now and then it blocks a real site, and it doesn't replace your own checks. On work computers and phones, don't change these settings. If IT has given you a safe-browsing profile (**iPhone guide, step 13b**), leave it in place.
 - **Skip search for the sites you use.** In the address bar, type the first few letters of the bookmark's name and pick the bookmark from the list. The fewer times you search for "my bank login," the fewer chances a paid ad has to catch you.
 
 ---
@@ -2325,11 +2364,11 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 **Steps: check where a link goes**
 
 1. **iPhone (Mail, Messages, Safari):** press your finger on the link and keep it there for a second or two. Don't tap. A preview appears with the web address at the top. Read it, then tap outside the preview to close it.
-2. The preview may show the page itself. That's OK as long as you only read the address and don't tap or type anything inside it.
+2. If the preview shows the page itself, tap **Hide Preview** at the top. Your iPhone remembers this, so from then on it shows just the address. If you don't see **Hide Preview**, only read the address, and don't tap or type anything inside the preview.
 3. **Mac (Mail):** move the pointer over the link, **without clicking**, and wait a moment. The real address appears in a small pop-up.
 4. **Mac (Safari):** click **View** in the menu at the top of the screen, then **Show Status Bar**. You only do this once. After that, when you rest the pointer on a link, its real address appears at the bottom of the window.
 
-**How to read the address:** Find the first single slash (**/**) after the name. Just before that slash is the real website. Read it from right to left. The name right before **.com**, **.org**, **.gov** (or a country ending like **.co.uk**) is the real site. **apple.com/support** goes to Apple. **apple.com.account-verify.io/support** goes to **account-verify.io**, so it's not Apple, even though "apple" appears at the start. A familiar name anywhere else in the address means nothing. If you're not sure, don't tap. Go to the site yourself (step 18).
+**How to read the address:** Find the first single slash (**/**) after the name. Just before that slash is the real website. Read it from right to left. The name right before **.com**, **.org**, **.gov** (or a country ending like **.co.uk**) is the real site. It must match the company's name **exactly**. **apple.com** is Apple. **apple-support-help.com** and **app1e.com** are not. **apple.com/support** goes to Apple. **apple.com.account-verify.io/support** goes to **account-verify.io**, so it's not Apple, even though "apple" appears at the start. A familiar name anywhere else in the address means nothing. If you're not sure, don't tap. Go to the site yourself (step 18).
 
 **Steps: check who an email is really from**
 
@@ -2389,10 +2428,9 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 
 **Heads-up:**
 - If a caller can't give the word, hang up and call your family member on the number you already have. If the code word ever leaks, pick a new one.
-- Tell teenagers that if anyone online threatens to share photos unless they pay or send more, they should stop replying and tell you right away. It's a crime against them, and they won't be in trouble. Report it at **report.cybertip.org** or **tips.fbi.gov**.
+- Talk to teenagers about the private-photo threat scam in step 13 at the same time. If it happens, they should stop replying and tell you right away. They won't be in trouble.
 
 **Going further:**
-- **Lock your phone number at your mobile carrier.** Criminals can take over your phone number by talking your carrier into moving it to their SIM card or to another company. Then your texted codes go to them. Turn on your carrier's free protection: **T-Mobile** calls it **SIM Protection** and **Port Out Protection**, **Verizon** calls it **Number Lock** and **SIM Protection**, and **AT&T** calls it **Wireless Account Lock** (in the **myAT&T** app). Also set an account PIN that isn't your birthday or part of your Social Security number. Trade-off: before you switch phones or carriers, you have to turn the lock off.
 - **Use a question and an answer, not just one word.** One person asks a question ("How's the garden?") and the other gives an answer that makes no sense to anyone else ("The goats ate it"). Even someone who overheard the question doesn't know the answer. Make up your own pair.
 - **Change it on a schedule.** Pick a new word or pair once a year, and any time someone who knew it leaves the family circle or the office. Agree on the new one in person.
 - **Write down your office's call-back numbers.** Keep a short printed list of known numbers for your manager, finance, IT and your main suppliers, and a copy on your phone. When an "urgent" request comes in, call back on the list's number, never a number in the message or email signature.
@@ -2478,7 +2516,7 @@ You need to do this with **each** of the three bureaus. Go to their real website
 **Heads-up:**
 - You can still use your existing cards and accounts normally.
 - Before you apply for a loan, credit card, mortgage or car loan, lift the freeze for a short time. This is called a "thaw." Some phone companies and landlords check your credit too. Sign in, choose **temporarily lift**, and pick the dates. You can do this at the bureau they use, or at all three.
-- By law, a freeze or thaw you request online or by phone must take effect within an hour.
+- By law, a freeze you ask for online or by phone must be in place within one business day. Lifting it (a thaw) online or by phone must take effect within one hour.
 - The bureaus may offer paid "credit lock" or monitoring products. The free **freeze** is all you need.
 - These sites aren't the government. If a page asks for payment just to place a freeze, you're on the wrong page.
 - For extra protection, get a free **IRS Identity Protection PIN** at **irs.gov/ippin** (it stops someone filing taxes in your name), and create your own **my Social Security** account at **ssa.gov** so nobody else can create one as you.
@@ -2503,7 +2541,7 @@ You need to do this with **each** of the three bureaus. Go to their real website
 3. It lists the hacked sites where your email appeared, and what was taken.
 4. For each one you still use, change the password to a new, unique one (step 15) and turn on two-factor (step 16).
 5. If the same password was used anywhere else, change it there too.
-6. Also open the **Passwords** app and tap **Security**. It lists your passwords that are reused, weak, or known to be leaked. Work through that list, starting with email and money accounts.
+6. Also open the **Passwords** app and tap **Security**. It lists your passwords that are reused, weak, or known to be leaked. Work through that list, starting with email and money accounts. (On Android or in Chrome: type **passwords.google.com** and open **Checkup**.)
 
 **How to check it worked:** The Passwords app's **Security** list is empty, or only has accounts you've decided don't matter.
 
@@ -2525,7 +2563,7 @@ You need to do this with **each** of the three bureaus. Go to their real website
 
 **Steps**
 
-1. **Scam email at work:** don't click anything, and don't forward it to colleagues. Report it to IT (`support@twentynineeleven.net`), or use the **Report phishing** button if your email program has one. Then delete it.
+1. **Scam email at work:** don't click anything, and don't forward it to colleagues. Forward it only to IT (`support@twentynineeleven.net`), or use the **Report phishing** button if your email program has one. Then delete it.
 2. **Scam text:** forward it to **7726** (the numbers spell "SPAM"). It helps your phone company find and block scam senders. On iPhone, you can also tap **Report Junk** under the message. Then delete it.
 3. **Scam email at home:** use **Report spam** or **Report phishing** in your email app, or move it to **Junk**.
 4. **Any scam or fraud, even if you didn't lose money:** report it to the FTC at **ReportFraud.ftc.gov**.

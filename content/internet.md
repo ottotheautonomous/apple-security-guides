@@ -1,4 +1,4 @@
-# Stay Safe Online: A Step-by-Step Guide
+# Staying Safe Online: A Step-by-Step Guide
 
 ## What this is
 
@@ -7,6 +7,8 @@ Most online crime doesn't start with a clever hacker breaking in. It starts with
 It's for everyone: you, your family, your parents, your kids. You don't need to be "good with tech." Words in **bold** are either words you'll see on screen, or the most important points to remember. A path like **Settings > Apps > Phone** means: open the Settings app, tap **Apps**, then tap **Phone**.
 
 It works on any device: iPhone, Mac, Windows PC, Android phone or tablet. Where something is specific to Apple devices, the guide says so, and points you to the **iPhone guide** or the **Mac guide** on this site for the detailed settings.
+
+The phone numbers, agencies and credit steps in this guide are for the **United States**. If you live somewhere else, the habits still apply. Look up your own country's places to report scams.
 
 **How long it takes:** about 30 to 40 minutes to read. Part 2 also has a few short setup tasks, about 10 to 20 minutes each. Each one is explained when you get to it. You don't have to do it all at once. Tick things off as you go.
 
@@ -46,7 +48,7 @@ Tick each box as you finish.
 - [ ] 10. Don't scan QR codes without checking where they go
 - [ ] 11. Don't sign in on a computer that isn't yours
 - [ ] 12. Don't trust a site just because it has a padlock or a great deal
-- [ ] 13. Don't overshare online
+- [ ] 13. Don't overshare online, or send private photos
 - [ ] 14. Don't paste private or client information into AI chatbots or free tools
 
 **Part 2: Do's**
@@ -111,7 +113,9 @@ Tick each box as you finish.
 
 **Do this instead:** Never read, type or forward a code to anyone. **If someone contacted you (a call, text, email or message) and asks for a code, it's a scam.** Not your bank, not Apple, not Microsoft, not the police, and not IT will ask. A code is only ever for you to type into a sign-in screen **that you opened yourself**. Don't type a code someone else gave you into a sign-in page either. Read the code message itself: it often says "Don't share this code."
 
-**Heads-up:** There's one exception. If you're someone's Apple **Recovery Contact** (see the **iPhone guide, step 6d**), your iPhone can show a recovery code for them. Only give it to them in person, or on a call **you** started to the number you already have for them.
+**Heads-up:** There are two exceptions. Both only apply when **you** started the contact.
+- If you're someone's Apple **Recovery Contact** (see the **iPhone guide, step 6d**), your iPhone can show a recovery code for them. Only give it to them in person, or on a call **you** started to the number you already have for them.
+- When **you** call your bank or phone company, on the number from your card, statement or bill, they may text you a code and ask you to read it back to check it's you. That's OK on that call only. If they called you, or a text asked you to call a number, it's never OK.
 
 **If it already happened:**
 - Hang up or stop replying.
@@ -136,14 +140,14 @@ Tick each box as you finish.
 - Your phone buzzes with "Are you trying to sign in?" from Microsoft, Google or your bank app while you're not signing in to anything.
 - Soon after, someone calls pretending to be from Apple or your bank and says, "We saw suspicious activity. Just approve the next prompt and read me the code."
 
-**Do this instead:** If you didn't start it, tap **Don't Allow**, **Deny** or **No, it's not me**. Every time. Then change that account's password from a device you trust. If the pop-ups keep coming, or someone calls about them, it's a sign someone is targeting you. Hang up and tell IT.
+**Do this instead:** If you didn't start it, tap **Don't Allow**, **Deny** or **No, it's not me**. Every time. If it was a **sign-in** request, someone probably has your password, so change that account's password from a device you trust. If it was only **Reset Password** pop-ups, they may just know your email or phone number. Denying them is the main thing, though changing the password does no harm. If the pop-ups keep coming, or someone calls about them, it's a sign someone is targeting you. Hang up and tell IT.
 
-**Heads-up:** Apple won't call you about these pop-ups. If your iPhone shows a sign-in alert, it also shows a rough location on a map. That location is often wrong, so don't use it to decide. Use this rule: if you didn't start it, deny it.
+**Heads-up:** Apple won't call you about these pop-ups. If your iPhone shows a sign-in alert, it also shows a rough location on a map. That location is often wrong, so don't use it to decide. Use this rule: if you didn't start it, deny it. If you change your Apple Account password on an iPhone, it may make you wait an hour first (**iPhone guide, step 8**). That's normal.
 
 **If it already happened:** Change that account's password straight away, from a device you trust. Check the list of signed-in devices and remove any you don't recognise (for your Apple Account, see the **iPhone guide, step 6c**). For other accounts, this is usually under **Security** or **Devices** in the account's settings. If you can't find it, changing the password is the most important part. Ask IT or a trusted helper to check the rest with you. If it was a work account, contact IT now.
 
 **Going further:**
-- **Switch to sign-ins that can't be approved by accident.** With a **passkey** or a **security key** (a small key such as a YubiKey that you plug in or tap), signing in needs your device or the key right there with the real website. Nobody can flood you with "Approve?" pop-ups for it. The trade-off: keys cost money (roughly $25 to $60 each), you should buy two in case one is lost, and you have to keep them somewhere safe. For your Apple Account, see the **iPhone guide, step 31**. On a work-managed iPhone or Mac, only do this if IT agrees.
+- **Switch to sign-ins that can't be approved by accident.** With a **passkey** or a **security key** (a small key such as a YubiKey that you plug in or tap), signing in needs your device or the key right there with the real website. Nobody can flood you with "Approve?" pop-ups for it. The trade-off: keys cost money (roughly $25 to $60 each), you should buy two in case one is lost, and you have to keep them somewhere safe. For your Apple Account, read the **iPhone guide, step 31** first, including its downsides. If you use that Apple Account on any device you use for work, ask IT first.
 - **Use the number check if your app has one.** Microsoft Authenticator and some other apps show a number on the sign-in screen that you have to type into your phone. If your phone asks for a number and you're not looking at a sign-in screen showing one, someone else is trying to sign in. Deny it.
 - **Look at the account's own security history.** Google: **myaccount.google.com/security-checkup** shows your devices and recent security events. Microsoft: **account.microsoft.com**, then **Security**, then look for **sign-in activity**. If you see sign-ins or attempts you don't recognise, someone probably has your password. Change it and move that account to a passkey. Locations shown there are often rough, so judge by "was this me?", not by the town.
 - **For people who are being targeted.** If you're a public figure, handle large sums of money, or keep getting these pop-ups, Google's free **Advanced Protection Program** makes your Google account accept only passkeys or security keys. The trade-off: it's strict. Getting back in after losing your keys can take several days, and some third-party apps can no longer reach your Gmail or Drive. On a work Google account, ask IT first.
@@ -157,13 +161,15 @@ Tick each box as you finish.
 **What it looks like:**
 - "This is your bank's fraud department. Your account has been compromised. Move your money to this safe account."
 - "This is the sheriff's office. You missed jury duty. Pay the fine now, or we'll arrest you."
+- "Social Security" or "Medicare" calling to say your number has been suspended, or that you need a new card and must confirm your details. Social Security numbers aren't suspended, and these offices don't call to ask for payment.
 - A crying grandchild, child or partner: "I've been in an accident, I'm in jail, please send money, and don't tell Mom."
+- A text from an unknown number: "Hi Mom, I dropped my phone, this is my new number." Then a request for money. Call them on the number you already have.
 - Your boss, sounding exactly like your boss, asking you to pay something urgently or buy gift cards.
 - A voicemail asking you to "call back immediately" on a number they give you.
 
 **Do this instead:** Hang up. Then **call back on a number you look up yourself**: the number on the back of your card, on your bill, in the company's official app, or in your own contacts. For family or your boss, call them on the number you already have, or ask your code word (step 21). A real bank, government office or family member will understand.
 
-**Heads-up:** On iPhone with iOS 26 or later, go to **Settings > Apps > Phone**. Under **Screen Unknown Callers**, choose **Ask Reason for Calling**. Your iPhone asks callers who aren't in your contacts to say who they are and why they're calling before it rings. On older versions, you can turn on **Silence Unknown Callers** in the same place. It cuts down scam calls, but caller ID can still be faked, so the rule above still applies. **If you don't see this:** open **Settings** and type "Unknown Callers" in the search box at the top.
+**Heads-up:** On iPhone with iOS 26 or later, go to **Settings > Apps > Phone**. Under **Screen Unknown Callers**, choose **Ask Reason for Calling**. Your iPhone asks callers who aren't in your contacts to say who they are and why they're calling before it rings. On older versions, you can turn on **Silence Unknown Callers** in the same place. It cuts down scam calls, but caller ID can still be faked, so the rule above still applies. Trade-off: real callers who aren't in your contacts, like a hospital, pharmacy or delivery driver, may hang up or go to voicemail. Save the numbers that matter in your contacts first, and check your voicemail. **If you don't see this:** open **Settings** and type "Unknown Callers" in the search box at the top.
 
 **If it already happened:** If you gave money, card numbers or account details, call your bank right away on the number on your card. See "If you think you've been scammed" near the end of this guide.
 
@@ -186,10 +192,11 @@ Tick each box as you finish.
 - Anyone asking you to withdraw cash or buy gold and hand it to a courier, or leave it for pickup. No real bank, government agency or police officer ever does this.
 - "Keep this between us." "Don't tell your bank why you're sending it." Secrecy is a giant warning sign.
 - An email from a supplier, client, landlord or title company: "We've changed banks. Please use our new account details for this payment." The email may come from the real person's hacked account, or an address that's one letter different.
-- An email from "the boss," often while they're travelling: "I need you to handle a payment quickly and quietly."
+- An email "from an employee" asking whoever runs payroll to change their direct-deposit account. Check by phone or in person, the same as a supplier.
+- An email from "the boss," often while they're travelling: "I need you to handle a payment quickly and quietly," or "Send me everyone's W-2 forms" (or a client file).
 - A new online friend or "investment coach" who shows you amazing profits and encourages you to invest more. You often meet them through a "wrong number" text, a dating app or social media.
 - An online job that pays you for simple "tasks" (liking videos, rating products), then asks you to deposit money to unlock your earnings.
-- A buyer who "accidentally" pays you too much and asks you to send back the difference.
+- A buyer or new "employer" who "accidentally" pays you too much, often by check, and asks you to send back the difference. The check bounces days or weeks later, and the money you sent is gone.
 
 **Do this instead:**
 - **Never pay with gift cards, crypto or a Bitcoin ATM because someone asked you to.**
@@ -198,7 +205,7 @@ Tick each box as you finish.
 - Before you send money because of a call or message, **stop and talk to someone you trust** first (step 20).
 
 **If it already happened:**
-- **Wire or bank transfer:** call your bank **right now** and ask them to stop or reverse the payment. Every hour counts. Then report it to the FBI at **IC3.gov**.
+- **Wire or bank transfer:** call your bank **right now**. Ask for the fraud team and say, "I've been scammed and I need to recall this payment." Every hour counts. Then report it to the FBI at **IC3.gov** the same day. The best chance of getting money back is in the first two or three days.
 - **Zelle, Venmo, Cash App or PayPal:** report it in the app and call your bank or the app's support (found inside the app) right away.
 - **Gift cards:** call the company that issued the card on the number on the back of the card, and tell them it was used in a scam. Keep the card and the receipt.
 - **Crypto:** contact the company you used to send it, and report it to the FBI at **IC3.gov**.
@@ -208,7 +215,7 @@ Tick each box as you finish.
 **Going further:**
 - **Set lower limits in your bank's app.** Many banking apps let you lower the daily limit for Zelle and transfers, and some let you block wires until you call in. Then a criminal who gets into your account, or talks you into a payment, can only move a small amount. The trade-off: for a big payment like a house deposit, you'll need to raise the limit or visit the branch first.
 - **Name a trusted contact on investment and retirement accounts.** Brokerages (like Fidelity, Schwab or Vanguard) let you name a **trusted contact person**. If staff think you're being scammed, or they can't reach you, they can call that person. That person can't move your money or make trades. This is especially useful for older parents.
-- **If you run your office's payments, write down a two-person rule.** Any payment over an amount you choose, and every change of bank details, needs a second person to check it, plus a call to a number you already had. Paying to new bank details waits one working day. Write it down so nobody has to argue with "the boss" in the moment. The trade-off is a slightly slower process, which is the point. If you don't set the rules, follow your office's (step 5 above).
+- **If you run your office's payments, write down a two-person rule.** Any payment over an amount you choose, and every change of bank details, needs a second person to check it, plus a call to a number you already had. Paying to new bank details waits one working day. Write it down so nobody has to argue with "the boss" in the moment. The trade-off is a slightly slower process, which is the point. If you don't set the rules, follow your office's (see "Do this instead" above).
 - **Stop bank accounts being opened in your name.** Besides the three credit bureaus (step 24), banks often check a separate service called **ChexSystems** when someone opens a checking account. You can place a free security freeze at **chexsystems.com**. The trade-off: you have to lift it before you open a new bank account yourself.
 
 ---
@@ -259,7 +266,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 
 **Do this instead:** **No real website ever asks you to press special keys, open Terminal or the Run box, or paste anything to prove you're human.** If you see this, close the page. Only install apps from the **App Store** or the software maker's own website, and only when you went looking for them. Your Mac or iPhone updates itself through **Software Update**, never through a web page.
 
-**Heads-up:** On a Mac, see the **Mac guide, step 9** (only allow apps from the App Store and known developers) and **step 13** (review browser extensions). The optional Terminal check in the **Mac guide, step 18** is different: you chose to do it, from that guide. Never paste a command a web page, pop-up or caller gives you.
+**Heads-up:** On a Mac, see the **Mac guide, step 9** (only allow apps from the App Store and known developers) and **step 13** (review browser extensions). A few optional checks in the **Mac guide** (steps 2, 6, 9 and 18) use Terminal. Those are different: you chose to do them, and you type them yourself from that guide. Never paste a command that a web page, pop-up, email or caller gives you.
 
 **If it already happened:** If you pressed the keys or pasted a command, disconnect from the internet, stop using the computer and contact IT (or your trusted helper) straight away. From a different device, change your email and bank passwords.
 
@@ -333,7 +340,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 **Going further:**
 - **At work, never scan a QR code from a work email with your personal phone.** Your office's scam filters check links in emails, but they can't easily read a link hidden in a picture. Your personal phone also has none of the work protections. That's exactly why criminals use QR codes. Report the email to IT instead (step 26).
 - **Make scanning a deliberate choice.** On iPhone you can turn off **Settings > Camera > Scan QR Codes**, then use the **Code Scanner** in Control Center only when you mean to scan. Trade-off: one extra step at restaurants and car parks.
-- **Check a doubtful link without opening it.** Copy the address into a link-checking site such as **urlscan.io** or **VirusTotal**. It visits the page for you and shows what's there. Trade-off: other people may be able to see what you checked, so never check a link that's personal to you, like a password-reset or document-sharing link.
+- **Check a doubtful link without opening it.** A link-checking site can visit the page for you. Step 19's **Going further** shows how to do it privately. Never check a link that's personal to you, like a password-reset or document-sharing link.
 - **Touch the sticker.** On a parking meter or charger, run your finger over the code. If it's a sticker stuck on top of the printed code, or the edges peel, walk away and pay in the official app.
 
 ---
@@ -347,7 +354,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - Signing in to your Apple Account, Google or Microsoft on a friend's laptop "just for a minute."
 - A box asking **Trust this browser?**, **Remember this device?** or **Stay signed in?**
 
-**Do this instead:** Use your own phone for anything important, even if it means using your phone's own internet instead of the shop's Wi-Fi. If you really have to use another computer, open a private window (in most browsers, the **File** menu has **New Private Window** or **New Incognito Window**) so the computer doesn't keep you signed in. A private window doesn't stop hidden recording software, so still avoid email, banking and work accounts on computers you don't control. Don't tick **Trust**, **Remember me** or **Stay signed in**. Don't let it save your password. Sign out when you finish. For printing, email the file to the business, or use a USB stick, rather than signing in to your email there.
+**Do this instead:** Use your own phone for anything important, even if it means using your phone's own internet instead of the shop's Wi-Fi. If you really have to use another computer, open a private window so the computer doesn't keep you signed in. On Windows, click the three dots or three lines at the top right of the browser and choose **New Incognito window**, **New InPrivate window** or **New private window**. On a Mac, it's in the **File** menu. A private window doesn't stop hidden recording software, so still avoid email, banking and work accounts on computers you don't control. Don't tick **Trust**, **Remember me** or **Stay signed in**. Don't let it save your password. Sign out when you finish. For printing, email the file to the business, or use a USB stick, rather than signing in to your email there.
 
 **Heads-up:** This is the same idea as never tapping **Trust This Computer** when you plug your iPhone into someone else's computer. See the **iPhone guide, step 16**.
 
@@ -384,7 +391,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 
 ---
 
-## 13. Don't overshare online
+## 13. Don't overshare online, or send private photos
 
 **Why this matters:** Criminals use what you post to guess your passwords and security answers, time a break-in while you're away, or make a scam call sound believable ("Hi, I know you're in Italy right now...").
 
@@ -393,10 +400,15 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - Fun quizzes like "Your rock star name is your first pet plus the street you grew up on." Those are common security questions.
 - Photos of boarding passes, tickets, driver's licenses, passports, new house keys or checks. Barcodes and numbers in photos can be read.
 - Public posts that show your kids' school, your daily routine or your home address.
+- Someone you met online, often pretending to be a girl or boy your age, asks for a private photo. Then they threaten to send it to your friends and family unless you pay or send more. This is called **sextortion**, and it targets teenagers most.
 
 **Do this instead:** Post holiday photos **after** you get home. Skip the quizzes. Never post photos of documents or barcodes. Set your social media accounts to private or friends-only. Every app hides this setting in a different place, usually under **Privacy**. This is a good one to do together with a family member. For security questions, you don't have to give the real answer. Make up an answer and save it in your password manager (step 15).
 
-**If it already happened:** Delete the post. If you shared a photo of an ID or a card, watch your accounts closely and think about a credit freeze (step 24).
+**Heads-up:** If anyone threatens to share private photos: **don't pay**. Paying only brings more demands. Stop replying, but don't delete the messages: they're evidence. Block and report the account in the app. Tell a parent or another adult you trust. You're the victim of a crime, and you're not in trouble. Parents: say this to your teenagers now, before it happens.
+
+**If it already happened:**
+- **You overshared:** delete the post. If you shared a photo of an ID or a card, watch your accounts closely and think about a credit freeze (step 24).
+- **Someone is threatening to share a private photo:** report it to the FBI at **tips.fbi.gov**. If the person in the photo is under 18, also report it at **report.cybertip.org**, and use **takeitdown.ncmec.org** to help get the images removed from websites. Adults can use **stopncii.org**. None of these services need you to send them the photo.
 
 **Going further:**
 - **Give sign-ups a different email address.** Apple's **Hide My Email** (part of a paid iCloud+ plan, and free when you use **Sign in with Apple**) or a free alias service such as **SimpleLogin** or **Firefox Relay** creates a random address that forwards to you. If a shop leaks or sells it, you switch that one address off. Trade-off: one more thing to look after, and the free plans limit how many addresses you get.
@@ -446,6 +458,8 @@ Apple devices come with a free password manager called **Passwords**. If your of
 7. When you sign in to an old account, change its password and let the Passwords app save the new one. Start with email and banking.
 8. When a site offers **"Create a passkey"** or **"Sign in with a passkey,"** say yes. A passkey uses your Face ID, Touch ID or device passcode instead of a password. It can't be stolen by a fake page, because it only works on the real site.
 
+**No Apple devices?** Android phones and the Chrome browser have a free password manager built in, called **Google Password Manager**. It saves and fills in passwords the same way. To see your passwords, type **passwords.google.com** into your browser. Its **Checkup** (sometimes called **Password Checkup**) shows passwords that are reused, weak or leaked. If your household mixes Apple, Android and Windows, see **Going further** below.
+
 **If you don't see this:** open **Settings** (iPhone) or **System Settings** (Mac) and type "AutoFill" or "iCloud" in the search box at the top.
 
 **How to check it worked:** Open the **Passwords** app. Your accounts are listed. Tap **Security** in the Passwords app to see passwords that are reused, weak, or showed up in a leak.
@@ -453,13 +467,11 @@ Apple devices come with a free password manager called **Passwords**. If your of
 **Heads-up:** The Passwords app is protected by your device passcode and your Apple Account. That's why a strong passcode, two-factor and Stolen Device Protection (**iPhone guide, steps 3, 6 and 8**) and a strong Mac login password (**Mac guide, step 4**) matter so much.
 
 **Going further:**
+- **Plan for the day you can't.** Whatever you choose, write the master password (or 1Password's **Emergency Kit**) on paper and keep it somewhere safe that a trusted person knows about. A short list of which accounts you have and where the recovery codes are kept helps too. Keep the passwords themselves in the password manager, not on that list.
 - **Know where Apple Passwords stops.** It's end-to-end encrypted and a great choice for a household that only uses Apple devices. But there's no app for Android or Linux. On Windows it works only through the **iCloud for Windows** app and a browser extension. You can only share passwords (**shared groups**) with people who use Apple devices. There's no emergency access built in: Apple's **Legacy Contact** can get your photos and files after you die, but **not** your passwords or passkeys. And the vault opens with your device passcode, so you can't make it need a physical security key.
 - **For mixed households or small offices, use a dedicated manager.** **1Password** and **Bitwarden** work on every phone and computer, let you keep separate shared vaults (for example "Family" and "Office"), and let you protect the account with a **security key** (step 16). With **1Password Families**, an organiser can help a member who gets locked out. Bitwarden's paid plans add **emergency access** for a trusted person. Trade-off: 1Password costs money, and Bitwarden's extras need its low-cost Premium or Families plan. Moving across is easy because Passwords can export your list. Delete the export file straight away, because it isn't encrypted.
-- **If you want a vault you fully own, use KeePassXC.** **KeePassXC** (free, for Mac, Windows and Linux) keeps everything in one encrypted file (a **.kdbx** file) that never goes to anyone's cloud unless you put it there. On iPhone and Mac, **Strongbox** or **KeePassium** can open the same file. Trade-off: syncing and backups are now your job. If you lose the file, or forget its master password, nobody can help you get it back.
-- **Obsidian is a great notebook, not a safe.** An Obsidian vault is just a folder of ordinary text files with no password of their own. Anyone who gets into your computer, or a copy of that folder, can read them. It's perfect for a **security notebook**: which accounts you have, which email each uses, where the recovery codes are kept, and which devices are yours. Keep the actual passwords, codes and recovery keys in the password manager, and let your notes say where to find them.
-- **Plan for the day you can't.** Whatever you choose, write the master password (or 1Password's **Emergency Kit**) on paper and keep it somewhere safe that a trusted person knows about.
-
-For work accounts, keep using the password manager your office gives you.
+- **Want a vault that never touches anyone's cloud?** **KeePassXC** (free) keeps your passwords in one encrypted file on your own computer, but syncing, backups and remembering its master password are then entirely your job.
+- **Use Obsidian (or any notes app) as a notebook, never as the safe.** An Obsidian vault is just a folder of ordinary text files with no password of its own, so anyone who gets into your computer can read it. It's great for the "where things are" list above: which accounts you have, which email each uses, where the recovery codes are kept. Keep the actual passwords, codes and recovery keys in the password manager.
 
 ---
 
@@ -479,6 +491,7 @@ Do these first: your **email**, your **bank and credit cards**, your **Apple Acc
    - An **authenticator app** (a free app that shows a new 6-digit code every 30 seconds), for example Google Authenticator or Microsoft Authenticator. Or use the codes feature in Apple's **Passwords** app: open the account, tap **Edit**, then **Set Up Verification Code**, and scan the QR code the website shows you.
    - A **text message code** (better than nothing).
 5. Save the **backup codes** or **recovery codes** it gives you (spare codes you can use if you lose your phone) in your password manager, or print them and keep them somewhere safe at home.
+6. **Lock your phone number.** Sign in to your phone company's app or website and turn on its free number lock. **T-Mobile** calls it **SIM Protection** and **Port Out Protection**, **Verizon** calls it **Number Lock** and **SIM Protection**, and **AT&T** calls it **Wireless Account Lock**. Also set an account PIN that isn't your birthday or part of your Social Security number. This works for any phone. Before you switch phones or carriers, you'll need to turn the lock off. The **iPhone guide, step 11b** has more detail.
 
 For your Apple Account, see the **iPhone guide, step 6a**.
 
@@ -486,11 +499,11 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 
 **How to check it worked:** In the same security settings, two-factor now says **On**.
 
-**Heads-up:** Text message codes can be stolen if a criminal takes over your phone number. That's why an authenticator app or passkey is better, and why the SIM PIN and carrier lock in the **iPhone guide, step 11** are worth doing. And remember step 2: a code is never for sharing.
+**Heads-up:** Text message codes can be stolen if a criminal takes over your phone number. That's why an authenticator app or passkey is better, and why locking your number (item 6 above) is worth doing. And remember step 2: a code is never for sharing.
 
 **Going further:**
-- **Get two security keys.** A physical key such as a **YubiKey** (Yubico's basic **Security Key** costs about $25 to $30) is the hardest sign-in method to phish. Add **two** keys to your email, Apple, Google, Microsoft and password-manager accounts, and keep the spare at home. For your Apple Account, read the **iPhone guide, step 31** first, including its downsides. Trade-off: if you lose both keys and your other ways in, you can be locked out for good.
-- **Close the weak back door.** Once a passkey, security key or authenticator app is set up, see whether the account lets you remove **text message** as a backup option. Then a criminal who steals your number gets nothing. Some accounts, including your Apple Account, always keep a phone number, and that's what the SIM PIN and carrier lock in the **iPhone guide, step 11** are for. Trade-off: fewer ways back in if you lose your phone, so save your backup codes first.
+- **Get two security keys.** A physical key such as a **YubiKey** (Yubico's basic **Security Key** costs about $25 to $30) is the hardest sign-in method to phish. Add **two** keys to your email, Apple, Google, Microsoft and password-manager accounts, and keep the spare at home. For your Apple Account, read the **iPhone guide, step 31** first, including its downsides. If you use that Apple Account on any device you use for work, ask IT first. Trade-off: if you lose both keys and your other ways in, you can be locked out for good.
+- **Close the weak back door.** Once a passkey, security key or authenticator app is set up, see whether the account lets you remove **text message** as a backup option. Then a criminal who steals your number gets nothing. Some accounts, including your Apple Account, always keep a phone number, and that's what the number lock in item 6 above is for. Trade-off: fewer ways back in if you lose your phone, so save your backup codes first.
 - **Decide where your codes live, on purpose.** Keeping codes in your password manager is convenient, but if someone breaks into that one app, they get both locks at once. Some confident users keep codes in a separate authenticator app with its own encrypted backup, such as **2FAS** or **Ente Auth** (both free). Trade-off: one more app to back up and move to a new phone.
 - **High-risk? Use the strongest settings.** Journalists, executives, people in public roles and anyone being targeted can join Google's free **Advanced Protection Program**, which requires a passkey or security key to sign in. Trade-off: some outside apps lose access to your Google account, and account recovery is deliberately slow.
 
@@ -550,7 +563,7 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 **Going further:**
 - **Treat your password manager as a tripwire.** If it doesn't offer to fill in your password, don't copy and paste it in. Stop and check the address. This one rule stops even very convincing fake sites, and passkeys do the same automatically. Trade-off: now and then a real company signs you in on a different address. If that happens, check the address against your statement or the official app before you save it.
 - **Give money its own browser.** Make a separate browser profile with only your bank and card bookmarks and no extensions. Chrome, Edge and Safari (on Mac and iPhone) all call these **Profiles**. Some people go further and keep one fully updated iPad only for banking. Trade-off: a little more switching around.
-- **Filter dangerous sites for the whole house.** A filtering DNS service quietly blocks known scam and malware sites for every device on your home Wi-Fi. **Quad9** (9.9.9.9) is free and simple. **NextDNS** gives you more control (free up to 300,000 lookups a month, then about $2 a month). You can set it once in your home Wi-Fi router. Trade-off: now and then it blocks a real site, and it doesn't replace your own checks. On work computers and phones, don't change these settings. If IT has given you a safe-browsing profile (**iPhone guide, step 13b**), leave it in place.
+- **Filter dangerous sites for the whole house.** A filtering DNS service quietly blocks known scam and malware sites for every device on your home Wi-Fi. **Quad9** (9.9.9.9) is free and simple. **NextDNS** gives you more control (free up to 300,000 lookups a month, then it stops filtering until the next month unless you pay about $2 a month). You can set it once in your home Wi-Fi router. Trade-off: now and then it blocks a real site, and it doesn't replace your own checks. On work computers and phones, don't change these settings. If IT has given you a safe-browsing profile (**iPhone guide, step 13b**), leave it in place.
 - **Skip search for the sites you use.** In the address bar, type the first few letters of the bookmark's name and pick the bookmark from the list. The fewer times you search for "my bank login," the fewer chances a paid ad has to catch you.
 
 ---
@@ -562,11 +575,11 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 **Steps: check where a link goes**
 
 1. **iPhone (Mail, Messages, Safari):** press your finger on the link and keep it there for a second or two. Don't tap. A preview appears with the web address at the top. Read it, then tap outside the preview to close it.
-2. The preview may show the page itself. That's OK as long as you only read the address and don't tap or type anything inside it.
+2. If the preview shows the page itself, tap **Hide Preview** at the top. Your iPhone remembers this, so from then on it shows just the address. If you don't see **Hide Preview**, only read the address, and don't tap or type anything inside the preview.
 3. **Mac (Mail):** move the pointer over the link, **without clicking**, and wait a moment. The real address appears in a small pop-up.
 4. **Mac (Safari):** click **View** in the menu at the top of the screen, then **Show Status Bar**. You only do this once. After that, when you rest the pointer on a link, its real address appears at the bottom of the window.
 
-**How to read the address:** Find the first single slash (**/**) after the name. Just before that slash is the real website. Read it from right to left. The name right before **.com**, **.org**, **.gov** (or a country ending like **.co.uk**) is the real site. **apple.com/support** goes to Apple. **apple.com.account-verify.io/support** goes to **account-verify.io**, so it's not Apple, even though "apple" appears at the start. A familiar name anywhere else in the address means nothing. If you're not sure, don't tap. Go to the site yourself (step 18).
+**How to read the address:** Find the first single slash (**/**) after the name. Just before that slash is the real website. Read it from right to left. The name right before **.com**, **.org**, **.gov** (or a country ending like **.co.uk**) is the real site. It must match the company's name **exactly**. **apple.com** is Apple. **apple-support-help.com** and **app1e.com** are not. **apple.com/support** goes to Apple. **apple.com.account-verify.io/support** goes to **account-verify.io**, so it's not Apple, even though "apple" appears at the start. A familiar name anywhere else in the address means nothing. If you're not sure, don't tap. Go to the site yourself (step 18).
 
 **Steps: check who an email is really from**
 
@@ -626,10 +639,9 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 
 **Heads-up:**
 - If a caller can't give the word, hang up and call your family member on the number you already have. If the code word ever leaks, pick a new one.
-- Tell teenagers that if anyone online threatens to share photos unless they pay or send more, they should stop replying and tell you right away. It's a crime against them, and they won't be in trouble. Report it at **report.cybertip.org** or **tips.fbi.gov**.
+- Talk to teenagers about the private-photo threat scam in step 13 at the same time. If it happens, they should stop replying and tell you right away. They won't be in trouble.
 
 **Going further:**
-- **Lock your phone number at your mobile carrier.** Criminals can take over your phone number by talking your carrier into moving it to their SIM card or to another company. Then your texted codes go to them. Turn on your carrier's free protection: **T-Mobile** calls it **SIM Protection** and **Port Out Protection**, **Verizon** calls it **Number Lock** and **SIM Protection**, and **AT&T** calls it **Wireless Account Lock** (in the **myAT&T** app). Also set an account PIN that isn't your birthday or part of your Social Security number. Trade-off: before you switch phones or carriers, you have to turn the lock off.
 - **Use a question and an answer, not just one word.** One person asks a question ("How's the garden?") and the other gives an answer that makes no sense to anyone else ("The goats ate it"). Even someone who overheard the question doesn't know the answer. Make up your own pair.
 - **Change it on a schedule.** Pick a new word or pair once a year, and any time someone who knew it leaves the family circle or the office. Agree on the new one in person.
 - **Write down your office's call-back numbers.** Keep a short printed list of known numbers for your manager, finance, IT and your main suppliers, and a copy on your phone. When an "urgent" request comes in, call back on the list's number, never a number in the message or email signature.
@@ -715,7 +727,7 @@ You need to do this with **each** of the three bureaus. Go to their real website
 **Heads-up:**
 - You can still use your existing cards and accounts normally.
 - Before you apply for a loan, credit card, mortgage or car loan, lift the freeze for a short time. This is called a "thaw." Some phone companies and landlords check your credit too. Sign in, choose **temporarily lift**, and pick the dates. You can do this at the bureau they use, or at all three.
-- By law, a freeze or thaw you request online or by phone must take effect within an hour.
+- By law, a freeze you ask for online or by phone must be in place within one business day. Lifting it (a thaw) online or by phone must take effect within one hour.
 - The bureaus may offer paid "credit lock" or monitoring products. The free **freeze** is all you need.
 - These sites aren't the government. If a page asks for payment just to place a freeze, you're on the wrong page.
 - For extra protection, get a free **IRS Identity Protection PIN** at **irs.gov/ippin** (it stops someone filing taxes in your name), and create your own **my Social Security** account at **ssa.gov** so nobody else can create one as you.
@@ -740,7 +752,7 @@ You need to do this with **each** of the three bureaus. Go to their real website
 3. It lists the hacked sites where your email appeared, and what was taken.
 4. For each one you still use, change the password to a new, unique one (step 15) and turn on two-factor (step 16).
 5. If the same password was used anywhere else, change it there too.
-6. Also open the **Passwords** app and tap **Security**. It lists your passwords that are reused, weak, or known to be leaked. Work through that list, starting with email and money accounts.
+6. Also open the **Passwords** app and tap **Security**. It lists your passwords that are reused, weak, or known to be leaked. Work through that list, starting with email and money accounts. (On Android or in Chrome: type **passwords.google.com** and open **Checkup**.)
 
 **How to check it worked:** The Passwords app's **Security** list is empty, or only has accounts you've decided don't matter.
 
@@ -762,7 +774,7 @@ You need to do this with **each** of the three bureaus. Go to their real website
 
 **Steps**
 
-1. **Scam email at work:** don't click anything, and don't forward it to colleagues. Report it to IT (`[IT email address]`), or use the **Report phishing** button if your email program has one. Then delete it.
+1. **Scam email at work:** don't click anything, and don't forward it to colleagues. Forward it only to IT (`[IT email address]`), or use the **Report phishing** button if your email program has one. Then delete it.
 2. **Scam text:** forward it to **7726** (the numbers spell "SPAM"). It helps your phone company find and block scam senders. On iPhone, you can also tap **Report Junk** under the message. Then delete it.
 3. **Scam email at home:** use **Report spam** or **Report phishing** in your email app, or move it to **Junk**.
 4. **Any scam or fraud, even if you didn't lose money:** report it to the FTC at **ReportFraud.ftc.gov**.
