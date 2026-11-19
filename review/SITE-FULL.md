@@ -70,6 +70,8 @@ This guide is written for **iOS 26**. If your phone still runs **iOS 18**, most 
 
 **One thing to know first:** some settings ask for Face ID or your passcode, and some may make you wait an hour. This is a safety feature called Security Delay, explained in step 8. That's normal.
 
+Some steps end with a **Going further** box. It stays closed until you tap it, and holds extra protection for people who are comfortable with tech. Everyone else can skip these boxes: the main steps already protect you well.
+
 ---
 
 ### Before you start: update your iPhone
@@ -87,6 +89,11 @@ This guide is written for **iOS 26**. If your phone still runs **iOS 18**, most 
 **How to check it worked:** **Settings > General > Software Update** says **iOS is up to date**. You can also check **Settings > General > About > iOS Version**.
 
 **If you don't see this:** If your phone can't get iOS 26, it may be too old. Install the newest update it offers and tell IT the model, which is shown in **Settings > General > About > Model Name**.
+
+**Going further:**
+- **Don't stay on the older version.** When a new big version comes out, **Software Update** may also offer an update for the version you already have. Take the newest version. Apple only promises to fix every known security hole in the latest version. Trade-off: big updates sometimes move menus around for a while.
+- **Know when your phone stops getting fixes.** iOS 26 needs an iPhone 11 or newer. The website **endoflife.date** shows how long each iPhone has been getting updates. A phone that's no longer supported still works, but new holes in it are never fixed. Plan to replace it, and move banking and work email to a supported device as soon as you can.
+- **Update your other Apple devices too.** Your iPad, Mac and Apple Watch share your Apple Account with this phone. If one is out of date, update it. If you no longer use it, remove it from your account (step 6c). Trade-off: a very old iPad may have no update left, so removing it may be the only option.
 
 ---
 
@@ -158,6 +165,11 @@ Tick each box as you finish.
 
 **Heads-up:** Your phone installs updates overnight and restarts, so leave it on charge and on Wi-Fi now and then. If you add a SIM PIN later (step 11), you'll need to type it after these restarts.
 
+**Going further:**
+- **Install urgent fixes the same day.** Automatic updates can reach your phone days or even weeks after an update comes out, because Apple releases them in waves. When Apple's security notes at **support.apple.com/100100** say a problem "may have been exploited", go to **Settings > General > Software Update** and install it now.
+- **Restart your phone once a week.** Some spyware only lives in the phone's short-term memory, and a restart clears it. Since iOS 18.1, a phone that stays locked for about three days also restarts itself, which puts it back in its most locked state. Trade-off: if you set a SIM PIN (step 11), you'll type it after every restart.
+- **Keep test versions off this phone.** Go to **Settings > General > Software Update > Beta Updates** and make sure it says **Off**. Test ("beta") versions can be unstable and may have holes that aren't fixed yet. Trade-off: you get new features a few months later than people who test.
+
 ---
 
 ### 2. Turn on backups
@@ -180,6 +192,12 @@ Tick each box as you finish.
 - Write down that backup password. Without it, you can't restore the backup.
 
 **Heads-up:** A computer backup only happens when you plug in and run it, so iCloud is better for most people.
+
+**Going further:**
+- **Keep a second copy on your own computer.** Even with iCloud Backup on, make an **encrypted** computer backup every month or two, as described above. An encrypted backup also keeps your saved passwords, Wi-Fi settings and Health data. Trade-off: if you forget that backup password, the backup is useless.
+- **Syncing isn't a backup.** With **iCloud Photos** on, deleting a photo on one device deletes it everywhere. You get 30 days to rescue it from **Recently Deleted**, then it's gone. Now and then, copy your most precious photos to a computer or an external drive.
+- **Check what your backup includes.** Go to **Settings > [your name] > iCloud**, tap **Manage Storage** (or **Manage Account Storage**), then **Backups**, then this iPhone. Make sure the apps whose data matters to you are switched on. Trade-off: more apps means more iCloud storage used.
+- **Know who can read it.** iCloud backups are encrypted, but Apple holds the keys unless you turn on **Advanced Data Protection** (step 30). Only do that if IT asks, because of its downsides.
 
 ---
 
@@ -213,6 +231,12 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 
 **Heads-up:** After 10 wrong passcodes in a row, the phone wipes itself. The phone makes you wait longer and longer between wrong tries, so this almost never happens by accident. But if small children play with your phone, keep it away from them.
 
+**Going further:**
+- **Use letters, not just numbers.** A 6-digit code has a million possible combinations. Phone-cracking tools try number codes first. A **Custom Alphanumeric Code** of 10 or more characters, like three or four unrelated words, takes them vastly longer. Trade-off: it's slower to type, but Face ID handles most unlocks. You'll mainly type it after a restart, or when you haven't unlocked for a while.
+- **Hide the code when you type it.** Many phone thefts with a known passcode start with someone watching you type it in a bar or on a train. In public, use Face ID, and cover the screen with your hand when you must type the code.
+- **Change it if someone may have seen it.** Don't wait to find out. With Stolen Device Protection set to **Always** (step 8), changing the passcode makes you wait an hour. That's normal.
+- **Keep it unique.** Don't reuse it as your SIM PIN, bank card PIN or door code. If one leaks, the others stay safe.
+
 ---
 
 ### 4. Set Auto-Lock to 5 minutes or less
@@ -227,6 +251,10 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 **How to check it worked:** **Auto-Lock** shows the time you picked. Leave your phone alone, and the screen should go dark after that time.
 
 **Heads-up:** If you see that Auto-Lock is greyed out at 30 seconds, Low Power Mode is on. That's fine. It's even safer.
+
+**Going further:**
+- **Lock it yourself every time.** Press the side button whenever you put the phone down, even for a moment. Auto-Lock is the safety net, not the habit.
+- **Lock to one app when you hand it over.** **Guided Access** keeps the phone inside a single app, for example when a child plays a game or you show someone a photo. Turn it on in **Settings > Accessibility > Guided Access**, set a passcode in **Passcode Settings**, then triple-click the side button (or Home button) inside the app. Trade-off: triple-click now also starts Guided Access. That's fine, because you set it up yourself (step 26 is only about features you didn't set up).
 
 ---
 
@@ -250,6 +278,12 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 **How to check it worked:** **Require Attention for Face ID** is green. Close your eyes and try to unlock with Face ID. It shouldn't work.
 
 **Heads-up:** If you wear sunglasses that block your eyes, Face ID may not work with Require Attention on. Just use your passcode then.
+
+**Going further:**
+- **Switch off Face ID in two seconds.** Press and hold the side button and either volume button until **slide to power off** appears, then tap **Cancel**. Now the phone needs your passcode before Face ID works again. Use this when someone might push the phone at your face. Let go as soon as the slider appears: holding longer starts an **Emergency SOS** countdown that can call emergency services.
+- **Lock your most private apps (iOS 18 and later).** Touch and hold an app's icon, tap **Require Face ID**, and confirm. Good choices are email, banking, **Passwords** and **Photos**. Then someone you've handed your unlocked phone to can't open them. Trade-off: if Face ID fails, the app accepts your phone passcode instead, so this doesn't stop someone who knows your passcode. If you choose **Hide and Require Face ID**, that app's notifications stop showing.
+- **Check your private photo albums are locked.** Go to **Settings > Apps > Photos** (on iOS 17: **Settings > Photos**) and make sure **Use Face ID** is on. The **Hidden** and **Recently Deleted** albums then need your face or passcode.
+- **Turn off Face ID with a Mask if you don't need it.** In **Settings > Face ID & Passcode**, turn off **Face ID with a Mask**. Apple says Face ID is most accurate with full-face recognition. Trade-off: with a mask on, you'll type your passcode.
 
 ---
 
@@ -297,6 +331,12 @@ A Recovery Contact is a person you trust who can help you get back into your acc
 
 **Heads-up:** Removing a device signs it out of iCloud. If it was an old phone you still use for something, it will ask for the password next time.
 
+**Going further:**
+- **Add more than one Recovery Contact.** You can have up to five. Choose people who don't live with you, so a fire or a burglary can't take out everyone at once. Trade-off: with Stolen Device Protection on, each change may make you wait an hour.
+- **Clean up Sign in with Apple.** Go to **Settings > [your name] > Sign-In & Security > Sign in with Apple** (on some versions it's directly under your name). Tap any app you no longer use and choose **Stop Using**. Trade-off: if you go back to that app, you may need to make a new account.
+- **Keep your real email address private (iCloud+).** With a paid iCloud+ plan, **Hide My Email** (in **Settings > [your name] > iCloud**, or search Settings for it) makes a random address that forwards to you. Use it for shops and newsletters, so your real address, and your Apple Account email, appear in fewer leaks and scam lists. Trade-off: you have more addresses to keep track of.
+- **Know the strongest options.** **Advanced Data Protection** (step 30) and **security keys** (step 31) lock your account down further. They have real downsides, so only use them if IT asks you to.
+
 ---
 
 ### 7. Turn on Find My
@@ -314,6 +354,11 @@ A Recovery Contact is a person you trust who can help you get back into your acc
 **How to check it worked:** All three switches are green. On another device or a computer, go to **icloud.com/find**, sign in, and you should see your iPhone on the map.
 
 **Heads-up:** With Find My on, nobody can wipe and resell your phone without your Apple Account password. If you ever sell or give away the phone, sign out of your Apple Account first.
+
+**Going further:**
+- **Leave "Findable After Power Off" on.** On most models from iPhone 11 onwards, the power-off screen shows **iPhone Findable After Power Off**. That means the phone can still be found for a while after a thief switches it off. It relies on **Find My network**, so keep that switched on.
+- **Know your Apple Account password by heart, or on paper at home.** To use **icloud.com/find** from another device, you need that password. A password that's only saved on the lost phone won't help you. The practice in step 17 checks this.
+- **Share your location with one trusted person.** In the **Find My** app, tap **Me**, turn on **Share My Location**, then share with a partner or family member. They can help you find the phone if you're stuck without it. Trade-off: they can see where you are all the time, so review who sees it now and then with **Safety Check** (step 18).
 
 ---
 
@@ -341,6 +386,10 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 **Heads-up:**
 - With **Always** chosen, some changes make you **wait one hour** and then use Face ID again, even at home. These include changing your Apple Account password or your passcode, changing trusted phone numbers, devices or Recovery Contacts, and adding or removing Face ID. That's the point. It's annoying for you, and much more annoying for a thief.
 - Before you take your phone for repair, sell it, or move to a new phone, turn this off first. Turning it off can also need the one-hour wait, so plan ahead.
+
+**Going further:**
+- **Close the gap it leaves open.** Stolen Device Protection guards your Apple Account, settings and saved passwords. But a thief who knows your passcode can still open apps that only use the phone's own lock. For banking, email and authenticator apps, turn on the app's own PIN or password lock in its settings, and make it different from your phone passcode. Trade-off: one more code to remember.
+- **Turn on your bank's alerts.** In your banking app, turn on alerts for every payment and every new device that signs in. Then you hear about a thief quickly, even if the phone is gone. Trade-off: more notifications.
 
 ---
 
@@ -375,6 +424,12 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 - You'll need to unlock your phone to use Control Center (the flashlight, for example). Just look at the phone first, then swipe.
 - Charging from a normal wall plug still works. A wired car system, dock or USB gadget may ask you to unlock the phone or approve it first.
 
+**Going further:**
+- **Go strict.** In **Allow Access When Locked**, turn off everything except **Return Missed Calls**, if you use it. That includes **Siri**, **Wallet**, **Notification Center**, **Today View and Search**, **Lock Screen Widgets** and **Live Activities**. A locked phone then shows almost nothing. Emergency calls and Medical ID still work. Trade-off: you'll unlock for a boarding pass, a timer or a delivery update.
+- **Pick Always Ask for wired accessories (iOS 26).** In **Settings > Privacy & Security > Wired Accessories**, **Always Ask** means even a car or dock you used before needs your approval each time. Trade-off: one extra tap whenever you plug into the car.
+- **Check what your Lock Screen shows.** Remove widgets that show calendar details, reminders or messages. Touch and hold the Lock Screen, tap **Customize**, then **Lock Screen**, and remove what you don't want strangers to see.
+- **Keep Medical ID, but keep it short.** In the **Health** app, tap your picture, then **Medical ID > Edit**, and leave **Show When Locked** on, so rescuers can see your allergies and emergency contacts. Trade-off: anyone holding your phone can read it, so leave out things a stranger doesn't need, like your home address.
+
 ---
 
 ### 10. Hide message previews on the Lock Screen
@@ -390,6 +445,11 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 **How to check it worked:** Ask someone to text you while your phone is locked. You'll see who it's from, but not what it says. When you look at the phone, Face ID unlocks it and the text appears.
 
 **Heads-up:** On phones with Face ID this is barely noticeable, because the preview appears as soon as you look at the phone.
+
+**Going further:**
+- **Go further for sensitive apps.** For email, banking and authenticator apps, go to **Settings > Notifications**, tap the app, and set **Show Previews** to **Never**. Then their messages stay hidden even while the phone is unlocked on a desk. Trade-off: you open the app to see what arrived.
+- **Clear old login codes automatically.** Go to **Settings > General > AutoFill & Passwords** and, under **Verification Codes**, turn on **Delete After Use**. Codes that your phone fills in for you are then removed from Messages and Mail. Trade-off: it only works for codes the phone fills in itself, not ones you type by hand.
+- **Stop messages being read aloud.** If you use AirPods or CarPlay, **Announce Notifications** can read your texts out loud to anyone nearby. Check it in **Settings > Notifications > Announce Notifications**. Trade-off: you'll have to look at the phone to read messages.
 
 ---
 
@@ -437,6 +497,12 @@ For example, the big US carriers offer features with names like "Number Lock," "
 
 **Heads-up:** When you genuinely want a new phone or a new carrier, you'll need to switch the lock off first. That can take a few minutes, or a day with some carriers.
 
+**Going further:**
+- **Make sure a stolen number can't unlock your accounts.** A SIM swap only hurts accounts that send sign-in codes by text message. Move your email, bank and other key accounts to a **passkey** or an **authenticator app** wherever they offer one. The **Internet safety guide, steps 15 and 16** show how. The trade-off: you need a backup plan, like saved backup codes, in case you lose your phone.
+- **Send your carrier's alerts to your email too.** Many carriers send a warning when your SIM or account is changed. If those warnings only go to your phone by text, a criminal who has your number gets them instead of you. In your carrier's app or website, check that your current email address is saved and that account-change alerts are on.
+- **Consider an eSIM.** An eSIM is built into the phone, so a thief can't pull it out and put it in another phone. Ask your carrier if they offer one. The trade-off: moving to a new phone takes a few extra steps, and some carriers then hide **SIM PIN**, so the carrier lock in 11b matters even more.
+- **Treat sudden "No Service" as an alarm.** If your phone suddenly shows **No Service** or **SOS** in a place where it normally works, and it hasn't just restarted (when it would be waiting for your SIM PIN), your number may have been moved. Call your carrier straight away from another phone, using the number on their website or your bill, not one from a text.
+
 ---
 
 ### 12. Set AirDrop to Contacts Only
@@ -451,6 +517,11 @@ For example, the big US carriers offer features with names like "Number Lock," "
 **How to check it worked:** **Contacts Only** (or **Receiving Off**) has a tick.
 
 **Heads-up:** If you need to get a file from someone who isn't in your contacts, you can pick **Everyone for 10 Minutes**. It switches back to **Contacts Only** on its own after 10 minutes. With **Contacts Only**, the other person has to be saved in your Contacts with the email or phone number they use for their Apple Account.
+
+**Going further:**
+- **Keep receiving off, and switch it on only when you need it.** Choose **Receiving Off** in **Settings > General > AirDrop**. When someone wants to send you something, unlock your phone, open Control Center, press and hold the box with the Wi-Fi button, tap **AirDrop**, and pick **Contacts Only** or **Everyone for 10 Minutes**. Afterwards, set it back to **Receiving Off**, because it goes back to **Contacts Only** on its own, not to off. The trade-off: one extra step each time you receive a file.
+- **Turn off phone-to-phone sharing if you don't use it.** **Bringing Devices Together** (in **Settings > General > AirDrop**) lets you swap contact details or start AirDrop by holding two unlocked iPhones close. If you never do this, turn it off: one less thing that starts when phones touch. You can still share contacts the normal way.
+- **Give your phone a name that doesn't say who you are.** Your phone's name can show up in AirDrop and Bluetooth lists, and it's also the Wi-Fi name of your **Personal Hotspot**. "Anna Smith's iPhone" tells a stranger your name. Change it in **Settings > General > About > Name** to something plain, like "Blue phone". The trade-off: friends may need a moment to spot you in their AirDrop list.
 
 ---
 
@@ -482,6 +553,11 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 
 **Heads-up:** If you don't install a downloaded profile within 8 minutes, it disappears. Just open IT's link again.
 
+**Going further:**
+- **Check for trusted certificates.** A profile can add a "root certificate" that lets someone read your private web traffic. Go to **Settings > General > About** and scroll to the bottom to **Certificate Trust Settings**. If a certificate there is switched on and you don't know where it came from, take a screenshot and send it to IT before changing anything. On a work phone, IT's own certificate may be there on purpose.
+- **Check your Wi-Fi's DNS setting.** DNS is like a phone book for websites, and a rigged one can send you to fake sites. Go to **Settings > Wi-Fi**, tap the **i** next to your network, and look at **Configure DNS**. It should normally say **Automatic**. If it says **Manual** and you didn't set it yourself, take a screenshot and ask IT before changing it.
+- **Delete VPN apps you don't use.** A VPN app can see where your internet traffic goes. If **VPN & Device Management** lists a VPN from an app you no longer use, delete that app (see step 28). If you're not sure what it is, ask IT first.
+
 ---
 
 ### 14. Turn on Safari's fraud warning
@@ -496,6 +572,11 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 
 **How to check it worked:** The switch is green.
 
+**Going further:**
+- **Check Safari's anti-tracking setting.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and make sure **All Browsing** is chosen. On iOS 26 this is the normal setting, but check anyway, and change it if it says **Private Browsing** or **Off**. The trade-off: once in a while a website doesn't load properly. You can reload just that page with less protection from the page menu in Safari's address bar.
+- **Let your password manager be your second fraud check.** The **Passwords** app only offers to fill in a password on the real website it was saved for. If it doesn't offer your bank password on a page that looks like your bank, stop: you may be on a fake copy. Also open **Passwords** and tap **Security** to see passwords that were leaked or used more than once, and change those.
+- **Hide your internet address with iCloud+.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Websites you visit in Safari then can't see your real internet address (IP address), only a general area. The trade-off: some sites show the wrong region or ask you to prove you're human more often, some work or school networks block it, and it isn't offered in every country.
+
 ---
 
 ### 15. Turn on automatic app updates
@@ -508,6 +589,11 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 2. Under **Automatic Downloads**, turn on **App Updates**.
 
 **How to check it worked:** **App Updates** is green.
+
+**Going further:**
+- **Update by hand after big security news.** Automatic updates can take a few days to arrive. If you hear about a serious app problem, open the **App Store**, tap your picture in the top corner, pull the screen down to refresh, and tap **Update All**.
+- **Check who made an app before you install it.** Fake apps copy the names and icons of real ones. On the App Store page, look at the company name under the app's title. It should be the real company, like your bank's name. Also check **Version History**: an app that hasn't been updated in years may no longer get security fixes.
+- **Report scam apps and charges you didn't expect.** If an app tricked you or charged you for something you didn't agree to, go to **reportaproblem.apple.com**, sign in with your Apple Account, and report it. You may get a refund, and it helps Apple find bad apps. Deleting an app doesn't cancel its subscription, so also check **Settings > [your name] > Subscriptions** and cancel there. Then delete the app (see step 28).
 
 ---
 
@@ -530,6 +616,11 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 **How to check it worked:** Next time you plug into any computer, including your own, it asks **Trust This Computer?** again.
 
 **Heads-up:** This **doesn't** delete your photos or apps. But it does reset every app's permission to use your location, camera, microphone and so on. Each app will ask you again the first time you open it. Just answer the questions as they come up. This is a good moment to say **No** to apps that don't need things. Afterwards, check that **Significant Locations** is still on (see step 8), because Stolen Device Protection needs it.
+
+**Going further:**
+- **Use a charge-only cable or adapter away from home.** A small "data blocker" adapter, or a cable sold as charge-only, passes power but no data. Then a dodgy charging point can't talk to your phone at all, even if you tap the wrong button. The trade-off: it won't work for wired CarPlay or for backing up to your own computer, so keep it for travel.
+- **Lock out Face ID before handing your phone over.** Use the side-button trick from step 5's Going further box, so the phone needs your passcode.
+- **Restart your phone once a week.** Some rare, advanced attacks only live in the phone's memory and are wiped by a restart. Just after a restart, your phone is also at its most locked-down until you type your passcode. If you use a SIM PIN (step 11), you'll need to type that too.
 
 ---
 
@@ -556,6 +647,12 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 
 **How to check it worked (practice now):** Go to **icloud.com/find** on a computer and check you can sign in and see your iPhone. Don't press Mark As Lost now.
 
+**Going further:**
+- **Make a "lost phone" card now.** On paper or in a password manager you can reach from another device, write down your carrier's phone number, IT's contact details, and your phone's **IMEI** number. You'll find the IMEI in **Settings > General > About**. Your carrier and the police may ask for it. Keep the card away from your phone.
+- **Know your Apple Account password without your phone.** **icloud.com/find** asks for your Apple Account password, and on a stressful day you may not remember it. Make sure you can find it without your iPhone, for example in a password manager on your computer or in a sealed note at home.
+- **If the thief may have seen your passcode, act faster.** From another Apple device you own, or **account.apple.com**, change your Apple Account password straight away, and call your bank to block your cards and bank apps. Stolen Device Protection (step 8) slows a thief down, but it doesn't protect apps that open with just your passcode, or accounts that send codes by text message.
+- **Share your location with one trusted person.** In the **Find My** app, tap **People**, then **+** and **Share My Location**, and pick a partner or family member. They can then see where your phone is if you can't get to a computer. The trade-off: that person can always see where you are, so choose carefully, and check this list now and then (step 18).
+
 ---
 
 ## Part 2: Nice-to-have
@@ -573,6 +670,11 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 **How to check it worked:** Safety Check finishes and takes you back to its start screen.
 
 **Heads-up:** If you stop sharing with someone, you may also lose access to things they shared with you, like a shared photo album. **Emergency Reset** (also on this screen) is for people in an unsafe situation. It stops all sharing at once. You don't need it for this guide.
+
+**Going further:**
+- **Check sharing in other apps too.** Safety Check can take away other apps' permissions, but it can't see who you share with inside those apps. Apps like Google Maps, WhatsApp, Snapchat or Life360 have their own location sharing. Open each one you use and look for a **location sharing** setting. Stop sharing with anyone you no longer want to.
+- **Make sure tracker alerts are on.** Your iPhone can warn you if someone's AirTag or similar tracker is moving with you. Go to **Settings > Notifications > Tracking Notifications** and make sure **Allow Notifications** is on. Keep **Bluetooth** and **Location Services** on for these alerts to work.
+- **Look at your Family Sharing group.** Go to **Settings > Family** (on older versions, **Settings > [your name] > Family Sharing**). Check that everyone in the group should be there. Tap each person to see what you share with them, such as your location or purchases. Remove anyone who no longer belongs, and turn off sharing you don't want. The trade-off: the other person may notice they've been removed, so if you feel unsafe, read Apple's **Personal Safety User Guide** first.
 
 ---
 
@@ -594,6 +696,12 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 **Heads-up:** If an app stops working properly (for example, a map app can't find you), go back and turn its permission back on.
 
+**Going further:**
+- **Turn off precise location for most apps.** In **Location Services**, tap an app and turn off **Precise Location**. The app then only knows roughly where you are, like the part of town. Weather, news and shopping apps work fine this way. The trade-off: keep it on for maps, ride-sharing and delivery apps, which need your exact spot.
+- **Check Bluetooth and Contacts too.** In **Settings > Privacy & Security**, also look at **Bluetooth** and **Contacts**. Bluetooth access can help apps work out where you are, for example from signals in shops. For Contacts, on iOS 18 or later choose **Limited Access** so an app only sees the people you pick, or turn it off.
+- **Turn on the App Privacy Report.** Go to **Settings > Privacy & Security > App Privacy Report** and tap **Turn On App Privacy Report**. After a few days, it shows how often each app used your location, camera, microphone and contacts, and which websites it talked to. Anything surprising is a good reason to take a permission away or delete the app.
+- **Lock private apps with Face ID.** On iOS 18 or later, press and hold an app's icon and tap **Require Face ID**. Then even someone you hand your unlocked phone to can't open that app, like your banking or email app. **Hide and Require Face ID** also hides the app in a locked folder. The trade-off: hidden apps don't show their notifications.
+
 ---
 
 ### 20. Check which devices get your texts and calls
@@ -614,6 +722,12 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 **If you don't see this:** If **Text Message Forwarding** isn't there, iMessage may be off, or no other Apple device is signed in to your iMessage. That's fine.
 
+**Going further:**
+- **Check the addresses your iMessage uses.** Go to **Settings > Apps > Messages > Send & Receive**. Every phone number and email listed should be yours. Do the same for calls in **Settings > Apps > FaceTime**, under **You can be reached by FaceTime at**. Untick any email address you don't recognise or no longer use.
+- **Remember that Messages in iCloud syncs your history.** If **Messages in iCloud** is on, any device signed in to your Apple Account with Messages turned on can show your old texts, not just new ones. That's why the device list in step 6c matters so much. Remove anything there you don't use.
+- **Check your Mac too.** On a Mac, open **Messages**, choose **Messages > Settings**, then click **iMessage**, and check the addresses there. A Mac that someone else at home also uses is a common way texts end up on the wrong screen.
+- **Want a warning if a strange device joins your chats?** **Contact Key Verification** (step 32) can alert you to that. It's in the "Only if IT tells you to" part because it needs all your devices up to date and can sign old ones out of iMessage. If you think you're being targeted, ask IT about it rather than turning it on yourself.
+
 ---
 
 ### 21. Make sure call forwarding is off
@@ -628,6 +742,12 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 **How to check it worked:** The switch is grey.
 
 **If you don't see this:** Some carriers hide this option. In that case, check call forwarding in your carrier's app or website, or ask them.
+
+**Going further:**
+- **Give your voicemail a strong PIN.** Some banks read your login code out in a phone call. If you don't answer, it goes to voicemail, and criminals sometimes try to break into voicemail to hear it. Open **Settings**, type "Voicemail Password" in the search box, or use your carrier's app. Don't use your passcode, SIM PIN or birthday. (The **Internet safety guide, step 4** has more on this.)
+- **Check the hidden kinds of forwarding.** The switch in Settings only covers "forward every call." Calls can also be forwarded only when you're busy, don't answer, or have no signal. On AT&T, T-Mobile and most networks outside the US, dial **\*#67#** (busy), **\*#61#** (no answer) and **\*#62#** (no signal) in the Phone app to see where each one goes. Your own carrier's voicemail number is normal. Any other number isn't. On Verizon, or if you're not sure, ask your carrier to check for you.
+- **Never dial a code someone asks you to.** A common scam is a "delivery" or "support" caller asking you to dial a short code, such as one starting with **\*72** or **\*\*21\***. That code quietly forwards your calls to them. Hang up instead.
+- **Turn on account alerts with your carrier.** In your carrier's app, turn on notifications for account changes, such as SIM changes, forwarding or number transfers, if they offer them. Then you hear about a takeover attempt straight away. This adds to the carrier lock in step 11b.
 
 ---
 
@@ -644,6 +764,12 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 **Heads-up:** Texts from new numbers, like a delivery driver or a new doctor's office, go into that list. Login codes and urgent alerts usually still notify you. Whether other texts from new numbers notify you depends on your country. In some countries you can choose this in **Settings > Apps > Messages > Unknown Senders > Allow Notifications**. Check **Unknown Senders** now and then.
 
+**Going further:**
+- **Screen unknown calls too (iOS 26).** Go to **Settings > Apps > Phone**, and under **Screen Unknown Callers** choose **Ask Reason for Calling**. Your phone asks unknown callers who they are and why they're calling, then rings and shows their answer on screen. Trade-off: some genuine callers, like a doctor's office or a delivery driver, hang up instead of answering. If you don't see the option, your carrier, language or region may not support it yet.
+- **Keep the spam filter on.** In **Settings > Apps > Messages**, look for **Filter Spam** (iOS 26) and check it's on. Texts your iPhone thinks are spam go to a **Spam** list and don't notify you. Glance at that list now and then in case something real lands there.
+- **Report scam texts, don't just delete them.** Tap **Report Junk** under the message, or forward it to **7726**. See the **Internet safety guide, step 26** for more.
+- **Blur unwanted pictures.** Go to **Settings > Privacy & Security > Sensitive Content Warning** and turn it on. Nude images sent to you in Messages, AirDrop and FaceTime are blurred until you choose to view them. The check happens on your phone, so Apple doesn't see the images.
+
 ---
 
 ### 23. Review Safari extensions
@@ -656,6 +782,12 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 2. Tap each extension. If you don't know what it is or don't use it, turn it off. Better still, delete the app that came with it.
 
 **How to check it worked:** Only extensions you know and use are on.
+
+**Going further:**
+- **Limit what each extension can see.** In **Settings > Apps > Safari > Extensions**, tap an extension you keep. Set **Other Websites** to **Ask** or **Deny**, and allow only the sites it actually needs. Leave it off in **Private Browsing** unless you need it there.
+- **Turn on fingerprinting protection everywhere.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and choose **All Browsing**. iOS 26 protects all browsing by default, but older versions only protected Private Browsing, so check it. Trade-off: a few sites may load oddly. If that bothers you, set it back to **Private Browsing**.
+- **Add one trusted content blocker.** A content blocker such as **AdGuard** or **1Blocker** from the App Store stops many ads and trackers, which is where many fake "virus" pop-ups come from. Both have a free version. A plain content blocker can't read your pages the way a normal extension can, but some of these apps offer extra add-ons that can, so leave those off. Add only one, and on a work phone, ask IT first. Some sites will complain or break, and you can switch the blocker off for those sites.
+- **Lock Private Browsing with Face ID.** In **Settings > Apps > Safari**, check **Require Face ID to Unlock Private Browsing** is on (it says Touch ID or passcode on some phones). Then anyone you hand your unlocked phone to can't open your private tabs.
 
 ---
 
@@ -676,6 +808,12 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 - Only delete networks you won't use again. You'll need the Wi-Fi password to rejoin, and the network may also disappear from your other Apple devices.
 - If a Wi-Fi network at work or home stops working after you change **Private Wi-Fi Address**, set it to **Fixed** for that one network, or ask IT.
 
+**Going further:**
+- **Stop auto-joining networks you keep.** For public networks you still use, like your gym or a favourite cafe, tap the **i** next to the network and turn off **Auto-Join**. Your phone then joins only when you choose, so a fake network with the same name can't grab it as you walk past.
+- **Use iCloud Private Relay on public Wi-Fi.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Your Safari browsing is then encrypted and your rough location is hidden from websites, even on a dodgy hotel network. Trade-off: some work networks, banks and streaming sites don't work with it, and it isn't offered in every country. You can turn it off for one network by tapping the **i** next to it and turning off **Limit IP Address Tracking**.
+- **Use your own mobile data for anything important.** For banking or work email away from home, mobile data (or your own phone's **Personal Hotspot** for a laptop) is safer than free Wi-Fi. Trade-off: it uses your data allowance.
+- **Be careful with free VPN apps.** Many free VPNs make money from your data. If you think you need one, especially for work, ask IT which one to use.
+
 ---
 
 ### 25. Review Shortcuts automations
@@ -691,6 +829,12 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 **How to check it worked:** The list is empty, or only has automations you made yourself.
 
 **If you don't see this:** If you deleted the Shortcuts app, there's nothing to check.
+
+**Going further:**
+- **Make automations ask before they run.** Tap each automation you keep and choose **Run After Confirmation** instead of **Run Immediately**. If you'd rather keep **Run Immediately**, at least turn on **Notify When Run**. Then nothing can happen quietly in the background. Trade-off: you'll need to tap a notification for some automations to run.
+- **Keep the risky Shortcuts settings off.** Go to **Settings > Apps > Shortcuts > Advanced**. Leave **Allow Running Scripts** and **Allow Sharing Large Amounts of Data** off unless a shortcut you trust really needs them. Apple itself warns that shortcuts with scripts can cause data loss.
+- **Only add shortcuts from people you trust.** A shared shortcut can send your location, photos or messages anywhere. Before tapping **Add Shortcut**, scroll through its actions and look for anything that sends, uploads or shares.
+- **Check your Home app too.** If you use the **Home** app, open its **Automation** tab and remove anything you didn't set up, such as a lock that opens at a certain time.
 
 ---
 
@@ -721,6 +865,11 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 
 **Heads-up:** If you or someone in your family relies on any of these features, keep them on. This is only about features you didn't set up.
 
+**Going further:**
+- **Check Back Tap.** Go to **Settings > Accessibility > Touch > Back Tap**. **Double Tap** and **Triple Tap** should say **None**, or something you chose yourself. Back Tap can run any shortcut, so one you didn't set up could start just by tapping the back of the phone.
+- **Check Vocal Shortcuts (iOS 18 and later).** Go to **Settings > Accessibility > Vocal Shortcuts**. If there's a phrase you didn't set up, delete it. A saved phrase can run an action or shortcut when it's spoken.
+- **Use Guided Access when you hand your phone over.** Turn it on in **Settings > Accessibility > Guided Access**, and set its own passcode under **Passcode Settings**. Then open an app, like Photos, and triple-click the side button. The person holding the phone is stuck in that one app until you triple-click again and enter the code. Trade-off: if other features are also on your **Accessibility Shortcut** (see the main part of this step), a triple-click shows a short menu to choose from.
+
 ---
 
 ### 27. Cut down tracking and ad sharing
@@ -737,6 +886,12 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 
 **Heads-up:** You'll still see ads. They'll just be less personal.
 
+**Going further:**
+- **Hide when you open emails.** Go to **Settings > Apps > Mail > Privacy Protection** and turn on **Protect Mail Activity**. Senders can no longer see when you open an email or where you are. It only works in Apple's **Mail** app.
+- **Hide your address from trackers in Safari.** Go to **Settings > Apps > Safari > Hide IP Address** and choose **Trackers Only**. It's free and stops known trackers seeing your rough location. With iCloud+, **Trackers and Websites** and **Private Relay** (see step 24) go further.
+- **Turn off Precise Location for apps that don't need it.** In **Settings > Privacy & Security > Location Services**, tap an app like weather or shopping, and turn off **Precise Location**. It then only knows your rough area. Keep it on for maps and ride apps, and leave **Find My** and **System Services** alone (step 19).
+- **See what your apps really do.** Go to **Settings > Privacy & Security > App Privacy Report** and turn it on. After a week, it shows which apps used your location, camera or microphone, and which websites they contacted. Delete or limit any app that surprises you (steps 19 and 28).
+
 ---
 
 ### 28. Delete apps you don't use
@@ -752,6 +907,11 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 **How to check it worked:** The app is gone from your Home Screen and App Library.
 
 **Heads-up:** Deleting an app may delete what's saved inside it. If you want to keep the data but free up space, choose **Offload App** instead. But for security, deleting is better.
+
+**Going further:**
+- **Cancel subscriptions before you delete.** Deleting an app doesn't stop its payments. Go to **Settings > [your name] > Subscriptions** and cancel anything you don't use. If an app charged you for something you didn't agree to, report it at **reportaproblem.apple.com**.
+- **Delete your account inside the app first.** For apps that have an account (shopping, social, fitness), look in the app's settings for **Delete Account** before removing the app. Otherwise your data stays on the company's servers. If you used **Sign in with Apple** for it, go to **Settings > [your name]** and find **Sign in with Apple** (on some versions it's under **Sign-In & Security**). Tap the app and choose to stop using Sign in with Apple. This only unlinks it, so delete the account in the app first.
+- **Lock private apps you keep (iOS 18 and later).** Press and hold an app such as banking, Photos or Notes, tap **Require Face ID** (or Touch ID or passcode), and confirm. Then anyone using your unlocked phone can't open that app without your face or passcode. **Hide and Require Face ID** also moves it to a locked **Hidden** folder in the App Library. Trade-off: not every app can be hidden, and hidden apps don't send you notifications or calls.
 
 ---
 
@@ -868,6 +1028,8 @@ You don't need to be "good with computers." Every step tells you exactly what to
 
 This guide is written for **macOS 26 Tahoe**. If your Mac is still on **macOS 15 Sequoia**, it mostly looks the same. Where something has a different name, we say so.
 
+Some steps end with a **Going further** box. It stays closed until you tap it, and holds extra protection for people who are comfortable with tech. Everyone else can skip these boxes: the main steps already protect you well.
+
 ### How long it takes
 
 - **Must-do section:** about 60 to 75 minutes, plus time for the update to install and the first backup to run.
@@ -954,6 +1116,11 @@ Tick each box as you go.
 
 **If you don't see this:** If it offers an upgrade to a whole new macOS (for example, from Sequoia to Tahoe), check with IT before installing it. Some older Macs can't run macOS 26. That's OK for now. Install the latest updates for the version you have, and tell IT your Mac model.
 
+**Going further:**
+- **Only update from Apple's own screens.** Real macOS updates come from **System Settings > General > Software Update** or the **App Store**. A website pop-up saying your Mac "needs an update" or is "infected" is fake. Close the tab, and never download the "update" it offers.
+- **Install urgent fixes the same day.** Apple lists its security fixes at **support.apple.com/100100**. When the notes for an update say Apple is aware the problem "may have been exploited", attackers are already using it. Install that update today instead of waiting for the weekend.
+- **Know when your Mac stops getting fixes.** Apple gives the full set of security fixes only to the newest macOS. Older versions get some fixes for a while, then none. If your Mac can't move to macOS 26, ask IT when it should be replaced, so you're not left on a Mac that no longer gets fixes.
+
 ---
 
 ### Must-do (everyone)
@@ -981,6 +1148,11 @@ Tick each box as you go.
 **If you don't see this:** On macOS 15 Sequoia, the **i** window in Part A also has **Check for updates** and **Install application updates from the App Store**. Turn those on too (the second one does the same job as Part B).
 
 **Heads-up:** Your Mac may restart overnight to finish an update. Save your work before you leave it. Laptops only download updates when plugged in. Apps you installed from websites (not the App Store) update separately: accept their update prompts, or look in their menu for "Check for Updates."
+
+**Going further:**
+- **Check Background Security Improvements is on.** On macOS 26.1 and later, Apple can send small security fixes between normal updates. Open **System Settings > Privacy & Security**, scroll down to **Background Security Improvements**, and make sure **Automatically Install** is on. If it's off, you only get those fixes with the next full update.
+- **Give apps from websites a monthly check.** Browsers and apps you downloaded yourself update separately. Once a month, open each one's **About** or **Check for Updates** menu (in Chrome: **three dots > Help > About Google Chrome**) and install what it finds. Then quit and reopen the app: most updates only take effect after a restart.
+- **Remove apps you no longer use.** An app you never open still needs updates, and abandoned apps stop getting them. Drag unused apps from **Applications** to the Trash. The trade-off: you'll need to download one again if you change your mind. On a work Mac, ask IT before removing anything you didn't install yourself.
 
 #### 2. Turn on FileVault (disk encryption) and save your recovery key
 
@@ -1014,6 +1186,11 @@ Tick each box as you go.
 
 **Heads-up:** Your Mac will no longer log you in automatically. You'll always need your password at startup. That's a good thing.
 
+**Going further:**
+- **Check that your recovery key really works.** This only applies if your Mac gave you a recovery key. If you chose the iCloud option and never saw a key, skip this. Open **Terminal** (in **Applications > Utilities**), type `sudo fdesetup validaterecovery` and press Return. Type your Mac password (nothing shows as you type), then your recovery key with its dashes. **true** means the key is correct. If it says **false**, don't turn FileVault off: contact IT. Check again if your Mac ever gives you a new key.
+- **Shut down, don't just close the lid, when the Mac is at risk.** While your Mac is asleep, the disk is still unlocked inside it. When it's fully shut down, FileVault locks everything until someone types the password. Shut down before you leave it in a car or hotel room, or carry it through airport checks. The trade-off: it takes a little longer to start.
+- **Don't look for a firmware password on newer Macs.** Macs with Apple chips (M1 and later) don't have one. The closest thing, **Recovery Lock**, can only be set by IT's device management. For you, FileVault plus Find My Mac (step 14) is the protection. Older Intel Macs do have a firmware password, but forgetting it can mean a trip to Apple with proof of purchase, so ask IT before setting one.
+
 #### 3. Turn on the firewall and stealth mode
 
 **Why this matters:** On public Wi-Fi (cafés, hotels, airports) other people's devices can try to connect to your Mac. The firewall blocks connections you didn't ask for. Stealth mode makes your Mac harder to find on the network in the first place.
@@ -1029,6 +1206,11 @@ Tick each box as you go.
 **How to check it worked:** **Network > Firewall** shows the firewall as on, and **Enable stealth mode** stays on when you reopen **Options**.
 
 **Heads-up:** Now and then an app may ask "Do you want the application to accept incoming network connections?" Click **Allow** only for apps you know and use (for example, a video-call app). If you're not sure, click **Deny**. You can change it later in **Options**.
+
+**Going further:**
+- **Block everything coming in on risky Wi-Fi.** In **System Settings > Network > Firewall > Options**, turn on **Block all incoming connections**. Browsing, email and most video calls still work. The trade-off: Screen Sharing, File Sharing and some apps that other devices connect to stop working, so you may want to turn it off again at home.
+- **Tidy the allowed list.** The same **Options** window lists apps you've allowed to accept connections. Select any you no longer use and click the **minus (–)** button. If one is needed, the Mac will simply ask again. Ask IT about names you don't recognise before removing them.
+- **Watch what goes out, too.** The built-in firewall only checks connections coming in. A free tool called **LuLu** (from Objective-See, at objective-see.org) asks you each time an app tries to connect out, which can catch software quietly sending your data away. **Little Snitch** does the same and costs money. The trade-off: lots of questions in the first few days, and blocking the wrong thing can break updates. On a work Mac, ask IT first.
 
 #### 4. Lock the screen quickly and use a strong password
 
@@ -1065,6 +1247,11 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - You'll type your password (or use Touch ID) more often. Touch ID makes this painless.
 - After changing your password, your Mac may ask you to update your "keychain" password (the store where your Mac keeps saved passwords). Choose to update it and type your **old** password when asked.
 
+**Going further:**
+- **Lock by moving the pointer into a corner.** Open **System Settings > Desktop & Dock**, scroll down and click **Hot Corners**. Pick a corner and choose **Lock Screen**. To avoid locking by accident, hold **Command** (or another key) while you choose it. Then the corner only works while you hold that key down.
+- **Use a login password you use nowhere else.** Your Mac password should be different from your Apple Account password and from every website password. If one of them leaks, the others stay safe. Your password manager can remember them for you.
+- **Shorten the timer.** In **System Settings > Lock Screen**, set both **Turn display off** options to **For 2 minutes** or **For 5 minutes** instead of 10. A shorter gap gives someone less time at an unlocked Mac. The trade-off: the screen goes dark while you're reading, so you'll unlock more often. Touch ID makes that quick.
+
 #### 5. Turn off the guest account and automatic login
 
 **Why this matters:** A guest account lets anyone use your Mac without a password. Automatic login means anyone who turns on your Mac gets straight into your account.
@@ -1085,6 +1272,11 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Heads-up:** If you sometimes lend your Mac to someone, they'll need their own account, or you can log in for them while you're there.
 
+**Going further:**
+- **Make the login screen ask for a name too.** In **System Settings > Lock Screen**, set **Login window shows** to **Name and password**. Someone at your Mac then has to guess your account name as well as your password. The trade-off: you type your account name when switching users. The screen right after a restart may still show your name, because of FileVault.
+- **Turn off password hints.** In the same place, turn off **Show password hints**. A hint can help someone who knows you guess your password. The hint you added in step 4 then won't show, so make sure the password is saved in your password manager first.
+- **Lend your Mac with its own account.** If someone uses your Mac often, give them their own **Standard** account in **System Settings > Users & Groups > Add User**, not access to yours. The trade-off: every account added this way can also unlock the Mac at startup, so only add people you trust, and remove the account when they no longer need it.
+
 #### 6. Check for unknown accounts
 
 **Why this matters:** An extra account you didn't create, especially an "Admin" one, could let someone else control your Mac. It's rare, but worth a 30-second look.
@@ -1098,6 +1290,11 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **How to check it worked:** Every account is one you (or IT) set up.
 
 **Heads-up:** Deleting an account can delete its files. Leave this to IT if you're unsure.
+
+**Going further:**
+- **See accounts the settings page doesn't show.** Open **Terminal**, type `dscl . list /Users | grep -v '^_'` and press Return. You'll see **daemon**, **nobody** and **root**, which every Mac has, plus your own accounts. Anything else you don't recognise: take a screenshot and ask IT. Don't delete it yourself.
+- **Check who has admin rights.** In Terminal, type `dscl . -read /Groups/admin GroupMembership` and press Return. It should list **root** and only the admin accounts you know about. An unknown name here is worth a call to IT straight away.
+- **Check the devices on your Apple Account.** Open **System Settings**, click **your name**, and scroll down to the list of devices. If you see one that isn't yours, click it and choose **Remove from Account**, then change your Apple Account password.
 
 #### 7. Turn off sharing services you don't use
 
@@ -1122,6 +1319,11 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Heads-up:** If you share a printer at home or use a remote-support tool, that feature will stop until you turn its switch back on. If IT uses remote support with you, ask them which (if any) to leave on.
 
+**Going further:**
+- **Give your Mac a name that doesn't say who you are.** A name like "Jane's MacBook Pro" is visible to others on café and hotel Wi-Fi. Change it in **System Settings > General > About > Name**. Then, in **General > Sharing**, check **Local hostname** at the bottom. If it still shows your name, click **Edit** and change it too. The trade-off: it may be harder to spot in a list. On a work Mac, ask IT first, as they may use the name to find it.
+- **If you need a sharing service, narrow it.** Click the **i** next to that service (for example **Screen Sharing** or **Remote Login**). Where you see **Allow access for**, choose **Only these users** and add just yourself. Turn the service off again when you're done.
+- **Look again after installing support tools.** Remote-support and file-sync apps sometimes switch sharing services on during setup. After installing one, reopen **General > Sharing** and check nothing has turned on that you didn't expect.
+
 #### 8. Turn off AirPlay Receiver and set AirDrop to Contacts Only
 
 **Why this matters:** AirPlay Receiver lets nearby devices send video and sound to your Mac. AirDrop set to "Everyone" lets strangers on a train send you pictures or files out of the blue.
@@ -1137,6 +1339,10 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Heads-up:** You won't be able to show your iPhone screen on your Mac with AirPlay until you turn it back on. If a colleague isn't in your Contacts, they'll need to be added before they can AirDrop you something (on macOS 26.2 and later they can also use an AirDrop code).
 
+**Going further:**
+- **If you turn AirPlay Receiver back on, lock it down.** In **System Settings > General > AirDrop & Continuity**, set **Allow AirPlay for** to **Current User**. Then only devices signed in to your own Apple Account can use it. Also turn on **Require password** and set one. Turn it off again when you're done. The trade-off: guests can't show their screen on your Mac.
+- **Turn AirDrop off when you're not using it.** Next to **AirDrop**, choose **No One**. Nobody can send you anything, not even contacts. Switch it back to **Contacts Only** when you want to receive something. The trade-off: one extra step each time.
+
 #### 9. Only allow apps from the App Store and known developers
 
 **Why this matters:** This stops random, unchecked apps from running. It's one of the main things that protects Macs from fake "video player" or "cleaner" apps that are really malware.
@@ -1149,6 +1355,11 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **How to check it worked:** It shows **App Store & Known Developers** (or the stricter **App Store**, which is also fine).
 
 **Heads-up:** If you ever see a warning that an app "cannot be opened" or "could not be verified," stop. Don't look up ways around it. Ask IT first.
+
+**Going further:**
+- **Check who made an app before you trust it.** Open **Terminal**, type `spctl -a -vv ` (with a space at the end), drag the app from **Applications** into the Terminal window, and press Return. A safe app says **accepted**, and the **origin** line names the company you expected (App Store apps show Apple). If it says **rejected**, or names someone else, don't open it. Ask IT.
+- **Go stricter with "App Store" only.** Choosing **App Store** blocks every new app from a website. The trade-off: to install something like Chrome or Zoom later, you'll have to switch back to **App Store & Known Developers**, and it's easy to forget to switch again afterwards.
+- **Never paste commands a website or installer gives you.** A common trick is a page that says "to fix this" or "to verify you're human", copy this line into **Terminal**. That line installs malware and skips every check in this step. No real website needs you to do that. Close the page and ask IT. Only type Terminal commands from this guide or from IT.
 
 #### 10. Require an admin password for system settings
 
@@ -1163,6 +1374,11 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **How to check it worked:** Reopen **Advanced**. The switch stays on.
 
 **Heads-up:** You'll be asked for your password a bit more often when changing settings. In the same window, you'll also see **Log out automatically after inactivity**. Leave it off unless IT asks; it can close unsaved work.
+
+**Going further:**
+- **Make this password different from your daily one.** If your everyday account is an admin, this step asks for your own password, which someone who watched you type it already knows. Step 21 sets up a separate admin account so this lock really needs a second password. The trade-off: you type that admin password a little more often.
+- **Approve new USB devices (Mac laptops with Apple chips).** In **System Settings > Privacy & Security**, check that **Allow accessories to connect** says **Ask for new accessories**, not **Always**. Then an unknown cable or USB stick can't swap data with your Mac until you click **Allow**. It can still charge. The trade-off: you approve each new dock or drive once. Desktop Macs don't have this setting.
+- **If you think someone is targeting you personally,** read step 23 (Lockdown Mode) and talk to IT. It goes much further than the settings here.
 
 #### 11. Review which apps can see your screen, keyboard, files, camera and microphone
 
@@ -1189,6 +1405,12 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Heads-up:** If you turn off something you actually need, the app will stop working properly or ask you again. Just turn it back on.
 
+**Going further:**
+- **Watch the menu bar.** An **orange dot** means an app is using the microphone. The camera's **green light** means it's on. A **purple icon** means something is recording the screen. Click **Control Center** to see which app it is. If you didn't expect it, quit that app and check its permissions here.
+- **Check the quieter lists too.** In **Privacy & Security**, also look at **Files & Folders**, **App Management** (apps that can update or delete other apps), **Local Network**, **Bluetooth** and **Location Services**. Use the same rule: keep what you know and use, and ask IT about names you don't recognise.
+- **Share less with Apple and Siri.** In **Privacy & Security > Analytics & Improvements**, you can turn off **Share Mac Analytics** and **Improve Siri & Dictation**. Your Mac and Siri keep working the same. It just sends less about how you use them.
+- **Make it a habit.** Repeat this check a few times a year, and right after installing new software. Most apps ask for one of these permissions on first use, and it's easy to click **Allow** without thinking.
+
 #### 12. Review apps that start by themselves
 
 **Why this matters:** Some apps (and some nasty software) set themselves to run every time you log in, quietly, in the background. A quick look shows you what's running without you knowing.
@@ -1205,6 +1427,12 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **Heads-up:**
 - You need to be an administrator to change these settings. If you've switched to a standard account (step 21), your Mac will ask for the admin name and password.
 - Turning off a background item for, say, a cloud-storage app means it won't sync until you open it. If something stops syncing, turn its switch back on.
+
+**Going further:**
+- **See everything that starts by itself, not just what Settings shows.** **KnockKnock**, a free tool from **objective-see.org**, lists every item set to start automatically, including some that **Login Items & Extensions** doesn't show. The trade-off: the list is long and mostly normal Apple items. Don't delete anything from it. If a name looks odd, take a screenshot and ask IT. Check the site says it supports your version of macOS. On a work Mac, ask IT first.
+- **Get a warning the moment something sets itself to start.** **BlockBlock**, also free from **objective-see.org**, pops up when an app tries to add itself to your start-up list, and lets you block it. The trade-off: it also pops up during normal installs and updates, so you need to read each alert, and it needs **Full Disk Access** to work. On a work Mac, ask IT first.
+- **Don't swipe away "Background Items Added".** Your Mac shows this notification when an app adds itself to run in the background. If you just installed that app, it's normal. If you didn't install anything, open **System Settings > General > Login Items & Extensions** and check the list.
+- **Peek in the folders where start-up files live.** In Finder, choose **Go > Go to Folder** and type **/Library/LaunchAgents**, then **/Library/LaunchDaemons**, then **~/Library/LaunchAgents**. Names like **com.google...** or **com.microsoft...**, from companies whose apps you use, are normal. Don't move or delete anything here yourself: ask IT about names you don't recognise.
 
 #### 13. Review browser extensions
 
@@ -1233,6 +1461,12 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Heads-up:** Only install extensions from the browser's official store, and only ones you really need.
 
+**Going further:**
+- **Let extensions see only the sites they need.** In Safari, open **Safari > Settings > Extensions**, select an extension, click **Edit Websites**, and set **When visiting other websites** to **Ask**. In Chrome, click **Details** on the extension in **Manage Extensions**, then set **Site access** to **On click** or **On specific sites**. The trade-off: you'll click to allow the extension more often.
+- **Use a separate browser profile for banking.** A profile is like a second, clean copy of your browser with its own cookies and extensions. In Safari, go to **Safari > Settings > Profiles** and click **New Profile**, then turn on only your password manager in that profile's **Extensions** tab. In Chrome, click your profile picture in the top-right and choose the option to add a new profile. The trade-off: you have to switch to that window for banking.
+- **Fewer is safer.** Extensions are sometimes sold to new owners who quietly add tracking or worse. If an extension suddenly asks for new permissions after an update, or you can't remember why you have it, remove it. Most people only need their password manager.
+- **On a work Mac, ask IT before adding any new extension.** Some companies only allow approved ones.
+
 #### 14. Turn on Find My Mac
 
 **Why this matters:** If your Mac is lost or stolen, you can see where it is, make it play a sound, lock it or erase it from another device. It also stops a thief from simply wiping and reusing it.
@@ -1252,6 +1486,12 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Heads-up:** Before you sell or hand back this Mac, or if IT asks to set it up again, you'll need to turn Find My off (with your Apple Account password). Otherwise nobody else can use or reset it.
 
+**Going further:**
+- **Learn the buttons before you need them.** Open the **Find My** app on your iPhone, tap **Devices**, then your Mac. Look (don't tap) at **Mark As Lost**, which locks the Mac and shows a message with your phone number, and **Erase This Device**. When you're upset after a theft, it helps to already know where they are.
+- **If it's stolen, don't remove it from your account.** Keep the Mac listed in Find My, even after you erase it. That keeps **Activation Lock** on, so a thief can't set it up as their own. Only remove it once you've sold it, given it away or handed it back, as described in this step.
+- **Save your serial number somewhere else.** Click the **Apple menu > About This Mac** and copy the **Serial number** into your password manager, with a photo of the receipt. Police, insurers and IT will ask for it.
+- **Check Activation Lock is really on.** Hold **Option**, click the **Apple menu**, choose **System Information**, then click **Hardware**. **Activation Lock Status** should say **Enabled**.
+
 #### 15. Stop Safari opening downloads automatically
 
 **Why this matters:** By default Safari opens some downloaded files (like PDFs and zip files) by itself. Turning this off means nothing opens until you choose to open it.
@@ -1263,6 +1503,12 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **How to check it worked:** Download a PDF. It should appear in your Downloads folder without opening.
 
 **Heads-up:** You'll need to double-click downloaded files yourself. That's it.
+
+**Going further:**
+- **Make websites ask before they download anything.** Open **Safari > Settings > Websites**, click **Downloads** in the list, and set **When visiting other websites** to **Ask**. A page then can't drop a file on your Mac without you clicking. The trade-off: one extra click each time on sites you haven't allowed.
+- **Look before you open.** Select a downloaded file in Finder and press the **Space bar**. This shows a preview (Apple calls it Quick Look) without opening it in an app. If a "PDF" won't preview, or turns out to be an app, delete it.
+- **Check where a file came from.** Select the file in Finder, choose **File > Get Info**, and look at **Where from**. If an "invoice" came from a web address you don't recognise, don't open it. Not every file shows this line.
+- **Never paste a command a website gives you.** A common Mac trick is a fake "I'm not a robot" or install page that tells you to open **Terminal** and paste something. The **Stay Safe Online guide, step 7** shows what it looks like.
 
 #### 16. Remove unknown profiles
 
@@ -1281,6 +1527,11 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Heads-up:** Removing a profile removes everything it set up, such as a Wi-Fi network or email account.
 
+**Going further:**
+- **Check the other places your internet can be redirected.** Open **System Settings > Network** and look at **VPN & Filters** (on some versions just **VPN**). Anything listed should be IT's filter (step 20), a VPN you chose, or a security app you installed on purpose. Then click **Wi-Fi**, then **Details** next to your network, then **Proxies**: everything should be off unless IT set it. Take a screenshot and ask IT about anything else.
+- **Check your iPhone too.** Scammers who get one device often try the other. The **iPhone guide, step 13a** shows where profiles live there.
+- **Look again after a scare.** If someone "helped" you over the phone, or you installed something from an email or pop-up, repeat this step and step 12 the same day.
+
 #### 17. Show file extensions in Finder
 
 **Why this matters:** A file named "Invoice.pdf" could secretly be "Invoice.pdf.app", which is a program, not a document. Showing the full name helps you spot fakes.
@@ -1294,6 +1545,11 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **How to check it worked:** Files now show endings like **.pdf**, **.docx** or **.app**.
 
 **Heads-up:** Be careful not to change the ending when renaming a file. If you do, your Mac will ask whether you're sure. Click the button that says **Keep** followed by the original ending (for example, **Keep .pdf**) to leave it as it was.
+
+**Going further:**
+- **Show what kind of file it really is.** In a Finder window, choose **View > as List**. If there's no **Kind** column, Control-click a column heading and tick **Kind**. A real document says something like **PDF document**. If it says **Application** and you expected a document, don't open it.
+- **See where a file really is.** Choose **View > Show Path Bar**. The bar at the bottom shows which folder or disk a file is in. If a "document" turns out to be on a disk you just downloaded, rather than in your Downloads folder, be careful before opening it.
+- **Tidy up installers.** After installing an app, eject the installer (the **.dmg** disk in the Finder sidebar) and move the **.dmg** file to the Trash. Old installers left in Downloads are easy to open by mistake later.
 
 #### 18. Check your Mac's built-in protection is on
 
@@ -1312,6 +1568,12 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 **How to check it worked:** It says **Enabled**.
 
 **If it says Disabled:** Don't try to fix it yourself. It has been switched off at some point. Please tell IT so they can turn it back on.
+
+**Going further:**
+- **Look at Startup Security without restarting (Apple silicon).** Hold **Option**, click the **Apple menu**, choose **System Information**, then under **Hardware** click **Controller**. Look for **Secure Boot**: it should say **Full Security**. If it says anything else, tell IT. Don't try to change it yourself.
+- **Know what's not there.** Newer Macs with Apple silicon don't have the old "firmware password". The closest feature, **Recovery Lock**, can only be set by a company's management system. Your login password, FileVault (step 2) and Find My (step 14) are what protect this Mac. On an older Intel Mac, ask IT whether they want a firmware password.
+- **Make every accessory ask first (Mac laptops with Apple silicon).** In **System Settings > Privacy & Security**, find **Allow accessories to connect** and choose **Ask Every Time** (on some versions **Always Ask**). Never choose **Always Allow**. A cable or gadget plugged in while you're away then can't connect until you approve it, even one you've used before. The trade-off: you approve your dock, hub or backup drive each time. Desktop Macs don't have this setting.
+- **For people at higher risk, there's Lockdown Mode.** It's step 23, and only for when IT tells you to.
 
 #### 19. Turn on encrypted Time Machine backups
 
@@ -1340,6 +1602,12 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Heads-up:** Encrypting an existing drive can take hours. Keep it plugged in. (This only applies to a drive plugged into your Mac. A network backup drive, such as a Time Capsule, does have to start over when you encrypt it.)
 
+**Going further:**
+- **Keep a second copy somewhere else.** A fire or burglary can take the Mac and the backup drive together. Time Machine can use two drives and takes turns between them: add the second one in **System Settings > General > Time Machine** with **Add Backup Disk**, turn on **Encrypt Backup** for it too, and keep it at another place (work or a relative's house). Swap them every few weeks. The trade-off: a second drive costs money and you have to remember to swap.
+- **Test that you can get a file back.** Open a folder in Finder, then open the **Time Machine** app (in **Applications**). Go back in time, pick a file and click **Restore**. A backup you've never restored from is only a hope.
+- **Unplug the drive after the backup finishes.** Harmful software that scrambles your files can also reach a drive that's always plugged in. Eject it in Finder, then unplug it. Plug it back in at least once a week, as in the main step.
+- **iCloud Drive isn't a backup.** If you delete or damage a file, iCloud copies that change to all your devices. A paid online backup service is a good offsite copy, but on a work Mac ask IT first: company files may not be allowed there.
+
 #### 20. Install the web filtering profile from IT (if IT sent you one)
 
 **Why this matters:** IT may give you a small "web filtering" profile. It blocks known scam and malware websites before they even load, whatever browser you use. (Technically it changes your Mac's DNS, which is like the internet's phone book.)
@@ -1361,6 +1629,12 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 **If you don't see this:** If the profile isn't listed under **Downloaded**, open the link or file from IT again.
 
 **Heads-up:** Occasionally a safe site might be blocked by mistake. Tell IT and they can unblock it.
+
+**Going further:**
+- **Keep Safari's own scam warning on.** Open **Safari > Settings > Security** and make sure **Warn when visiting a fraudulent website** is ticked. It works with IT's filter or without one.
+- **Check the filter now and then.** Open **System Settings > General > Device Management** and make sure IT's profile is still listed. If IT gave you a test website, open it every few months: it should still be blocked. If it isn't, tell IT.
+- **Ask IT before turning on iCloud Private Relay.** Private Relay (part of the paid iCloud+ plan) hides your Safari browsing from the network you're on. It can also change how web filtering works. Ask IT whether they're happy for you to use both.
+- **If a site is blocked, don't work around it.** Don't remove the profile, switch to another DNS service or use a VPN to reach a blocked site. Tell IT which site it was, and they can check it and unblock it if it's safe.
 
 ---
 
@@ -1395,6 +1669,11 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 - Some apps that install background tools may need the admin password more often.
 - If you get stuck, stop and contact IT.
 
+**Going further:**
+- **Never use the Admin account for daily life.** Only type its name and password into the boxes that ask for an administrator. Don't log in to it to browse, read email or open downloads. If you do, you lose most of the benefit of this step.
+- **Keep a second copy of the Admin password away from the Mac.** If your password manager only works on this Mac and something goes wrong, you can't get in to read it. Keep a paper copy locked away, for example with your FileVault recovery key (step 2).
+- **Give everyone their own standard account.** If family members use this Mac, give each of them their own **Standard** account, not yours and not the Admin one. Then their downloads and mistakes mostly stay in their own account. Check **Users & Groups** now and then: only the Admin account should show **Admin** (step 6 covers unknown accounts).
+
 #### 22. Set a lock screen message
 
 **Why this matters:** If you lose your Mac, an honest finder can see how to return it.
@@ -1406,6 +1685,11 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 4. Click **Done**.
 
 **How to check it worked:** Lock your screen (Control + Command + Q). Your message appears.
+
+**Going further:**
+- **Hide account names at the login screen.** Open **System Settings > Lock Screen** and set **Login window shows** to **Name and password**. Someone who picks up your Mac then has to guess your account name as well as your password. The trade-off: you type your name too. On a Mac with FileVault, the first screen after start-up still shows the names of people who can unlock it.
+- **Add a label for when the battery is flat.** The lock screen message only shows when the Mac is switched on. A small sticker or engraving on the bottom with a work phone number or email works even with a dead battery. Don't put your home address on it.
+- **You can also send a message after it's lost.** **Mark As Lost** in the **Find My** app (step 14) shows a message and phone number on the screen, even if you never set one here.
 
 ---
 
