@@ -17,6 +17,7 @@
   --trouble-bg: #f4effb; --trouble-bar: #6f42c1;
   --warn-bg: #fdecec;  --warn-bar: #c62828;
   --note-bg: #f3f5f8;  --note-bar: #6b7682;
+  --adv-bg: #e8f6f6;   --adv-bar: #0b7285;
   --ui-label-bg: #eceff3;
   --shadow: 0 1px 2px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.06);
   --gutter: 16px;
@@ -41,6 +42,7 @@
     --trouble-bg: #251c36; --trouble-bar: #b99cf0;
     --warn-bg: #361818;  --warn-bar: #ff8a80;
     --note-bg: #191c22;  --note-bar: #8a949f;
+    --adv-bg: #10282b;   --adv-bar: #5ccfdc;
     --ui-label-bg: #262b33;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 16px rgba(0,0,0,.35);
   }
@@ -193,6 +195,12 @@ input[type="checkbox"] { width: 1.5rem; height: 1.5rem; flex: 0 0 auto; accent-c
 .callout-heads   > p:first-child > strong:first-child::before { content: "\26A0\FE0E  "; }
 .callout-check   > p:first-child > strong:first-child::before { content: "\2713  "; }
 .callout-trouble > p:first-child > strong:first-child::before { content: "?  "; }
+.callout-advanced { background: var(--adv-bg); border-color: var(--adv-bar); }
+.callout-advanced > summary { cursor: pointer; font-weight: 700; font-size: .95rem; letter-spacing: .02em; text-transform: uppercase; color: var(--adv-bar); list-style-position: outside; }
+.callout-advanced > summary .adv-hint { text-transform: none; letter-spacing: 0; font-weight: 400; color: var(--text-muted); }
+.callout-advanced[open] > summary { margin-bottom: 8px; }
+.callout-advanced > :last-child { margin-bottom: 0; }
+@media print { .callout-advanced > *:not(summary) { display: block; } }
 .callout-warn    > p:first-child > strong:first-child::before { content: "\26A0\FE0E  "; }
 
 /* ---------- landing ---------- */

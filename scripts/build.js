@@ -118,6 +118,7 @@ const CALLOUTS = [
   [/^what it looks like/i, "heads"],
   [/^do this instead/i, "check"],
   [/^if it already happened/i, "trouble"],
+  [/^going further/i, "advanced"],
 ];
 
 /** Returns {type, boldOnly} for a paragraph that starts with a **Label:** */
@@ -254,6 +255,23 @@ function renderGuide(md, guide) {
       if (c && c.type) {
         flush();
         const group = [t];
+        if (c.type === "advanced") {
+          // "Going further" is a collapsible tier for confident users, closed by default so beginners
+          // aren't overwhelmed. It swallows everything up to the next heading, rule or other callout.
+          let j = i + 1;
+          while (j < tokens.length) {
+            const u = tokens[j];
+            if (u.type === "heading" || u.type === "hr") break;
+            if (u.type === "paragraph") { const cu = classifyParagraph(u.text); if (cu && cu.type) break; }
+            group.push(u); j++;
+          }
+          i = j - 1;
+          const label = stripMd(t.text.trim().match(/^\*\*([^*]+?)\*\*/)[1]).replace(/:\s*$/, "");
+          const first = { ...t, tokens: marked.lexer(t.raw.replace(/^\s*\*\*[^*]+?\*\*\s*/, ""))[0]?.tokens || [] };
+          const body = first.tokens.length ? [first, ...group.slice(1)] : group.slice(1);
+          out += `<details class="callout callout-advanced"><summary>${esc(label)} <span class="adv-hint">(optional, for confident users)</span></summary>${parse(body)}</details>\n`;
+          continue;
+        }
         if (c.endsWithColon) {
           let j = i + 1;
           while (j < tokens.length && tokens[j].type === "space") j++;
