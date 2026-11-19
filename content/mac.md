@@ -6,7 +6,7 @@ Nobody has switched on this Mac's security settings for you. On a company-manage
 
 You don't need to be "good with computers." Every step tells you exactly what to click. Words in **bold** are the exact words you'll see on screen. A path like **System Settings > General > Software Update** means: open System Settings, click **General**, then click **Software Update**.
 
-This guide is written for **macOS 26 Tahoe**. If your Mac is still on **macOS 15 Sequoia**, it mostly looks the same. Where something has a different name, we say so.
+This guide is written for **macOS 27 Golden Gate**. If your Mac is still on **macOS 26 Tahoe** or **macOS 15 Sequoia**, it mostly looks the same. Where something has a different name, we say so. Macs with an Intel chip can't run macOS 27, so they stay on Tahoe or an older version.
 
 Some steps end with a **Going further** box. It stays closed until you click it, and holds extra protection for people who are comfortable with tech. Everyone else can skip these boxes: the main steps already protect you well.
 
@@ -96,21 +96,21 @@ Tick each box as you go.
 4. Enter your password if asked. Your Mac will restart, maybe more than once. This can take 20 to 60 minutes.
 5. When it's back, open **Software Update** again and repeat until it says your Mac is up to date.
 
-**How to check it worked:** **Software Update** says your Mac is up to date. On Sequoia: if the only thing left is an offer to upgrade to macOS Tahoe (usually shown as **Upgrade Now**), you're done with this step.
+**How to check it worked:** **Software Update** says your Mac is up to date. On Tahoe or Sequoia: if the only thing left is an offer to upgrade to a newer macOS, such as macOS Golden Gate (usually shown as **Upgrade Now**), you're done with this step.
 
-**If you don't see this:** If it offers an upgrade to a whole new macOS (for example, from Sequoia to Tahoe), check with IT before installing it. Some older Macs can't run macOS 26. That's OK for now. Install the latest updates for the version you have, and tell IT your Mac model.
+**If you don't see this:** If it offers an upgrade to a whole new macOS (for example, from Tahoe to Golden Gate), check with IT before installing it. Macs with an Intel chip can't run macOS 27. That's OK for now. Install the latest updates for the version you have, and tell IT your Mac model.
 
 **Going further:**
 - **Only update from Apple's own screens.** Real macOS updates come from **System Settings > General > Software Update** or the **App Store**. A website pop-up saying your Mac "needs an update" or is "infected" is fake. Close the tab, and never download the "update" it offers.
 - **Install urgent fixes the same day.** Apple lists its security fixes at **support.apple.com/100100**. When the notes for an update say Apple is aware the problem "may have been exploited", attackers are already using it. Install that update today instead of waiting for the weekend.
-- **Know when your Mac stops getting fixes.** Apple gives the full set of security fixes only to the newest macOS. Older versions get some fixes for a while, then none. If your Mac can't move to macOS 26, ask IT when it should be replaced, so you're not left on a Mac that no longer gets fixes.
+- **Know when your Mac stops getting fixes.** Apple gives the full set of security fixes only to the newest macOS. Older versions get some fixes for a while, then none. If your Mac can't move to macOS 27 (every Mac with an Intel chip), ask IT when it should be replaced, so you're not left on a Mac that no longer gets fixes. Apple is still sending security fixes for Tahoe for now, but hasn't given an exact end date.
 
 **Going even further:** For people who can't afford to be even one fix behind.
 
 - **Hear about fixes the day they ship.** Apple emails every security release on its free **security-announce** list (sign up at **lists.apple.com**). If you'd rather not subscribe, check **support.apple.com/100100** once a week. The cost is a few emails a month.
 - **Treat "may have been exploited" as an emergency.** Install that update within hours, not days. Until it's installed, don't open links or attachments from messages on this Mac. You'll have to stop work for a restart.
 - **Stay on the newest macOS, not just a patched older one.** Set yourself a rule: move to each new major version within about a month, once your key apps say they support it. Menus move and very old apps can stop working. On a work device, ask IT first.
-- **Plan your move off Intel Macs.** Apple has said macOS 26 is the last version for Macs with Intel chips. Do your most sensitive work on a Mac with an Apple chip (M1 or later). This costs money, so plan it rather than waiting for the fixes to stop.
+- **Plan your move off Intel Macs.** macOS 26 Tahoe is the last version for Macs with Intel chips; macOS 27 runs only on Macs with an Apple chip. Apple still sends Tahoe security fixes but hasn't given an exact end date. If you rely on an old app made only for Intel Macs, plan to replace it: macOS 27 is the last version where Rosetta (which runs those apps) fully works. Do your most sensitive work on a Mac with an Apple chip (M1 or later, or the MacBook Neo). This costs money, so plan it rather than waiting for the fixes to stop.
 - **Confirm the fix really landed.** Click the **Apple menu > About This Mac** and compare the version number with the newest one listed at **support.apple.com/100100**. Automatic installs sometimes fail quietly.
 - **Keep test versions off this Mac.** In **System Settings > General > Software Update**, if you see **Beta Updates**, make sure it says **Off**. Test versions can have holes that aren't fixed yet.
 
@@ -128,7 +128,7 @@ Tick each box as you go.
 3. Turn on all of these:
    - **Download new updates when available**
    - **Install macOS updates**
-   - **Install Security Responses and system files** (on macOS 26 Apple calls it **Install system data files and security updates**; small, urgent security fixes that install quickly, often without a restart)
+   - **Install Security Responses and system files** (on macOS 26 and later it may instead be called **Install system data files and security updates**; small, urgent security fixes that install quickly, often without a restart)
 4. Click **Done**.
 
 **Part B: App updates from the App Store**
@@ -155,7 +155,7 @@ Tick each box as you go.
 - **Prefer the App Store version of an app.** App Store apps are fenced off from the rest of your Mac (this is called sandboxing) and all update through one switch. A few App Store versions have fewer features than the version from the maker's website.
 - **Keep an app inventory.** Write a short list of every app that didn't come from the App Store: where you got it and how it updates. Turn on each one's own automatic-update setting. Replace any app whose maker has stopped updating it. Allow about 20 minutes to make the list and 5 minutes a month to keep it.
 - **Restart on a schedule.** Quit and reopen your browsers every day or two, and restart the Mac once a week. Many updates only take effect after a restart, and a restart also clears some malware that lives only in memory. You'll reopen your windows afterwards.
-- **Check Apple's silent protections are current.** macOS quietly updates its built-in malware lists. **SilentKnight**, a free tool from **eclecticlight.co**, shows in one window whether those lists, your firmware and your main security settings are up to date. Check its page says it supports your macOS version. On a work device, ask IT first.
+- **Check Apple's silent protections are current.** macOS quietly updates its built-in malware lists. **SilentKnight**, a free tool from **eclecticlight.co**, shows in one window whether those lists, your firmware and your main security settings are up to date. Check its page says it supports your macOS version. On macOS 27 Golden Gate, use SilentKnight version 3 or later. On a work device, ask IT first.
 - **Update the things that aren't apps.** Docks, monitors, keyboards, printers and your Wi-Fi router have their own updates, usually through the maker's app or website. Type the maker's address yourself. A failed firmware update can break an accessory, so don't unplug it halfway.
 
 ### 2. Turn on FileVault (disk encryption) and save your recovery key
@@ -172,10 +172,9 @@ Tick each box as you go.
 3. If it says FileVault is already on, skip to "How to check it worked."
 4. Click **Turn On**. Enter your password if asked.
 5. You'll be asked how you want to be able to unlock your disk if you forget your password. What you see depends on your exact version of macOS:
-   - **On macOS 26 Tahoe:** your Mac creates a recovery key and saves it in the **Passwords** app through iCloud Keychain (Apple's way of syncing your passwords between your Apple devices). It may also show you the key in a window called **Write Down Your Recovery Key**. Write it down or save it somewhere else as well (see below), then click **Done**.
-   - **On macOS 15 Sequoia:** you'll see two choices:
-     - **Allow my iCloud account to unlock my disk**: easiest. Your Apple Account can unlock your Mac if you forget your password.
-     - **Create a recovery key and do not use my iCloud account**: your Mac shows you a code. You are fully responsible for keeping it safe.
+- **On macOS 27 Golden Gate or macOS 26 Tahoe:** your Mac may create a recovery key and save it in the **Passwords** app through iCloud Keychain (Apple's way of syncing your passwords between your Apple devices). It may also show you the key in a window called **Write Down Your Recovery Key**. Write it down or save it somewhere else as well (see below), then click **Done**. If you see a list of choices instead, follow the next bullet.
+   - **On macOS 15 Sequoia, or if you see a list of choices:** you'll see choices like these:
+     - **Allow my iCloud account to unlock my disk**: easiest. Your Apple Account can unlock your Mac if you forget your password. If you don't use iCloud yet, this may say **Set up my iCloud account to reset my password** instead.     - **Create a recovery key and do not use my iCloud account**: your Mac shows you a code. You are fully responsible for keeping it safe.
      - Either is fine. If you're not sure, pick the iCloud option, *and* write down a recovery key if one is shown.
 6. Click **Continue**. If you see **Enable Users**, every person who logs in to this Mac needs to type their password here.
 7. Encryption runs in the background. You can keep using your Mac. Keep it plugged in until it finishes.
@@ -188,7 +187,7 @@ Tick each box as you go.
 
 **How to check it worked:**
 - **System Settings > Privacy & Security > FileVault** shows that FileVault is turned on (or "encrypting," which is fine).
-- **Important:** make sure you can see your recovery key from somewhere *other than this Mac*. For example: the **Passwords** app on your iPhone (search for "recovery key"), your password manager, or your paper copy. If the only copy is on this Mac, write it down now.
+- **Important:** make sure you can see your recovery key from somewhere *other than this Mac*. For example: the **Passwords** app on your iPhone (open **All** and look for your Mac's name), your password manager, or your paper copy. If the only copy is on this Mac, write it down now.
 
 **Heads-up:** Your Mac will no longer log you in automatically. You'll always need your password at startup. That's a good thing.
 
@@ -201,7 +200,7 @@ Tick each box as you go.
 
 - **Make the password match the lock.** Your login password is what unlocks the disk. Use six random words chosen with dice (**Online guide, step 9**, Going further). **Forget it and lose the recovery key, and your files are gone for good.** Keep the recovery key on paper before you change anything.
 - **Replace a recovery key that may have been seen.** If the key ever sat in a photo, an email or a notes app, open **Terminal**, type `sudo fdesetup changerecovery -personal` and press Return. Type your Mac password, and your account name and password if it asks. The old key stops working and a new one appears. **Write the new key down before you close the window**, then test it with the check in Going further. Afterwards, open the **Passwords** app and check that any FileVault key saved there matches the new one. If it doesn't, rely on your paper copy. Close Terminal afterwards.
-- **Know where copies of the key live.** On macOS 26, a copy is usually saved in the **Passwords** app (when iCloud Keychain is on) and syncs to your other Apple devices. Anyone who knows your Mac password or iPhone passcode can read it there, so those two codes guard your disk too. The strongest setup is paper in two locked places, one of them away from home.
+- **Know where copies of the key live.** On macOS 26 Tahoe and later, a copy is usually saved in the **Passwords** app (when iCloud Keychain is on) and syncs to your other Apple devices. Anyone who knows your Mac password or iPhone passcode can read it there, so those two codes guard your disk too. The strongest setup is paper in two locked places, one of them away from home.
 - **Check who else can unlock the disk.** In Terminal, type `sudo fdesetup list` and press Return. Every name listed is another password that opens the disk at startup. If one shouldn't be there, deal with that account through step 6. Don't delete it from Terminal.
 - **Encrypt every external drive and USB stick.** Control-click the drive in Finder and choose **Encrypt**. If that isn't offered, erase it in **Disk Utility** with the format **APFS (Encrypted)**, which deletes everything on it. Windows PCs can't read these drives, and a forgotten drive password means the contents are lost.
 - **Add a second lock for your most sensitive files.** In **Disk Utility**, choose **File > New Image > Blank Image**, pick **256-bit AES** encryption and the **sparse bundle** format, and don't let it save the password in your keychain. The files stay locked even while your Mac is unlocked, until you open the image. Eject it when you're done. **If you forget that password, nobody can recover it**, so store it in your password manager and on paper.
@@ -250,7 +249,7 @@ Tick each box as you go.
 
 **Part C: Screen saver (optional)**
 Parts A and B already lock your Mac. A screen saver is just extra. If you use one, make it start at the same time as the display turns off, or sooner.
-- **On macOS 26 Tahoe:** open **System Settings > Wallpaper**, then click **Screen Saver** (you may need to scroll down). Choose a screen saver, and set **Start Screen Saver** to 10 minutes or less.
+- **On macOS 26 Tahoe or macOS 27 Golden Gate:** open **System Settings > Wallpaper**, then click **Screen Saver** (you may need to scroll down). Choose a screen saver, and set **Start Screen Saver** to 10 minutes or less.
 - **On macOS 15 Sequoia:** set **Start Screen Saver when inactive** in **System Settings > Lock Screen** (the same page as Parts A and B). The separate **Screen Saver** item only picks which screen saver to show.
 
 **Part D: Use a strong login password**
@@ -456,7 +455,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **Going even further:** Stop settings drifting, and enforce them properly if you run the office.
 
 - **Re-audit after every major macOS upgrade.** Big upgrades add features that are switched on by default, and sometimes change settings. After each one, re-walk steps 3, 7, 8, 11 and 12. Allow about 15 minutes.
-- **Use the professional checklist.** The Center for Internet Security publishes a free **CIS Benchmark for macOS** at **cisecurity.org** (it asks you to sign up). It lists more than a hundred settings in two levels of strictness, and has a version for macOS 26. It's long and technical. Change one thing at a time, and write down what you changed so you can undo it.
+- **Use the professional checklist.** The Center for Internet Security publishes a free **CIS Benchmark for macOS** at **cisecurity.org** (it asks you to sign up). It lists more than a hundred settings in two levels of strictness. Check it covers your version: as of November 2026 the newest one is for macOS 26 Tahoe, and there isn't one for macOS 27 Golden Gate yet. It's long and technical. Change one thing at a time, and write down what you changed so you can undo it.
 - **Lock settings with a profile you write yourself.** **iMazing Profile Editor** (free) builds a settings file that can hold some options in place, such as screen-lock rules. Install it as in step 20. On a Mac that isn't company-managed, many restrictions are ignored, and anyone with the admin password can remove the profile. A mistake can be undone by removing the profile in **Device Management**.
 - **If you run the office, get real management.** With **Apple Business** (Apple's free service that replaced Apple Business Manager in 2026, with basic device management built in), or a management service such as **Jamf Now** or **Mosyle** connected to it, settings are enforced, a lost Mac can be locked, and **Recovery Lock** becomes available. The management account then controls every Mac, so protect it with security keys (step 25). On a work device this is IT's decision, so ask IT first.
 
@@ -487,8 +486,8 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Going further:**
 - **Watch the menu bar.** An **orange dot** means an app is using the microphone. The camera's **green light** means it's on. A **purple icon** means something is recording the screen. Click **Control Center** to see which app it is. If you didn't expect it, quit that app and check its permissions here.
-- **Check the quieter lists too.** In **Privacy & Security**, also look at **Files & Folders**, **App Management** (apps that can update or delete other apps), **Local Network**, **Bluetooth** and **Location Services**. Use the same rule: keep what you know and use, and ask IT about names you don't recognise.
-- **Share less with Apple and Siri.** In **Privacy & Security > Analytics & Improvements**, you can turn off **Share Mac Analytics** and **Improve Siri & Dictation**. Your Mac and Siri keep working the same. It just sends less about how you use them.
+- **Check the quieter lists too.** In **Privacy & Security**, also look at **Files & Folders**, **App Management** (apps that can update or delete other apps), **Local Network**, **Bluetooth** and **Location Services**. Use the same rule: keep what you know and use, and ask IT about names you don't recognise. On macOS 27, an app that wants to read another company's app data no longer asks: it's blocked unless you allow it in **Privacy & Security**. Only allow it if you know why the app needs it.
+- **Share less with Apple and Siri.** In **Privacy & Security > Analytics & Improvements**, you can turn off **Share Mac Analytics** and the switch for improving Siri (called **Improve Siri & Dictation** on macOS 26; the name may differ slightly on macOS 27). On macOS 27.2 and later, you can also choose which apps Siri, Search and suggestions can look into: search System Settings for **Excluded Apps**. Your Mac and Siri keep working the same. It just sends less about how you use them.
 - **Make it a habit.** Repeat this check a few times a year, and right after installing new software. Most apps ask for one of these permissions on first use, and it's easy to click **Allow** without thinking.
 
 **Going even further:** Shrink these lists to almost nothing, and get told when the camera or microphone wakes up.
@@ -520,6 +519,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **See everything that starts by itself, not just what Settings shows.** **KnockKnock**, a free tool from **objective-see.org**, lists every item set to start automatically, including some that **Login Items & Extensions** doesn't show. The trade-off: the list is long and mostly normal Apple items. Don't delete anything from it. If a name looks odd, take a screenshot and ask IT. Check the site says it supports your version of macOS. On a work Mac, ask IT first.
 - **Get a warning the moment something sets itself to start.** **BlockBlock**, also free from **objective-see.org**, pops up when an app tries to add itself to your start-up list, and lets you block it. The trade-off: it also pops up during normal installs and updates, so you need to read each alert, and it needs **Full Disk Access** to work. On a work Mac, ask IT first.
 - **Don't swipe away "Background Items Added".** Your Mac shows this notification when an app adds itself to run in the background. If you just installed that app, it's normal. If you didn't install anything, open **System Settings > General > Login Items & Extensions** and check the list.
+- **Watch for gray dots in the Dock (macOS 27).** When you quit an app that keeps running in the background, its Dock dot turns light gray. If you don't need it running, Control-click its Dock icon and choose the option to stop it running in the background. The app may then stop syncing or updating until you open it again.
 - **Peek in the folders where start-up files live.** In Finder, choose **Go > Go to Folder** and type **/Library/LaunchAgents**, then **/Library/LaunchDaemons**, then **~/Library/LaunchAgents**. Names like **com.google...** or **com.microsoft...**, from companies whose apps you use, are normal. Don't move or delete anything here yourself: ask IT about names you don't recognise.
 
 **Going even further:** Keep a record of what's normal, and know when to stop cleaning and start again.
@@ -560,7 +560,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **Going further:**
 - **Let extensions see only the sites they need.** In Safari, open **Safari > Settings > Extensions**, select an extension, click **Edit Websites**, and set **When visiting other websites** to **Ask**. In Chrome, click **Details** on the extension in **Manage Extensions**, then set **Site access** to **On click** or **On specific sites**. The trade-off: you'll click to allow the extension more often.
 - **Use a separate browser profile for banking.** A profile is like a second, clean copy of your browser with its own cookies and extensions. In Safari, go to **Safari > Settings > Profiles** and click **New Profile**, then turn on only your password manager in that profile's **Extensions** tab. In Chrome, click your profile picture in the top-right and choose the option to add a new profile. The trade-off: you have to switch to that window for banking.
-- **Fewer is safer.** Extensions are sometimes sold to new owners who quietly add tracking or worse. If an extension suddenly asks for new permissions after an update, or you can't remember why you have it, remove it. Most people only need their password manager.
+- **Fewer is safer.** Extensions are sometimes sold to new owners who quietly add tracking or worse. If an extension suddenly asks for new permissions after an update, or you can't remember why you have it, remove it. Most people only need their password manager. Safari 27 can also build an extension from a description you type (Apple calls this **Describe an Extension**). Treat one like any other extension: keep it only if you really use it.
 - **On a work Mac, ask IT before adding any new extension.** Some companies only allow approved ones.
 
 **Going even further:** Make the browser you bank in as plain as possible.
@@ -713,7 +713,7 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Going even further:** Verify the deepest protections, and know how to rebuild trust in a Mac that left your control.
 
-- **Check everything in one window.** **SilentKnight** (free, from **eclecticlight.co**) reports System Integrity Protection, startup security, the system seal, firmware and Apple's malware lists together. It only reads settings unless you ask it to fetch updates. Pick the version its site lists for your Mac: version 3 is for Apple silicon, and the older 2.x line still covers Intel Macs up to macOS 26. On a work device, ask IT first.
+- **Check everything in one window.** **SilentKnight** (free, from **eclecticlight.co**) reports System Integrity Protection, startup security, the system seal, firmware and Apple's malware lists together. It only reads settings unless you ask it to fetch updates. Pick the version its site lists for your Mac: version 3 is for Apple silicon, including macOS 27 Golden Gate, and the older 2.x line still covers Intel Macs, which stop at macOS 26. On a work device, ask IT first.
 - **Check the system's seal.** macOS keeps its core files on a sealed, read-only volume. In **Terminal**, type `csrutil authenticated-root status` and press Return. It should say **enabled**. If it doesn't, tell IT and don't try to fix it. Close Terminal afterwards.
 - **Treat a Mac that left your control as untrusted.** This applies if it was taken at a border, kept overnight by a repair shop you don't know, or left in a hotel room while you're being targeted. Shut it down before any such moment. Afterwards, repeat this step at least. Taking the Mac everywhere is a nuisance, but it's the price of this level of protection.
 - **Do the deepest reset.** If this Mac has Apple silicon (or is an Intel Mac with the T2 chip), you can restore its firmware and system completely, using a second Mac running macOS 14 or later and a USB-C cable that carries both data and charging (not a Thunderbolt 3 cable). Apple's article "How to revive or restore Mac firmware" gives the exact steps, and an Apple Store can do it for you. **Restore erases everything**, so confirm your backup works (step 19) and that you know your Apple Account password first.
@@ -738,7 +738,7 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Already have an unencrypted Time Machine drive?** You don't need to erase it.
 1. Plug it in and open a **Finder** window.
-2. Control-click (or right-click) the backup drive in the Finder sidebar, then choose **Encrypt**.
+2. Control-click (or right-click) the backup drive in the Finder sidebar, then choose **Encrypt**. If there's no **Encrypt** option, set the drive up again as in the steps above. That erases it, so only do it if you don't need the old backups.
 3. Type a password in **Encryption password** and **Verify password**, add a hint, and click **Encrypt Disk**.
 4. Save the password in your password manager. Your existing backups are kept.
 
@@ -790,10 +790,10 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Going even further:** If nobody filters for you, build your own filter and make it hard to bypass.
 
-- **Install your own encrypted filter (only if IT hasn't sent one).** **NextDNS** makes a signed profile for you at **apple.nextdns.io**. **Quad9** also offers ready-made profiles on its own site. Type the addresses yourself and install the profile exactly as in this step. It blocks known scam sites on every network and hides your look-ups from the Wi-Fi owner. Hotel sign-in pages may not appear until you switch it off for a moment. Look for it in **System Settings > Network**, in the **VPN & Filters** section, and set it to disabled. (NextDNS's profile page also lets you list Wi-Fi networks where it switches itself off.) The filter company sees which site names you visit. Use only one such profile. On macOS 26, some of these profiles fail to install with a "VPN Service" error. If that happens, download a fresh copy from the company's site, or use the company's own Mac app instead. If a filter profile you already have works, don't remove it just to replace it, because the new one may not install. On a work device, ask IT first.
+- **Install your own encrypted filter (only if IT hasn't sent one).** **NextDNS** makes a signed profile for you at **apple.nextdns.io**. **Quad9** also offers ready-made profiles on its own site. Type the addresses yourself and install the profile exactly as in this step. It blocks known scam sites on every network and hides your look-ups from the Wi-Fi owner. Hotel sign-in pages may not appear until you switch it off for a moment. Look for it in **System Settings > Network**, in the **VPN & Filters** section, and set it to disabled. (NextDNS's profile page also lets you list Wi-Fi networks where it switches itself off.) The filter company sees which site names you visit. Use only one such profile. Since macOS 26, some of these profiles have failed to install with a "VPN Service" error. If that happens, download a fresh copy from the company's site, or use the company's own Mac app instead. If a filter profile you already have works, don't remove it just to replace it, because the new one may not install. On a work device, ask IT first.
 - **Turn on the stricter blocks.** In NextDNS's **Security** page, turn on **Threat Intelligence Feeds** and **Block Newly Registered Domains**, because many scam sites are only days or weeks old. Now and then a brand-new honest site is blocked, and you can allow it by hand. Set its logs to a short time, or off, if you don't want a record kept.
 - **Stop browsers going around the filter.** Chrome and Firefox can do their own look-ups. In Chrome, go to **Settings > Privacy and security > Security > Use secure DNS**. In Firefox, go to **Settings > Privacy & Security > DNS over HTTPS**. Switch it off, or point it at the same service. You'll need to re-check after browser updates.
-- **Write the profile yourself.** **iMazing Profile Editor** (free) has a **DNS Settings** section where you enter the service's "DNS over HTTPS" address. Your own profile shows as **Unsigned**. That's expected for a profile you made, and never acceptable from anyone else. A typing mistake can stop websites loading until you remove the profile in **Device Management**. If macOS 26 refuses to install it with a "VPN Service" error, one fix people report is to set the profile's scope to **System** before you save it.
+- **Write the profile yourself.** **iMazing Profile Editor** (free) has a **DNS Settings** section where you enter the service's "DNS over HTTPS" address. Your own profile shows as **Unsigned**. That's expected for a profile you made, and never acceptable from anyone else. A typing mistake can stop websites loading until you remove the profile in **Device Management**. If macOS refuses to install it with a "VPN Service" error (reported since macOS 26), one fix people report is to set the profile's scope to **System** before you save it.
 - **Cover the whole house and test it.** Set the same service on your router (**Online guide, step 18**, Going further). Use the test page the service gives you to confirm it's working. A filter you've never tested may not be filtering at all.
 
 ---
@@ -880,7 +880,7 @@ These are strong protections for people who are at higher risk, such as those wh
 **Steps**
 1. Open **System Settings > Privacy & Security**.
 2. Scroll down to **Lockdown Mode** and click **Turn On**.
-3. Enter your password if asked, then click **Turn On & Restart**.
+3. Click **Turn on Lockdown Mode**, enter your password if asked, then click **Turn On & Restart**.
 
 **Downsides:** Some websites load slower or look broken. Most message attachments are blocked. FaceTime calls are blocked from people you haven't called in the past 30 days. Shared albums and some device connections stop working. You need to turn it on separately on each of your devices (Mac, iPhone, iPad). Phone calls, normal messages and emergency features keep working.
 
@@ -888,7 +888,7 @@ These are strong protections for people who are at higher risk, such as those wh
 
 **Going even further:** Lockdown Mode works best as part of a routine, with expert help lined up.
 
-- **Turn it on everywhere, with no exceptions.** Switch it on for your iPhone, iPad and every Mac. Don't add websites or apps to its exception lists. An attacker only needs the one device or site you left out. More things will look broken, and you'll have to live with that.
+- **Turn it on everywhere, with no exceptions.** Switch it on for your iPhone, iPad and every Mac. Don't add websites, apps or contacts to its exception lists. Since version 27 you can also exclude a contact (**Privacy & Security > Lockdown Mode > Customize Contacts**), which turns off message limits for that person, so leave that list empty too. An attacker only needs the one device, site or contact you left out. More things will look broken, and you'll have to live with that.
 - **Browse with Safari while it's on.** Lockdown Mode's web protections apply to Safari. Chrome and Firefox on a Mac use their own engines and don't get them. Some sites will look plain or broken.
 - **Shrink the ways messages can reach this Mac.** If you don't need them here, sign out in **Messages > Settings > iMessage** and in **FaceTime > Settings**. Use your phone for messages. Turn on **Contact Key Verification** (**iPhone guide, step 32**). You'll have no texts or calls on the Mac.
 - **Know what a real Apple threat notification looks like.** Apple sends it as an alert on your iPhone and by email (from threat-notifications@email.apple.com), and shows it at the top of the page after you sign in at **account.apple.com** (type it yourself). It never asks you to click a link, install anything or give a password or code. If you get one, contact **Access Now's Digital Security Helpline** (accessnow.org/help), which Apple itself recommends. Journalists and activists can also contact **Amnesty International's Security Lab**. Don't erase the device first, because that destroys evidence.

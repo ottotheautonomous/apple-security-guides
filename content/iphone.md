@@ -6,7 +6,7 @@ Nobody has switched on this iPhone's security settings for you. On a company-man
 
 You don't need to be "good with tech." Every step tells you exactly what to tap. Words in **bold** are the words you'll see on screen. A path like **Settings > General > Software Update** means: open the Settings app, tap **General**, then tap **Software Update**.
 
-This guide is written for **iOS 26**. If your phone still runs **iOS 18**, most steps are the same. Where a menu has a different name on iOS 18, the guide says so.
+This guide is written for **iOS 27**. If your phone still runs **iOS 26** or **iOS 18**, most steps are the same. Where a menu has a different name on an older version, the guide says so.
 
 **How long it takes:** about 45 to 60 minutes for the Must-do part, plus 20 to 30 minutes for the Nice-to-have part. You don't have to do it all at once. Tick things off as you go.
 
@@ -44,17 +44,17 @@ Some steps end with a **Going further** box. It stays closed until you tap it, a
 
 1. Plug your iPhone into a charger and connect to Wi-Fi.
 2. Go to **Settings > General > Software Update**.
-3. If you see **Update Now** or **Upgrade to iOS 26**, tap it. Then follow the prompts and enter your passcode.
+3. If you see **Update Now** or **Upgrade to iOS 27**, tap it. Then follow the prompts and enter your passcode.
 4. Wait. The phone restarts on its own. This can take 15 to 45 minutes.
 5. Go back to **Settings > General > Software Update** and check again, because sometimes a second update shows up.
 
 **How to check it worked:** **Settings > General > Software Update** says **iOS is up to date**. You can also check **Settings > General > About > iOS Version**.
 
-**If you don't see this:** If your phone can't get iOS 26, it may be too old. Install the newest update it offers and tell IT the model, which is shown in **Settings > General > About > Model Name**.
+**If you don't see this:** If your phone can't get iOS 27, it may be too old. (iOS 27 runs on the same iPhones as iOS 26: iPhone 11 or newer, and iPhone SE 2nd generation or newer.) Install the newest update it offers and tell IT the model, which is shown in **Settings > General > About > Model Name**.
 
 **Going further:**
 - **Don't stay on the older version.** When a new big version comes out, **Software Update** may also offer an update for the version you already have. Take the newest version. Apple only promises to fix every known security hole in the latest version. Trade-off: big updates sometimes move menus around for a while.
-- **Know when your phone stops getting fixes.** iOS 26 needs an iPhone 11 or newer. The website **endoflife.date** shows how long each iPhone has been getting updates. A phone that's no longer supported still works, but new holes in it are never fixed. Plan to replace it, and move banking and work email to a supported device as soon as you can.
+- **Know when your phone stops getting fixes.** iOS 27 needs an iPhone 11 or newer, the same phones as iOS 26. An iPhone XS or XR stays on iOS 18, which still gets some security fixes for now. The website **endoflife.date** shows how long each iPhone has been getting updates. A phone that's no longer supported still works, but new holes in it are never fixed. Plan to replace it, and move banking and work email to a supported device as soon as you can.
 - **Update your other Apple devices too.** Your iPad, Mac and Apple Watch share your Apple Account with this phone. If one is out of date, update it. If you no longer use it, remove it from your account (step 6c). Trade-off: a very old iPad may have no update left, so removing it may be the only option.
 
 **Going even further:** For people who can't afford to run a known security hole for even a few days, or who think the phone may already have been tampered with.
@@ -127,7 +127,7 @@ Tick each box as you finish.
 1. Go to **Settings > General > Software Update > Automatic Updates**.
 2. Under **iOS Updates**, turn on **Automatically Download** and **Automatically Install**.
 3. Turn on **System Files** (the switch may be shown as **Automatically Install** under a **System Files** heading). On iOS 18 this is called **Security Responses & System Files**.
-4. Go back to the main Settings screen. Go to **Settings > Privacy & Security > Background Security Improvements** and make sure **Automatically Install** is on. (This is new in iOS 26.1. It sends urgent security fixes between normal updates.)
+4. Go back to the main Settings screen. Go to **Settings > Privacy & Security > Background Security Improvements** and make sure **Automatically Install** is on. (This was added in iOS 26.1. It sends urgent security fixes between normal updates.)
 
 **How to check it worked:** All the switches above are green.
 
@@ -196,7 +196,7 @@ Tick each box as you finish.
 
 **Steps: change to a strong passcode**
 
-1. Go to **Settings > Face ID & Passcode** (on phones with a Home button: **Touch ID & Passcode**).
+1. Go to **Settings > Face ID & Passcode** (on phones with Touch ID, such as iPhone SE and iPhone Duo: **Touch ID & Passcode**).
 2. Enter your current passcode.
 3. Tap **Change Passcode** and enter your current passcode again.
 4. Tap **Passcode Options**. Choose **6-Digit Numeric Code** at least, or **Custom Alphanumeric Code** (letters and numbers) for even better protection. Don't pick **4-Digit Numeric Code**.
@@ -270,7 +270,7 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 
 **Steps: Require Attention**
 
-1. Go to **Settings > Face ID & Passcode** and enter your passcode.
+1. Go to **Settings > Face ID & Passcode** (on iPhone SE or iPhone Duo: **Touch ID & Passcode**) and enter your passcode.
 2. Turn on **Require Attention for Face ID**.
 
 **Steps: check for an unknown face**
@@ -279,7 +279,7 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 2. If you see **Set Up an Alternate Appearance**, good. Only one face is saved. Don't set one up unless you really need it.
 3. If you **don't** see that button, a second face (an "alternate appearance") is already saved. If you didn't add it yourself, tap **Reset Face ID**, then tap **Set Up Face ID** and scan only your own face. (If you're asked to wait an hour, that's Stolen Device Protection. See step 8.)
 
-**If you don't see this (phones with a Home button):** Go to **Settings > Touch ID & Passcode**. Look at the list of fingerprints. Swipe left on any you don't recognise and tap **Delete**. You can rename them by tapping a fingerprint, so you know which finger is which.
+**If you don't see this (phones with Touch ID, such as iPhone SE and iPhone Duo):** Go to **Settings > Touch ID & Passcode**. Look at the list of fingerprints. Swipe left on any you don't recognise and tap **Delete**. You can rename them by tapping a fingerprint, so you know which finger is which.
 
 **How to check it worked:** **Require Attention for Face ID** is green. Close your eyes and try to unlock with Face ID. It shouldn't work.
 
@@ -348,7 +348,7 @@ A Recovery Contact is a person you trust who can help you get back into your acc
 **Going further:**
 - **Add more than one Recovery Contact.** You can have up to five. Choose people who don't live with you, so a fire or a burglary can't take out everyone at once. Trade-off: with Stolen Device Protection on, each change may make you wait an hour.
 - **Clean up Sign in with Apple.** Go to **Settings > [your name] > Sign-In & Security > Sign in with Apple** (on some versions it's directly under your name). Tap any app you no longer use and choose **Stop Using**. Trade-off: if you go back to that app, you may need to make a new account.
-- **Keep your real email address private (iCloud+).** With a paid iCloud+ plan, **Hide My Email** (in **Settings > [your name] > iCloud**, or search Settings for it) makes a random address that forwards to you. Use it for shops and newsletters, so your real address, and your Apple Account email, appear in fewer leaks and scam lists. Trade-off: you have more addresses to keep track of.
+- **Keep your real email address private (iCloud+).** With a paid iCloud+ plan, **Hide My Email** (in **Settings > [your name] > iCloud**, or search Settings for it) makes a random address that forwards to you. Use it for shops and newsletters, so your real address, and your Apple Account email, appear in fewer leaks and scam lists. Trade-off: you have more addresses to keep track of. Make sure you're on iOS 27.2 or later. That update fixed a Mail bug that could reveal your real address when you used Hide My Email.
 - **Know the strongest options.** **Advanced Data Protection** (step 30) and **security keys** (step 31) lock your account down further. They have real downsides. On a work device, only turn on Advanced Data Protection if IT asks you to. On your own device it's your choice, after you read the downsides in step 30. Security keys on a personal account are your choice, after you read the downsides in step 31.
 
 **Going even further:** Your Apple Account is the master key to the phone. At this level you remove every way in that you don't strictly need.
@@ -400,7 +400,7 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 
 **Steps**
 
-1. Go to **Settings > Face ID & Passcode** and enter your passcode.
+1. Go to **Settings > Face ID & Passcode** (on iPhone SE and iPhone Duo: **Touch ID & Passcode**) and enter your passcode.
 2. Scroll down and tap **Stolen Device Protection**.
 3. Turn on **Stolen Device Protection** if it isn't on already.
 4. Under **Require Security Delay**, choose **Always**.
@@ -420,6 +420,7 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 **Going further:**
 - **Close the gap it leaves open.** Stolen Device Protection guards your Apple Account, settings and saved passwords. But a thief who knows your passcode can still open apps that only use the phone's own lock. For banking, email and authenticator apps, turn on the app's own PIN or password lock in its settings, and make it different from your phone passcode. Trade-off: one more code to remember.
 - **Turn on your bank's alerts.** In your banking app, turn on alerts for every payment and every new device that signs in. Then you hear about a thief quickly, even if the phone is gone. Trade-off: more notifications.
+- **Let banking apps spot scams (iOS 27).** Go to **Settings > Privacy & Security**, scroll down to **Impersonation Risk Detection**, and turn on **Share with App Developers**. Your phone then tells apps that take part, such as some banking apps, how likely it is that a scam is under way. The app may add an extra check, delay a payment or show a warning. It's off by default, and it can take up to 24 hours to start working. If anyone tells you to turn this off, treat it as a sign of a scam. Trade-off: the occasional extra check, and Apple hasn't said which apps take part.
 
 **Going even further:** Stolen Device Protection guards your Apple Account. These measures cover what a thief with your passcode can still reach.
 
@@ -436,16 +437,16 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 
 ### 9a. Allow Access When Locked
 
-1. Go to **Settings > Face ID & Passcode** and enter your passcode.
+1. Go to **Settings > Face ID & Passcode** (on iPhone SE or iPhone Duo: **Touch ID & Passcode**) and enter your passcode.
 2. Scroll to **Allow Access When Locked**.
 3. Turn **off** these:
    - **Control Center**: stops a thief from switching on Airplane Mode or turning off Wi-Fi to hide the phone.
    - **Reply with Message**: stops people replying to your messages from the Lock Screen.
    - **Home Control**: stops people controlling your smart home, like locks, lights or garage doors.
-   - **Accessories** (iOS 18 only): keep it **off**. On iOS 26 this switch isn't here any more. See 9b instead.
+- **Accessories** (iOS 18 only): keep it **off**. On iOS 26 and later this switch isn't here any more. See 9b instead.
 4. The rest is **your choice**. These include **Wallet**, **Siri**, **Notification Center**, **Today View and Search**, **Lock Screen Widgets**, **Live Activities** and **Return Missed Calls**. Turning more off is safer. Leaving some on is more convenient. For example, keeping **Wallet** on lets you show a boarding pass quickly. Apple Pay still needs your face or passcode to pay. (The one exception is a transit card or student ID set to **Express Mode**, which works without Face ID.) Turning off **Siri** means nobody can ask your locked phone to do things for them.
 
-### 9b. Wired accessories (iOS 26)
+### 9b. Wired accessories (iOS 26 and later)
 
 This controls whether things you plug in with a cable (a computer, a car, a USB gadget) can talk to your phone.
 
@@ -463,7 +464,7 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 
 **Going further:**
 - **Go strict.** In **Allow Access When Locked**, turn off everything except **Return Missed Calls**, if you use it. That includes **Siri**, **Wallet**, **Notification Center**, **Today View and Search**, **Lock Screen Widgets** and **Live Activities**. A locked phone then shows almost nothing. Emergency calls and Medical ID still work. Trade-off: you'll unlock for a boarding pass, a timer or a delivery update.
-- **Pick Always Ask for wired accessories (iOS 26).** In **Settings > Privacy & Security > Wired Accessories**, **Always Ask** means even a car or dock you used before needs your approval each time. Trade-off: one extra tap whenever you plug into the car.
+- **Pick Always Ask for wired accessories (iOS 26 and later).** In **Settings > Privacy & Security > Wired Accessories**, **Always Ask** means even a car or dock you used before needs your approval each time. Trade-off: one extra tap whenever you plug into the car.
 - **Check what your Lock Screen shows.** Remove widgets that show calendar details, reminders or messages. Touch and hold the Lock Screen, tap **Customize**, then **Lock Screen**, and remove what you don't want strangers to see.
 - **Keep Medical ID, but keep it short.** In the **Health** app, tap your picture, then **Medical ID > Edit**, and leave **Show When Locked** on, so rescuers can see your allergies and emergency contacts. Trade-off: anyone holding your phone can read it, so leave out things a stranger doesn't need, like your home address.
 
@@ -651,7 +652,7 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 **How to check it worked:** The switch is green.
 
 **Going further:**
-- **Check Safari's anti-tracking setting.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and make sure **All Browsing** is chosen. On iOS 26 this is the normal setting, but check anyway, and change it if it says **Private Browsing** or **Off**. The trade-off: once in a while a website doesn't load properly. You can reload just that page with less protection from the page menu in Safari's address bar.
+- **Check Safari's anti-tracking setting.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and make sure **All Browsing** is chosen. On iOS 26 and later this is the normal setting, but check anyway, and change it if it says **Private Browsing** or **Off**. The trade-off: once in a while a website doesn't load properly. You can reload just that page with less protection from the page menu in Safari's address bar.
 - **Let your password manager be your second fraud check.** The **Passwords** app only offers to fill in a password on the real website it was saved for. If it doesn't offer your bank password on a page that looks like your bank, stop: you may be on a fake copy. Also open **Passwords** and tap **Security** to see passwords that were leaked or used more than once, and change those.
 - **Hide your internet address with iCloud+.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Websites you visit in Safari then can't see your real internet address (IP address), only a general area. The trade-off: some sites show the wrong region or ask you to prove you're human more often, some work or school networks block it, and it isn't offered in every country. If IT gave you a safe-browsing profile (step 13b), ask IT before turning this on, because Private Relay can make Safari skip that filter.
 
@@ -843,6 +844,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 **Going further:**
 - **Check the addresses your iMessage uses.** Go to **Settings > Apps > Messages > Send & Receive**. Every phone number and email listed should be yours. Do the same for calls in **Settings > Apps > FaceTime**, under **You can be reached by FaceTime at**. Untick any email address you don't recognise or no longer use.
+- **Check your number isn't on a second iPhone.** With iOS 27, some carriers (such as T-Mobile in the US and Telekom in Germany) sell **iPhone Handoff**, which lets one phone number move between two iPhones. If you didn't set this up, check your account in your carrier's app or ask them that no second iPhone is linked to your number.
 - **Remember that Messages in iCloud syncs your history.** If **Messages in iCloud** is on, any device signed in to your Apple Account with Messages turned on can show your old texts, not just new ones. That's why the device list in step 6c matters so much. Remove anything there you don't use.
 - **Check your Mac too.** On a Mac, open **Messages**, choose **Messages > Settings**, then click **iMessage**, and check the addresses there. A Mac that someone else at home also uses is a common way texts end up on the wrong screen.
 - **Want a warning if a strange device joins your chats?** **Contact Key Verification** (step 32) can alert you to that. It's in Part 3 (maximum protection) because it needs all your devices up to date and can sign old ones out of iMessage. If you think you're being targeted, read step 32 first; on a work device, ask IT.
@@ -899,10 +901,11 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 **Heads-up:** Texts from new numbers, like a delivery driver or a new doctor's office, go into that list. Login codes and urgent alerts usually still notify you. Whether other texts from new numbers notify you depends on your country. In some countries you can choose this in **Settings > Apps > Messages > Unknown Senders > Allow Notifications**. Check **Unknown Senders** now and then.
 
 **Going further:**
-- **Screen unknown calls too (iOS 26).** Go to **Settings > Apps > Phone**, and under **Screen Unknown Callers** choose **Ask Reason for Calling**. Your phone asks unknown callers who they are and why they're calling, then rings and shows their answer on screen. Trade-off: some genuine callers, like a doctor's office or a delivery driver, hang up instead of answering. If you don't see the option, your carrier, language or region may not support it yet.
-- **Keep the spam filter on.** In **Settings > Apps > Messages**, look for **Filter Spam** (iOS 26) and check it's on. Texts your iPhone thinks are spam go to a **Spam** list and don't notify you. Glance at that list now and then in case something real lands there.
+- **Screen unknown calls too (iOS 26 and later).** Go to **Settings > Apps > Phone**, and under **Screen Unknown Callers** choose **Ask Reason for Calling**. Your phone asks unknown callers who they are and why they're calling, then rings and shows their answer on screen. Trade-off: some genuine callers, like a doctor's office or a delivery driver, hang up instead of answering. If you don't see the option, your carrier, language or region may not support it yet.
+- **Keep the spam filter on.** In **Settings > Apps > Messages**, look for **Filter Spam** (iOS 26 and later) and check it's on. Texts your iPhone thinks are spam go to a **Spam** list and don't notify you. Glance at that list now and then in case something real lands there.
 - **Report scam texts, don't just delete them.** Tap **Report Junk** under the message, or forward it to **7726**. See the **Staying safe online guide, step 26** for more.
 - **Blur unwanted pictures.** Go to **Settings > Privacy & Security > Sensitive Content Warning** and turn it on. Nude images sent to you in Messages, AirDrop and FaceTime are blurred until you choose to view them. The check happens on your phone, so Apple doesn't see the images.
+- **Let banking apps warn you about scams (iOS 27).** Go to **Settings > Privacy & Security**. If you see **Impersonation Risk Detection**, tap it and turn on **Share with App Developers**. Your phone then works out a scam-risk rating on the phone itself and gives it to apps that take part, such as some banking apps, so they can warn you or stop a payment. It's off at first and can take up to a day to start working. Trade-off: those apps learn your phone's scam-risk rating. Apple hasn't said which apps take part.
 
 **Going even further:** Screening reduces scams. At this level you also reduce who can reach your phone at all.
 
@@ -926,7 +929,8 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 **Going further:**
 - **Limit what each extension can see.** In **Settings > Apps > Safari > Extensions**, tap an extension you keep. Set **Other Websites** to **Ask** or **Deny**, and allow only the sites it actually needs. Leave it off in **Private Browsing** unless you need it there.
-- **Turn on fingerprinting protection everywhere.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and choose **All Browsing**. iOS 26 protects all browsing by default, but older versions only protected Private Browsing, so check it. Trade-off: a few sites may load oddly. If that bothers you, set it back to **Private Browsing**.
+- **Treat AI-made extensions like any other.** On iOS 27, Safari can build an extension from a description you type (Apple calls this **Describe an Extension**, and it needs Apple Intelligence). Check what websites it can see, just like the step above, and turn it off when you're done with it.
+- **Turn on fingerprinting protection everywhere.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and choose **All Browsing**. iOS 26 and later protect all browsing by default, but older versions only protected Private Browsing, so check it. Trade-off: a few sites may load oddly. If that bothers you, set it back to **Private Browsing**.
 - **Add one trusted content blocker.** A content blocker such as **AdGuard** or **1Blocker** from the App Store stops many ads and trackers, which is where many fake "virus" pop-ups come from. Both have a free version. A plain content blocker can't read your pages the way a normal extension can, but some of these apps offer extra add-ons that can, so leave those off. Add only one, and on a work phone, ask IT first. Some sites will complain or break, and you can switch the blocker off for those sites.
 - **Lock Private Browsing with Face ID.** In **Settings > Apps > Safari**, check **Require Face ID to Unlock Private Browsing** is on (it says Touch ID or passcode on some phones). Then anyone you hand your unlocked phone to can't open your private tabs.
 
@@ -949,7 +953,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 1. Go to **Settings > Wi-Fi**.
 2. Tap **Auto-Join Hotspot** and choose **Ask to Join** (or **Never**). This stops your phone quietly switching to your own or your family's iPhone or iPad hotspot (which can use up mobile data). It's more about tidiness than safety.
 3. Tap **Edit** in the top corner to see your saved networks. Delete old public ones, like airports, hotels and cafes: tap the red minus, then **Delete**.
-4. For each network you still use, tap the **i** next to it and check **Private Wi-Fi Address** is on. On iOS 18 and 26, choose **Fixed** or **Rotating**, not **Off**. (On older versions it's a simple on/off switch.)
+4. For each network you still use, tap the **i** next to it and check **Private Wi-Fi Address** is on. On iOS 18 and later, choose **Fixed** or **Rotating**, not **Off**. (On older versions it's a simple on/off switch.)
 
 **How to check it worked:** Your saved list only has networks you trust. Auto-Join Hotspot shows **Ask to Join** or **Never**.
 
@@ -991,7 +995,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 **Going further:**
 - **Make automations ask before they run.** Tap each automation you keep and choose **Run After Confirmation** instead of **Run Immediately**. If you'd rather keep **Run Immediately**, at least turn on **Notify When Run**. Then nothing can happen quietly in the background. Trade-off: you'll need to tap a notification for some automations to run.
 - **Keep the risky Shortcuts settings off.** Go to **Settings > Apps > Shortcuts > Advanced**. Leave **Allow Running Scripts** and **Allow Sharing Large Amounts of Data** off unless a shortcut you trust really needs them. Apple itself warns that shortcuts with scripts can cause data loss.
-- **Only add shortcuts from people you trust.** A shared shortcut can send your location, photos or messages anywhere. Before tapping **Add Shortcut**, scroll through its actions and look for anything that sends, uploads or shares.
+- **Only add shortcuts from people you trust.** A shared shortcut can send your location, photos or messages anywhere. Before tapping **Add Shortcut**, scroll through its actions and look for anything that sends, uploads or shares. On iOS 27, iPhones with Apple Intelligence can also build a shortcut from a sentence you type (Describe a Shortcut). Check those the same way before you run them.
 - **Check your Home app too.** If you use the **Home** app, open its **Automation** tab and remove anything you didn't set up, such as a lock that opens at a certain time.
 
 **Going even further:** Automations are small programs. At this level you control how they arrive, what they can touch, and what can trigger them.
@@ -1070,7 +1074,7 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 - **Block remote content in Mail.** In **Settings > Apps > Mail > Privacy Protection**, turn off **Protect Mail Activity**. Two stricter switches appear: turn on **Hide IP Address** and **Block All Remote Content**. Tracking images then never load. Cost: emails show without pictures until you tap to load them.
 - **Turn off ad measurement in Safari.** In **Settings > Apps > Safari > Advanced**, turn off **Privacy Preserving Ad Measurement**. Cost: none you'll notice.
 - **Block trackers for every app.** A filtering DNS profile (step 13, Going even further) with a tracker blocklist stops many trackers inside apps, not just in Safari. Cost: an occasional broken app screen. On a work device, ask IT first.
-- **Limit what AI features send out.** In **Settings > Apple Intelligence & Siri**, turn off the **ChatGPT** extension if you see it. Delete **Siri & Dictation History** on the same screen. **Settings > Privacy & Security > Apple Intelligence Report** shows what was sent to Apple's servers. Cost: some answers are less capable.
+- **Limit what AI features send out.** Open **Settings** and tap **Siri** or **Apple Intelligence & Siri**, whichever you see. Turn off the **ChatGPT** extension if it's there. It may be under **Extensions**. Delete **Siri & Dictation History** if you see it. If you see **Keep Conversations**, choose the shortest time. On iOS 27.2 and later, use **Excluded Apps** to keep Siri, Search and suggestions out of apps like banking, health or notes. To see what was sent to Apple's servers, search Settings for **Apple Intelligence Report**. Cost: some answers are less capable.
 - **See what's already held.** At **privacy.apple.com** you can request a copy of the data Apple keeps about you. For data brokers, see the **Online guide, step 13**. Cost: Apple's copy takes a few days to arrive. Store it somewhere safe.
 
 ---

@@ -12,7 +12,7 @@
 **How the site renders this Markdown.** `## N. Title` is a step with a Done tick-box and progress tracking. The Checklist links to the steps. Paragraphs that start with these bold labels become coloured boxes: **Why this matters:**, **What it is:**, **What it looks like:**, **Do this instead:**, **How to check it worked:**, **If you don't see this:**, **Heads-up:**, **Downsides:**, **If it already happened:**, **Going further:** (collapsible), **Going even further:** (collapsible, nested inside Going further). A path like **Settings > General** means tap those in order. The IT contact (support@twentynineeleven.net / 714-392-3287) is filled in from site config.
 
 **What feedback is most useful.**
-1. Anything factually wrong, out of date (as of late 2026, iOS 26 / macOS 26) or risky to follow.
+1. Anything factually wrong, out of date (as of November 2026: iOS 27 / macOS 27 Golden Gate; some readers are still on iOS 26 / macOS 26 Tahoe) or risky to follow.
 2. Important protections or scams that are missing, or that are over-weighted.
 3. Places a non-technical reader would get stuck, confused or scared.
 4. Contradictions between the three guides, or cross-references that point to the wrong step.
@@ -53,7 +53,7 @@ Nobody has switched on this iPhone's security settings for you. On a company-man
 
 You don't need to be "good with tech." Every step tells you exactly what to tap. Words in **bold** are the words you'll see on screen. A path like **Settings > General > Software Update** means: open the Settings app, tap **General**, then tap **Software Update**.
 
-This guide is written for **iOS 26**. If your phone still runs **iOS 18**, most steps are the same. Where a menu has a different name on iOS 18, the guide says so.
+This guide is written for **iOS 27**. If your phone still runs **iOS 26** or **iOS 18**, most steps are the same. Where a menu has a different name on an older version, the guide says so.
 
 **How long it takes:** about 45 to 60 minutes for the Must-do part, plus 20 to 30 minutes for the Nice-to-have part. You don't have to do it all at once. Tick things off as you go.
 
@@ -91,17 +91,17 @@ Some steps end with a **Going further** box. It stays closed until you tap it, a
 
 1. Plug your iPhone into a charger and connect to Wi-Fi.
 2. Go to **Settings > General > Software Update**.
-3. If you see **Update Now** or **Upgrade to iOS 26**, tap it. Then follow the prompts and enter your passcode.
+3. If you see **Update Now** or **Upgrade to iOS 27**, tap it. Then follow the prompts and enter your passcode.
 4. Wait. The phone restarts on its own. This can take 15 to 45 minutes.
 5. Go back to **Settings > General > Software Update** and check again, because sometimes a second update shows up.
 
 **How to check it worked:** **Settings > General > Software Update** says **iOS is up to date**. You can also check **Settings > General > About > iOS Version**.
 
-**If you don't see this:** If your phone can't get iOS 26, it may be too old. Install the newest update it offers and tell IT the model, which is shown in **Settings > General > About > Model Name**.
+**If you don't see this:** If your phone can't get iOS 27, it may be too old. (iOS 27 runs on the same iPhones as iOS 26: iPhone 11 or newer, and iPhone SE 2nd generation or newer.) Install the newest update it offers and tell IT the model, which is shown in **Settings > General > About > Model Name**.
 
 **Going further:**
 - **Don't stay on the older version.** When a new big version comes out, **Software Update** may also offer an update for the version you already have. Take the newest version. Apple only promises to fix every known security hole in the latest version. Trade-off: big updates sometimes move menus around for a while.
-- **Know when your phone stops getting fixes.** iOS 26 needs an iPhone 11 or newer. The website **endoflife.date** shows how long each iPhone has been getting updates. A phone that's no longer supported still works, but new holes in it are never fixed. Plan to replace it, and move banking and work email to a supported device as soon as you can.
+- **Know when your phone stops getting fixes.** iOS 27 needs an iPhone 11 or newer, the same phones as iOS 26. An iPhone XS or XR stays on iOS 18, which still gets some security fixes for now. The website **endoflife.date** shows how long each iPhone has been getting updates. A phone that's no longer supported still works, but new holes in it are never fixed. Plan to replace it, and move banking and work email to a supported device as soon as you can.
 - **Update your other Apple devices too.** Your iPad, Mac and Apple Watch share your Apple Account with this phone. If one is out of date, update it. If you no longer use it, remove it from your account (step 6c). Trade-off: a very old iPad may have no update left, so removing it may be the only option.
 
 **Going even further:** For people who can't afford to run a known security hole for even a few days, or who think the phone may already have been tampered with.
@@ -174,7 +174,7 @@ Tick each box as you finish.
 1. Go to **Settings > General > Software Update > Automatic Updates**.
 2. Under **iOS Updates**, turn on **Automatically Download** and **Automatically Install**.
 3. Turn on **System Files** (the switch may be shown as **Automatically Install** under a **System Files** heading). On iOS 18 this is called **Security Responses & System Files**.
-4. Go back to the main Settings screen. Go to **Settings > Privacy & Security > Background Security Improvements** and make sure **Automatically Install** is on. (This is new in iOS 26.1. It sends urgent security fixes between normal updates.)
+4. Go back to the main Settings screen. Go to **Settings > Privacy & Security > Background Security Improvements** and make sure **Automatically Install** is on. (This was added in iOS 26.1. It sends urgent security fixes between normal updates.)
 
 **How to check it worked:** All the switches above are green.
 
@@ -243,7 +243,7 @@ Tick each box as you finish.
 
 **Steps: change to a strong passcode**
 
-1. Go to **Settings > Face ID & Passcode** (on phones with a Home button: **Touch ID & Passcode**).
+1. Go to **Settings > Face ID & Passcode** (on phones with Touch ID, such as iPhone SE and iPhone Duo: **Touch ID & Passcode**).
 2. Enter your current passcode.
 3. Tap **Change Passcode** and enter your current passcode again.
 4. Tap **Passcode Options**. Choose **6-Digit Numeric Code** at least, or **Custom Alphanumeric Code** (letters and numbers) for even better protection. Don't pick **4-Digit Numeric Code**.
@@ -317,7 +317,7 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 
 **Steps: Require Attention**
 
-1. Go to **Settings > Face ID & Passcode** and enter your passcode.
+1. Go to **Settings > Face ID & Passcode** (on iPhone SE or iPhone Duo: **Touch ID & Passcode**) and enter your passcode.
 2. Turn on **Require Attention for Face ID**.
 
 **Steps: check for an unknown face**
@@ -326,7 +326,7 @@ A good passcode has no patterns (not 123456 or 135790), no repeated digits, and 
 2. If you see **Set Up an Alternate Appearance**, good. Only one face is saved. Don't set one up unless you really need it.
 3. If you **don't** see that button, a second face (an "alternate appearance") is already saved. If you didn't add it yourself, tap **Reset Face ID**, then tap **Set Up Face ID** and scan only your own face. (If you're asked to wait an hour, that's Stolen Device Protection. See step 8.)
 
-**If you don't see this (phones with a Home button):** Go to **Settings > Touch ID & Passcode**. Look at the list of fingerprints. Swipe left on any you don't recognise and tap **Delete**. You can rename them by tapping a fingerprint, so you know which finger is which.
+**If you don't see this (phones with Touch ID, such as iPhone SE and iPhone Duo):** Go to **Settings > Touch ID & Passcode**. Look at the list of fingerprints. Swipe left on any you don't recognise and tap **Delete**. You can rename them by tapping a fingerprint, so you know which finger is which.
 
 **How to check it worked:** **Require Attention for Face ID** is green. Close your eyes and try to unlock with Face ID. It shouldn't work.
 
@@ -395,7 +395,7 @@ A Recovery Contact is a person you trust who can help you get back into your acc
 **Going further:**
 - **Add more than one Recovery Contact.** You can have up to five. Choose people who don't live with you, so a fire or a burglary can't take out everyone at once. Trade-off: with Stolen Device Protection on, each change may make you wait an hour.
 - **Clean up Sign in with Apple.** Go to **Settings > [your name] > Sign-In & Security > Sign in with Apple** (on some versions it's directly under your name). Tap any app you no longer use and choose **Stop Using**. Trade-off: if you go back to that app, you may need to make a new account.
-- **Keep your real email address private (iCloud+).** With a paid iCloud+ plan, **Hide My Email** (in **Settings > [your name] > iCloud**, or search Settings for it) makes a random address that forwards to you. Use it for shops and newsletters, so your real address, and your Apple Account email, appear in fewer leaks and scam lists. Trade-off: you have more addresses to keep track of.
+- **Keep your real email address private (iCloud+).** With a paid iCloud+ plan, **Hide My Email** (in **Settings > [your name] > iCloud**, or search Settings for it) makes a random address that forwards to you. Use it for shops and newsletters, so your real address, and your Apple Account email, appear in fewer leaks and scam lists. Trade-off: you have more addresses to keep track of. Make sure you're on iOS 27.2 or later. That update fixed a Mail bug that could reveal your real address when you used Hide My Email.
 - **Know the strongest options.** **Advanced Data Protection** (step 30) and **security keys** (step 31) lock your account down further. They have real downsides. On a work device, only turn on Advanced Data Protection if IT asks you to. On your own device it's your choice, after you read the downsides in step 30. Security keys on a personal account are your choice, after you read the downsides in step 31.
 
 **Going even further:** Your Apple Account is the master key to the phone. At this level you remove every way in that you don't strictly need.
@@ -447,7 +447,7 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 
 **Steps**
 
-1. Go to **Settings > Face ID & Passcode** and enter your passcode.
+1. Go to **Settings > Face ID & Passcode** (on iPhone SE and iPhone Duo: **Touch ID & Passcode**) and enter your passcode.
 2. Scroll down and tap **Stolen Device Protection**.
 3. Turn on **Stolen Device Protection** if it isn't on already.
 4. Under **Require Security Delay**, choose **Always**.
@@ -467,6 +467,7 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 **Going further:**
 - **Close the gap it leaves open.** Stolen Device Protection guards your Apple Account, settings and saved passwords. But a thief who knows your passcode can still open apps that only use the phone's own lock. For banking, email and authenticator apps, turn on the app's own PIN or password lock in its settings, and make it different from your phone passcode. Trade-off: one more code to remember.
 - **Turn on your bank's alerts.** In your banking app, turn on alerts for every payment and every new device that signs in. Then you hear about a thief quickly, even if the phone is gone. Trade-off: more notifications.
+- **Let banking apps spot scams (iOS 27).** Go to **Settings > Privacy & Security**, scroll down to **Impersonation Risk Detection**, and turn on **Share with App Developers**. Your phone then tells apps that take part, such as some banking apps, how likely it is that a scam is under way. The app may add an extra check, delay a payment or show a warning. It's off by default, and it can take up to 24 hours to start working. If anyone tells you to turn this off, treat it as a sign of a scam. Trade-off: the occasional extra check, and Apple hasn't said which apps take part.
 
 **Going even further:** Stolen Device Protection guards your Apple Account. These measures cover what a thief with your passcode can still reach.
 
@@ -483,16 +484,16 @@ This step comes after steps 6 and 7 on purpose. Once it's set to **Always**, App
 
 #### 9a. Allow Access When Locked
 
-1. Go to **Settings > Face ID & Passcode** and enter your passcode.
+1. Go to **Settings > Face ID & Passcode** (on iPhone SE or iPhone Duo: **Touch ID & Passcode**) and enter your passcode.
 2. Scroll to **Allow Access When Locked**.
 3. Turn **off** these:
    - **Control Center**: stops a thief from switching on Airplane Mode or turning off Wi-Fi to hide the phone.
    - **Reply with Message**: stops people replying to your messages from the Lock Screen.
    - **Home Control**: stops people controlling your smart home, like locks, lights or garage doors.
-   - **Accessories** (iOS 18 only): keep it **off**. On iOS 26 this switch isn't here any more. See 9b instead.
+- **Accessories** (iOS 18 only): keep it **off**. On iOS 26 and later this switch isn't here any more. See 9b instead.
 4. The rest is **your choice**. These include **Wallet**, **Siri**, **Notification Center**, **Today View and Search**, **Lock Screen Widgets**, **Live Activities** and **Return Missed Calls**. Turning more off is safer. Leaving some on is more convenient. For example, keeping **Wallet** on lets you show a boarding pass quickly. Apple Pay still needs your face or passcode to pay. (The one exception is a transit card or student ID set to **Express Mode**, which works without Face ID.) Turning off **Siri** means nobody can ask your locked phone to do things for them.
 
-#### 9b. Wired accessories (iOS 26)
+#### 9b. Wired accessories (iOS 26 and later)
 
 This controls whether things you plug in with a cable (a computer, a car, a USB gadget) can talk to your phone.
 
@@ -510,7 +511,7 @@ This controls whether things you plug in with a cable (a computer, a car, a USB 
 
 **Going further:**
 - **Go strict.** In **Allow Access When Locked**, turn off everything except **Return Missed Calls**, if you use it. That includes **Siri**, **Wallet**, **Notification Center**, **Today View and Search**, **Lock Screen Widgets** and **Live Activities**. A locked phone then shows almost nothing. Emergency calls and Medical ID still work. Trade-off: you'll unlock for a boarding pass, a timer or a delivery update.
-- **Pick Always Ask for wired accessories (iOS 26).** In **Settings > Privacy & Security > Wired Accessories**, **Always Ask** means even a car or dock you used before needs your approval each time. Trade-off: one extra tap whenever you plug into the car.
+- **Pick Always Ask for wired accessories (iOS 26 and later).** In **Settings > Privacy & Security > Wired Accessories**, **Always Ask** means even a car or dock you used before needs your approval each time. Trade-off: one extra tap whenever you plug into the car.
 - **Check what your Lock Screen shows.** Remove widgets that show calendar details, reminders or messages. Touch and hold the Lock Screen, tap **Customize**, then **Lock Screen**, and remove what you don't want strangers to see.
 - **Keep Medical ID, but keep it short.** In the **Health** app, tap your picture, then **Medical ID > Edit**, and leave **Show When Locked** on, so rescuers can see your allergies and emergency contacts. Trade-off: anyone holding your phone can read it, so leave out things a stranger doesn't need, like your home address.
 
@@ -698,7 +699,7 @@ IT may send you a profile that blocks dangerous websites. This is called DNS fil
 **How to check it worked:** The switch is green.
 
 **Going further:**
-- **Check Safari's anti-tracking setting.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and make sure **All Browsing** is chosen. On iOS 26 this is the normal setting, but check anyway, and change it if it says **Private Browsing** or **Off**. The trade-off: once in a while a website doesn't load properly. You can reload just that page with less protection from the page menu in Safari's address bar.
+- **Check Safari's anti-tracking setting.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and make sure **All Browsing** is chosen. On iOS 26 and later this is the normal setting, but check anyway, and change it if it says **Private Browsing** or **Off**. The trade-off: once in a while a website doesn't load properly. You can reload just that page with less protection from the page menu in Safari's address bar.
 - **Let your password manager be your second fraud check.** The **Passwords** app only offers to fill in a password on the real website it was saved for. If it doesn't offer your bank password on a page that looks like your bank, stop: you may be on a fake copy. Also open **Passwords** and tap **Security** to see passwords that were leaked or used more than once, and change those.
 - **Hide your internet address with iCloud+.** If you pay for iCloud+, go to **Settings > [your name] > iCloud > Private Relay** and turn it on. Websites you visit in Safari then can't see your real internet address (IP address), only a general area. The trade-off: some sites show the wrong region or ask you to prove you're human more often, some work or school networks block it, and it isn't offered in every country. If IT gave you a safe-browsing profile (step 13b), ask IT before turning this on, because Private Relay can make Safari skip that filter.
 
@@ -890,6 +891,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 **Going further:**
 - **Check the addresses your iMessage uses.** Go to **Settings > Apps > Messages > Send & Receive**. Every phone number and email listed should be yours. Do the same for calls in **Settings > Apps > FaceTime**, under **You can be reached by FaceTime at**. Untick any email address you don't recognise or no longer use.
+- **Check your number isn't on a second iPhone.** With iOS 27, some carriers (such as T-Mobile in the US and Telekom in Germany) sell **iPhone Handoff**, which lets one phone number move between two iPhones. If you didn't set this up, check your account in your carrier's app or ask them that no second iPhone is linked to your number.
 - **Remember that Messages in iCloud syncs your history.** If **Messages in iCloud** is on, any device signed in to your Apple Account with Messages turned on can show your old texts, not just new ones. That's why the device list in step 6c matters so much. Remove anything there you don't use.
 - **Check your Mac too.** On a Mac, open **Messages**, choose **Messages > Settings**, then click **iMessage**, and check the addresses there. A Mac that someone else at home also uses is a common way texts end up on the wrong screen.
 - **Want a warning if a strange device joins your chats?** **Contact Key Verification** (step 32) can alert you to that. It's in Part 3 (maximum protection) because it needs all your devices up to date and can sign old ones out of iMessage. If you think you're being targeted, read step 32 first; on a work device, ask IT.
@@ -946,10 +948,11 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 **Heads-up:** Texts from new numbers, like a delivery driver or a new doctor's office, go into that list. Login codes and urgent alerts usually still notify you. Whether other texts from new numbers notify you depends on your country. In some countries you can choose this in **Settings > Apps > Messages > Unknown Senders > Allow Notifications**. Check **Unknown Senders** now and then.
 
 **Going further:**
-- **Screen unknown calls too (iOS 26).** Go to **Settings > Apps > Phone**, and under **Screen Unknown Callers** choose **Ask Reason for Calling**. Your phone asks unknown callers who they are and why they're calling, then rings and shows their answer on screen. Trade-off: some genuine callers, like a doctor's office or a delivery driver, hang up instead of answering. If you don't see the option, your carrier, language or region may not support it yet.
-- **Keep the spam filter on.** In **Settings > Apps > Messages**, look for **Filter Spam** (iOS 26) and check it's on. Texts your iPhone thinks are spam go to a **Spam** list and don't notify you. Glance at that list now and then in case something real lands there.
+- **Screen unknown calls too (iOS 26 and later).** Go to **Settings > Apps > Phone**, and under **Screen Unknown Callers** choose **Ask Reason for Calling**. Your phone asks unknown callers who they are and why they're calling, then rings and shows their answer on screen. Trade-off: some genuine callers, like a doctor's office or a delivery driver, hang up instead of answering. If you don't see the option, your carrier, language or region may not support it yet.
+- **Keep the spam filter on.** In **Settings > Apps > Messages**, look for **Filter Spam** (iOS 26 and later) and check it's on. Texts your iPhone thinks are spam go to a **Spam** list and don't notify you. Glance at that list now and then in case something real lands there.
 - **Report scam texts, don't just delete them.** Tap **Report Junk** under the message, or forward it to **7726**. See the **Staying safe online guide, step 26** for more.
 - **Blur unwanted pictures.** Go to **Settings > Privacy & Security > Sensitive Content Warning** and turn it on. Nude images sent to you in Messages, AirDrop and FaceTime are blurred until you choose to view them. The check happens on your phone, so Apple doesn't see the images.
+- **Let banking apps warn you about scams (iOS 27).** Go to **Settings > Privacy & Security**. If you see **Impersonation Risk Detection**, tap it and turn on **Share with App Developers**. Your phone then works out a scam-risk rating on the phone itself and gives it to apps that take part, such as some banking apps, so they can warn you or stop a payment. It's off at first and can take up to a day to start working. Trade-off: those apps learn your phone's scam-risk rating. Apple hasn't said which apps take part.
 
 **Going even further:** Screening reduces scams. At this level you also reduce who can reach your phone at all.
 
@@ -973,7 +976,8 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 
 **Going further:**
 - **Limit what each extension can see.** In **Settings > Apps > Safari > Extensions**, tap an extension you keep. Set **Other Websites** to **Ask** or **Deny**, and allow only the sites it actually needs. Leave it off in **Private Browsing** unless you need it there.
-- **Turn on fingerprinting protection everywhere.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and choose **All Browsing**. iOS 26 protects all browsing by default, but older versions only protected Private Browsing, so check it. Trade-off: a few sites may load oddly. If that bothers you, set it back to **Private Browsing**.
+- **Treat AI-made extensions like any other.** On iOS 27, Safari can build an extension from a description you type (Apple calls this **Describe an Extension**, and it needs Apple Intelligence). Check what websites it can see, just like the step above, and turn it off when you're done with it.
+- **Turn on fingerprinting protection everywhere.** Go to **Settings > Apps > Safari > Advanced > Advanced Tracking and Fingerprinting Protection** and choose **All Browsing**. iOS 26 and later protect all browsing by default, but older versions only protected Private Browsing, so check it. Trade-off: a few sites may load oddly. If that bothers you, set it back to **Private Browsing**.
 - **Add one trusted content blocker.** A content blocker such as **AdGuard** or **1Blocker** from the App Store stops many ads and trackers, which is where many fake "virus" pop-ups come from. Both have a free version. A plain content blocker can't read your pages the way a normal extension can, but some of these apps offer extra add-ons that can, so leave those off. Add only one, and on a work phone, ask IT first. Some sites will complain or break, and you can switch the blocker off for those sites.
 - **Lock Private Browsing with Face ID.** In **Settings > Apps > Safari**, check **Require Face ID to Unlock Private Browsing** is on (it says Touch ID or passcode on some phones). Then anyone you hand your unlocked phone to can't open your private tabs.
 
@@ -996,7 +1000,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 1. Go to **Settings > Wi-Fi**.
 2. Tap **Auto-Join Hotspot** and choose **Ask to Join** (or **Never**). This stops your phone quietly switching to your own or your family's iPhone or iPad hotspot (which can use up mobile data). It's more about tidiness than safety.
 3. Tap **Edit** in the top corner to see your saved networks. Delete old public ones, like airports, hotels and cafes: tap the red minus, then **Delete**.
-4. For each network you still use, tap the **i** next to it and check **Private Wi-Fi Address** is on. On iOS 18 and 26, choose **Fixed** or **Rotating**, not **Off**. (On older versions it's a simple on/off switch.)
+4. For each network you still use, tap the **i** next to it and check **Private Wi-Fi Address** is on. On iOS 18 and later, choose **Fixed** or **Rotating**, not **Off**. (On older versions it's a simple on/off switch.)
 
 **How to check it worked:** Your saved list only has networks you trust. Auto-Join Hotspot shows **Ask to Join** or **Never**.
 
@@ -1038,7 +1042,7 @@ Go to **Settings > Privacy & Security**, then go through each of these:
 **Going further:**
 - **Make automations ask before they run.** Tap each automation you keep and choose **Run After Confirmation** instead of **Run Immediately**. If you'd rather keep **Run Immediately**, at least turn on **Notify When Run**. Then nothing can happen quietly in the background. Trade-off: you'll need to tap a notification for some automations to run.
 - **Keep the risky Shortcuts settings off.** Go to **Settings > Apps > Shortcuts > Advanced**. Leave **Allow Running Scripts** and **Allow Sharing Large Amounts of Data** off unless a shortcut you trust really needs them. Apple itself warns that shortcuts with scripts can cause data loss.
-- **Only add shortcuts from people you trust.** A shared shortcut can send your location, photos or messages anywhere. Before tapping **Add Shortcut**, scroll through its actions and look for anything that sends, uploads or shares.
+- **Only add shortcuts from people you trust.** A shared shortcut can send your location, photos or messages anywhere. Before tapping **Add Shortcut**, scroll through its actions and look for anything that sends, uploads or shares. On iOS 27, iPhones with Apple Intelligence can also build a shortcut from a sentence you type (Describe a Shortcut). Check those the same way before you run them.
 - **Check your Home app too.** If you use the **Home** app, open its **Automation** tab and remove anything you didn't set up, such as a lock that opens at a certain time.
 
 **Going even further:** Automations are small programs. At this level you control how they arrive, what they can touch, and what can trigger them.
@@ -1117,7 +1121,7 @@ Also go to **Settings > Bluetooth** and look at **My Devices**. If you see a hea
 - **Block remote content in Mail.** In **Settings > Apps > Mail > Privacy Protection**, turn off **Protect Mail Activity**. Two stricter switches appear: turn on **Hide IP Address** and **Block All Remote Content**. Tracking images then never load. Cost: emails show without pictures until you tap to load them.
 - **Turn off ad measurement in Safari.** In **Settings > Apps > Safari > Advanced**, turn off **Privacy Preserving Ad Measurement**. Cost: none you'll notice.
 - **Block trackers for every app.** A filtering DNS profile (step 13, Going even further) with a tracker blocklist stops many trackers inside apps, not just in Safari. Cost: an occasional broken app screen. On a work device, ask IT first.
-- **Limit what AI features send out.** In **Settings > Apple Intelligence & Siri**, turn off the **ChatGPT** extension if you see it. Delete **Siri & Dictation History** on the same screen. **Settings > Privacy & Security > Apple Intelligence Report** shows what was sent to Apple's servers. Cost: some answers are less capable.
+- **Limit what AI features send out.** Open **Settings** and tap **Siri** or **Apple Intelligence & Siri**, whichever you see. Turn off the **ChatGPT** extension if it's there. It may be under **Extensions**. Delete **Siri & Dictation History** if you see it. If you see **Keep Conversations**, choose the shortest time. On iOS 27.2 and later, use **Excluded Apps** to keep Siri, Search and suggestions out of apps like banking, health or notes. To see what was sent to Apple's servers, search Settings for **Apple Intelligence Report**. Cost: some answers are less capable.
 - **See what's already held.** At **privacy.apple.com** you can request a copy of the data Apple keeps about you. For data brokers, see the **Online guide, step 13**. Cost: Apple's copy takes a few days to arrive. Store it somewhere safe.
 
 ---
@@ -1295,7 +1299,7 @@ Nobody has switched on this Mac's security settings for you. On a company-manage
 
 You don't need to be "good with computers." Every step tells you exactly what to click. Words in **bold** are the exact words you'll see on screen. A path like **System Settings > General > Software Update** means: open System Settings, click **General**, then click **Software Update**.
 
-This guide is written for **macOS 26 Tahoe**. If your Mac is still on **macOS 15 Sequoia**, it mostly looks the same. Where something has a different name, we say so.
+This guide is written for **macOS 27 Golden Gate**. If your Mac is still on **macOS 26 Tahoe** or **macOS 15 Sequoia**, it mostly looks the same. Where something has a different name, we say so. Macs with an Intel chip can't run macOS 27, so they stay on Tahoe or an older version.
 
 Some steps end with a **Going further** box. It stays closed until you click it, and holds extra protection for people who are comfortable with tech. Everyone else can skip these boxes: the main steps already protect you well.
 
@@ -1385,21 +1389,21 @@ Tick each box as you go.
 4. Enter your password if asked. Your Mac will restart, maybe more than once. This can take 20 to 60 minutes.
 5. When it's back, open **Software Update** again and repeat until it says your Mac is up to date.
 
-**How to check it worked:** **Software Update** says your Mac is up to date. On Sequoia: if the only thing left is an offer to upgrade to macOS Tahoe (usually shown as **Upgrade Now**), you're done with this step.
+**How to check it worked:** **Software Update** says your Mac is up to date. On Tahoe or Sequoia: if the only thing left is an offer to upgrade to a newer macOS, such as macOS Golden Gate (usually shown as **Upgrade Now**), you're done with this step.
 
-**If you don't see this:** If it offers an upgrade to a whole new macOS (for example, from Sequoia to Tahoe), check with IT before installing it. Some older Macs can't run macOS 26. That's OK for now. Install the latest updates for the version you have, and tell IT your Mac model.
+**If you don't see this:** If it offers an upgrade to a whole new macOS (for example, from Tahoe to Golden Gate), check with IT before installing it. Macs with an Intel chip can't run macOS 27. That's OK for now. Install the latest updates for the version you have, and tell IT your Mac model.
 
 **Going further:**
 - **Only update from Apple's own screens.** Real macOS updates come from **System Settings > General > Software Update** or the **App Store**. A website pop-up saying your Mac "needs an update" or is "infected" is fake. Close the tab, and never download the "update" it offers.
 - **Install urgent fixes the same day.** Apple lists its security fixes at **support.apple.com/100100**. When the notes for an update say Apple is aware the problem "may have been exploited", attackers are already using it. Install that update today instead of waiting for the weekend.
-- **Know when your Mac stops getting fixes.** Apple gives the full set of security fixes only to the newest macOS. Older versions get some fixes for a while, then none. If your Mac can't move to macOS 26, ask IT when it should be replaced, so you're not left on a Mac that no longer gets fixes.
+- **Know when your Mac stops getting fixes.** Apple gives the full set of security fixes only to the newest macOS. Older versions get some fixes for a while, then none. If your Mac can't move to macOS 27 (every Mac with an Intel chip), ask IT when it should be replaced, so you're not left on a Mac that no longer gets fixes. Apple is still sending security fixes for Tahoe for now, but hasn't given an exact end date.
 
 **Going even further:** For people who can't afford to be even one fix behind.
 
 - **Hear about fixes the day they ship.** Apple emails every security release on its free **security-announce** list (sign up at **lists.apple.com**). If you'd rather not subscribe, check **support.apple.com/100100** once a week. The cost is a few emails a month.
 - **Treat "may have been exploited" as an emergency.** Install that update within hours, not days. Until it's installed, don't open links or attachments from messages on this Mac. You'll have to stop work for a restart.
 - **Stay on the newest macOS, not just a patched older one.** Set yourself a rule: move to each new major version within about a month, once your key apps say they support it. Menus move and very old apps can stop working. On a work device, ask IT first.
-- **Plan your move off Intel Macs.** Apple has said macOS 26 is the last version for Macs with Intel chips. Do your most sensitive work on a Mac with an Apple chip (M1 or later). This costs money, so plan it rather than waiting for the fixes to stop.
+- **Plan your move off Intel Macs.** macOS 26 Tahoe is the last version for Macs with Intel chips; macOS 27 runs only on Macs with an Apple chip. Apple still sends Tahoe security fixes but hasn't given an exact end date. If you rely on an old app made only for Intel Macs, plan to replace it: macOS 27 is the last version where Rosetta (which runs those apps) fully works. Do your most sensitive work on a Mac with an Apple chip (M1 or later, or the MacBook Neo). This costs money, so plan it rather than waiting for the fixes to stop.
 - **Confirm the fix really landed.** Click the **Apple menu > About This Mac** and compare the version number with the newest one listed at **support.apple.com/100100**. Automatic installs sometimes fail quietly.
 - **Keep test versions off this Mac.** In **System Settings > General > Software Update**, if you see **Beta Updates**, make sure it says **Off**. Test versions can have holes that aren't fixed yet.
 
@@ -1417,7 +1421,7 @@ Tick each box as you go.
 3. Turn on all of these:
    - **Download new updates when available**
    - **Install macOS updates**
-   - **Install Security Responses and system files** (on macOS 26 Apple calls it **Install system data files and security updates**; small, urgent security fixes that install quickly, often without a restart)
+   - **Install Security Responses and system files** (on macOS 26 and later it may instead be called **Install system data files and security updates**; small, urgent security fixes that install quickly, often without a restart)
 4. Click **Done**.
 
 **Part B: App updates from the App Store**
@@ -1444,7 +1448,7 @@ Tick each box as you go.
 - **Prefer the App Store version of an app.** App Store apps are fenced off from the rest of your Mac (this is called sandboxing) and all update through one switch. A few App Store versions have fewer features than the version from the maker's website.
 - **Keep an app inventory.** Write a short list of every app that didn't come from the App Store: where you got it and how it updates. Turn on each one's own automatic-update setting. Replace any app whose maker has stopped updating it. Allow about 20 minutes to make the list and 5 minutes a month to keep it.
 - **Restart on a schedule.** Quit and reopen your browsers every day or two, and restart the Mac once a week. Many updates only take effect after a restart, and a restart also clears some malware that lives only in memory. You'll reopen your windows afterwards.
-- **Check Apple's silent protections are current.** macOS quietly updates its built-in malware lists. **SilentKnight**, a free tool from **eclecticlight.co**, shows in one window whether those lists, your firmware and your main security settings are up to date. Check its page says it supports your macOS version. On a work device, ask IT first.
+- **Check Apple's silent protections are current.** macOS quietly updates its built-in malware lists. **SilentKnight**, a free tool from **eclecticlight.co**, shows in one window whether those lists, your firmware and your main security settings are up to date. Check its page says it supports your macOS version. On macOS 27 Golden Gate, use SilentKnight version 3 or later. On a work device, ask IT first.
 - **Update the things that aren't apps.** Docks, monitors, keyboards, printers and your Wi-Fi router have their own updates, usually through the maker's app or website. Type the maker's address yourself. A failed firmware update can break an accessory, so don't unplug it halfway.
 
 #### 2. Turn on FileVault (disk encryption) and save your recovery key
@@ -1461,10 +1465,9 @@ Tick each box as you go.
 3. If it says FileVault is already on, skip to "How to check it worked."
 4. Click **Turn On**. Enter your password if asked.
 5. You'll be asked how you want to be able to unlock your disk if you forget your password. What you see depends on your exact version of macOS:
-   - **On macOS 26 Tahoe:** your Mac creates a recovery key and saves it in the **Passwords** app through iCloud Keychain (Apple's way of syncing your passwords between your Apple devices). It may also show you the key in a window called **Write Down Your Recovery Key**. Write it down or save it somewhere else as well (see below), then click **Done**.
-   - **On macOS 15 Sequoia:** you'll see two choices:
-     - **Allow my iCloud account to unlock my disk**: easiest. Your Apple Account can unlock your Mac if you forget your password.
-     - **Create a recovery key and do not use my iCloud account**: your Mac shows you a code. You are fully responsible for keeping it safe.
+- **On macOS 27 Golden Gate or macOS 26 Tahoe:** your Mac may create a recovery key and save it in the **Passwords** app through iCloud Keychain (Apple's way of syncing your passwords between your Apple devices). It may also show you the key in a window called **Write Down Your Recovery Key**. Write it down or save it somewhere else as well (see below), then click **Done**. If you see a list of choices instead, follow the next bullet.
+   - **On macOS 15 Sequoia, or if you see a list of choices:** you'll see choices like these:
+     - **Allow my iCloud account to unlock my disk**: easiest. Your Apple Account can unlock your Mac if you forget your password. If you don't use iCloud yet, this may say **Set up my iCloud account to reset my password** instead.     - **Create a recovery key and do not use my iCloud account**: your Mac shows you a code. You are fully responsible for keeping it safe.
      - Either is fine. If you're not sure, pick the iCloud option, *and* write down a recovery key if one is shown.
 6. Click **Continue**. If you see **Enable Users**, every person who logs in to this Mac needs to type their password here.
 7. Encryption runs in the background. You can keep using your Mac. Keep it plugged in until it finishes.
@@ -1477,7 +1480,7 @@ Tick each box as you go.
 
 **How to check it worked:**
 - **System Settings > Privacy & Security > FileVault** shows that FileVault is turned on (or "encrypting," which is fine).
-- **Important:** make sure you can see your recovery key from somewhere *other than this Mac*. For example: the **Passwords** app on your iPhone (search for "recovery key"), your password manager, or your paper copy. If the only copy is on this Mac, write it down now.
+- **Important:** make sure you can see your recovery key from somewhere *other than this Mac*. For example: the **Passwords** app on your iPhone (open **All** and look for your Mac's name), your password manager, or your paper copy. If the only copy is on this Mac, write it down now.
 
 **Heads-up:** Your Mac will no longer log you in automatically. You'll always need your password at startup. That's a good thing.
 
@@ -1490,7 +1493,7 @@ Tick each box as you go.
 
 - **Make the password match the lock.** Your login password is what unlocks the disk. Use six random words chosen with dice (**Online guide, step 9**, Going further). **Forget it and lose the recovery key, and your files are gone for good.** Keep the recovery key on paper before you change anything.
 - **Replace a recovery key that may have been seen.** If the key ever sat in a photo, an email or a notes app, open **Terminal**, type `sudo fdesetup changerecovery -personal` and press Return. Type your Mac password, and your account name and password if it asks. The old key stops working and a new one appears. **Write the new key down before you close the window**, then test it with the check in Going further. Afterwards, open the **Passwords** app and check that any FileVault key saved there matches the new one. If it doesn't, rely on your paper copy. Close Terminal afterwards.
-- **Know where copies of the key live.** On macOS 26, a copy is usually saved in the **Passwords** app (when iCloud Keychain is on) and syncs to your other Apple devices. Anyone who knows your Mac password or iPhone passcode can read it there, so those two codes guard your disk too. The strongest setup is paper in two locked places, one of them away from home.
+- **Know where copies of the key live.** On macOS 26 Tahoe and later, a copy is usually saved in the **Passwords** app (when iCloud Keychain is on) and syncs to your other Apple devices. Anyone who knows your Mac password or iPhone passcode can read it there, so those two codes guard your disk too. The strongest setup is paper in two locked places, one of them away from home.
 - **Check who else can unlock the disk.** In Terminal, type `sudo fdesetup list` and press Return. Every name listed is another password that opens the disk at startup. If one shouldn't be there, deal with that account through step 6. Don't delete it from Terminal.
 - **Encrypt every external drive and USB stick.** Control-click the drive in Finder and choose **Encrypt**. If that isn't offered, erase it in **Disk Utility** with the format **APFS (Encrypted)**, which deletes everything on it. Windows PCs can't read these drives, and a forgotten drive password means the contents are lost.
 - **Add a second lock for your most sensitive files.** In **Disk Utility**, choose **File > New Image > Blank Image**, pick **256-bit AES** encryption and the **sparse bundle** format, and don't let it save the password in your keychain. The files stay locked even while your Mac is unlocked, until you open the image. Eject it when you're done. **If you forget that password, nobody can recover it**, so store it in your password manager and on paper.
@@ -1539,7 +1542,7 @@ Tick each box as you go.
 
 **Part C: Screen saver (optional)**
 Parts A and B already lock your Mac. A screen saver is just extra. If you use one, make it start at the same time as the display turns off, or sooner.
-- **On macOS 26 Tahoe:** open **System Settings > Wallpaper**, then click **Screen Saver** (you may need to scroll down). Choose a screen saver, and set **Start Screen Saver** to 10 minutes or less.
+- **On macOS 26 Tahoe or macOS 27 Golden Gate:** open **System Settings > Wallpaper**, then click **Screen Saver** (you may need to scroll down). Choose a screen saver, and set **Start Screen Saver** to 10 minutes or less.
 - **On macOS 15 Sequoia:** set **Start Screen Saver when inactive** in **System Settings > Lock Screen** (the same page as Parts A and B). The separate **Screen Saver** item only picks which screen saver to show.
 
 **Part D: Use a strong login password**
@@ -1745,7 +1748,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **Going even further:** Stop settings drifting, and enforce them properly if you run the office.
 
 - **Re-audit after every major macOS upgrade.** Big upgrades add features that are switched on by default, and sometimes change settings. After each one, re-walk steps 3, 7, 8, 11 and 12. Allow about 15 minutes.
-- **Use the professional checklist.** The Center for Internet Security publishes a free **CIS Benchmark for macOS** at **cisecurity.org** (it asks you to sign up). It lists more than a hundred settings in two levels of strictness, and has a version for macOS 26. It's long and technical. Change one thing at a time, and write down what you changed so you can undo it.
+- **Use the professional checklist.** The Center for Internet Security publishes a free **CIS Benchmark for macOS** at **cisecurity.org** (it asks you to sign up). It lists more than a hundred settings in two levels of strictness. Check it covers your version: as of November 2026 the newest one is for macOS 26 Tahoe, and there isn't one for macOS 27 Golden Gate yet. It's long and technical. Change one thing at a time, and write down what you changed so you can undo it.
 - **Lock settings with a profile you write yourself.** **iMazing Profile Editor** (free) builds a settings file that can hold some options in place, such as screen-lock rules. Install it as in step 20. On a Mac that isn't company-managed, many restrictions are ignored, and anyone with the admin password can remove the profile. A mistake can be undone by removing the profile in **Device Management**.
 - **If you run the office, get real management.** With **Apple Business** (Apple's free service that replaced Apple Business Manager in 2026, with basic device management built in), or a management service such as **Jamf Now** or **Mosyle** connected to it, settings are enforced, a lost Mac can be locked, and **Recovery Lock** becomes available. The management account then controls every Mac, so protect it with security keys (step 25). On a work device this is IT's decision, so ask IT first.
 
@@ -1776,8 +1779,8 @@ A good password is long. Think of a short sentence you'll remember, like four or
 
 **Going further:**
 - **Watch the menu bar.** An **orange dot** means an app is using the microphone. The camera's **green light** means it's on. A **purple icon** means something is recording the screen. Click **Control Center** to see which app it is. If you didn't expect it, quit that app and check its permissions here.
-- **Check the quieter lists too.** In **Privacy & Security**, also look at **Files & Folders**, **App Management** (apps that can update or delete other apps), **Local Network**, **Bluetooth** and **Location Services**. Use the same rule: keep what you know and use, and ask IT about names you don't recognise.
-- **Share less with Apple and Siri.** In **Privacy & Security > Analytics & Improvements**, you can turn off **Share Mac Analytics** and **Improve Siri & Dictation**. Your Mac and Siri keep working the same. It just sends less about how you use them.
+- **Check the quieter lists too.** In **Privacy & Security**, also look at **Files & Folders**, **App Management** (apps that can update or delete other apps), **Local Network**, **Bluetooth** and **Location Services**. Use the same rule: keep what you know and use, and ask IT about names you don't recognise. On macOS 27, an app that wants to read another company's app data no longer asks: it's blocked unless you allow it in **Privacy & Security**. Only allow it if you know why the app needs it.
+- **Share less with Apple and Siri.** In **Privacy & Security > Analytics & Improvements**, you can turn off **Share Mac Analytics** and the switch for improving Siri (called **Improve Siri & Dictation** on macOS 26; the name may differ slightly on macOS 27). On macOS 27.2 and later, you can also choose which apps Siri, Search and suggestions can look into: search System Settings for **Excluded Apps**. Your Mac and Siri keep working the same. It just sends less about how you use them.
 - **Make it a habit.** Repeat this check a few times a year, and right after installing new software. Most apps ask for one of these permissions on first use, and it's easy to click **Allow** without thinking.
 
 **Going even further:** Shrink these lists to almost nothing, and get told when the camera or microphone wakes up.
@@ -1809,6 +1812,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 - **See everything that starts by itself, not just what Settings shows.** **KnockKnock**, a free tool from **objective-see.org**, lists every item set to start automatically, including some that **Login Items & Extensions** doesn't show. The trade-off: the list is long and mostly normal Apple items. Don't delete anything from it. If a name looks odd, take a screenshot and ask IT. Check the site says it supports your version of macOS. On a work Mac, ask IT first.
 - **Get a warning the moment something sets itself to start.** **BlockBlock**, also free from **objective-see.org**, pops up when an app tries to add itself to your start-up list, and lets you block it. The trade-off: it also pops up during normal installs and updates, so you need to read each alert, and it needs **Full Disk Access** to work. On a work Mac, ask IT first.
 - **Don't swipe away "Background Items Added".** Your Mac shows this notification when an app adds itself to run in the background. If you just installed that app, it's normal. If you didn't install anything, open **System Settings > General > Login Items & Extensions** and check the list.
+- **Watch for gray dots in the Dock (macOS 27).** When you quit an app that keeps running in the background, its Dock dot turns light gray. If you don't need it running, Control-click its Dock icon and choose the option to stop it running in the background. The app may then stop syncing or updating until you open it again.
 - **Peek in the folders where start-up files live.** In Finder, choose **Go > Go to Folder** and type **/Library/LaunchAgents**, then **/Library/LaunchDaemons**, then **~/Library/LaunchAgents**. Names like **com.google...** or **com.microsoft...**, from companies whose apps you use, are normal. Don't move or delete anything here yourself: ask IT about names you don't recognise.
 
 **Going even further:** Keep a record of what's normal, and know when to stop cleaning and start again.
@@ -1849,7 +1853,7 @@ A good password is long. Think of a short sentence you'll remember, like four or
 **Going further:**
 - **Let extensions see only the sites they need.** In Safari, open **Safari > Settings > Extensions**, select an extension, click **Edit Websites**, and set **When visiting other websites** to **Ask**. In Chrome, click **Details** on the extension in **Manage Extensions**, then set **Site access** to **On click** or **On specific sites**. The trade-off: you'll click to allow the extension more often.
 - **Use a separate browser profile for banking.** A profile is like a second, clean copy of your browser with its own cookies and extensions. In Safari, go to **Safari > Settings > Profiles** and click **New Profile**, then turn on only your password manager in that profile's **Extensions** tab. In Chrome, click your profile picture in the top-right and choose the option to add a new profile. The trade-off: you have to switch to that window for banking.
-- **Fewer is safer.** Extensions are sometimes sold to new owners who quietly add tracking or worse. If an extension suddenly asks for new permissions after an update, or you can't remember why you have it, remove it. Most people only need their password manager.
+- **Fewer is safer.** Extensions are sometimes sold to new owners who quietly add tracking or worse. If an extension suddenly asks for new permissions after an update, or you can't remember why you have it, remove it. Most people only need their password manager. Safari 27 can also build an extension from a description you type (Apple calls this **Describe an Extension**). Treat one like any other extension: keep it only if you really use it.
 - **On a work Mac, ask IT before adding any new extension.** Some companies only allow approved ones.
 
 **Going even further:** Make the browser you bank in as plain as possible.
@@ -2002,7 +2006,7 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Going even further:** Verify the deepest protections, and know how to rebuild trust in a Mac that left your control.
 
-- **Check everything in one window.** **SilentKnight** (free, from **eclecticlight.co**) reports System Integrity Protection, startup security, the system seal, firmware and Apple's malware lists together. It only reads settings unless you ask it to fetch updates. Pick the version its site lists for your Mac: version 3 is for Apple silicon, and the older 2.x line still covers Intel Macs up to macOS 26. On a work device, ask IT first.
+- **Check everything in one window.** **SilentKnight** (free, from **eclecticlight.co**) reports System Integrity Protection, startup security, the system seal, firmware and Apple's malware lists together. It only reads settings unless you ask it to fetch updates. Pick the version its site lists for your Mac: version 3 is for Apple silicon, including macOS 27 Golden Gate, and the older 2.x line still covers Intel Macs, which stop at macOS 26. On a work device, ask IT first.
 - **Check the system's seal.** macOS keeps its core files on a sealed, read-only volume. In **Terminal**, type `csrutil authenticated-root status` and press Return. It should say **enabled**. If it doesn't, tell IT and don't try to fix it. Close Terminal afterwards.
 - **Treat a Mac that left your control as untrusted.** This applies if it was taken at a border, kept overnight by a repair shop you don't know, or left in a hotel room while you're being targeted. Shut it down before any such moment. Afterwards, repeat this step at least. Taking the Mac everywhere is a nuisance, but it's the price of this level of protection.
 - **Do the deepest reset.** If this Mac has Apple silicon (or is an Intel Mac with the T2 chip), you can restore its firmware and system completely, using a second Mac running macOS 14 or later and a USB-C cable that carries both data and charging (not a Thunderbolt 3 cable). Apple's article "How to revive or restore Mac firmware" gives the exact steps, and an Apple Store can do it for you. **Restore erases everything**, so confirm your backup works (step 19) and that you know your Apple Account password first.
@@ -2027,7 +2031,7 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Already have an unencrypted Time Machine drive?** You don't need to erase it.
 1. Plug it in and open a **Finder** window.
-2. Control-click (or right-click) the backup drive in the Finder sidebar, then choose **Encrypt**.
+2. Control-click (or right-click) the backup drive in the Finder sidebar, then choose **Encrypt**. If there's no **Encrypt** option, set the drive up again as in the steps above. That erases it, so only do it if you don't need the old backups.
 3. Type a password in **Encryption password** and **Verify password**, add a hint, and click **Encrypt Disk**.
 4. Save the password in your password manager. Your existing backups are kept.
 
@@ -2079,10 +2083,10 @@ If you're comfortable with it, you can also open the **Terminal** app (in Applic
 
 **Going even further:** If nobody filters for you, build your own filter and make it hard to bypass.
 
-- **Install your own encrypted filter (only if IT hasn't sent one).** **NextDNS** makes a signed profile for you at **apple.nextdns.io**. **Quad9** also offers ready-made profiles on its own site. Type the addresses yourself and install the profile exactly as in this step. It blocks known scam sites on every network and hides your look-ups from the Wi-Fi owner. Hotel sign-in pages may not appear until you switch it off for a moment. Look for it in **System Settings > Network**, in the **VPN & Filters** section, and set it to disabled. (NextDNS's profile page also lets you list Wi-Fi networks where it switches itself off.) The filter company sees which site names you visit. Use only one such profile. On macOS 26, some of these profiles fail to install with a "VPN Service" error. If that happens, download a fresh copy from the company's site, or use the company's own Mac app instead. If a filter profile you already have works, don't remove it just to replace it, because the new one may not install. On a work device, ask IT first.
+- **Install your own encrypted filter (only if IT hasn't sent one).** **NextDNS** makes a signed profile for you at **apple.nextdns.io**. **Quad9** also offers ready-made profiles on its own site. Type the addresses yourself and install the profile exactly as in this step. It blocks known scam sites on every network and hides your look-ups from the Wi-Fi owner. Hotel sign-in pages may not appear until you switch it off for a moment. Look for it in **System Settings > Network**, in the **VPN & Filters** section, and set it to disabled. (NextDNS's profile page also lets you list Wi-Fi networks where it switches itself off.) The filter company sees which site names you visit. Use only one such profile. Since macOS 26, some of these profiles have failed to install with a "VPN Service" error. If that happens, download a fresh copy from the company's site, or use the company's own Mac app instead. If a filter profile you already have works, don't remove it just to replace it, because the new one may not install. On a work device, ask IT first.
 - **Turn on the stricter blocks.** In NextDNS's **Security** page, turn on **Threat Intelligence Feeds** and **Block Newly Registered Domains**, because many scam sites are only days or weeks old. Now and then a brand-new honest site is blocked, and you can allow it by hand. Set its logs to a short time, or off, if you don't want a record kept.
 - **Stop browsers going around the filter.** Chrome and Firefox can do their own look-ups. In Chrome, go to **Settings > Privacy and security > Security > Use secure DNS**. In Firefox, go to **Settings > Privacy & Security > DNS over HTTPS**. Switch it off, or point it at the same service. You'll need to re-check after browser updates.
-- **Write the profile yourself.** **iMazing Profile Editor** (free) has a **DNS Settings** section where you enter the service's "DNS over HTTPS" address. Your own profile shows as **Unsigned**. That's expected for a profile you made, and never acceptable from anyone else. A typing mistake can stop websites loading until you remove the profile in **Device Management**. If macOS 26 refuses to install it with a "VPN Service" error, one fix people report is to set the profile's scope to **System** before you save it.
+- **Write the profile yourself.** **iMazing Profile Editor** (free) has a **DNS Settings** section where you enter the service's "DNS over HTTPS" address. Your own profile shows as **Unsigned**. That's expected for a profile you made, and never acceptable from anyone else. A typing mistake can stop websites loading until you remove the profile in **Device Management**. If macOS refuses to install it with a "VPN Service" error (reported since macOS 26), one fix people report is to set the profile's scope to **System** before you save it.
 - **Cover the whole house and test it.** Set the same service on your router (**Online guide, step 18**, Going further). Use the test page the service gives you to confirm it's working. A filter you've never tested may not be filtering at all.
 
 ---
@@ -2169,7 +2173,7 @@ These are strong protections for people who are at higher risk, such as those wh
 **Steps**
 1. Open **System Settings > Privacy & Security**.
 2. Scroll down to **Lockdown Mode** and click **Turn On**.
-3. Enter your password if asked, then click **Turn On & Restart**.
+3. Click **Turn on Lockdown Mode**, enter your password if asked, then click **Turn On & Restart**.
 
 **Downsides:** Some websites load slower or look broken. Most message attachments are blocked. FaceTime calls are blocked from people you haven't called in the past 30 days. Shared albums and some device connections stop working. You need to turn it on separately on each of your devices (Mac, iPhone, iPad). Phone calls, normal messages and emergency features keep working.
 
@@ -2177,7 +2181,7 @@ These are strong protections for people who are at higher risk, such as those wh
 
 **Going even further:** Lockdown Mode works best as part of a routine, with expert help lined up.
 
-- **Turn it on everywhere, with no exceptions.** Switch it on for your iPhone, iPad and every Mac. Don't add websites or apps to its exception lists. An attacker only needs the one device or site you left out. More things will look broken, and you'll have to live with that.
+- **Turn it on everywhere, with no exceptions.** Switch it on for your iPhone, iPad and every Mac. Don't add websites, apps or contacts to its exception lists. Since version 27 you can also exclude a contact (**Privacy & Security > Lockdown Mode > Customize Contacts**), which turns off message limits for that person, so leave that list empty too. An attacker only needs the one device, site or contact you left out. More things will look broken, and you'll have to live with that.
 - **Browse with Safari while it's on.** Lockdown Mode's web protections apply to Safari. Chrome and Firefox on a Mac use their own engines and don't get them. Some sites will look plain or broken.
 - **Shrink the ways messages can reach this Mac.** If you don't need them here, sign out in **Messages > Settings > iMessage** and in **FaceTime > Settings**. Use your phone for messages. Turn on **Contact Key Verification** (**iPhone guide, step 32**). You'll have no texts or calls on the Mac.
 - **Know what a real Apple threat notification looks like.** Apple sends it as an alert on your iPhone and by email (from threat-notifications@email.apple.com), and shows it at the top of the page after you sign in at **account.apple.com** (type it yourself). It never asks you to click a link, install anything or give a password or code. If you get one, contact **Access Now's Digital Security Helpline** (accessnow.org/help), which Apple itself recommends. Journalists and activists can also contact **Amnesty International's Security Lab**. Don't erase the device first, because that destroys evidence.
@@ -2443,7 +2447,7 @@ Tick each box as you finish.
 
 **Do this instead:** Hang up. Then **call back on a number you look up yourself**: the number on the back of your card, on your bill, in the company's official app, or in your own contacts. For family or your boss, call them on the number you already have, or ask your code word (step 21). A real bank, government office or family member will understand.
 
-**Heads-up:** On iPhone with iOS 26 or later, go to **Settings > Apps > Phone**. Under **Screen Unknown Callers**, choose **Ask Reason for Calling**. Your iPhone asks callers who aren't in your contacts to say who they are and why they're calling before it rings. On older versions, you can turn on **Silence Unknown Callers** in the same place. It cuts down scam calls, but caller ID can still be faked, so the rule above still applies. Trade-off: real callers who aren't in your contacts, like a hospital, pharmacy or delivery driver, may hang up or go to voicemail. Save the numbers that matter in your contacts first, and check your voicemail. **If you don't see this:** open **Settings** and type "Unknown Callers" in the search box at the top.
+**Heads-up:** On iPhone with iOS 27 (or iOS 26), go to **Settings > Apps > Phone**. Under **Screen Unknown Callers**, choose **Ask Reason for Calling**. Your iPhone asks callers who aren't in your contacts to say who they are and why they're calling before it rings. On older versions, you can turn on **Silence Unknown Callers** in the same place. It cuts down scam calls, but caller ID can still be faked, so the rule above still applies. Trade-off: real callers who aren't in your contacts, like a hospital, pharmacy or delivery driver, may hang up or go to voicemail. Save the numbers that matter in your contacts first, and check your voicemail. **If you don't see this:** open **Settings** and type "Unknown Callers" in the search box at the top.
 
 **If it already happened:** If you gave money, card numbers or account details, call your bank right away on the number on your card. See "If you think you've been scammed" near the end of this guide.
 
@@ -2456,7 +2460,7 @@ Tick each box as you finish.
 
 **Going even further:** For people who are harassed, targeted or impersonated by phone, and want calls from strangers to stop mattering.
 
-- **Let only your contacts ring.** On iOS 26, go to **Settings > Apps > Phone > Screen Unknown Callers** and choose **Silence**. Unknown numbers go straight to voicemail. Numbers you recently called, and some your iPhone suggests from your email and messages, may still ring. Cost: you will miss real calls from hospitals, schools and deliveries, so save those numbers first and check voicemail daily.
+- **Let only your contacts ring.** On iOS 27 (or iOS 26), go to **Settings > Apps > Phone > Screen Unknown Callers** and choose **Silence**. If you don't see it, search Settings for "Unknown Callers". Unknown numbers go straight to voicemail. Numbers you recently called, and some your iPhone suggests from your email and messages, may still ring. Cost: you will miss real calls from hospitals, schools and deliveries, so save those numbers first and check voicemail daily.
 - **Keep a public number and a private number.** Put a second line (an extra eSIM, or an internet number such as Google Voice) on business cards, forms and websites. Keep your real number for family, your bank and sign-in codes only. Cost: a small monthly fee or an extra app, and a second voicemail to check.
 - **Move important conversations to an app that proves who is there.** In **Signal** (free), compare **safety numbers** with family or close colleagues once, in person. Signal then warns you if that person's device changes. Turn on **Settings > Account > Registration Lock**, and set **Settings > Privacy > Phone Number** so nobody can find you by your number. **Lockout risk:** forget your Signal PIN and you can be locked out of your own account for about a week. Save the PIN in your password manager.
 - **Remove voicemail if you don't need it.** A mailbox that doesn't exist can't be broken into or used to catch spoken sign-in codes. Ask your carrier to switch voicemail off for your line. Cost: callers can't leave messages. Your carrier can switch it back on.
@@ -2499,6 +2503,7 @@ Tick each box as you finish.
 - **Name a trusted contact on investment and retirement accounts.** Brokerages (like Fidelity, Schwab or Vanguard) let you name a **trusted contact person**. If staff think you're being scammed, or they can't reach you, they can call that person. That person can't move your money or make trades. This is especially useful for older parents.
 - **If you run your office's payments, write down a two-person rule.** Any payment over an amount you choose, and every change of bank details, needs a second person to check it, plus a call to a number you already had. Paying to new bank details waits one working day. Write it down so nobody has to argue with "the boss" in the moment. The trade-off is a slightly slower process, which is the point. If you don't set the rules, follow your office's (see "Do this instead" above).
 - **Stop bank accounts being opened in your name.** Besides the three credit bureaus (step 24), banks often check a separate service called **ChexSystems** when someone opens a checking account. You can place a free security freeze at **chexsystems.com**. The trade-off: you have to lift it before you open a new bank account yourself.
+- **Let your bank's app check for signs of a scam (iPhone with iOS 27).** Go to **Settings > Privacy & Security**, scroll down, tap **Impersonation Risk Detection**, and turn on **Share with App Developers**. It stays off until you turn it on. When an app that supports it asks, for example before a payment, your iPhone tells the app how likely it is that you're being scammed. Apple says the check runs on your iPhone and the app gets only a risk level, not your data. The app may then add a warning, a delay or an extra check. Not every app supports it yet, and it can take up to 24 hours to start working. The trade-off: a real payment may now and then be slowed down.
 
 **Going even further:** These measures put walls around your money, so that even a perfect scam on a bad day can only reach a small part of it.
 
@@ -2534,7 +2539,7 @@ Tick each box as you finish.
 5. Contact IT (or your trusted helper). IT will check the computer and remove anything the scammer installed.
 
 **Going further:**
-- **Check what remote access your Mac already allows.** The **Mac guide, step 7** walks through **System Settings > General > Sharing**. At home, **Screen Sharing**, **Remote Management** and **Remote Login** should be off unless someone you trust set them up on purpose. Then look in **System Settings > Privacy & Security** under **Accessibility** and **Screen & System Audio Recording**: these list apps allowed to control or see your screen. On a work Mac, don't change anything here: IT may use these to support you. If something looks wrong, take a screenshot and ask IT.
+- **Check what remote access your Mac already allows.** The **Mac guide, step 7** walks through **System Settings > General > Sharing**. At home, **Screen Sharing**, **Remote Management** and **Remote Login** should be off unless someone you trust set them up on purpose. Then look in **System Settings > Privacy & Security** under **Device Control and Data Access** (called **Accessibility** on macOS Tahoe 26 and earlier) and **Screen & System Audio Recording**: these list apps allowed to control or see your screen. On a work Mac, don't change anything here: IT may use these to support you. If something looks wrong, take a screenshot and ask IT.
 - **Remove remote-control apps you don't use.** On a home computer, look in your apps for **AnyDesk**, **TeamViewer**, **ScreenConnect**, **LogMeIn** or similar. If you didn't knowingly install it, or you no longer use it, remove it. A scammer who got in once may have left one behind to come back later. If you're not sure how to remove it fully, ask your trusted helper. On a work computer, ask IT before removing anything.
 - **Agree in advance how your helper connects.** Pick one way, with one person. For example: "My son helps me with FaceTime screen sharing, and only when I call him." Then any other app, person or "technician" asking to connect is wrong by definition. It's easy to remember, and easy to say no.
 - **After a scare, check for hidden profiles.** On iPhone, a scammer may have talked you into installing a profile that can change your settings or send your internet traffic through them. See the **iPhone guide, step 13a** to check for anything unknown. On a work iPhone, IT's own profile is supposed to be there, so ask IT before removing anything.
@@ -2761,7 +2766,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Stop giving out your home address.** Rent a PO Box or a private mailbox and use it for deliveries, sign-ups and registrations. If you're escaping stalking or abuse, most US states run a free **Address Confidentiality Program** that gives you a substitute legal address. Search your state's name plus that phrase. Cost: a yearly fee for a mailbox, and trips to collect mail.
 - **Stop the camera recording where photos were taken.** Go to **Settings > Privacy & Security > Location Services > Camera** and choose **Never**. No new photo then carries a location, whatever app you share it from. Cost: photos lose their place on the map and in Memories. Old photos keep theirs.
 - **Blur your home on street-level maps.** In Google Maps, open Street View of your home, choose **Report a problem**, and ask for your home to be blurred. For Apple Maps Look Around, email **MapsImageCollection@apple.com** and ask for your house to be blurred. **This is permanent on Google and can't be undone**, even by a later owner.
-- **Set up protections on children's devices.** In **Settings > Screen Time**, choose your child and turn on **Communication Safety**. It blurs nude images in Messages, AirDrop and FaceTime and shows the child ways to get help. Also check each social app's teen settings so strangers can't message them. Cost: none worth weighing. It doesn't replace the conversation in this step.
+- **Set up protections on children's devices.** In **Settings > Screen Time**, choose your child and turn on **Communication Safety**. (Screen Time looks different in iOS 27. If you can't find it, search Settings for "Communication Safety".) It blurs nude images in Messages, AirDrop and FaceTime and shows the child ways to get help. On iOS 27 it also blurs gory and violent images and videos, and it's on by default for children under 18. iOS 27 and macOS 27 also add **Ask to Browse**: your child needs your OK before opening a new website in Safari. The newer controls may need every device in your Family Sharing group to be on iOS 27 or macOS 27. Also check each social app's teen settings so strangers can't message them. Cost: none worth weighing. It doesn't replace the conversation in this step.
 - **Look at yourself the way a stranger would.** Search your name, phone number and address in a private window twice a year. Set a free **Google Alert** for your full name. In each social app, turn off "let people find me by phone number or email." Cost: an hour, and some unpleasant surprises.
 - **Send opt-out requests yourself.** The free **Permission Slip** app (made by Consumer Reports, run by DeleteMe since 2026) sends "delete my data" requests to many companies for you. Cost: it doesn't cover every broker, and details can come back, so repeat it yearly.
 
@@ -2784,7 +2789,7 @@ You don't need to know what these words mean. If a web page asks you to do any o
 - **Turn off training in the chatbots you use at home.** In ChatGPT, go to **Settings > Data Controls** and turn off **Improve the model for everyone**, or use a **Temporary Chat**. Claude and Gemini have similar settings in their privacy menus. Trade-off: this only affects new chats, the company may still keep your chats for a while, and pressing thumbs up or down can send that chat to the company anyway.
 - **Redact properly, don't just cover.** A black box drawn over text in a PDF can often be removed, leaving the text readable. On a Mac, open the file in **Preview**, choose **Tools > Redact**, select the text, and save. That deletes the hidden text for good, so keep a copy of the original first.
 - **Watch out for AI browser extensions and AI "note-takers."** Many can read every page you open, or join and record your calls. Treat them like remote access: only install ones you've chosen yourself, and on work computers **ask IT first**.
-- **For sensitive personal documents, prefer AI that stays on your device.** **Apple Intelligence** does many tasks on the device itself. Anything it hands to **ChatGPT** goes to OpenAI, so leave the ChatGPT option off or say no when it asks. Confident users can run a local AI app such as **LM Studio** or **Ollama** on a personal computer, so nothing leaves it. Trade-off: local AI needs a fairly powerful computer, is less capable, and is still software you install. On work computers, use only what IT has approved.
+- **For sensitive personal documents, prefer AI that stays on your device.** **Apple Intelligence** does many tasks on the device itself. Anything it hands to **ChatGPT** goes to OpenAI, so leave the ChatGPT option off or say no when it asks. (On iOS 27 and macOS 27 Golden Gate, type "ChatGPT" into the search box in **Settings**, or **System Settings** on a Mac, to find the switch.) On iOS 27.2 and macOS 27.2 or later, you can also keep chosen apps, such as banking or health apps, away from Siri, Search and suggestions: search **Settings** (or **System Settings**) for **Excluded Apps** and add them. Confident users can run a local AI app such as **LM Studio** or **Ollama** on a personal computer, so nothing leaves it. Trade-off: local AI needs a fairly powerful computer, is less capable, and is still software you install. On work computers, use only what IT has approved.
 
 **Going even further:** AI tools are starting to act for you, not just talk to you, and that changes the risk.
 
@@ -2953,7 +2958,7 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 **Going even further:** Make it nearly impossible for your money device to land on the wrong site, even by mistake.
 
 - **Make your scam filter follow you everywhere.** A filter set on your home router stops working when you leave the house. **NextDNS** (type **apple.nextdns.io**) and **Quad9** both offer a small settings file, called a profile, that makes your iPhone or Mac use their filter on every network, with the look-ups encrypted. Download it only from the company's own site, typed yourself, then install it as shown in the **iPhone guide, step 13b** or **Mac guide, step 20**. This is a deliberate exception to "only install IT's profile". Never install one that a message or pop-up offers. If **iCloud Private Relay** is on, Safari may skip the filter (Quad9 says its profile isn't used while Private Relay is on), so after installing, open the company's test page in Safari, and turn Private Relay off on that device if the test fails. Cost: hotel Wi-Fi sign-in pages sometimes fail until you switch the filter off for a moment. To undo it, remove the profile (**iPhone guide, step 13a**; **Mac guide, step 16**). On a work device, ask IT first.
-- **Allow-list a banking device.** On a spare iPhone or iPad used only for money, **Settings > Screen Time > Content & Privacy Restrictions** has a web content setting that allows only websites you list. Add your bank, cards and broker, and set a Screen Time passcode. A link to a fake site then cannot open. Cost: every other website is blocked on that device.
+- **Allow-list a banking device.** On a spare iPhone or iPad used only for money, **Settings > Screen Time > Content & Privacy Restrictions** has a web content setting that allows only websites you list. (Screen Time settings were redesigned in iOS 27. If you don't see this, open **Settings** and type "Content & Privacy" in the search box at the top.) Add your bank, cards and broker, and set a Screen Time passcode. A link to a fake site then cannot open. Cost: every other website is blocked on that device.
 - **Strip that device down.** No email, no messaging apps, no social media and no browsing. Those are the routes attacks arrive by. Turn on Lockdown Mode (**iPhone guide, step 29**). Cost: it's a single-purpose device, and Lockdown Mode's downsides apply.
 - **On a shared Mac, give money its own user account.** Make a separate **Standard** account (**Mac guide, step 21**) used only for banking. Other people's downloads and browser add-ons can't reach into it. Cost: you log out and in to switch.
 
@@ -3076,7 +3081,7 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 4. **Windows PC, Android phone, tablet, smart TV, home Wi-Fi router:** turn on automatic updates in their settings if you can.
 5. When a device no longer gets updates, plan to replace it. You'll know because it's many years old and stays on an old version, even though it says it's up to date. Ask IT or a trusted helper if you're not sure.
 
-**How to check it worked:** Every device says it's up to date. On iPhone: **Settings > General > Software Update**. On Mac: **System Settings > General > Software Update**.
+**How to check it worked:** Every device says it's up to date. On iPhone: **Settings > General > Software Update**. On Mac: **System Settings > General > Software Update**. A phone still on iOS 26 can say it's up to date while the same screen also offers **iOS 27**. Install that too. The same goes for **macOS 27 Golden Gate** on a Mac that can run it.
 
 **Heads-up:**
 - Real updates come from your device's own **Software Update** screen or the **App Store**, never from a pop-up on a website (step 7).
@@ -3084,7 +3089,7 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 
 **Going further:**
 - **Install urgent security fixes the same day.** Apple lists every security update at **support.apple.com/100100**. When the notes say a problem "may have been exploited," criminals are already using it. Don't wait for automatic updates. Go to **Software Update** and install it now. On a work device, follow IT's update schedule if they have one.
-- **Know when a device stops getting fixes.** Phones, computers, routers and smart TVs all reach an end date. The website **endoflife.date** lists support end dates for many products. A device that's no longer supported still works, but new holes in it are never fixed. Keep it away from your banking and email, or replace it.
+- **Know when a device stops getting fixes.** Phones, computers, routers and smart TVs all reach an end date. The website **endoflife.date** lists support end dates for many products. A device that's no longer supported still works, but new holes in it are never fixed. Keep it away from your banking and email, or replace it. For Apple devices today: every iPhone from iPhone 11 on, plus iPhone SE (2nd generation or later), can run iOS 27. Macs with an Intel chip can't run macOS 27 and stay on macOS 26 Tahoe, which Apple is still fixing (26.7.3, November 2026). macOS 14 Sonoma has had no security update since 14.8.9 in August 2026, so update or replace those Macs.
 - **Check your home Wi-Fi router.** Routers often go years without updates. Sign in to its app or settings page, turn on automatic updates (often called **firmware** updates), and change the admin password if it's still the one on the sticker. If your internet company gave you the router, ask them whether it still gets updates. Trade-off: a router that updates itself sometimes restarts overnight.
 - **Fewer extras means fewer holes.** Remove browser add-ons (extensions) and apps you don't use. Extensions can be sold to new owners who quietly add harmful code in an update. Keep only one or two you really trust. On work devices, ask IT first before adding or removing anything.
 - **Give smart gadgets their own network.** Cameras, smart plugs and TVs often stop getting updates early. If your router has a **Guest** network, put them on it, so a hacked gadget can't easily reach your computer. Trade-off: your phone may not be able to control or cast to them while it's on your main network.
@@ -3128,6 +3133,7 @@ For your Apple Account, see the **iPhone guide, step 6a**.
 - **Use virtual card numbers for online shops and subscriptions.** A virtual card number is a stand-in number that you can lock to one shop, limit, or delete. If that shop is hacked, you delete the number and your real card is untouched. **Capital One** offers virtual numbers for its credit cards, and **Apple Card** lets you request a new card number in the **Wallet** app at any time. Ask your own card company what it offers. **Privacy.com** links to a US bank account, and its free plan includes up to 12 new cards a month. Trade-off: Privacy.com takes money straight from your bank account, so you don't get the credit-card protection described above.
 - **Keep one card just for online.** Use one credit card with a low limit for all online shopping and subscriptions, and keep your main card for in-person spending. If the online card is stolen, the damage is capped and you only have to update one set of accounts.
 - **Lock cards you rarely use.** Most card apps have a **Lock** or **Freeze** switch. Keep backup cards locked and unlock them only when you need them.
+- **Turn on Impersonation Risk Detection (iOS 27).** Go to **Settings > Privacy & Security > Impersonation Risk Detection** and turn on **Share with App Developers**. Before a payment or account change, apps that support it (such as some banking apps) can ask your iPhone whether you seem to be in a scam, and warn you, check it's really you, or add a delay. It can take up to 24 hours to start working. If anyone tells you to turn it off, that's a sign of a scam. Trade-off: only some apps use it, and "no risk found" doesn't prove a payment is safe.
 - **Use a separate browser profile for money.** In Chrome, Edge or Firefox you can create a second **profile** just for banking: no extensions, no other sites, just a bookmark to your bank. In Safari on a Mac, choose **Safari > Settings > Profiles**. Trade-off: you have to remember to switch profiles. On a work computer, check with IT first.
 
 **Going even further:** Arrange your accounts so the card or account a criminal can touch is never the one holding your money.

@@ -40,7 +40,7 @@ const out = `# ${config.siteTitle}: full site content for review
 **How the site renders this Markdown.** \`## N. Title\` is a step with a Done tick-box and progress tracking. The Checklist links to the steps. Paragraphs that start with these bold labels become coloured boxes: **Why this matters:**, **What it is:**, **What it looks like:**, **Do this instead:**, **How to check it worked:**, **If you don't see this:**, **Heads-up:**, **Downsides:**, **If it already happened:**, **Going further:** (collapsible), **Going even further:** (collapsible, nested inside Going further). A path like **Settings > General** means tap those in order. The IT contact (${config.it.email} / ${config.it.phone}) is filled in from site config.
 
 **What feedback is most useful.**
-1. Anything factually wrong, out of date (as of late 2026, iOS 26 / macOS 26) or risky to follow.
+1. Anything factually wrong, out of date (as of November 2026: iOS 27 / macOS 27 Golden Gate; some readers are still on iOS 26 / macOS 26 Tahoe) or risky to follow.
 2. Important protections or scams that are missing, or that are over-weighted.
 3. Places a non-technical reader would get stuck, confused or scared.
 4. Contradictions between the three guides, or cross-references that point to the wrong step.
